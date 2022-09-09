@@ -1,13 +1,13 @@
 # Site Settings
 remote_theme: bertlandh/bulma-clean-theme
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Computer Life Support
+tagline: Call 1-876-560-0735
+email: bertlandhope@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+  Computer Support And Services in Kingston Open 24 hours
 baseurl: "/bertlandh.github.io"
-url: "https://www.csrhymes.com"
+#url: "https://www.csrhymes.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes
@@ -65,7 +65,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "B. Hope"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
