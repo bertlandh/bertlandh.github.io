@@ -25,14 +25,11 @@ Hope, Bertland G. H. 2022. **Explain how the major hardware components of a comp
 Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificate Services**. *Reddit* (on r/ComputerLifeSupport ). <https://www.reddit.com/r/ComputerLifeSupport/collection/2e71b736-030a-4937-b624-c3ecfded5647>
 
 
-# Co-author graph
+# Upload videos
 
-<iframe style="width:55vw; height:50vh;" scrolling="yes" frameborder="0" src="https://w.wiki/5ABg" ></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Explore Wikidata query](https://w.wiki/5APs) from [Scholia](https://scholia.toolforge.org/).
 
-# Co-author map
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe style="width:55vw; height:50vh;" scrolling="yes" frameborder="0" src="https://w.wiki/5APp" ></iframe> 
-
-[Explore Wikidata query](https://w.wiki/5APu) from [Scholia](https://scholia.toolforge.org/).
+[Become a better school leader](https://w.wiki/5APu) from [Computer Life Support](https://scholia.toolforge.org/).
