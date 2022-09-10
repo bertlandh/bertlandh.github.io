@@ -1,4 +1,4 @@
-# Steve Baskauf website 
+# Bertland Hope website 
 
 <https://baskauf.github.io/>
 
