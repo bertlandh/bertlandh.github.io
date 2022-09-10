@@ -86,10 +86,12 @@ Outstanding Senior in Chemistry Award, Bluffton College, 1982.
 
 **RESEARCH:**\
 **Refereed publications**\
-Baskauf, SJ and JK Baskauf. 2021. Using the W3C Generating RDF from
-Tabular Data on the Web Recommendation to manage small Wikidata
-datasets. Semantic Web Journal (in press).
-<https://doi.org/10.3233/SW-210443>
+CSEC Notes
+Explain the concept of Information Technology CSEC CXC SYLLABUS 2021 
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 Baskauf, SJ, E Baker, D Stowell. 2020. Controlled Vocabulary for Audubon
 Core variant: List of Terms. Biodiversity Information Standards (TDWG).
