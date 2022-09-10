@@ -33,7 +33,7 @@ Manager Information Systems and Co-Director at the Dancehall Archive and Researc
 <img src="/img/IMG_4453-s.jpg" alt="Working with DHA CEO Donna P Hope at the DHA launch N1 UWI Mona" width="400"><br/>
 <small>Photo: by DHA</small>
 
-I am also actively involved in the YouTube community. I am an frequent contributor on [MrCsecIT](https://www.youtube.com/channel/UCaHRQTSDaH5Wf93u6EWpeew) and participant on [LinkedIn](https://www.linkedin.com/in/bertlandhope/recent-activity/posts/). My skills set includes IT support skills in the design, development and modification of computer applications and programs, systems testing and writing technical specifications to design or redesign computer solutions. Plus, I also teach and assist Information Technology students, and Computer Science students in a laboratory setting. To learn more about my work with Systems, see the projects tab.
+I am also actively involved in the YouTube community. I am an frequent contributor on [MrCsecIT](https://www.youtube.com/channel/UCaHRQTSDaH5Wf93u6EWpeew) and participant on [Reddit](https://www.reddit.com/user/bertlandh). My skills set includes IT support skills in the design, development and modification of computer applications and programs, systems testing and writing technical specifications to design or redesign computer solutions. Plus, I also teach and assist Information Technology students, and Computer Science students in a laboratory setting. To learn more about my work with Systems, see the projects tab.
 
 <img src="/img/1649790852823.png" alt="What is Location Tracking?" width="400"><br/>
 <small>Photo: by LinkedIn</small>
