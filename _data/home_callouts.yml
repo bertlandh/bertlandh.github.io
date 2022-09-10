@@ -2,17 +2,17 @@ style: is-light
 height: is-small
 items:
   - title: work in progress
-    subtitle: requests from customers plus
+    subtitle: Requests from customers plus
     icon: fa-project-diagram
     call_to_action_name: WIP
     call_to_action_link: /lod/
   - title: unattended deployment
-    subtitle: operating system
+    subtitle: Install operating systems
     icon: fa-bug
     call_to_action_name: OS
     call_to_action_link: /standards/
-  - title: Push software
-    subtitle: Remote install packages
+  - title: push software
+    subtitle: Install packages remotely
     icon: fa-chalkboard-teacher
     call_to_action_name: Software
     call_to_action_link: /education/
