@@ -6,8 +6,8 @@ show_sidebar: false
 hero_image: /img/2015-10-05.jpg
 ---
 
-<img src="/img/LgbzJJSvEvHb3B-3W7l_wC_vPMELFdLA.png" alt="Bertland Hope Jamaica" width="400"><br/>
-<small>Photo by WIPO</small>
+<img src="/img/DHA-profile-BHope-300x300.jpg" alt="Bertland Hope Jamaica" width="300"><br/>
+<small>Photo by DHA</small>
 
 # Background
 
@@ -30,9 +30,8 @@ You can learn more about some of these efforts through the projects tab.
 
 Manager Information Systems and Co-Director at the Dancehall Archive and Research Initiative [DHA](http://www.dancehallarchive.org/). The DHA aims to engage students, faculty, researchers, artists, dancers, musicians, staff, journalists, participants and others who are committed to the preservation and spread of knowledge about dancehall culture. Working with the DHA team, responsible for the design and implementation of the DHA's website and associated networks.
 
-I am an active participant in the Biodiversity Information Standards (TDWG) organization.  I am currently a member of the Executive Committee, the chair of the Technical Architecture Group, and convener of the Views Controlled Vocabularies Task Group. I also serve on the Darwin Core Maintenance Group, Audubon Core Maintenance Group, Taxon Names and Concepts Maintenance Group, and the Humboldt Core Task Group.  You can learn more about my standards work under the projects tab.
-
-<img src="/img/subtype_turtle.png" alt="Audubon Core Subtype RDF" width="400"><br/>
+<img src="/img/IMG_4453-s.jpg" alt="Working with DHA CEO Donna P Hope at the DHA launch N1 UWI Mona" width="400"><br/>
+<small>Photo: by DHA</small>
 
 I am also actively involved in the Wikimedia community. I am an frequent contributor to [Wikidata](https://www.wikidata.org/) and participant in the [LD4 Wikidata Affinity Group](https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group). I've developed software to assist users with bulk data uploads, developed instructional materials, and have given several workshops and presentations on this work. To learn more about my work with Wikidata, see the projects tab.
 
