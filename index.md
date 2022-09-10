@@ -9,20 +9,20 @@ hero_image: /img/wheeler.jpg
 
 # Selected publications
 
-Hope, Bertland G. H. 2022. **How to ~ Cellular Phones Answered**. *Linkedin* (on pulse). <https://www.linkedin.com/pulse/how-cellular-phones-answered-bertland-hope/>
+Hope, Bertland G. H. 2022. **How to ~ Cellular Phones Answered**. *LinkedIn* (on pulse). <https://www.linkedin.com/pulse/how-cellular-phones-answered-bertland-hope/>
 
-Hope, Bertland G. H. 2022. **What is Location Tracking?**. *Linkedin* (on pulse ). <https://www.linkedin.com/pulse/what-location-tracking-bertland-hope/>
+Hope, Bertland G. H. 2022. **What is Location Tracking?**. *LinkedIn* (on pulse ). <https://www.linkedin.com/pulse/what-location-tracking-bertland-hope/>
 
-Hope, Bertland G. H. 2022. **You aren’t checking your website while you’re in a classroom, are you?**. *Linkedin* (on pulse ). <https://www.linkedin.com/pulse/you-arent-checking-your-website-while-youre-classroom-bertland-hope/>
+Hope, Bertland G. H. 2022. **You aren’t checking your website while you’re in a classroom, are you?**. *LinkedIn* (on pulse ). <https://www.linkedin.com/pulse/you-arent-checking-your-website-while-youre-classroom-bertland-hope/>
 
 
 # Recent presentations
 
-Hope, Bertland G. H. 2022. **How to ~ Cellular Phones Answered**. *Linkedin* (on pulse). <https://www.linkedin.com/pulse/how-cellular-phones-answered-bertland-hope/>
+Hope, Bertland G. H. 2022. **Select appropriate input/output devices to meet the needs of specified application**. *YouTube* (on MrCsecIT). <https://www.youtube.com/watch?v=1gRHENYAhxM>
 
-Hope, Bertland G. H. 2022. **What is Location Tracking?**. *Linkedin* (on pulse ). <https://www.linkedin.com/pulse/what-location-tracking-bertland-hope/>
+Hope, Bertland G. H. 2022. **Explain how the major hardware components of a computer system interrelate**. *YouTube* (on MrCsecIT ). <https://www.linkedin.com/pulse/what-location-tracking-bertland-hope/>
 
-Hope, Bertland G. H. 2022. **You aren’t checking your website while you’re in a classroom, are you?**. *Linkedin* (on pulse ). <https://www.linkedin.com/pulse/you-arent-checking-your-website-while-youre-classroom-bertland-hope/>
+Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificate Services**. *Reddit* (on r/ComputerLifeSupport ). <https://www.reddit.com/r/ComputerLifeSupport/collection/2e71b736-030a-4937-b624-c3ecfded5647>
 
 
 # Co-author graph
