@@ -77,11 +77,17 @@ Key Accomplishments
 
 
 **HONORS AND AWARDS:**\
+ [Educational Solution Takes Top Prize at CodeFest 2020](https://jis.gov.jm/educational-solution-takes-top-prize-at-codefest-2020/)
+ 
+ [‘Chicken Back Gravy’ for the soul ](https://jamaica-gleaner.com/article/news/20190819/chicken-back-gravy-soul)
 
 **RESEARCH:**\
 **Refereed publications**\
+Regional Conference on IP & Creative Industries 2014
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhu4H7kvy404JrLiKyOaZjFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+Webinars
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhs1QmL9O648xAegfU_BOkBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Presentations**\
 CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS
