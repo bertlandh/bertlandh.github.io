@@ -32,4 +32,4 @@ Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Become a better school leader](https://w.wiki/5APu) from [Computer Life Support](https://scholia.toolforge.org/).
+[Become a better school leader](https://sites.google.com/view/guardtactic/leaders?authuser=0) from [Computer Life Support](https://sites.google.com/view/guardtactic/home?authuser=0).
