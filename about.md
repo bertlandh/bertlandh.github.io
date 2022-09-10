@@ -6,14 +6,14 @@ show_sidebar: false
 hero_image: /img/2015-10-05.jpg
 ---
 
-<img src="/img/281423516_10159683392539774_6499954871583202422_n.jpg" alt="Bertland Hope Jamaica" width="400"><br/>
-<small>Photo by Shinny Broccoli</small>
+<img src="/img/LgbzJJSvEvHb3B-3W7l_wC_vPMELFdLA.png" alt="Bertland Hope Jamaica" width="400"><br/>
+<small>Photo by WIPO</small>
 
 # Background
 
 My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Certificate from Cisco for network fundamentals and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing the MSc in Computer Science at the [UWI](https://www.mona.uwi.edu/). 
 
-<img src="/img/1985-newton-third.jpg" alt="St. Joseph's High School, Mzimpofu, Swaziland" width="300"><br/>
+<img src="/img/2496802.jpg" alt="Chicken Back Gravy' for the soul | News | Jamaica Gleaner" width="300"><br/>
 
 # Current job responsibilities
 
@@ -23,8 +23,8 @@ I am an influential and transformative systems manager with 15 years of experien
 
 You can learn more about some of these efforts through the projects tab.
 
-<img src="/img/student_help.jpg" alt="Working with a student at Vanderbilt" width="400"><br/>
-<small>Photo: John Russell/Vanderbilt University</small>
+<img src="/img/640px-Donna_P_Hope_at_the_DHA_launch_N1_UWI_Mona.jpg" alt="Working with DHA CEO Donna P Hope at the DHA launch N1 UWI Mona" width="400"><br/>
+<small>Photo: Bertland G.H. Hope/Wikimedia</small>
 
 # Professional contributions
 
