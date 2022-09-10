@@ -1,19 +1,19 @@
 style: is-light
 height: is-small
 items:
-  - title: Linked Open Data
-    subtitle: Wikidata, RDF, JSON-LD
+  - title: IT asset management
+    subtitle: Track who has which laptop
     icon: fa-project-diagram
-    call_to_action_name: linking
+    call_to_action_name: asset
     call_to_action_link: /lod/
-  - title: biodiversity informatics
-    subtitle: TDWG standards development
+  - title: firewall and router
+    subtitle: Unified threat management
     icon: fa-bug
-    call_to_action_name: sharing
+    call_to_action_name: firewall
     call_to_action_link: /standards/
-  - title: data science education
-    subtitle: Python, R, GitHub
+  - title: centralized log management
+    subtitle: Real-time analysis
     icon: fa-chalkboard-teacher
-    call_to_action_name: learning
+    call_to_action_name: centralized
     call_to_action_link: /education/
 
