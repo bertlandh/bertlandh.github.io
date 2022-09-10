@@ -14,11 +14,14 @@ Tel: 876-923-9268, TTY: 876-923-0086\
 Email: [bhope\@agroinvest.gov.jm](mailto:bhope@agroinvest.gov.jm)
 
 
-**EDUCATION:**
-* Master of Science, Computer Science The University of the West Indies, Mona Degree in progress; anticipated completion 2025
-* CISCO CCNA, Exploration, The University of the West Indies, Mona
-* Bachelor of Arts, Computer Science, The University of the West Indies, Mona
-* Diploma, Website Design and Software Programming, Caribbean Institute of Technology/Excelsior Community College 137 Mountain View Avenue, Kingston 3
+**EDUCATION:**\
+Master of Science, Computer Science The University of the West Indies, Mona Degree in progress; anticipated completion 2025
+
+CISCO CCNA, Exploration, The University of the West Indies, Mona
+
+Bachelor of Arts, Computer Science, The University of the West Indies, Mona
+
+Diploma, Website Design and Software Programming, Caribbean Institute of Technology/Excelsior Community College 137 Mountain View Avenue, Kingston 3
 
 **EMPLOYMENT HISTORY:**\
 *Dancehall Archive and Research Initiative (DHA)*, 96b Old Hope Road, SAINT ANDREW 2018 – Present
