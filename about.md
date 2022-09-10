@@ -11,15 +11,15 @@ hero_image: /img/2015-10-05.jpg
 
 # Background
 
-My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Certificate from Cisco for network fundamentals and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing the MSc in Computer Science at the [UWI] (https://www.mona.uwi.edu/). 
+My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Certificate from Cisco for network fundamentals and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing the MSc in Computer Science at the [UWI](https://www.mona.uwi.edu/). 
 
 <img src="/img/1985-newton-third.jpg" alt="St. Joseph's High School, Mzimpofu, Swaziland" width="300"><br/>
 
 # Current job responsibilities
 
-I am a Systems Administrator, at the [Agro-Investment Corporation] (https://www.agroinvest.gov.jm/) in the The Ministry of Agriculture and Fisheries [MoAF] (https://www.moa.gov.jm/) of the [Government of Jamaica] (https://www.gov.jm/).
+I am a Systems Administrator, at the [Agro-Investment Corporation](https://www.agroinvest.gov.jm/) in the The Ministry of Agriculture and Fisheries [MoAF](https://www.moa.gov.jm/) of the [Government of Jamaica](https://www.gov.jm/).
 
-I am an Information Technology professional with approximately 15 years’ experience in this sector. My skills set include IT support skills in the design, development and modification of computer applications and programs, systems testing and writing technical specifications to design or redesign computer solutions. Plus, I also teach and assist Information Technology students, and Computer Science students in a laboratory setting. My skills also include Website Development and Database Administration. I have been managing IT systems and needs for (The Government of Jamaica). My work experience includes a mixture from various private and public sector businesses. [DHA] (http://www.dancehallarchive.org/)
+I am an Information Technology professional with approximately 15 years’ experience in this sector. My skills set include IT support skills in the design, development and modification of computer applications and programs, systems testing and writing technical specifications to design or redesign computer solutions. Plus, I also teach and assist Information Technology students, and Computer Science students in a laboratory setting. My skills also include Website Development and Database Administration. I have been managing IT systems and needs for (The Government of Jamaica). My work experience includes a mixture from various private and public sector businesses. [DHA](http://www.dancehallarchive.org/)
 
 You can learn more about some of these efforts through the projects tab.
 
