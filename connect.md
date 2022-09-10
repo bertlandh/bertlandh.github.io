@@ -6,11 +6,9 @@ show_sidebar: false
 hero_image: /img/nebraska.jpg
 ---
 
-- **Email:** [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
-- **ORCID:** [0000-0003-4365-3135](https://orcid.org/0000-0003-4365-3135)
-- **Blog:** [http://baskauf.blogspot.com/](http://baskauf.blogspot.com/)
-- **Wikidata:** [User:Baskaufs](https://www.wikidata.org/wiki/User:Baskaufs)
-- **GitHub:** [baskaufs](https://github.com/baskaufs/)
-- **Twitter:** [@baskaufs](https://twitter.com/baskaufs)
-- **Instagram:** [@baskaufs](https://www.instagram.com/baskaufs/)
-- **YouTube:** [baskaufs](https://www.youtube.com/user/baskaufs/videos)
+- **Email:** [bhope\@agroinvest.gov.jm](mailto:bhope@agroinvest.gov.jm)
+- **Reddit:** [bertlandh](https://www.reddit.com/user/bertlandh)
+- **GitHub:** [bertlandh](https://github.com/bertlandh/)
+- **Twitter:** [@BertlandHope](https://twitter.com/BertlandHope)
+- **Instagram:** [@bertland_hope](https://www.instagram.com/bertland_hope/)
+- **YouTube:** [bertland hope](https://www.youtube.com/channel/UC0QAJaQqVmWxEopGIqGSTkQ/videos)
