@@ -84,17 +84,17 @@ Key Accomplishments
 **RESEARCH:**\
 **Refereed publications**\
 Regional Conference on IP & Creative Industries 2014
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhu4H7kvy404JrLiKyOaZjFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhu4H7kvy404JrLiKyOaZjFw" title="Regional Conference on IP & Creative Industries 2014" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Webinars
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhs1QmL9O648xAegfU_BOkBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhs1QmL9O648xAegfU_BOkBJ" title="Webinars" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Presentations**\
 CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Upload videos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="Upload videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Become a better school leader
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="Become a better school leader" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

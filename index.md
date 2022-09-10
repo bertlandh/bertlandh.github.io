@@ -27,8 +27,8 @@ Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificat
 
 # Upload videos
 
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="Upload videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="Become a better school leader" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Become a better school leader](https://sites.google.com/view/guardtactic/leaders?authuser=0) from [Computer Life Support](https://sites.google.com/view/guardtactic/home?authuser=0).
