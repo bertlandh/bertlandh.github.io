@@ -1,19 +1,19 @@
 style: is-light
 height: is-small
 items:
-  - title: IT asset management
-    subtitle: Track who has which laptop
+  - title: work in progress
+    subtitle: requests from customers plus
     icon: fa-project-diagram
-    call_to_action_name: asset
+    call_to_action_name: WIP
     call_to_action_link: /lod/
-  - title: firewall and router
-    subtitle: Unified threat management
+  - title: unattended installation
+    subtitle: Automate operating system deployment
     icon: fa-bug
-    call_to_action_name: firewall
+    call_to_action_name: OS
     call_to_action_link: /standards/
-  - title: centralized log management
-    subtitle: Real-time analysis
+  - title: push software packages
+    subtitle: Automate software installation
     icon: fa-chalkboard-teacher
-    call_to_action_name: log
+    call_to_action_name: Software
     call_to_action_link: /education/
 
