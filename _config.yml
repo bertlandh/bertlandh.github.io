@@ -1,13 +1,13 @@
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 lang: en
-title: Steve Baskauf
-tagline: Vanderbilt University Libraries
-email: steve.baskauf@vanderbilt.edu
+title: Bertland Hope
+tagline: Computer Life Support
+email: bertlandhope@gmail.com
 description: >
   Professional website
 baseurl: "/"
-url: "https://baskauf.github.io"
+url: "https://bertlandh.github.io"
 permalink: pretty
 #favicon: favicon.ico
 #gh_sponsor: chrisrhymes
@@ -64,7 +64,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Steve Baskauf"
+      author: "Bertland Hope"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
