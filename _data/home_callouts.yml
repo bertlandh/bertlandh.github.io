@@ -6,13 +6,13 @@ items:
     icon: fa-project-diagram
     call_to_action_name: WIP
     call_to_action_link: /lod/
-  - title: unattended installation
-    subtitle: Automate operating system deployment
+  - title: unattended deployment
+    subtitle: operating system
     icon: fa-bug
     call_to_action_name: OS
     call_to_action_link: /standards/
-  - title: push software packages
-    subtitle: Automate software installation
+  - title: Push software
+    subtitle: Remote install packages
     icon: fa-chalkboard-teacher
     call_to_action_name: Software
     call_to_action_link: /education/
