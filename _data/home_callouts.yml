@@ -14,6 +14,6 @@ items:
   - title: centralized log management
     subtitle: Real-time analysis
     icon: fa-chalkboard-teacher
-    call_to_action_name: centralized
+    call_to_action_name: log
     call_to_action_link: /education/
 
