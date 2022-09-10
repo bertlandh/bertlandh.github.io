@@ -1,0 +1,21 @@
+- name: About
+  link: /about/
+- name: Projects
+  link: /#
+  dropdown:
+    - name: Linked Open Data 
+      link: /lod/
+    - name: TDWG standards
+      link: /standards/
+    - name: Data education
+      link: /education/
+    - name: Bioimages
+      link: /bioimages/
+- name: News
+  link: /news/
+- name: Gallery
+  link: /gallery/
+- name: CV
+  link: /cv/
+- name: Connect
+  link: /connect/
