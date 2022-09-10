@@ -86,12 +86,6 @@ Outstanding Senior in Chemistry Award, Bluffton College, 1982.
 
 **RESEARCH:**\
 **Refereed publications**\
-CSEC Notes
-Explain the concept of Information Technology CSEC CXC SYLLABUS 2021 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 
 Baskauf, SJ, E Baker, D Stowell. 2020. Controlled Vocabulary for Audubon
 Core variant: List of Terms. Biodiversity Information Standards (TDWG).
@@ -295,188 +289,14 @@ of America), Providence, RI. August 3, 2010. 
 <http://2010.botanyconference.org/engine/search/index.php?func=detail&aid=228>
 
 **Presentations**\
-Panigabutra-Roberts, A., S. Baskauf, and I. Dagher. 2022. Working with VanderBot to Add Multilingual Content (in English and Arabic) to Wikidata. 2022 LD4 Conference on Linked Data. Online. July 14, 2022.\
-Presentation: <https://trace.tennessee.edu/utk_libfac/12/>
+CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS 
+<div style="position: relative; width: 100%;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-Lew, C. and S. Baskauf. 2022. Linking the Art in the Christian Tradition Database to Wikidata. ATLA 2022 Annual Conference. Online. June 16, 2022. <https://sched.co/10N82>
+Upload videos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Baskauf, S., C. Lew, and A. Richardson. 2021. WikiProject Art in the
-Christian Tradition (ACT): Issues and challenges. ARLIS/NA x Wikidata
-Group (Art Libraries Society of North America) meeting. Online. December
-10, 2021.\
-Presentation:
-[https://doi.org/10.6084/m9.figshare.17161103.v1](https://doi.org/10.6084/m9.figshare.17161103)
+Become a better school leader
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Baskauf, S., C. Lew, and A. Richardson. 2021. Linking the Art in the
-Christian Tradition (ACT) database to Wikidata. WikidataCon 2021.
-Online. October 30, 2021.\
-Presentation:
-<https://commons.wikimedia.org/wiki/File:Linking_the_Art_in_the_Christian_Tradition_(ACT)_database_to_Wikidata.pdf>
-
-Baskauf, S. and K. Mason. 2021. Working with Wikidata. Southeastern
-Museums Conference Annual Meeting. Chattanooga, Tennessee, USA. October
-26, 2021.\
-Presentation: <https://doi.org/10.6084/m9.figshare.16880539>
-
-Baskauf, S. and P. Zermoglio. 2021. Translating TDWG Controlled
-Vocabularies (workshop). Biodiversity Information Standards Annual
-Meeting. Online. October 21, 2021.
-<https://doi.org/10.3897/biss.5.79050>\
-Presentation: <https://doi.org/10.6084/m9.figshare.16869613>
-
-Baskauf, S. 2021. Having your cake and eating it too: JSON-LD as an RDF
-serialization format *in* Connecting biodiversity data with knowledge
-graphs (symposium). Biodiversity Information Standards Annual Meeting.
-Online. October 18, 2021. <https://doi.org/10.3897/biss.5.74266>\
-Presentation: <https://doi.org/10.6084/m9.figshare.16823473>
-
-Baskauf, S. and S. Bloom. 2021. Webinar: How Community Standards Are
-Developed and Maintained. Biodiversity Information Standards. Online.
-September 16, 2021.\
-Presentation: <https://doi.org/10.6084/m9.figshare.16628146>
-
-Baskauf, S. 2021. Tutorial: Writing data to Wikidata using spreadsheets.
-LD4 Conference on Linked Data. Online. July 19, 2021.\
-Video of presentation: <https://youtu.be/ZukSQB8fki8>
-
-Baskauf, S. J. 2021. Introduction to using VanderBot to upload data to
-Wikidata. LD4 Wikidata Working Hour. May 25, 2021.
-<https://stanford.zoom.us/rec/share/rhPxlGHnkh2JoJOiCeuOOktXYSP3Eh4xzW_-ipcYwcZscVSDx2qZAJ_AT72jQVcH.cceC4cjSe8CXJOvT?startTime=1621878474000>.
-[Tutorial
-page](https://heardlibrary.github.io/digital-scholarship/script/wikidata/vanderbot/)
-
-Baskauf, S. J. 2021. VanderBot: A spreadsheet-based system for creating
-and updating items in Wikidata. Program for Cooperative Cataloging
-Wikidata Pilot meeting. February 18, 2021.
-<https://drive.google.com/file/d/1aB2XuQ_gqdB99tKcxEMoU7j75-x-i6RP/view?usp=sharing>
-
-Baskauf, S. J. 2020. Creating and Maintaining TDWG Vocabularies using
-Spreadsheets. Biodiversity Information Standards (TDWG) annual meeting.
-Online. October 22, 2020.\
-Biodiversity Information Science and Standards 4: e59124.
-<https://doi.org/10.3897/biss.4.59124> Video at
-<https://youtu.be/de94_tn3kGQ>
-
-Woodburn, M., D. L. Paul, W. Addink, S. J. Baskauf, S. Blum, C. Chapman,
-S. Grant, Q. Groom, J. Jones, M. Petersen, N. Raes, D. Smith, L. Tilley,
-M. Trekels, M. Trizna, W. Ulate, S. Vincent, R. Walls, K. Webbink, P.
-Zermoglio. 2020. Unity in Variety: Developing a collection description
-standard by consensus. Biodiversity Information Standards (TDWG) annual
-meeting. Online. October 19, 2020.\
-Biodiversity Information Science and Standards 4: e59233.
-<http://dx.doi.org/10.3897/biss.4.59233>
-
-Baskauf, S. 2020. Background on Standards Processes and Maintenance.
-Biodiversity Information Standards (TDWG) annual meeting. Online.
-September 22, 2020.\
-<http://dx.doi.org/10.6084/m9.figshare.13020506.v1>
-
-Baskauf, S. 2020. Introduction to the Audubon Core Maintenance Group
-annual meeting. Biodiversity Information Standards (TDWG) annual
-meeting. Online. September 21, 2020.\
-<http://dx.doi.org/10.6084/m9.figshare.13020299.v1>
-
-Baskauf, S. 2020. VanderBot: Using a Python script to create and update
-researcher items in Wikidata. LD4 Conference on Linked Data in
-Libraries. Online. July 31, 2020.\
-Video of presentation: <https://youtu.be/xjQ8rJufeOU>
-
-Anderson, C. B., S. Baskauf, and E. Shook. 2019. Building a Scholarly
-Knowledge Base with Wikidata. WikiConference North America. Boston, MA,
-USA. November 10, 2019.\
-<https://commons.wikimedia.org/wiki/File:Building_a_Scholarly_Knowledge_Base_with_Wikidata.pdf>
-
-Baskauf, S. 2018. Introduction to Audubon Core and Audubon Core as RDF
-*in* Audubon Core Workshop. Society of the Preservation of Natural
-History Collections (SPNHC) and Biodiversity Information Standards
-(TDWG) Conference, Dunedin, New Zealand. August 27, 2018.
-<https://doi.org/10.6084/m9.figshare.7081319.v1>
-
-Baskauf, S. 2016. Darwin Core as RDF: Applying the DwC RDF Guide to Real
-Data. Biodiversity Information Standards (TDWG) Conference, Santa Clara
-de San Carlos, Costa Rica. December 7, 2016. <http://bit.ly/2hb6rP0>
-
-Baskauf, S. 2016. Vocabulary Maintenance Task Group Report. Biodiversity
-Information Standards (TDWG) Conference, Santa Clara de San Carlos,
-Costa Rica. December 8, 2016. <http://bit.ly/2gfoBwY>
-
-Baskauf, S. 2013. The TDWG Ontology and the Darwin Core Namespace
-Policy.  Biodiversity Information Standards (TDWG) Conference, Florence,
-Italy.  October 31, 2013.\
-<http://www.tdwg.org/fileadmin/2013conference/slides/Baskauf_VomagTdwgOntology.pdf>
-
-Baskauf, S. and M. Schildhauer. 2013. Primer on Semantic Technologies. 
-Biodiversity Information Standards (TDWG) Conference, Florence, Italy. 
-October 29, 2013.\
-<http://www.tdwg.org/fileadmin/2013conference/slides/Baskauf_RdfPrimer.pdf>
-
-Olena, A, J. M. Talley, R. Bairley, C. B. Sissom, S. J. Baskauf.  2012.
-Development of a First Year Biology Lab Containing a Strong Research
-Element.  Society for Developmental Biology 71^st^ Annual Meeting,
-Montreal, Canada.  July 19-23, 2012.\
-<http://www.sdbonline.org/2012/SDB2012_Abstracts.pdf>
-
-Webb, C. and Baskauf S. 2011. Darwin-SW: Darwin Core data for the
-Semantic Web.  Biodiversity Information Standards (TDWG) Conference, New
-Orleans, LA.  October 18, 2011.\
-<https://mbgserv18.mobot.org/ocs/index.php/tdwg/2011/paper/view/152>
-
-Baskaufs, S.J. and T. Sasek, 2010. Full implementation of GUIDs at
-SERNEC institutions: A strategy that accommodates institutions of
-varying sizes and complex resource relationships.  Biodiversity
-Information Standards (TDWG) Conference, Woods Hole, MA.  September 30,
-2010.\
-<http://www.tdwg.org/conference2010/program/slides-upload/>
-
-Talley, J.M., R.C. Bairley, C. Sissom, K. Norton, C.G. Brown, and S.J.
-Baskauf. 2009. Designing, Implementing and Evaluating a Student
-Designed, Research-based, Introduction to Biology Lab (poster). 
-Association of Southeastern Biologists, Birmingham, AL. April 1 -- 4,
-2009.
-
-Kirchoff, B. K. and Baskauf, S. 2009. Woody Plants of the Southeastern
-United States: A Field Botany Course on CD. Association of Southeastern
-Biologists, Birmingham, AL. April 1 -- 4, 2009.  \[Note: my name was
-submitted as second author but was left out of the published program\].
-
-Baskauf, Steve. 2008. Effect of removal of the invasive species
-*Lonicera maackii* on the size distribution of woody vegetation in a
-middle Tennessee natural area.  Natural Areas Conference.  October 15,
-2008.\
-<http://www.naeppc.org/08conference/talk.html?id=43>
-
-Baskauf, Steven.  2006.  Bioimages: a resource for ecosystem education
-(poster).  Ecological Society of America Annual Meeting.\
-<http://abstracts.co.allenpress.com/pweb/esa2006/document/?ID=61959>
-
-Kirchoff, Bruce K. and Steven J. Baskauf.  2006. Image Quiz: An
-interactive computer-based method for teaching plant identification. 
-Botany 2006 (Botanical Society of America Annual Meeting).  B.K.
-Kirchoff conceived the visual recognition-based methodology and I
-provided the images and served as a development consultant for the
-project.[\
-http://www.2006.botanyconference.org/engine/search/index.php?func=detail&aid=126](http://www.2006.botanyconference.org/engine/search/index.php?func=detail&aid=126)
-
-Baskauf, Steven J.  1999.  The Edge of the Range of the Southwestern
-Corn Borer, *Diatraea grandiosella* Dyar, Its Characteristics and
-Factors Determining Its Location.  Ecological Society of America Annual
-Meeting.
-
-Baskauf, Steven J.  1998.  Ecological Factors Limiting Range Expansion
-by a Pest Insect.  Southeast Ecology and Population Genetics Meeting.
-
-Baskauf, Steven J.  1998.  Species Boundaries of the Southwestern Corn
-Borer, *Diatraea grandiosella* Dyar (Lepidoptera: Pyralidae).  Annual
-Meeting of the Southeastern Branch, Entomological Society of America.
-
-Baskauf, Steven J.  1997.  Voltinism and Species Boundary of the
-Southwestern Corn Borer, *Diatraea grandiosella* Dyar (Lepidoptera:
-Pyralidae).  Annual Meeting of the Tennessee Entomological Society.
-
-Sorenson, Clyde E., Steve Baskauf, and David McCauley.  1997. 
-Latitudinal Occurrence of the Southwestern Corn Borer in Southeastern
-Missouri, Kentucky, and Indiana After a Severe Winter (poster).  Annual
-Meeting of the Southwestern Branch, Entomological Society of America.
-
-Baskauf, Steven J.  1993.  Graphical Special Relativity.  National
-Science Teachers Association National Convention.
