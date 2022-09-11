@@ -27,12 +27,12 @@ Transforms the Username field to lowercase so it groups properly in Inventory. I
 
 # This script requires that Audit Logon events are enabled in Group Policy and those events are kept for the amount of history preferred
 
-[CmdletBinding()]
-param (
-    [Switch]$Lowercase
-)
+	[CmdletBinding()]
+	param (
+		[Switch]$Lowercase
+	)
 
-$UserArray = New-Object System.Collections.ArrayList
+	$UserArray = New-Object System.Collections.ArrayList
 
 # Query all logon events with id 4624 
 	Get-EventLog -LogName "Security" -InstanceId 4624 -ErrorAction "SilentlyContinue" | ForEach-Object {
