@@ -17,40 +17,40 @@ I've been helping companies with [Computer Life Support](https://bertlandh.githu
 
 ## What is WIP?
 
-    WIP work in progress are requests from customers plus all the other tasks you need, want, or have to do, whether planned or unplanned.
+WIP work in progress are requests from customers plus all the other tasks you need, want, or have to do, whether planned or unplanned.
 
 ## How does a ticket system improve our ability to track WIP?
 
-    A ticket system may improve our ability to track WIP based on the following; Requests are submitted electronically. Requests are stored in a database, they can be prioritized, assigned, and tracked. As the issue is worked on, the ticket is updated with notes and information. The system also records communication between the customer and the SA as the request is discussed or clarified. Work can be grouped and categorised based on the level on disruption it causes. Push system
+A ticket system may improve our ability to track WIP based on the following; Requests are submitted electronically. Requests are stored in a database, they can be prioritized, assigned, and tracked. As the issue is worked on, the ticket is updated with notes and information. The system also records communication between the customer and the SA as the request is discussed or clarified. Work can be grouped and categorised based on the level on disruption it causes. Push system
 
 
 ### Sample Emergency Definitions
 
-    Here are some example definitions of “emergency” we’ve seen businesses use:
-    
-    • A server or service being down
-    
-    • A user-facing issue that affects ten or more people
-    
-    • A technical problem causing the company to “lose money fast”
-    
-    • Customer proprietary data actively being leaked
-    
-    • (At learnTechFoundation) anything that will directly prevent the Data from being accessed and edited by LTF Staff between 8:30 AM - 5:00PM
+Here are some example definitions of “emergency” we’ve seen businesses use:
+
+• A server or service being down
+
+• A user-facing issue that affects ten or more people
+
+• A technical problem causing the company to “lose money fast”
+
+• Customer proprietary data actively being leaked
+
+• (At learnTechFoundation) anything that will directly prevent the Data from being accessed and edited by LTF Staff between 8:30 AM - 5:00PM
 
 
 ## How do you track WIP in your environment? What do you like or dislike about it? What you would like to improve?
 
-    Love the fact it integrates with AD no complaints.
+Love the fact it integrates with AD no complaints.
 
 
 ## In your organization, how do you ensure that SAs follow through on requests?
 
-    1 Custom focused hours first 2 hrs and last 2 hrs - handle customer requests 1st
-    
-    2 Project focused hours half day for project work - handle projects 1st
-    
-    3 Exception for service outages - (password reset) ask them to use another printer
+1 Custom focused hours first 2 hrs and last 2 hrs - handle customer requests 1st
+
+2 Project focused hours half day for project work - handle projects 1st
+
+3 Exception for service outages - (password reset) ask them to use another printer
 
 
 ## In your organization, if a piece of WIP has been ignored or progress has stalled, will this be noticed? If not, how could you fix this?
@@ -59,7 +59,7 @@ Yes, get supervisor to purchase [Computer Life Support](https://bertlandh.github
 
 ## Why is it important to automate OS installation?
 
-    All machines start in a known state set by me. save time, can do multiple machines. Fungable
+All machines start in a known state set by me. save time, can do multiple machines. Fungable
 
 
 ## List the operating systems supported in your environment in order of popularity. Which automation is used to install each? Of those that aren’t automated, which would benefit the most from it?
@@ -79,11 +79,11 @@ Yes, get supervisor to purchase [Computer Life Support](https://bertlandh.github
 
 ## What’s the biggest time sinkhole in your environment? Name two ways to eliminate it.
 
-    Support - operating systems and software installation
-    
-    Customers - PC Speed
+Support - operating systems and software installation
+
+Customers - PC Speed
 
 
 ## What’s the biggest bottleneck in your environment? What can be done to optimize or eliminate it?
 
-    OS deployment, software installation. PC Speed.
+OS deployment, software installation. PC Speed.
