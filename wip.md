@@ -7,7 +7,7 @@ toc: true
 toc_title: Projects
 ---
 
-<img src="/img/Seven┬áPowerful-Reasons-You-Need-Efficient-Ticket-Management-.png" alt="WIP" width="200"><br/>
+<img src="https://unsplash.com/photos/_XLJy3h77cw" alt="WIP" width="200"><br/>
 
 # System and Network Administration
 
