@@ -3,8 +3,8 @@
 - name: Projects
   link: /#
   dropdown:
-    - name: Linked Open Data 
-      link: /lod/
+    - name: Work In Progress 
+      link: /wip/
     - name: TDWG standards
       link: /standards/
     - name: Data education
