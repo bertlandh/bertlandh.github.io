@@ -1,6 +1,6 @@
 ---
 title: Work In Progress
-subtitle: Requests from customers plus
+subtitle: Requests from Customers Plus
 layout: page
 show_sidebar: false
 toc: true
