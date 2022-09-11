@@ -19,6 +19,7 @@ I've been helping companies with [Computer Life Support](https://bertlandh.githu
 
 WIP work in progress are requests from customers plus all the other tasks you need, want, or have to do, whether planned or unplanned.
 
+
 ## How does a ticket system improve our ability to track WIP?
 
 A ticket system may improve our ability to track WIP based on the following; Requests are submitted electronically. Requests are stored in a database, they can be prioritized, assigned, and tracked. As the issue is worked on, the ticket is updated with notes and information. The system also records communication between the customer and the SA as the request is discussed or clarified. Work can be grouped and categorised based on the level on disruption it causes. Push system
@@ -26,7 +27,7 @@ A ticket system may improve our ability to track WIP based on the following; Req
 
 ### Sample Emergency Definitions
 
-Here are some example definitions of “emergency” we’ve seen businesses use:
+Here are some definitions of “emergency” [Computer Life Support](https://bertlandh.github.io/) uses:
 
 • A server or service being down
 
@@ -36,12 +37,7 @@ Here are some example definitions of “emergency” we’ve seen businesses use
 
 • Customer proprietary data actively being leaked
 
-• (At learnTechFoundation) anything that will directly prevent the Data from being accessed and edited by LTF Staff between 8:30 AM - 5:00PM
-
-
-## How do you track WIP in your environment? What do you like or dislike about it? What you would like to improve?
-
-Love the fact it integrates with AD no complaints.
+• (At [Computer Life Support](https://bertlandh.github.io/)) anything that will directly prevent the Data from being accessed and edited by LTF Staff between 8:30 AM - 5:00PM
 
 
 ## In your organization, how do you ensure that SAs follow through on requests?
@@ -56,24 +52,3 @@ Love the fact it integrates with AD no complaints.
 ## In your organization, if a piece of WIP has been ignored or progress has stalled, will this be noticed? If not, how could you fix this?
 
 Yes, get supervisor to purchase [Computer Life Support](https://bertlandh.github.io/).
-
-## Why is it important to automate OS installation?
-
-All machines start in a known state set by me. save time, can do multiple machines. Fungable
-
-
-## For an OS that does not have an automated installation process, which product is available that will automate it?
-
-[Computer Life Support](https://bertlandh.github.io/)
-
-
-## What’s the biggest time sinkhole in your environment? Name two ways to eliminate it.
-
-Support - operating systems and software installation
-
-Customers - PC Speed
-
-
-## What’s the biggest bottleneck in your environment? What can be done to optimize or eliminate it?
-
-OS deployment, software installation. PC Speed.
