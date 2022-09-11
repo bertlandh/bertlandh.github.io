@@ -62,16 +62,6 @@ Yes, get supervisor to purchase [Computer Life Support](https://bertlandh.github
 All machines start in a known state set by me. save time, can do multiple machines. Fungable
 
 
-## List the operating systems supported in your environment in order of popularity. Which automation is used to install each? Of those that aren’t automated, which would benefit the most from it?
-
-    Microsoft Windows 10 Enterprise
-    Microsoft Windows 10 Pro
-    Microsoft Windows 11 Pro
-    Microsoft Windows 7 Enterprise
-    Microsoft Windows Server 2008 R2 Standard
-    Microsoft Windows Server 2016 Standard
-    Microsoft Windows Storage Server 2016 Workgroup
-
 ## For an OS that does not have an automated installation process, which product is available that will automate it?
 
 [Computer Life Support](https://bertlandh.github.io/)
