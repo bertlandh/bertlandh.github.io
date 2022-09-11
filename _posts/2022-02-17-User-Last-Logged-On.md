@@ -8,7 +8,6 @@ image: /img/qt_py_rp2040.jpg
 hero_height: is-large
 hero_darken: true
 ---
-# Description
 
 Queries the Security Event Log to determine the last time each user logged on to the target machine.
 
