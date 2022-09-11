@@ -7,7 +7,8 @@ toc: true
 toc_title: Projects
 ---
 
-<img src="https://unsplash.com/photos/_XLJy3h77cw" alt="WIP" width="200"><br/>
+<img src="/img/ac_bird.jpg" alt="Audubon Core parrot" width="400"><br/>
+<small>Image by <a href="https://unsplash.com/photos/gGC63oug3iY">Mikhail Vasilyev</a></small>
 
 # System and Network Administration
 
