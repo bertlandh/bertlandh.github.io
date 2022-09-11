@@ -10,7 +10,7 @@ items:
     subtitle: Install operating systems
     icon: fa-bug
     call_to_action_name: OS
-    call_to_action_link: /standards/
+    call_to_action_link: /os/
   - title: push software
     subtitle: Install packages remotely
     icon: fa-chalkboard-teacher

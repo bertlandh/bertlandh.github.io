@@ -5,12 +5,10 @@
   dropdown:
     - name: Work In Progress 
       link: /wip/
-    - name: TDWG standards
-      link: /standards/
-    - name: Data education
-      link: /education/
-    - name: Bioimages
-      link: /bioimages/
+    - name: Unattended Deployment
+      link: /os/
+    - name: Install Packages
+      link: /software/
 - name: News
   link: /news/
 - name: Gallery
