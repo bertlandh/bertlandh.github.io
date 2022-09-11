@@ -14,7 +14,7 @@ Uses [WizTree](https://wiztreefree.com) to retrieve a list of user profiles and 
 Please consider purchasing an [Enterprise License](https://wiztreefree.com/donate#enterprise) for WizTree.
 
 # Requirements
-WizTree must be installed on the target. A package for it is available in the [Package Library](https://www.pdq.com/package-library/).
+WizTree must be installed on the target.
 
 	# Parameters
 	## Verbose
