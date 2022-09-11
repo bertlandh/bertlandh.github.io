@@ -5,7 +5,7 @@ items:
     subtitle: Requests from customers plus
     icon: fa-project-diagram
     call_to_action_name: WIP
-    call_to_action_link: /lod/
+    call_to_action_link: /wip/
   - title: unattended deployment
     subtitle: Install operating systems
     icon: fa-bug
