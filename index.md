@@ -26,12 +26,6 @@ Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificat
 
 
 # Upload videos
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MsacbqIj7AI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 <div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" 
         title="Watch video" frameborder="0" allowfullscreen

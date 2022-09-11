@@ -84,17 +84,27 @@ Key Accomplishments
 **RESEARCH:**\
 **Refereed publications**\
 Regional Conference on IP & Creative Industries 2014
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhu4H7kvy404JrLiKyOaZjFw" title="Regional Conference on IP & Creative Industries 2014" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Webinars
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhs1QmL9O648xAegfU_BOkBJ" title="Webinars" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-**Presentations**\
+**Presentations**
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
 CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" title="CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Upload videos
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" title="Upload videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Become a better school leader
+<div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" title="Become a better school leader" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
