@@ -1,12 +1,3 @@
----
-title: Bertland Hope
-subtitle: Computer Support And Services in Kingston Open 24 hours
-layout: page
-callouts: home_callouts
-show_sidebar: true
-hero_image: /img/wheeler.jpg
----
-
 # Selected publications
 
 Hope, Bertland G. H. 2022. **How to ~ Cellular Phones Answered**. *LinkedIn* (on pulse). <https://www.linkedin.com/pulse/how-cellular-phones-answered-bertland-hope/>
