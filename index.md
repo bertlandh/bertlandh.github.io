@@ -13,21 +13,21 @@ excerpt: >
   <small><a href="https://bertlandh.github.io/">Call Today!</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    alt: "work in progress"
+    alt: ""
     title: "work in progress"
     excerpt: "Requests from customers plus."
     url: "/wip/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "unattended deployment"
+    alt: ""
     title: "unattended deployment"
     excerpt: "Install operating systems."
     url: "/os/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "push software"
+    alt: ""
     title: "push software"
     excerpt: "Install packages remotely."
     url: "/software/"
