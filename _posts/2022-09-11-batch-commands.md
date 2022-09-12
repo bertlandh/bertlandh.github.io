@@ -12,11 +12,6 @@ toc: true
 toc_title: Batch Commands
 ---
 
-
-## This line just in case someone accidentally double-clicks this file
-start "" "%ProgramFiles(x86)%\Notepad++\notepad++.exe" "%CD%\Windows one-liners.bat"
-goto :eof
-
 ## BATCH: Get the date into ISO 8601 standard date format (yyyy-mm-dd) and store it in the "CUR_DATE" variable
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
