@@ -20,14 +20,14 @@ foo:
 
 # main links
 main:
-  - title: "CV"
-    url: /cv/
-  - title: "About"
-    url: /about/
+  #- title: "CV"
+   # url: /cv/
+  #- title: "About"
+   # url: /about/
   - title: "News"
     url: /year-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  #- title: "Terms &amp; Privacy Policy"
+   # url: /terms/
 
 
 # documentation links
