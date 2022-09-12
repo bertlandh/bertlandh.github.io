@@ -1,13 +1,3 @@
----
-layout: post
-title: User Last Logged On
-description: Queries the Security Event Log to determine the last time each user logged on to the target machine
-date: 2022-02-17 18:00:00
-hero_image: /img/qt_py_rp2040_sensor.jpg
-image: /img/qt_py_rp2040.jpg
-hero_height: is-large
-hero_darken: true
----
 
 Queries the Security Event Log to determine the last time each user logged on to the target machine.
 
