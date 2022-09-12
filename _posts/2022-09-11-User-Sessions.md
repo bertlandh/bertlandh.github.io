@@ -1,13 +1,12 @@
 ---
-title: "Calculates how long users were logged in based on audit events."
-categories:
-  - User Sessions
-tags:
-  - powershell
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: User Sessions
+description: Calculates how long users were logged in based on audit events.
+date: 2022-09-11 14:00:00
+hero_image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Thunderbird_102_screenshot.png/1024px-Thunderbird_102_screenshot.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/1024px-HTTP_logo.svg.png
+hero_height: is-large
+hero_darken: true
 ---
 
 Calculates how long users were logged in based on audit events.

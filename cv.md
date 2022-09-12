@@ -1,11 +1,9 @@
 ---
-title: "Bertland G. H. Hope"
-permalink: /cv/
-excerpt: "Time for just strategies is over, time for action is now because A strategy without implementation is just hallucination."
-last_modified_at: 2021-06-07T08:48:05-04:00
-redirect_from:
-  - /theme-setup/
-toc: true
+title: CV
+subtitle: Bertland G. H. Hope
+layout: page
+show_sidebar: false
+hero_image: /img/2018-03-06.jpg
 ---
 
 Systems Administrator\
@@ -16,7 +14,7 @@ Tel: 876-923-9268, TTY: 876-923-0086\
 Email: [bhope\@agroinvest.gov.jm](mailto:bhope@agroinvest.gov.jm)
 
 
-## **EDUCATION:**
+**EDUCATION:**\
 Master of Science, Computer Science The University of the West Indies, Mona Degree in progress; anticipated completion 2025
 
 CISCO CCNA, Exploration, The University of the West Indies, Mona
@@ -25,7 +23,7 @@ Bachelor of Arts, Computer Science, The University of the West Indies, Mona
 
 Diploma, Website Design and Software Programming, Caribbean Institute of Technology/Excelsior Community College 137 Mountain View Avenue, Kingston 3
 
-## **EMPLOYMENT HISTORY:**
+**EMPLOYMENT HISTORY:**\
 *Dancehall Archive and Research Initiative (DHA)*, 96b Old Hope Road, SAINT ANDREW 2018 – Present
 The DHA aims to engage students, faculty, researchers, artists, dancers, musicians, staff, journalists, participants and others who are committed to the preservation and spread of knowledge about dancehall culture. `Manager Information Systems and Co-Director` Working with the DHA team, responsible for the design and implementation of the DHA’s website and associated networks.
 
@@ -78,13 +76,13 @@ Key Accomplishments
 7. Web development and design managed content on the school Joomla website.
 
 
-### **HONORS AND AWARDS:**
+**HONORS AND AWARDS:**\
  [Educational Solution Takes Top Prize at CodeFest 2020](https://jis.gov.jm/educational-solution-takes-top-prize-at-codefest-2020/)
  
  [‘Chicken Back Gravy’ for the soul ](https://jamaica-gleaner.com/article/news/20190819/chicken-back-gravy-soul)
 
-### **RESEARCH:**
-##**Refereed publications**
+**RESEARCH:**\
+**Refereed publications**
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLv3m0msIZQhu4H7kvy404JrLiKyOaZjFw" 
@@ -102,7 +100,7 @@ Key Accomplishments
 </iframe>
 </div>
 
-### **Presentations**
+**Presentations**
 <div style="position: relative; width: 100%; padding-bottom: 56.25%">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLL0XqgTUby_peekOdRRGzBmtEsZITm86L" 
         title="CSEC Notes Explain the concept of Information Technology CSEC CXC SYLLABUS" frameborder="0" allowfullscreen
