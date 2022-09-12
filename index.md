@@ -6,31 +6,31 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> Call Today!"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  Computer Support And Services in Kingston Open 24 hours.<br />
+  <small><a href="https://bertlandh.github.io/">Call Today!</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "work in progress"
+    title: "work in progress"
+    excerpt: "Requests from customers plus."
+    url: "/wip/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    alt: "unattended deployment"
+    title: "unattended deployment"
+    excerpt: "Install operating systems."
+    url: "/os/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    alt: "push software"
+    title: "push software"
+    excerpt: "Install packages remotely."
+    url: "/software/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
@@ -56,20 +56,19 @@ Hope, Bertland G. H. 2022. **Installing and Managing Active Directory Certificat
 
 
 # Upload videos
-<div style="position: relative; width: 100%; padding-bottom: 56.25%">
+
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAeVe7CvcvnxlPXTS-0H8013" 
         title="Upload videos" frameborder="0" allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         style="position: absolute; width: 100%; height: 100%;">
 </iframe>
-</div>
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%">
+
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLoau4mZqwjAfCzsr-RlnUgC_3LZpdbUAw" 
         title="Become a better school leader]" frameborder="0" allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         style="position: absolute; width: 100%; height: 100%;">
 </iframe>
-</div>
+
 
 [Become a better school leader](https://sites.google.com/view/guardtactic/leaders?authuser=0) from [Computer Life Support](https://sites.google.com/view/guardtactic/home?authuser=0).
