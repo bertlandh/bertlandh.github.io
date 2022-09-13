@@ -1,0 +1,35 @@
+intro: Below are some of my personal projects / demos I have worked on in the past
+items:
+  - title: Project Name Generator
+    subtitle: Android App
+    description: |-
+      An android app that allows you to generate project names for your work or side projects, using starting letter, randomising a word and by category.
+    image: /img/project-name-16by9.jpg
+    image_ratio: is-16by9
+    link: https://play.google.com/store/apps/details?id=com.csrhymes.projectnamegenerator&hl=en
+    link_text: View App
+    tags: Ionic Framework,Angular,Cordova,TypeScript,SCSS,JavaScript ES6,WebPack
+  - title: Vue Games
+    description: A side project where I wanted to make some games. So far I have created Noughts and Crosses with other games on the way soon.
+    image: /img/vue-games.png
+    image_ratio: is-16by9
+    link: http://www.csrhymes.com/vue-game
+    link_text: View Vue Games
+    tags: Vue.js,Bulma CSS Framework,SCSS,JavaScript ES6,WebPack
+    github: chrisrhymes/vue-game
+  - title: Times Tables
+    description: A simple showcase of using Vue.js 2 to make an interactive times table quiz.
+    image: /img/times-tables-2by1.jpg
+    image_ratio: is-2by1
+    link: http://www.csrhymes.com/times-tables
+    link_text: View Times Tables
+    tags: Vue.js,Bulma CSS Framework,SCSS,JavaScript ES6,WebPack
+    github: chrisrhymes/times-tables
+  - title: Choosing A Mac
+    description: I've made a simple web app to help people choose which Mac best suits their needs. It's simple to use, with easy to answer questions. It's a simple showcase of what can be achieved using a bit of HTML and JavaScript.
+    image: /img/choosing-a-mac-16by9.jpg
+    image_ratio: is-16by9
+    link: http://www.csrhymes.com/choosing-a-mac/
+    link_text: View Choosing a Mac
+    tags: jQuery,Foundation 6
+    github: chrisrhymes/choosing-a-mac

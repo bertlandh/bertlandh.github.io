@@ -1,0 +1,39 @@
+intro:
+items:
+  - title: Mustang Sally
+    subtitle: Mustang LT Amp Tones
+    description: |-
+      A community site for Mustang LT Amp owners to share their own tones with other Mustang LT owners
+    image: /img/mustang-sally-3by2.jpg
+    image_ratio: is-3by2
+    link: https://www.csrhymes.com/mustang-sally/
+    link_text: View Site
+    tags: Jekyll,Bulma,Bulma Clean Theme
+  - title: Brackley Routes
+    subtitle: 
+    description: |-
+      Brackley Routes is a site set up to share a wealth of running, cycling and walking routes around the Brackley, Northants area.
+    image: /img/brackley-routes.jpg
+    image_ratio: is-3by2
+    link: https://www.brackleyroutes.co.uk
+    link_text: View Site
+    tags: Jekyll,Bulma,WebPack,Google Maps API
+  - title: Orkos House, Naxos
+    subtitle: 
+    description: |-
+      The owner of this site wanted a more modern clean site. 
+      They also wanted a site that would work well on mobile devices. Therefore I decided to use the Foundation framework to help make a clean and modern site that is also responsive. 
+    image: /img/orkos-house.png
+    image_ratio: is-16by9
+    link: http://www.orkoshouse.eu
+    link_text: View Site
+    tags: Foundation 5 Framework,Frontend Development,Google Translate Plugin
+  - title: The Robin Hood, Buckingham
+    subtitle:
+    description: |-
+      Here is one I worked on a few years ago now. A local pub wanted a site they could easily manage and update themselves so I helped them install and set up a wordpress site, with a bit of customisation on the wordpress template.
+    image: /img/the-robin-hood.png
+    image_ratio: is-16by9
+    link: http://www.therobinhoodbuckingham.co.uk
+    link_text: View Site
+    tags: WordPress CMS,Customising WordPress Themes

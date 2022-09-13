@@ -1,8 +1,10 @@
-- name: Home
-  link: /
+- name: Books
+  link: /books/
+- name: Themes
+  link: /themes
+- name: Stories
+  link: /stories/
 - name: About
   link: /about/
-- name: News
-  link: /news/
-- name: Contact
-  link: /connect/
+- name: Blog
+  link: /blog/

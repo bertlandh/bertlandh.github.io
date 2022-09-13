@@ -1,0 +1,36 @@
+intro: Below are my Open Source packages available on NPM or Composer
+items:
+  - title: Bulma Block List
+    subtitle: SCSS package available on npm
+    description: |-
+      A simple scss package extending Bulma with block style list elements.
+    image: /img/bulma-block-list.jpg
+    image_ratio: is-16by9
+    link: https://www.csrhymes.com/bulma-block-list/
+    link_text: View Examples
+    tags: Bulma,SCSS,HTML
+    github: chrisrhymes/bulma-block-list
+    features:
+      - Alignment & Sizes
+      - Colours
+      - Highlight
+      - Outlined
+      - Icons
+  - title: Bulma Blade UI
+    subtitle: Laravel package available with Composer
+    description: |-
+      A set of Laravel Blade components for the Bulma frontend framework
+    image: /img/bulma-blade-ui-5-3.jpg
+    image_ratio: is-5by3
+    link: https://github.com/chrisrhymes/bulma-blade-ui
+    link_text: View Package
+    tags: Bulma,Blade,Laravel
+    github: chrisrhymes/bulma-blade-ui
+    features:
+      - Card
+      - Inputs & Horizontal Inputs
+      - Media
+      - Modal
+      - Message
+      - Notification
+      - Tabs

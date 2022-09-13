@@ -1,0 +1,9 @@
+_site
+Thumbs.db
+Gemfile.lock
+/.idea
+/.sass-cache
+.DS_Store
+/node_modules
+/vendor
+_drafts
