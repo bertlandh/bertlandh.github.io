@@ -1,13 +1,15 @@
 ---
-title: "Batch Commands"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: Batch Commands
+description: One liner commands for windows cheat sheet
+date: 2022-09-11 17:30:00
+hero_image: https://upload.wikimedia.org/wikipedia/commons/1/1d/ReactOS-0.4.13_choice_command_667x434.png
+image: https://upload.wikimedia.org/wikipedia/commons/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png
+hero_height: is-large
+hero_darken: true
+show_sidebar: false
+toc: true
+toc_title: Batch Commands
 ---
 
 ## BATCH: Get the date into ISO 8601 standard date format (yyyy-mm-dd) and store it in the "CUR_DATE" variable

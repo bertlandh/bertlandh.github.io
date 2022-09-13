@@ -1,13 +1,12 @@
 ---
-title: "User Profiles"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: WizTree - User Profiles
+description: Uses [WizTree](https://wiztreefree.com) to retrieve a list of user profiles and how large they are.
+date: 2022-01-17 18:00:00
+hero_image: /img/anonymous_artist_graph.png
+image: /img/vanderbot_abraham.png
+hero_height: is-large
+hero_darken: true
 ---
 
 Uses [WizTree](https://wiztreefree.com) to retrieve a list of user profiles and how large they are.

@@ -1,13 +1,12 @@
 ---
-title: "Windows Update Last Installed"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: Windows Update Last Installed
+description: Installs the PSWindowsUpdate module, then runs the following cmdlets
+date: 2021-12-10 18:00:00
+hero_image: /img/wikidata_iiif.png
+image: /img/wikidata_iiif.png
+hero_height: is-large
+hero_darken: true
 ---
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Windows Firewall Rules"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: Windows Firewall Rules
+description: This scanner returns Windows Firewall Rule information. Requires Windows Server 2012/Windows 8 or higher.
+date: 2021-12-07 18:00:00
+hero_image: /img/taoist_immortal.png
+image: /img/taoist_immortal.png
+hero_height: is-large
+hero_darken: true
 ---
+
 
 
 This scanner returns Windows Firewall Rule information. Requires Windows Server 2012/Windows 8 or higher.

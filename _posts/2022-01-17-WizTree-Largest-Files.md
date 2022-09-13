@@ -1,15 +1,13 @@
 ---
-title: "WizTree - Largest Files"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: WizTree - Largest Files
+description: Uses [WizTree](https://wiztreefree.com) to retrieve a list of the largest files on the target.
+date: 2022-01-17 18:00:00
+hero_image: /img/screened_wordlists.png
+image: /img/wordle_guess.png
+hero_height: is-large
+hero_darken: true
 ---
-
 
 
 Uses [WizTree](https://wiztreefree.com) to retrieve a list of the largest files on the target.

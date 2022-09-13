@@ -1,13 +1,12 @@
 ---
-title: "Update Windows using Windows Update Assistant"
-categories:
-  - Edge Case
-tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+layout: post
+title: Update Windows using Windows Update Assistant
+description: Link https://go.microsoft.com/fwlink/?LinkID=799445
+date: 2022-02-17 18:00:00
+hero_image: /img/humacao_beach.jpg
+image: /img/pearly_eyed_thrush.jpg
+hero_height: is-large
+hero_darken: true
 ---
 
 

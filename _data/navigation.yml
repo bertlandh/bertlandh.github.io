@@ -1,12 +1,19 @@
-# main links
-main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "News"
-     url: /pages/year-archive/
-   - title: "Collections"
-     url: /pages/collection-archive/
-   - title: "Sitemap"
-     url: https://bertlandh.github.io/sitemap.xml
+- name: About
+  link: /about/
+- name: Projects
+  link: /#
+  dropdown:
+    - name: Work In Progress 
+      link: /wip/
+    - name: Unattended Deployment
+      link: /os/
+    - name: Install Packages
+      link: /software/
+- name: News
+  link: /news/
+- name: Gallery
+  link: /gallery/
+- name: CV
+  link: /cv/
+- name: Connect
+  link: /connect/
