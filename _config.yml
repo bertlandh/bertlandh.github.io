@@ -1,20 +1,21 @@
 # Site settings
 title: Bertland Hope
-email: your-email@domain.com
+tagline: Computer Life Support
+email: bertlandhope@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Computer Support And Services in Kingston Open 24 hours
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://bertlandh.github.io/ # the base hostname & protocol for your site
 twitter_username: bertlandhope
 github_username:  bertlandh
-image: https://csrhymes.com/img/csrhymeslogo.png
+image: /img/DHA-profile-BHope-300x300.jpg
 gh_sponsor: bertlandh
 
 remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
-#google_analytics: UA-49024852-2
+google_analytics: TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI
 livereload: true
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Pagination settings
 paginate: 6
