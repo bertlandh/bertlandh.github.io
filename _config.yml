@@ -23,7 +23,7 @@ name                     : &name "Bertland Hope"
 description              : &description "Computer Support And Services in Kingston Open 24 hours."
 url                      : "https://bertlandh.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"https://bertlandh.github.io/" # the subpath of your site, e.g. "/blog"
-repository               : "bertlandh.github.io/"
+repository               : "bertlandh/bertlandh.github.io/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -63,7 +63,7 @@ search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -232,7 +232,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -243,7 +243,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
