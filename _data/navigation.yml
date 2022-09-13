@@ -5,8 +5,8 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
    - title: "News"
-     url: /year-archive/
+     url: /pages/year-archive/
    - title: "Collections"
-     url: /collection-archive/
+     url: /pages/collection-archive/
    - title: "Sitemap"
      url: https://bertlandh.github.io/sitemap.xml
