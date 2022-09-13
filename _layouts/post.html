@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include carbon.html %}
+
 <div class="content">
 
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
@@ -9,20 +11,19 @@ layout: default
     {% if page.series %}
         {% include series.html %}
     {% endif %}
-
+    
     {{ content }}
 </div>
 
 <div class="tags">
     {% for tag in page.tags %}
-      {% include tag.html tag=tag %}
+    <span class="tag is-primary">{{ tag }}</span>
     {% endfor %}
 </div>
 
-{% unless site.hide_share_buttons %}
 {% include share-buttons.html %}
-{% endunless %}
 
 {% if site.disqus.shortname %}
   {% include disqus.html %}
 {% endif %}
+                            
