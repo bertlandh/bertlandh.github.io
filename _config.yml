@@ -1,59 +1,64 @@
-# Site settings
-title: Bertland Hope
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Computer Support And Services in Kingston Open 24 hours
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://bertlandh.github.io/ # the base hostname & protocol for your site
-twitter_username: bertlandhope
-github_username:  bertlandh
-image: https://csrhymes.com/img/csrhymeslogo.png
-gh_sponsor: bertlandh
-
+# Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
-#theme: bulma-clean-theme
-google_analytics: UA-49024852-2
-livereload: true
-favicon: /favicon.ico
+lang: en
+title: Bertland Hope
+tagline: Computer Life Support
+email: bertlandhope@gmail.com
+description: >
+  Professional website
+baseurl: "/"
+url: "https://bertlandh.github.io"
+permalink: pretty
+#favicon: favicon.ico
+#gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
 
-# Pagination settings
-paginate: 6
-paginate_path: "/blog/page:num"
+paginate: 5
+paginate_path: "/news/page:num"
 
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: bertlandh
+  # shortname: my_disqus_shortname
+  shortname: 
 
-# Build settings
-markdown: kramdown
-
-#Syntax Highlighter
-highlighter: rouge
 
 plugins:
+  - github-pages
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-redirect-from
-  - github-pages
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
 
 sass:
   style: compressed
+  source_dir: _sass
 
-collections:
-  stories:
-    output: true
-  products: 
-    output: true
-    layout: product
-    show_sidebar: false
-
-exclude: [node_modules, gulpfile.js, vendor]
-
-footer_menu: footer_menu
+google_analytics: TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
   -
     scope:
       path: ""
@@ -61,34 +66,17 @@ defaults:
     values:
       author: "Bertland Hope"
       layout: post
-      hero_image: /img/blog-hero.jpg
+      image: https://via.placeholder.com/1200x800
       show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "stories"
-    values:
-      author: "Bertland Hope"
-      layout: post
-      hero_image: /img/stories.jpg
-  
 
-# SEO
-author: 
-  twitter: bertlandhope
-lang: en_GB
-logo: /img/avatar.png
-twitter:
-  username: bertlandhope
-  card: summary_large_image
-facebook:
-  publisher: https://www.facebook.com/bertlandh
-  name: Bertland Hope
-  links:
-    - https://www.twitter.com/bertlandhope
-    - https://www.facebook.com/bertlandh
-    - https://github.com/bertlandh
+markdown: kramdown
+highlighter: rouge
 
-feed:
-  collections:
-    - stories
+footer_menu: footer_menu
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false

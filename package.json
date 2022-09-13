@@ -1,27 +1,16 @@
 {
-  "name": "chrisrhymes.github.io",
+  "name": "bulma-clean-theme",
+  "description": "This is a clean and simple Jekyll Theme built with the Bulma framework, providing a modern looking site to start with.",
   "version": "1.0.0",
-  "description": "CS Rhymes personal site",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrisrhymes/chrisrhymes.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrisrhymes/chrisrhymes.github.io/issues"
-  },
-  "homepage": "https://github.com/chrisrhymes/chrisrhymes.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.23.5",
-    "bulma": "^0.5.1",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-shell": "^0.6.5",
-    "lodash": "^4.17.4"
+  "author": "chrisrhymes",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "bulma-block-list": "^0.5"
   }
 }

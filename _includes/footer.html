@@ -1,89 +1,20 @@
-<section class="hero is-light">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-6">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="columns">
-                                <div class="column is-6">
-                                    <figure class="image is-4by3">
-                                        <img src="/img/how-not-to-make-a-website-4by3.jpg" alt="How NOT to make a website" />
-                                    </figure>
-                                </div>
-                                <div class="column is-6">
-                                    <p class="title is-4">How NOT to make a Website</p>
-                                    <p class="subtitle">By C.S. Rhymes</p>
-                                    <p class="subtitle">From £8.99</p>
-                                    <div class="has-text-centered">
-                                        <a href="{{ site.baseurl }}/products/how-not-to-make-a-website.html" class="button is-primary">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-6">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="columns">
-                                <div class="column is-6">
-                                    <figure class="image is-4by3">
-                                        <img src="/img/nigels-intranet-adventure-4by3.jpg" alt="Nigel's Intranet Adventure" />
-                                    </figure>
-                                </div>
-                                <div class="column is-6">
-                                    <p class="title is-4">Nigel's Intranet Adventure</p>
-                                    <p class="subtitle">By C.S. Rhymes</p>
-                                    <p class="subtitle">From £2.69</p>
-                                    <div class="has-text-centered">
-                                        <a href="{{ site.baseurl }}/products/nigels-intranet-adventure.html" class="button is-primary">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-</section>
 <footer class="footer">
     <div class="container">
-
+        
         {% if site.footer_menu %}
         <div class="columns is-multiline">
             {% for item in site.data[site.footer_menu] %}
             <div class="column has-text-centered">
                 <div>
-                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
+                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
                 </div>
             </div>
             {% endfor %}
         </div>
         {% endif %}
 
-        <div class="columns is-multiline is-centered">
-            <div class="column is-12">
-                <div class="has-text-centered">
-                    <p><strong>Follow</strong></p>
-                    <div class="buttons is-centered">
-                        <a href="https://dev.to/chrisrhymes" class="button is-light" target=_blank>
-                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="C.S. Rhymes's DEV Profile" height="30" width="30">
-                        </a>
-                        <a href="https://twitter.com/chrisrhymes" class="button is-light" target=_blank>
-                            <i class="fab fa-twitter fa-lg has-text-link"></i>
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCiSzbp9_e4jPsGf9zV0dHOw" class="button is-light" target="_blank">
-                            <i class="fab fa-youtube fa-lg has-text-danger"></i>
-                        </a>
-                    </div>
-
-                    <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>  by C.S. Rhymes</p>
-                    <p>&copy; 2014<script>new Date().getFullYear()>2014&&document.write("-"+new Date().getFullYear());</script> C.S. Rhymes</p>
-                </div>
-            </div>
+        <div class="content is-small has-text-centered">
+            <p class="">Copyright 2022 <a href="https://bertlandh.github.io/">Bertland Hope</a></p>
         </div>
     </div>
 </footer>

@@ -1,28 +1,19 @@
-- name: Books
-  link: /books/
-  dropdown:
-    - name: Nigel's Intranet Adventure
-      link: /products/nigels-intranet-adventure
-    - name: How NOT to make a Website
-      link: /products/how-not-to-make-a-website
-    - name: How NOT to use a Smartphone
-      link: /products/how-not-to-use-a-smartphone
-- name: My Work
-  link: #
-  dropdown:
-    - name: Themes
-      link: /themes
-    - name: Packages
-      link: /packages/
-    - name: Sites
-      link: /sites/
-    - name: Demos
-      link: /demos/
-- name: Stories
-  link: /stories/
-- name: Sponsors
-  link: /sponsors/
 - name: About
   link: /about/
-- name: Blog
-  link: /blog/
+- name: Projects
+  link: /#
+  dropdown:
+    - name: Work In Progress 
+      link: /wip/
+    - name: Unattended Deployment
+      link: /os/
+    - name: Install Packages
+      link: /software/
+- name: News
+  link: /news/
+- name: Gallery
+  link: /gallery/
+- name: CV
+  link: /cv/
+- name: Connect
+  link: /connect/

@@ -1,9 +1,0 @@
-title: PHP Fundamentals
-description: This post is part of a series of posts about the fundamentals of PHP.
-sections:
-  - items:
-      - title: The PHP if statement
-      - title: The PHP switch statement
-      - title: The PHP array
-      - title: The PHP for loop
-      - title: The PHP foreach loop
