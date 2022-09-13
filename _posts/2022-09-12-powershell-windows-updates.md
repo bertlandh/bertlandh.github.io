@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Powershell Windows Updates
-description: A guide to PDQ and powershell and windows updates using PSWindowsUpdate
+description: A guide to powershell and windows updates using PSWindowsUpdate
 date: 2022-09-12 16:45:00
 hero_image: https://upload.wikimedia.org/wikipedia/commons/6/6b/PowerShell_Core_7.1.5_with_Windows_Terminal.png
 image: https://upload.wikimedia.org/wikipedia/commons/3/3d/Kon-Boot_with_Automatic_Powershell_Script_Execution_feature.png
