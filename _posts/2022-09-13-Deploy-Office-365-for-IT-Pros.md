@@ -3,8 +3,8 @@ layout: post
 title: Deploy Office 365 (for IT Pros)
 description: The Office Deployment Tool (ODT) is a command-line tool that you can use to download and deploy Microsoft 365 Apps to your client computers. The ODT gives you more control over an Office installation: you can define which products and languages are installed, how those products should be updated, and whether or not to display the install experience to your users.
 date: 2022-09-13 16:30:00
-hero_image: https://upload.wikimedia.org/wikipedia/commons/9/9e/Office_365_app_logos.svg
-image: https://upload.wikimedia.org/wikipedia/commons/b/b7/MigrationManager_for_Office_365_logo.svg
+hero_image: https://picsum.photos/1200/800
+image: https://picsum.photos/200/300
 hero_height: is-large
 hero_darken: true
 ---
