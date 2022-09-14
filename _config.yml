@@ -80,3 +80,19 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+
+# SEO
+author: 
+  twitter: bertlandhope
+lang: en_GB
+logo: /img/avatar.png
+twitter:
+  username: bertlandhope
+  card: summary_large_image
+facebook:
+  publisher: https://www.facebook.com/bertlandh
+  name: Bertland Hope
+  links:
+    - https://www.twitter.com/bertlandhope
+    - https://www.facebook.com/bertlandh
+    - https://github.com/bertlandh
