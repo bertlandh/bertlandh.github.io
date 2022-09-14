@@ -9,7 +9,7 @@ hero_height: is-large
 hero_darken: true
 ---
 
-# Deploy Office 365 (for IT Pros)
+Deploy Office 365 (for IT Pros)
   
 To download 32bit office  
   
@@ -63,8 +63,4 @@ networkSharePath\office\Office365&gt; .\setup.exe /configure Configuration-32.xm
   \<Updates Enabled="TRUE" /&gt;  
   \<RemoveMSI /&gt;  
   \<Display Level="None" AcceptEULA="TRUE" /&gt;  
-\</Configuration&gt;  
-  
-Get More Help below  
-\<!-- [https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool) --&gt;  
-
+\</Configuration&gt; 
