@@ -9,9 +9,9 @@ hero_height: is-large
 hero_darken: true
 ---
 
-Deploy Office 365 (for IT Pros)
+# Deploy Office 365 (for IT Pros)
   
-To download 32bit office  
+## To download 32bit office  
   
 networkSharePath\office\Office365&gt; .\setup.exe /download Configuration-32.xml  
   
@@ -33,7 +33,7 @@ create a file save it as add the content below download Configuration-32.xml
   \<Display Level="None" AcceptEULA="TRUE" /&gt;  
 \</Configuration&gt;  
   
-To Remove 32bit Office  
+## To Remove 32bit Office  
 networkSharePath\office\Office365&gt; .\setup.exe /configure uninstall-Office365ProPlus-32.xml  
   
 create a file save it as add the content below download uninstall-Office365ProPlus-32.xml  
@@ -46,7 +46,7 @@ create a file save it as add the content below download uninstall-Office365ProPl
 \<Display Level="None" AcceptEULA="TRUE"/&gt;  
 \</Configuration&gt;  
   
-To install 32bit  
+## To install 32bit  
 networkSharePath\office\Office365&gt; .\setup.exe /configure Configuration-32.xml  
   
 \<Configuration&gt;  
