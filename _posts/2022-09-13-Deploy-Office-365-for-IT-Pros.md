@@ -9,8 +9,6 @@ hero_height: is-large
 hero_darken: true
 ---
 
-# Deploy Office 365 (for IT Pros)
-  
 ## To download 32bit office  
   
 networkSharePath\office\Office365&gt; .\setup.exe /download Configuration-32.xml  
