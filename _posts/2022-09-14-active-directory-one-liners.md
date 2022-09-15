@@ -3,7 +3,7 @@ layout: post
 title: Active Directory One-Liners
 menubar_toc: true
 show_sidebar: false
-toc_title: Custom Title
+toc_title: Contents
 subtitle: This is really a series of steps, not a single command expression
 description: This is really a series of steps, not a single command expression
 date: 2022-09-14 16:30:00
