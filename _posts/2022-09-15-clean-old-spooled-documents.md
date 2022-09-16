@@ -29,7 +29,6 @@ echo Starting print spooler.
 echo.
 net start spooler
 ```
-    
 
 ## PowerShell Execution
 ```powershell
