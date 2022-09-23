@@ -9,6 +9,8 @@
       link: /os/
     - name: Install Packages
       link: /software/
+      - name: Tutorials
+      link: /tutorials/
 - name: News
   link: /news/
 - name: Gallery
