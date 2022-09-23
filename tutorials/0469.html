@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>Installing Cockpit on Linux Device</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Cockpit,Linux,Debian,System Administration,Web Based Tools,SysAdmin,How To,Tutorial,i12bretro">
+        <meta name="author" content="i12bretro">
+        <meta name="description" content="Installing Cockpit on Linux Device">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="revised" content="06/22/2022 10:10:42 AM" />
+				          <link rel="icon" type="image/x-icon" href="includes/favicon.ico">
+				  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+				        <script type="text/javascript" src="includes/js/steps.js"></script>
+        <link href="css/steps.css" rel="stylesheet" type="text/css" />
+      </head>
+      <body>
+        <div id="gridContainer">
+          <div class="topMargin"></div>
+          <div id="listName" class="topMargin">
+            <h1>Installing Cockpit on Linux Device</h1>
+          </div>
+          <div></div>
+          <div id="content">
+          <h2>What is Cockpit?</h2>
+
+<blockquote><em>Cockpit is an interactive server admin interface. It is easy to use and very lightweight. Cockpit interacts directly with the operating system from a real Linux session in a browser.</em> -<a href="https://github.com/cockpit-project/cockpit" target="_blank">https://github.com/cockpit-project/cockpit</a></blockquote>
+
+<h2>Installing Cockpit</h2>
+
+<ol>
+	<li>Log into the Debian device</li>
+	<li>Run the following commands in a terminal:
+	<div class="codeBlock"># update software repositories<br />
+	sudo apt update<br />
+	# install software updates<br />
+	sudo apt upgrade -y<br />
+	# install cockpit<br />
+	sudo apt install cockpit -y</div>
+	</li>
+	<li>Open a web browser and navigate to https://DNSorIP:9090</li>
+	<li>Login using a valid account on the Linux device</li>
+	<li>Welcome to Cockpit</li>
+</ol>
+
+<p>Source:<a href="https://cockpit-project.org/running.html" target="_blank"> https://cockpit-project.org/running.html</a></p>
+          </div>
+        </div>
+      </body>
+    </html>
+  
