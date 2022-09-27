@@ -16,11 +16,17 @@ hero_image: /img/wheeler.jpg
 
 - **LinkedIn:** [@bertlandhope](https://www.linkedin.com/in/bertlandhope/)
 
+- **LinkedIn:** [@computer-life-support](https://www.linkedin.com/company/computer-life-support/)
+
 - **Instagram:** [@bertland_hope](https://www.instagram.com/bertland_hope/)
 
 - **FaceBook:** [@bertlandh](https://www.facebook.com/BertlandH)
 
+- **FaceBook:** [@clsbh](https://www.facebook.com/clsbh)
+
 - **Reddit:** [bertlandh](https://www.reddit.com/user/bertlandh)
+
+- **Reddit:** [ComputerLifeSupport](https://www.reddit.com/r/ComputerLifeSupport/)
 
 - **GitHub:** [bertlandh](https://github.com/bertlandh/)
 
