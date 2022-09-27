@@ -6,7 +6,7 @@ show_sidebar: false
 toc_title: Contents
 subtitle: Using PowerShell to Install Printers.
 description: Using PowerShell to Install Printers.
-date: 2022-09-16 16:30:00
+date: 2022-09-27 14:25:00
 image: /img/2022-09-27-Using-PowerShell-to-Install-Printers-766-1200x800.jpg
 hero_image: /img/2022-09-27-Using-PowerShell-to-Install-Printers-435-800x600.jpg
 hero_height: is-large
