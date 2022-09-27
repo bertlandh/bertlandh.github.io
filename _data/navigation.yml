@@ -1,5 +1,18 @@
 - name: About
   link: /about/
+- name: Services
+  link: /services/
+  dropdown:
+    - name: HealthCheck 
+      link: /services/HealthCheck
+    - name: Training
+      link: /services/Training
+    - name: Consultancy
+      link: /services/Consultancy
+    - name: Facilitation
+      link: /services/Facilitation"
+    - name: Interim Management
+      link: /services/InterimManagement
 - name: Projects
   link: #
   dropdown:
