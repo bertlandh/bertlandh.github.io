@@ -6,7 +6,7 @@ subtitle: Computer Support And Services in Kingston Open 24 hours
 layout: page
 show_sidebar: false
 toc_title: Contents
-hero_image: /img/wheeler.jpg
+hero_image: /img/445-1200x800.jpg
 ---
 
 # Services
