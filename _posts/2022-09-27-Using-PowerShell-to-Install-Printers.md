@@ -21,7 +21,7 @@ Let us take a look at what we need to do when we need to install a printer. It c
 ## Add Drivers
 Adding Printer Drivers to the DriverStore
 ```powershell
-pnputil.exe -i -a \\moafaicfs\Homefolders\bhope\core\Printers\HP_Color_LaserJet_Pro_MFP_M477fdw\*.inf
+pnputil.exe -i -a \\someNetworkShare\Printers\HP_Color_LaserJet_Pro_MFP_M477fdw\*.inf
 ```
 
 
