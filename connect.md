@@ -1,6 +1,6 @@
 ---
 title: Connect
-menubar_toc: true
+menubar_toc: false
 description: Contact and media.
 subtitle: Contact and media.
 layout: page
