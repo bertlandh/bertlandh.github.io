@@ -13,5 +13,5 @@ Each day of the course training is continuous and lasts from 09:30 to 16:30, wit
 
 Each course can accommodate up to 16 attendees. Pricing depends on numbers of attendees and location.
 
-Contact for details .
+<a href="/connect/" target="_blank">Contact for details</a>.
 

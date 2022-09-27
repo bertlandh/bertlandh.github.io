@@ -10,8 +10,9 @@ hero_image: /img/wheeler.jpg
 
 Part consultancy, part training, this is an opportunity to have an expert contributor or leader for your meeting. Can include preparation prior to the event so as to make the contribution as immediately relevant as possible. This also aids the implementation of the meeting’s decisions and conclusions. An example of a pre-scripted facilitation is given below. For more bespoke engagements
 
-This is an opportunity to have a knowledgeable contributor or leader for your meeting. Part consulting, part training. Can involve planning ahead of time to make the donation as promptly applicable as feasible. Additionally, this helps put the meeting's decisions and conclusions into action. The following is an illustration of a pre-scripted facilitation. For customized engagements
-, contact me to discuss your requirements .
+This is an opportunity to have a knowledgeable contributor or leader for your meeting. Part consulting, part training. Can involve planning ahead of time to make the donation as promptly applicable as feasible. Additionally, this helps put the meeting's decisions and conclusions into action. The following is an illustration of a pre-scripted facilitation. 
+
+For customized engagements, c<a href="/connect/" target="_blank">ontact me to discuss your requirements</a>.
 
 ##### Game-Changing Strategies
 Many system administration teams are having difficulties. They are attempting to climb their way out of a hole. If your team fits this description, Game-Changing Strategies can help. Even if your team doesn't fit this description, you'll still learn a lot about how effective teams maintain their success.

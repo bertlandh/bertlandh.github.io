@@ -12,6 +12,7 @@ The professional judgment to assist you in choosing wisely from all of the many 
 
 From a quick review over a few days, which might be followed by progress checks, to medium-term engagements that aid in defining and even putting into practice IT support strategy, and everything in between.
 
-Contact me to discuss your situation.
+<a href="/connect/" target="_blank">Contact me to discuss your situation.</a>
+
 
 

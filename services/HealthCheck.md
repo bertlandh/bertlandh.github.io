@@ -19,6 +19,6 @@ Because success generates success, most people desire to partake in it.
 Any spectator at a successful sporting event or outstanding concert will tell you.
 Ask any technician who is aware of their affiliation with a productive team of trustworthy coworkers. 
 	
-Make sure your IT Support service is firing on all cylinders. Have an expert examine it.
+Make sure your IT Support service is firing on all cylinders. <a href="/connect/" target="_blank">Have an expert examine it</a>.
 
 

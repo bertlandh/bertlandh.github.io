@@ -14,5 +14,5 @@ Challenges have included remotivating a team after a long period of fractured or
 
 Expertise like this can make a big difference quickly because the focus is on the immediate problem, not on the distractions commonly face by employees, such as building a career. 
 
-Contact me to discuss your needs .
+<a href="/connect/" target="_blank">Contact me to discuss your needs</a>.
 
