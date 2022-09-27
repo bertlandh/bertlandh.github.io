@@ -8,7 +8,7 @@ hero_image: /img/wheeler.jpg
 
 # Services
 
-Bertland Hope's professional services to IT systems management take five forms;
+Bertland Hope's professional services to IT systems support take five forms;
 
 click the links below for details.
 	
