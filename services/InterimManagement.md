@@ -1,12 +1,12 @@
 ---
-title: Interim Management
+title: Bertland Hope as Interim Support Manager
 subtitle: Computer Support And Services in Kingston Open 24 hours
 layout: page
 show_sidebar: false
 hero_image: /img/wheeler.jpg
 ---
 
-# Interim Management
+# Bertland Hope as Interim Support Manager
 
 Bertland Hope has conducted several engagements as an interim manager in IT support and operations. These have been in the education industry, a government IP and Agro service and a cultural archival company. Most commonly, these have involved building a department from low to high maturity before handing over to a permanent replacement.
 

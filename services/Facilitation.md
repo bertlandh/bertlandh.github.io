@@ -1,12 +1,12 @@
 ---
-title: Facilitation
+title: Meeting Facilitation Service
 subtitle: Computer Support And Services in Kingston Open 24 hours
 layout: page
 show_sidebar: false
 hero_image: /img/wheeler.jpg
 ---
 
-# Facilitation
+# Meeting Facilitation Service
 
 Part consultancy, part training, this is an opportunity to have an expert contributor or leader for your meeting. Can include preparation prior to the event so as to make the contribution as immediately relevant as possible. This also aids the implementation of the meeting’s decisions and conclusions. An example of a pre-scripted facilitation is given below. For more bespoke engagements
 
