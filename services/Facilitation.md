@@ -2,11 +2,23 @@
 title: Meeting Facilitation Service
 menubar_toc: false
 description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
-layout: page
+subtitle: By Bertland Hope
+product_code: CMFS
+layout: product
+image: /img/136-1200x800.jpg
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/136-1200x800.jpg
+price: From $500 USD per day
+features:
+    - label: Released 7th September 2015 
+      icon: fa-calendar-alt
+    - label: Available online and inperson (Jamaica)
+      icon: fa-book
+seo:
+  name: I.T. Support Consultancy Service
+  type: consultancy and training
+  author: Bertland Hope
 ---
 
 # Meeting Facilitation Service
@@ -15,7 +27,10 @@ Part consultancy, part training, this is an opportunity to have an expert contri
 
 This is an opportunity to have a knowledgeable contributor or leader for your meeting. Part consulting, part training. Can involve planning ahead of time to make the donation as promptly applicable as feasible. Additionally, this helps put the meeting's decisions and conclusions into action. The following is an illustration of a pre-scripted facilitation. 
 
-For customized engagements, c<a href="/connect/" target="_blank">ontact me to discuss your requirements</a>.
+<div class="buttons is-centered">For customized engagements,
+<a href="/connect/" class="button is-info" target="_blank">Contact me to discuss your requirements.</a>
+</div>
+
 
 ##### Game-Changing Strategies
 Many system administration teams are having difficulties. They are attempting to climb their way out of a hole. If your team fits this description, Game-Changing Strategies can help. Even if your team doesn't fit this description, you'll still learn a lot about how effective teams maintain their success.

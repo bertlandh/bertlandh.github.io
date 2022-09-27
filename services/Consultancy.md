@@ -2,7 +2,7 @@
 title: I.T. Support Consultancy Service
 menubar_toc: false
 description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
+subtitle: By Bertland Hope
 product_code: CITSCS
 layout: product
 image: /img/910-1200x800.jpg
@@ -11,7 +11,7 @@ toc_title: Contents
 hero_image: /img/910-1200x800.jpg
 price: From $300 USD per day
 features:
-    - label: Released 7th September 2020 
+    - label: Released 7th September 2010 
       icon: fa-calendar-alt
     - label: Available online and inperson (Jamaica)
       icon: fa-book
