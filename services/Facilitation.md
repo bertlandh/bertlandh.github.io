@@ -1,8 +1,11 @@
 ---
 title: Meeting Facilitation Service
+menubar_toc: true
+description: Computer Support And Services in Kingston Open 24 hours.
 subtitle: Computer Support And Services in Kingston Open 24 hours
 layout: page
 show_sidebar: false
+toc_title: Contents
 hero_image: /img/wheeler.jpg
 ---
 

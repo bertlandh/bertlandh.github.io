@@ -1,9 +1,12 @@
 ---
 title: Connect
-subtitle: Contact and media
+menubar_toc: true
+description: Contact and media.
+subtitle: Contact and media.
 layout: page
 show_sidebar: false
-hero_image: /img/nebraska.jpg
+toc_title: Contents
+hero_image: /img/wheeler.jpg
 ---
 
 - **Email:** [bhope\@agroinvest.gov.jm](mailto:bhope@agroinvest.gov.jm)
