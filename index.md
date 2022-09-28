@@ -1,7 +1,7 @@
 ---
 title: Bertland Hope
-description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
+description: Computer Support And Services in Kingston. Calls in JM office hours only please.
+subtitle: Computer Support And Services in Kingston. Calls in JM office hours only please.
 layout: default
 show_sidebar: false
 hero_image: /img/wheeler.jpg

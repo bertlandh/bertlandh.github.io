@@ -1,8 +1,8 @@
 ---
 title: Services
 menubar_toc: false
-description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
+description: Computer Support And Services in Kingston. Calls in JM office hours only please.
+subtitle: Computer Support And Services in Kingston. Calls in JM office hours only please.
 layout: page
 show_sidebar: false
 toc_title: Contents

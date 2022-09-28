@@ -1,7 +1,7 @@
 ---
 title: Bertland Hope as Interim Support Manager
 menubar_toc: false
-description: Computer Support And Services in Kingston Open 24 hours.
+description: Computer Support And Services in Kingston. Calls in JM office hours only please.
 subtitle: By Bertland Hope
 product_code: MBHISM
 layout: product
