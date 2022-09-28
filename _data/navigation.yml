@@ -15,7 +15,5 @@
       link: /services/InterimManagement
 - name: News
   link: /news/
-- name: CV
-  link: /cv/
 - name: Connect
   link: /connect/
