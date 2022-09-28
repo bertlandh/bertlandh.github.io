@@ -3,8 +3,8 @@
 - name: Services
   link: /services/
   dropdown:
-    - name: Web Development 
-      link: /services/WebDev
+    - name: HealthCheck 
+      link: /services/HealthCheck
     - name: Training
       link: /services/Training
     - name: Consultancy
