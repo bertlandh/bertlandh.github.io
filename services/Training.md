@@ -5,7 +5,7 @@ description: Computer Support And Services in Kingston. Calls in JM office hours
 subtitle: By Bertland Hope
 product_code: TISE
 layout: product
-image: https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+image: /img/Slide1.PNG
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/903-1200x800.jpg
@@ -26,7 +26,11 @@ seo:
 
 # Training for Internet Security
 
-The curriculum for authorized IT security training, "Internet Safety Education" was written by Bertland Hope. He provides four courses from that curriculum for delivery at your location while assuming the role of expert trainer. Courses consist of engaging and interactive learning, followed by an hour-long exam that, if passed, results in a certification. On the CLS website, the candidate's qualifications can be confirmed.
+At Computer Life Support, we consider it a privilege to secure our digital lives, and as such, we aim to educate the public on all areas of cybersecurity.
+
+That’s why we’ve created the I.S.E. (Internet Safety Education) Program. Our goal is to demystify cybersecurity through interactive learning and equip you with resources to have safer online experiences, become good digital citizens, and maybe even pursue careers in cybersecurity.
+
+Courses consist of engaging and interactive learning, followed by an hour-long exam that, if passed, results in a certification. On the CLS website, the candidate's qualifications can be confirmed.
 Each day of the course training is continuous and lasts from 09:30 to 16:30, with breaks for lunch and mid-afternoon.
 
 Each course can accommodate up to 16 attendees. Pricing depends on numbers of attendees and location.
