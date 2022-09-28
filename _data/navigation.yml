@@ -13,21 +13,8 @@
       link: /services/Facilitation
     - name: Interim Management
       link: /services/InterimManagement
-- name: Projects
-  link: #
-  dropdown:
-    - name: Work In Progress 
-      link: /wip/
-    - name: Unattended Deployment
-      link: /os/
-    - name: Install Packages
-      link: /software/
-    - name: Tutorials
-      link: https://bertlandh.github.io/tutorials/
 - name: News
   link: /news/
-- name: Gallery
-  link: /gallery/
 - name: CV
   link: /cv/
 - name: Connect
