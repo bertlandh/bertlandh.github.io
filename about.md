@@ -3,7 +3,7 @@ title: About
 subtitle: Education and background
 layout: default
 image: /img/favicon.png
-show_sidebar: false
+show_sidebar: true
 hero_image: /img/2015-10-05.jpg
 ---
 
