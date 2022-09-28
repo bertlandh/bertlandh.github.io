@@ -23,12 +23,10 @@ seo:
 
 # Meeting Facilitation Service
 
-Part consultancy, part training, this is an opportunity to have an expert contributor or leader for your meeting. Can include preparation prior to the event so as to make the contribution as immediately relevant as possible. This also aids the implementation of the meeting’s decisions and conclusions. An example of a pre-scripted facilitation is given below. For more bespoke engagements
-
 This is an opportunity to have a knowledgeable contributor or leader for your meeting. Part consulting, part training. Can involve planning ahead of time to make the donation as promptly applicable as feasible. Additionally, this helps put the meeting's decisions and conclusions into action. The following is an illustration of a pre-scripted facilitation. 
 
 <div class="buttons is-centered">For customized engagements,
-<a href="/connect/" class="button is-info" target="_blank">Contact me to discuss your requirements.</a>
+<a href="/connect/" class="button is-info" target="_blank">contact me to discuss your requirements.</a>
 </div>
 
 
