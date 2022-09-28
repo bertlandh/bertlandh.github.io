@@ -8,6 +8,7 @@ show_sidebar: true
 toc_title: Contents
 hero_image: /img/445-1200x800.jpg
 image: /img/favicon.png
+hero_darken: true
 ---
 
 # Services
