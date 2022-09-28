@@ -3,7 +3,7 @@ title: Services
 menubar_toc: false
 description: Computer Support And Services in Kingston. Calls in JM office hours only please.
 subtitle: Computer Support And Services in Kingston. Calls in JM office hours only please.
-layout: default
+layout: page
 show_sidebar: true
 toc_title: Contents
 hero_image: /img/445-1200x800.jpg

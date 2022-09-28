@@ -3,7 +3,7 @@ title: Connect
 menubar_toc: false
 description: Contact and media.
 subtitle: Contact and media.
-layout: default
+layout: page
 show_sidebar: true
 toc_title: Contents
 hero_image: /img/wheeler.jpg

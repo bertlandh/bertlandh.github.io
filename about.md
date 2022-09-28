@@ -1,7 +1,7 @@
 ---
 title: About
 subtitle: Education and background
-layout: default
+layout: page
 image: /img/favicon.png
 show_sidebar: true
 hero_image: /img/2015-10-05.jpg
