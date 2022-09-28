@@ -6,7 +6,7 @@ show_sidebar: false
 hero_image: /img/2015-10-05.jpg
 ---
 
-<img src="/img/DHA-profile-BHope-300x300.jpg" alt="Bertland Hope Jamaica" width="300"><br/>
+<img src="/img/favicon.png" alt="Bertland Hope Jamaica" width="300"><br/>
 <small>Photo by DHA</small>
 
 # Background
