@@ -2,11 +2,24 @@
 title: Training for Internet Security
 menubar_toc: false
 description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
-layout: page
+subtitle: By Bertland Hope
+product_code: TISE
+layout: product
+image: /img/903-1200x800.jpg
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/903-1200x800.jpg
+price: From $200 USD per day
+features:
+    - label: Released 7th September 2021 
+      icon: fa-calendar-alt
+    - label: Available online and inperson (Jamaica)
+      icon: fa-book
+rating: 5
+seo:
+  name: Training for Internet Security
+  type: training
+  author: Bertland Hope
 ---
 
 # Training for Internet Security
@@ -16,5 +29,7 @@ Each day of the course training is continuous and lasts from 09:30 to 16:30, wit
 
 Each course can accommodate up to 16 attendees. Pricing depends on numbers of attendees and location.
 
-<a href="/connect/" target="_blank">Contact for details</a>.
+<div class="buttons is-centered">
+<a href="/connect/" class="button is-info" target="_blank">Contact for details.</a>
+</div>
 

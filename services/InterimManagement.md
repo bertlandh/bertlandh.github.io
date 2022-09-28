@@ -2,11 +2,24 @@
 title: Bertland Hope as Interim Support Manager
 menubar_toc: false
 description: Computer Support And Services in Kingston Open 24 hours.
-subtitle: Computer Support And Services in Kingston Open 24 hours
-layout: page
+subtitle: By Bertland Hope
+product_code: MBHISM
+layout: product
+image: /img/541-1200x800.jpg
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/541-1200x800.jpg
+price: From $800 USD per day
+features:
+    - label: Released 7th September 2019 
+      icon: fa-calendar-alt
+    - label: Available online and inperson (Jamaica)
+      icon: fa-book
+rating: 5
+seo:
+  name: Bertland Hope as Interim Support Manager
+  type: interim support manager
+  author: Bertland Hope
 ---
 
 # Bertland Hope as Interim Support Manager
@@ -17,5 +30,7 @@ Challenges have included remotivating a team after a long period of fractured or
 
 Expertise like this can make a big difference quickly because the focus is on the immediate problem, not on the distractions commonly face by employees, such as building a career. 
 
-<a href="/connect/" target="_blank">Contact me to discuss your needs</a>.
+<div class="buttons is-centered">
+<a href="/connect/" class="button is-info" target="_blank">Contact me to discuss your needs.</a>
+</div>
 

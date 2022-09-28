@@ -15,6 +15,7 @@ features:
       icon: fa-calendar-alt
     - label: Available online and inperson (Jamaica)
       icon: fa-book
+rating: 5
 seo:
   name: I.T. Support Consultancy Service
   type: consultancy
