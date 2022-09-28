@@ -13,8 +13,8 @@ price: From $800 USD per day
 features:
     - label: Released 7th September 2019 
       icon: fa-calendar-alt
-    - label: Available online and inperson (Jamaica)
-      icon: fa-book
+    - label: Available inperson (Jamaica)
+      icon: fa-spinner
 rating: 5
 seo:
   name: Bertland Hope as Interim Support Manager

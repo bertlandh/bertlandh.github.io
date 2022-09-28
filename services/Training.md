@@ -14,7 +14,7 @@ features:
     - label: Released 7th September 2021 
       icon: fa-calendar-alt
     - label: Available online and inperson (Jamaica)
-      icon: fa-book
+      icon: fa-graduation-cap
 rating: 5
 seo:
   name: Training for Internet Security

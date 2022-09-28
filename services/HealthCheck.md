@@ -13,8 +13,8 @@ price: From $1300 USD per day
 features:
     - label: Released 7th September 2016 
       icon: fa-calendar-alt
-    - label: Available online and inperson (Jamaica)
-      icon: fa-book
+    - label: Available inperson (Jamaica)
+      icon: fa-flag-checkered
 rating: 5
 seo:
   name: HealthCheck
