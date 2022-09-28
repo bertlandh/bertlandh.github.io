@@ -9,6 +9,8 @@ image: https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/541-1200x800.jpg
+hero_height: is-medium
+hero_darken: true
 price: From $800 USD per day
 features:
     - label: Released 7th September 2019 

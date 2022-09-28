@@ -9,6 +9,8 @@ image: https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/903-1200x800.jpg
+hero_height: is-medium
+hero_darken: true
 price: From $200 USD per day
 features:
     - label: Released 7th September 2021 
