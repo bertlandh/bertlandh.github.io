@@ -1,5 +1,6 @@
 ---
 title: Bertland Hope
+description: Computer Support And Services in Kingston Open 24 hours.
 subtitle: Computer Support And Services in Kingston Open 24 hours
 layout: page
 callouts: home_callouts
