@@ -5,7 +5,7 @@ description: Computer Support And Services in Kingston. Calls in JM office hours
 subtitle: By Bertland Hope
 product_code: TISE
 layout: product
-image: /img/Slide1.PNG
+image: /img/TISE/Slide1.PNG
 show_sidebar: false
 toc_title: Contents
 hero_image: /img/903-1200x800.jpg
