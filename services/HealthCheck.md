@@ -40,6 +40,25 @@ Make sure your IT Support service is firing on all cylinders.
 <a href="/connect/" class="button is-info" target="_blank">Have an expert examine it.</a>
 </div>
 
+> **Did You Know?**
+> 
+> The performance difference between mediocre and successful IT Support is not just a little – it can be as much as a factor of four.
+> 
+> 
+> In other words, your staff could be a quarter as efficient as the next support service – or four times as much, and probably enjoying their job more, because success motivates. Where does your service stand?
+
+## About Bertland Hope
+
+* Manager Information Systems, Systems Administrator, ICT Instructor
+
+* Influential and transformative systems manager with 15 years of experience administering networks and troubleshooting systems through documentation and meticulous project execution.
+
+* A "best of both worlds" manager with deep expertise across both open source and enterprise tools, and an ability to devise and execute integrated solutions that engage users and deliver strong ROI.
+
+* Superior rapport building, client relations and negotiation skills.
+
+
+
 ## About the Healthcheck
 
 1. Two-day expert service delivery review onsite at your premises
