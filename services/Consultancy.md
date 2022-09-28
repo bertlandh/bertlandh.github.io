@@ -14,7 +14,7 @@ features:
     - label: Released 7th September 2010 
       icon: fa-calendar-alt
     - label: Available online and inperson (Jamaica)
-      icon: fa-leanpub
+      icon: fa-free-code-camp
 rating: 5
 seo:
   name: I.T. Support Consultancy Service
