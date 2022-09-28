@@ -39,7 +39,7 @@ image: /img/favicon.png
 
 - **Discord:** [Jamaica](https://discord.gg/Becvqgx)
 
-- **Mobile: +1876 560-0735**
+- **VOIP: +1876 560-0735**
 
 ##### Calls in JM office hours only please.
 
