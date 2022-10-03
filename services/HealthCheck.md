@@ -33,7 +33,7 @@ Jamaican companies of all sizes have wisely decided to invest in professionally 
 Reliable web development services are offered to businesses all over the world by Bertland Hope. Profit from our lowest web design pricing ever to provide your company a competitive edge and a 100-fold increase in market share.
 
 <div class="buttons is-centered">
-Make sure your IT Support service is firing on all cylinders. 
+Make sure your Website is firing on all cylinders. 
 <a href="/connect/" class="button is-info" target="_blank">Have an expert examine it.</a>
 </div>
 
