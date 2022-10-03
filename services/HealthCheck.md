@@ -1,5 +1,5 @@
 ---
-title: HealthCheck
+title: Website HealthCheck
 menubar_toc: false
 description: Computer Support And Services in Kingston. Calls in JM office hours only please.
 subtitle: By Bertland Hope
@@ -11,7 +11,7 @@ toc_title: Contents
 hero_image: /img/970-1200x800.jpg
 hero_height: is-medium
 hero_darken: true
-price: From $1300 USD per day
+price: 
 features:
     - label: Released 7th September 2016 
       icon: fa-calendar-alt
@@ -19,23 +19,18 @@ features:
       icon: fa-flag-checkered
 rating: 5
 seo:
-  name: HealthCheck
-  type: healthcheck
+  name: Website HealthCheck
+  type: Website healthcheck
   author: Bertland Hope
 ---
 
-# HealthCheck
+# Website HealthCheck
 
-The IT Support HealthCheck is a low-cost approach for your support service to gain access to the unbiased opinion of top-tier IT support professionals. Both internal and external support workgroups (ITSM and ECSM) can use it. It also scans your second line in addition to the service desk or first line. 
+Tapping into more than fifteen years of experience to deliver clients websites that are effective! Profit from the cheapest rates ever to get a successful website that will help your company rise.
 
-Is your service as effective and economical as it possibly can be?
-Is the personnel having as much fun as they possibly can?
-Unexpectedly, those two frequently go together.
+Jamaican companies of all sizes have wisely decided to invest in professionally built websites. It is no longer debatable whether a website is necessary for your Jamaican business. Selecting the ideal web development partner is your top priority if you want to increase your online sales and visibility.
 
-The more stimulating work environments typically produce the most successful support workgroups.
-Because success generates success, most people desire to partake in it.
-Any spectator at a successful sporting event or outstanding concert will tell you.
-Ask any technician who is aware of their affiliation with a productive team of trustworthy coworkers. 
+Reliable web development services are offered to businesses all over the world by Bertland Hope. Profit from our lowest web design pricing ever to provide your company a competitive edge and a 100-fold increase in market share.
 
 <div class="buttons is-centered">
 Make sure your IT Support service is firing on all cylinders. 
@@ -44,10 +39,11 @@ Make sure your IT Support service is firing on all cylinders.
 
 > **Did You Know?**
 > 
-> The performance difference between mediocre and successful IT Support is not just a little – it can be as much as a factor of four.
+> The performance difference between mediocre and successful Website is not just a little – it can be as much as a factor of four.
 > 
 > 
-> In other words, your staff could be a quarter as efficient as the next support service – or four times as much, and probably enjoying their job more, because success motivates. Where does your service stand?
+> In other words, your clients could be a quarter as profitable as the next business webiste – or four times as much, and probably closing more sales, because success motivates. Where does your website stand?
+
 
 ## About Bertland Hope
 
@@ -58,19 +54,6 @@ Make sure your IT Support service is firing on all cylinders.
 * A "best of both worlds" manager with deep expertise across both open source and enterprise tools, and an ability to devise and execute integrated solutions that engage users and deliver strong ROI.
 
 * Superior rapport building, client relations and negotiation skills.
-
-
-
-## About the Healthcheck
-
-1. Two-day expert service delivery review onsite at your premises
-2. Output in the form of a SWOT analysis
-3. Comments on statistical management information
-4. Observations and conclusions
-5. Any available quick wins and techniques thereto
-6. Recommendations for longer term client IT support strategy
-7. Debrief for an audience of your choosing on the content of the forthcoming report
-8. Formal report document written up at base and submitted with invoice
 
 
 
