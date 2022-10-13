@@ -7,8 +7,8 @@ toc_title: Contents
 subtitle: Cyber Smart: Five Habits to Protect Your Family, Money, and Identity from Cyber Criminals.
 description: Cyber Smart: Five Habits to Protect Your Family, Money, and Identity from Cyber Criminals.
 date: 2022-10-13 14:25:00
-image: /img/2022-10-13-brilliance-basics-simple-cyberhygiene-essentials-530-1200x800.jpg
-hero_image: /img/2022-10-13-brilliance-basics-simple-cyberhygiene-essentials-305-800x600.jpg
+image: /img/2022-09-27-Using-PowerShell-to-Install-Printers-766-1200x800.jpg
+hero_image: /img/2022-09-27-Using-PowerShell-to-Install-Printers-435-800x600.jpg
 hero_height: is-large
 hero_darken: true
 ---
