@@ -10,12 +10,12 @@ show_sidebar: false
 toc_title: Contents
 hero_height: is-medium
 hero_darken: true
-price: From $22.96 USD per day
+price: From $22.96
 features:
     - label: Released 30th January 2006 
-      icon: fa-calendar-alt
+      icon: fa-book
     - label: Paperback
-      icon: fa-graduation-cap
+      icon: fa-book
 rating: 5
 seo:
   name: Inna Di Dancehall Popular Culture And the Politics of Identity in Jamaica
