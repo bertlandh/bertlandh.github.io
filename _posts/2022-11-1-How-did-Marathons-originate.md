@@ -21,6 +21,7 @@ Fast forward to the 1896 Olympic games in Athens, and they decided to have a rac
 
 From there the distance fluctuated a bit between 24.85 miles and 26.56 miles as it was determined by the course set out by the organizers. But in 1908 during the London Olympics, they were going to have a 25 mile race, but the organizers decided to change the route to run past the Royal Box so they ended up with 26.2. After that there was still some fluctuation, until 1921 when the standard was set based upon the 1908 Olympic marathon distance.
 
+## Exergic
 In 490 BC, the Persian King, Darius, had a bone to pick with the Athenians.
 
 Years before, the Ionians were revolting against the Persian empire and the Athenians supported the revolution.
