@@ -1,1 +1,0 @@
-https://overapi.com/jquery

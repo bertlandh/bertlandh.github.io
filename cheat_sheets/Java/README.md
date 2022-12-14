@@ -1,3 +1,0 @@
-## Java:
-
-- java fundamentals

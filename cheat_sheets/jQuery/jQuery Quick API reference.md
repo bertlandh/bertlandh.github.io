@@ -1,1 +1,0 @@
-https://oscarotero.com/jquery/
