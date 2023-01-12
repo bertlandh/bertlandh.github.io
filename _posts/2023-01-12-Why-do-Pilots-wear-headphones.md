@@ -6,8 +6,8 @@ show_sidebar: false
 toc_title: Contents
 subtitle: Aviation headsets fall into two broad categories: passive noise reduction and active noise reduction (ANR). The passive noise reduction headsets rely on a good seal around the ear and a strong clamping force.
 date: 2023-01-12 14:00:00
-hero_image: /img/2023-01-12-Why-do-Pilots-wear-headphones-637-1200x800.jpg
 image: /img/photo_2023-01-04_23-48-00.jpg
+hero_image: /img/2023-01-12-Why-do-Pilots-wear-headphones-637-1200x800.jpg
 hero_height: is-large
 hero_darken: true
 ---
