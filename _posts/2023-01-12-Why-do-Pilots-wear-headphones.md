@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why do Pilots wear headphones??
+title: Why do Pilots wear headphones?
 menubar_toc: true
 show_sidebar: false
 toc_title: Contents
