@@ -15,7 +15,7 @@ hero_darken: true
 
 My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Certificate from Cisco for network fundamentals and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing the MSc in Computer Science at the [UWI](https://www.mona.uwi.edu/). 
 
-<img src="https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Chicken Back Gravy' for the soul | News | Jamaica Gleaner" width="600"><br/>
+![Chicken Back Gravy' for the soul | News | Jamaica Gleaner](https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
 
 # Current job responsibilities
 
@@ -25,13 +25,14 @@ I am an influential and transformative systems manager with 15 years of experien
 
 You can learn more about some of these efforts through the projects tab.
 
-<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Chicken Back Gravy' for the soul | News | Jamaica Gleaner" width="600"><br/>
+![Chicken Back Gravy' for the soul | News | Jamaica Gleaner](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
 
 # Professional contributions
 
 Manager Information Systems and Co-Director at the Dancehall Archive and Research Initiative [DHA](http://www.dancehallarchive.org/). The DHA aims to engage students, faculty, researchers, artists, dancers, musicians, staff, journalists, participants and others who are committed to the preservation and spread of knowledge about dancehall culture. Working with the DHA team, responsible for the design and implementation of the DHA's website and associated networks.
 
-<img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Chicken Back Gravy' for the soul | News | Jamaica Gleaner" width="600"><br/>
+![Chicken Back Gravy' for the soul | News | Jamaica Gleaner](https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
 
 I am also actively involved in the YouTube community. I am a frequent contributor on [MrCsecIT](https://www.youtube.com/channel/UCaHRQTSDaH5Wf93u6EWpeew) and participant on [Reddit](https://www.reddit.com/user/bertlandh).
+
 
