@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Unleashing the Power of WebWISE: Your Guide to Digital Literacy
-menubar_toc: true
-show_sidebar: false
-toc_title: Contents
-subtitle: In today's interconnected world, digital literacy has become a vital skill for individuals of all ages.
 description: In a world where the digital realm plays a central role in our lives, digital literacy is not just a desirable skill but a necessity.
 date: 2023-6-27 21:15:00
 hero_image: /img/anonymous_artist_graph.png
