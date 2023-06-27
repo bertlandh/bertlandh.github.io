@@ -6,9 +6,9 @@ show_sidebar: false
 toc_title: Contents
 subtitle: Investing in the "ICT Performance Boost for Vision 2030 Jamaica" project is a smart way to save money in the long run.
 description: Are you tired of slow computer performance hindering your productivity? We feel you.
-date: 2023-3-25 21:15:00
-image: /img/Slide6.PNG
-hero_image: /img/Slide1.PNG
+date: 2023-6-27 21:15:00
+image: /img/Slide6.jpg
+hero_image: /img/Slide1.jpg
 hero_height: is-large
 hero_darken: true
 ---
