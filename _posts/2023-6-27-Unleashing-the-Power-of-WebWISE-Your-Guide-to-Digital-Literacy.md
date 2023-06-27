@@ -1,24 +1,26 @@
 ---
 layout: post
 title: Unleashing the Power of WebWISE: Your Guide to Digital Literacy
-description: In a world where the digital realm plays a central role in our lives, digital literacy is not just a desirable skill but a necessity.
-date: 2023-6-27 21:15:00
-hero_image: /img/anonymous_artist_graph.png
-image: /img/vanderbot_abraham.png
+menubar_toc: true
+show_sidebar: false
+toc_title: Contents
+subtitle: Unleashing the Power of WebWISE: Your Guide to Digital Literacy
+description: Unleashing the Power of WebWISE: Your Guide to Digital Literacy
+date: 2023-3-25 21:15:00
+image: /img/photo_2022-11-01_09-04-53.jpg
+hero_image: /img/photo_2022-11-01_09-04-53.jpg
 hero_height: is-large
 hero_darken: true
 ---
 
-# Unleashing the Power of WebWISE: Your Guide to Digital Literacy
-
-## Introduction:
+Introduction:
 In today's interconnected world, digital literacy has become a vital skill for individuals of all ages. The ability to navigate the online landscape, critically evaluate information, and engage responsibly is essential. That's where Webwise comes in. Webwise is a comprehensive digital literacy program designed to equip individuals with the knowledge and skills needed to thrive in the digital age.
 
-## Exploring Webwise Modules:
+Exploring Webwise Modules:
 Webwise offers a series of modules that cover various aspects of digital literacy. Each module focuses on specific topics, providing in-depth knowledge and practical guidance. From understanding online privacy and security to promoting positive digital citizenship, Webwise covers it all. By engaging with these modules, participants can develop a solid foundation in digital literacy.
 
-## Benefits of Webwise:
+Benefits of Webwise:
 Webwise empowers individuals to navigate the digital landscape confidently. By gaining a deeper understanding of online risks and opportunities, participants can make informed decisions and protect themselves online. The program enhances critical thinking skills, enabling individuals to evaluate online information critically. Furthermore, Webwise promotes responsible online behavior and digital well-being, encouraging users to engage positively and ethically in the online world.
 
-## Conclusion:
+Conclusion:
 In a world where the digital realm plays a central role in our lives, digital literacy is not just a desirable skill but a necessity. Webwise offers an invaluable opportunity to enhance your digital literacy skills and empower yourself in the online world. By registering for Webwise Module 1, you'll embark on a journey of growth and discovery, gaining the knowledge and tools needed to navigate the digital landscape with confidence. Don't miss out on this transformative experience. Register for Webwise Module 1 today and unlock the power of digital literacy.
