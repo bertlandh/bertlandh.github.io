@@ -7,8 +7,8 @@ toc_title: Contents
 subtitle: In today's interconnected world, digital literacy has become a vital skill for individuals of all ages.
 description: In a world where the digital realm plays a central role in our lives, digital literacy is not just a desirable skill but a necessity.
 date: 2023-6-27 21:15:00
-image: /img/Slide6.jpg
-hero_image: /img/Slide1.jpg
+image: /img/Slide6.JPG
+hero_image: /img/Slide1.JPG
 hero_height: is-large
 hero_darken: true
 ---
