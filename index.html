@@ -1,0 +1,105 @@
+---
+layout: default
+title: Web Dev & Author
+subtitle: |
+    Making effective, modern, responsive websites<br>
+    and helping others do the same!
+permalink: /
+image: http://www.csrhymes.com/img/about-hero.jpg
+description: I'm a full time web developer and a part time author, making effective, modern websites. Check out my blog for tips and tutorials on PHP and Laravel.
+hero_image: /img/about-hero.jpg
+hero_height: is-fullheight
+---
+
+
+<div class="columns is-multiline is-mobile is-centered">
+
+    <div class="column is-2-desktop  is-4-tablet is-6-mobile">
+        <img src="/img/avatar.png" width="100%" alt="Who am I?"/>
+    </div>
+
+    <div class="column is-6-desktop is-6-tablet is-12-mobile content">
+        <h2 class="has-text-centered">Who am I?</h2>
+        <p>Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author, based in Brackley, Northamptonshire.</p>
+
+        <p>I have over ten years experience of web development, from backend php coding specialising in Laravel, to frontend HTML, CSS, Sass &amp; JavaScript, to server configuration and Linux commands.</p>
+
+        <p>Web development is great. I really enjoy being able to release my creativity and solve challenges. This creativity then led me into writing. I've written a couple of <a href="/books/" title="Check out my books">books</a> that are available on the Amazon Kindle store. Everyone needs a side project!</p>
+
+        <p>I write a <a href="/blog/" title="Check out my blog">blog</a> on this site as well as writing on <a href="https://dev.to/chrisrhymes"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="C.S. Rhymes's DEV Profile" height="30" width="30"></a> and <a href="https://medium.com/@chrisrhymes" title="Medium.com">Medium.com</a> with technology, web and other random topics, so make sure you check them out too.</p>
+    </div>
+</div>
+
+
+{% for post in site.posts limit:1 %}
+<section class="section">
+    <div class="columns is-multiline">
+        <div class="column is-12">
+            <div class="content">
+                <h2 class="has-text-centered">Latest Post</h2>
+            </div>
+        </div>
+        <div class="column is-12">
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="columns">
+                        <div class="column is-4">
+                            <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}" />
+                        </div>
+                        <div class="column is-8">
+                            <div class="has-text-centered">
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    <h3 class="title is-4">{{ post.title }}</h3>
+                                </a>
+                                <p class="subtitle is-6">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                                <div class="content">
+                                    <p>{{ post.excerpt }}</p>
+                                </div>
+                                <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">
+                                    Read more...
+                                </a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+<section class="section">
+    <div class="columns is-multiline is-centered">
+        <div class="column is-12">
+            <div class="content">
+                <h2 class="has-text-centered">Latest Story</h2>
+            </div>
+        </div>
+        <div class="column is-12">
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="columns">
+                        {% assign stories = site.stories | reverse %}
+                        {% for item in stories limit:1 %}
+                        <div class="column is-4">
+                            <img src="{{ item.hero_image | replace: 'http:', 'https:' }}" alt="{{ item.title }}" />
+                        </div>
+                        <div class="column is-8 has-text-centered">
+                            <p class="title is-4">{{ item.title }}</p>
+                            <p class="subtitle is-6">Published: {{ item.date | date: "%b %-d, %Y" }}</p>
+                            <div class="content has-text-centered">
+                                <p>{{ item.excerpt }}</p>
+                            </div>
+                            <div class="has-text-centered">
+                                <a href="{{ item.url }}" class="button is-info">Read Story</a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+
