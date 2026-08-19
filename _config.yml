@@ -6,7 +6,7 @@ tagline: Computer Life Support
 email: bertlandhope@gmail.com
 description: >
   Computer Support And Services in Kingston. Calls in JM office hours only please.
-baseurl: "/"
+baseurl: ""
 url: "https://bertlandh.github.io"
 permalink: pretty
 favicon: /favicon.png

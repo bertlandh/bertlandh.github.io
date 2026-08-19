@@ -3,9 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content={{ site.theme_color | default: '#ffffff' }}>
 	<meta name="google-site-verification" content="TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}">
     <link rel="shortcut icon" type="image/png"
-          {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
+          {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ '/favicon.png' | relative_url }}" {% endif %}
     />
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
