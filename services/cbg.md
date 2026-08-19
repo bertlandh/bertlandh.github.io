@@ -1,11 +1,12 @@
 ---
 title: Chicken Back Gravy and Such Delights Life Lessons From My Journey
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
+description: Chicken Back Gravy and Such Delights, a collection of life lessons by Donna P. Hope.
 subtitle: By Donna P. Hope
 product_code: CBG
 layout: product
 image: /img/cbg.png
+image_alt: Cover of Chicken Back Gravy and Such Delights by Donna P. Hope
 show_sidebar: false
 toc_title: Contents
 hero_height: is-medium
@@ -23,7 +24,7 @@ seo:
   author: Donna P. Hope
 ---
 
-# Chicken Back Gravy and Such Delights
+## Chicken Back Gravy and Such Delights
 
 Chicken Back Gravy and Such Delights is an attractive and highly inspiring, motivational book written from a Jamaican-Caribbean perspective by well-known academic and author, Professor Donna P. Hope. Speaking with the voice of a poor, black woman from Jamaica's rural working classes Chicken Back Gravy uses a series of autobiographical stories that span her multi-faceted life from early childhood to adulthood, to drive the eight (8) Life Lessons that are delivered with raw frankness, and seasoned with discussions that are at some points funny and at others full of pain. In looking back at the depths from which she has climbed, Professor Hope provides readers with hope, inspries them to be brave, and challenges them to frankly assess their individual life-situations and plot their way to success, with clarity and a keen focus. This first volume in Professor Hope's Chicken Back Gravy Series is a must-read for anyone who desires hard-hitting and easily accessible material that cuts directly to the core.
 

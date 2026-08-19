@@ -12,20 +12,20 @@ LearnTech Foundation builds on technology work undertaken since 2009, including 
 
 ------
 
-# What’s the biggest time sinkhole in your environment? 
+## What’s the biggest time sinkhole in your environment?
 
 Software installation.
 
-# Name two ways to eliminate it.
+## Name two ways to eliminate it.
 
 1. Push Packages
-2. [Computer Life Support](https://bertlandh.github.io/)
+2. [LearnTech Foundation services](/services/)
 
 
-# What’s the biggest bottleneck in your environment? 
+## What’s the biggest bottleneck in your environment?
 
 Software installation.
 
-# What can be done to optimize or eliminate it?
+## What can be done to optimize or eliminate it?
 
-[Computer Life Support](https://bertlandh.github.io/)
+[LearnTech Foundation services](/services/)
