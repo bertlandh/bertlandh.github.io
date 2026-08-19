@@ -104,6 +104,11 @@ a:focus-visible {
   padding: 0.75rem 0.8rem;
 }
 
+.site-nav__link,
+.site-nav__cta {
+  white-space: nowrap;
+}
+
 .site-nav__link:hover,
 .site-nav__link:focus-visible,
 .site-nav__link.is-active {
