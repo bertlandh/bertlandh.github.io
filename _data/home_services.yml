@@ -1,0 +1,24 @@
+- title: Website HealthCheck
+  icon: fa-search
+  description: Identify website risks, usability issues, and practical opportunities to improve reliability.
+  link: /services/HealthCheck/
+- title: Security Training
+  icon: fa-shield-alt
+  description: Build safer everyday habits through clear, practical internet-security training.
+  link: /services/Training/
+- title: IT Consultancy
+  icon: fa-laptop-code
+  description: Make informed technology decisions with experienced, business-focused guidance.
+  link: /services/Consultancy/
+- title: Facilitation
+  icon: fa-users
+  description: Keep technology conversations focused, inclusive, and moving toward useful outcomes.
+  link: /services/Facilitation/
+- title: Interim Management
+  icon: fa-project-diagram
+  description: Add steady, hands-on leadership when an IT function needs structure and continuity.
+  link: /services/InterimManagement/
+- title: Technical Guides
+  icon: fa-book-open
+  description: Explore practical notes and walkthroughs for Windows, deployment, security, and support.
+  link: /news/

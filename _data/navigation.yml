@@ -4,15 +4,15 @@
   link: /services/
   dropdown:
     - name: HealthCheck 
-      link: /services/HealthCheck
+      link: /services/HealthCheck/
     - name: Training
-      link: /services/Training
+      link: /services/Training/
     - name: Consultancy
-      link: /services/Consultancy
+      link: /services/Consultancy/
     - name: Facilitation
-      link: /services/Facilitation
+      link: /services/Facilitation/
     - name: Interim Management
-      link: /services/InterimManagement
+      link: /services/InterimManagement/
 - name: News
   link: /news/
 - name: Connect

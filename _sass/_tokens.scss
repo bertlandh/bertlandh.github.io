@@ -1,0 +1,41 @@
+// ResolveIT-inspired visual foundation, adapted for Bertland / LearnTech.
+$brand-primary: #981430;
+$brand-primary-dark: #731026;
+$brand-accent: #e3a72f;
+$surface-dark: #21191b;
+$surface-warm: #fff8f5;
+$surface-accent: #f8e9e8;
+$surface-white: #ffffff;
+$text-color: #201c1d;
+$text-muted: #655d60;
+$border-color: #eadcda;
+$heading-family: "Montserrat", sans-serif;
+$body-family: "Inter", sans-serif;
+$content-max: 1170px;
+$button-radius: 6px;
+$card-radius: 12px;
+
+:root {
+  --brand-primary: #{$brand-primary};
+  --brand-primary-dark: #{$brand-primary-dark};
+  --brand-accent: #{$brand-accent};
+  --surface-dark: #{$surface-dark};
+  --surface-warm: #{$surface-warm};
+  --surface-accent: #{$surface-accent};
+  --surface-white: #{$surface-white};
+  --text-color: #{$text-color};
+  --text-muted: #{$text-muted};
+  --border-color: #{$border-color};
+  --heading-family: #{$heading-family};
+  --body-family: #{$body-family};
+  --content-max: #{$content-max};
+  --button-radius: #{$button-radius};
+  --card-radius: #{$card-radius};
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+}
