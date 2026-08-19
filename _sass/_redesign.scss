@@ -60,11 +60,12 @@ a:focus-visible {
 }
 
 .site-brand {
-  align-items: center;
+  align-items: flex-start;
   color: var(--text-color);
   display: inline-flex;
   flex-direction: column;
   line-height: 1;
+  text-align: left;
 }
 
 .site-brand__name {
