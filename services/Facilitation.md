@@ -1,8 +1,8 @@
 ---
-title: Meeting Facilitation Service
+title: Technology Discovery and Implementation Workshops
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: By Bertland Hope
+description: Technology discovery and implementation workshops from LearnTech Foundation.
+subtitle: Structured sessions that help teams clarify needs, make decisions, and move technology plans into action.
 product_code: CMFS
 layout: service
 image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80
@@ -24,7 +24,7 @@ seo:
 
 This is an opportunity to have a knowledgeable contributor or leader for your meeting. Part consulting, part training. Can involve planning ahead of time to make the donation as promptly applicable as feasible. Additionally, this helps put the meeting's decisions and conclusions into action. The following is an illustration of a pre-scripted facilitation. 
 
-For customised engagements, [contact Bertland to discuss your requirements.](/connect/)
+For customised engagements, [contact LearnTech to discuss your requirements.](/connect/)
 
 
 ## Game-Changing Strategies

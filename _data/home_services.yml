@@ -1,20 +1,20 @@
-- title: Website HealthCheck
+- title: Website and Digital Systems Review
   icon: fa-search
   description: Identify website risks, usability issues, and practical opportunities to improve reliability.
   link: /services/HealthCheck/
-- title: Security Training
+- title: Cybersecurity and Digital Skills Training
   icon: fa-shield-alt
   description: Build safer everyday habits through clear, practical internet-security training.
   link: /services/Training/
-- title: IT Consultancy
+- title: Technology and Software Consultancy
   icon: fa-laptop-code
   description: Make informed technology decisions with experienced, business-focused guidance.
   link: /services/Consultancy/
-- title: Facilitation
+- title: Technology Discovery Workshops
   icon: fa-users
   description: Keep technology conversations focused, inclusive, and moving toward useful outcomes.
   link: /services/Facilitation/
-- title: Interim Management
+- title: Interim Technology Leadership
   icon: fa-project-diagram
   description: Add steady, hands-on leadership when an IT function needs structure and continuity.
   link: /services/InterimManagement/

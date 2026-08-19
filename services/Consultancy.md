@@ -1,8 +1,8 @@
 ---
-title: I.T. Support Consultancy Service
+title: Technology and Software Consultancy
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: By Bertland Hope
+description: Practical technology and software consultancy from LearnTech Foundation.
+subtitle: Independent guidance for software choices, technology strategy, service improvement, and practical implementation.
 product_code: CITSCS
 layout: service
 image: https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
@@ -26,7 +26,7 @@ The professional judgment to assist you in choosing wisely from all of the many 
 
 From a quick review over a few days, which might be followed by progress checks, to medium-term engagements that aid in defining and even putting into practice IT support strategy, and everything in between.
 
-[Contact Bertland to discuss your situation.](/connect/)
+[Contact LearnTech to discuss your situation.](/connect/)
 
 
 

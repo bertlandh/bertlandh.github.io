@@ -1,10 +1,10 @@
 ---
-title: About
-subtitle: Systems leadership, practical support, and technology education grounded in more than fifteen years of experience.
+title: About LearnTech Foundation
+subtitle: A software-development and technology organisation grounded in practical systems work, teaching, and more than fifteen years of experience.
 layout: page
 image: /img/favicon.png
 redesign_page: true
-eyebrow: About Bertland
+eyebrow: About LearnTech
 hero_image: https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 hero_alt: Technology workspace
 ---
@@ -16,8 +16,9 @@ hero_alt: Technology workspace
       <small>Photo supplied by DHA</small>
     </div>
     <div class="content-prose">
-      <p class="section-heading__eyebrow">Background</p>
-      <h2>Experience across systems, networks, and technology education</h2>
+      <p class="section-heading__eyebrow">Foundation and experience</p>
+      <h2>Software development informed by systems, networks, and technology education</h2>
+      <p>LearnTech Foundation builds practical software for operational problems and supports that work with technology review, consultancy, training, discovery, and leadership.</p>
       <p>My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Cisco certificate in network fundamentals, and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing an MSc in Computer Science at <a href="https://www.mona.uwi.edu/">UWI</a>.</p>
       <p>I work as a Manager Information Systems, Systems Administrator, and ICT Instructor. Over more than fifteen years, my responsibilities have included administering networks, troubleshooting systems, documenting work, and executing technology projects.</p>
     </div>
@@ -45,4 +46,4 @@ hero_alt: Technology workspace
   </div>
 </section>
 
-{% include cta-band.html title="Bring practical experience to your next technology challenge." %}
+{% include cta-band.html title="Bring practical experience to your next software or technology challenge." %}

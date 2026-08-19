@@ -18,7 +18,7 @@
   <body>
     {% include header.html %}
     {% assign redesign_interior = false %}
-    {% if page.redesign_page or page.layout == 'service' or page.layout == 'blog' or page.layout == 'post' %}
+    {% if page.redesign_page or page.layout == 'service' or page.layout == 'blog' or page.layout == 'post' or page.layout == 'software-product' %}
       {% assign redesign_interior = true %}
     {% endif %}
     {% if redesign_interior %}

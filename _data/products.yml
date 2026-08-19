@@ -1,0 +1,19 @@
+- key: custodia
+  name: Custodia Registry
+  tagline: Keep physical and digital records visible, organised, and accountable.
+  description: Register, locate, request, track, return, and review records through one connected records-management workspace.
+  url: /products/custodia-registry/
+  cta: Explore Custodia Registry
+  image: /img/products/custodia/dashboard.png
+  image_alt: Custodia Registry dashboard showing records, loans, requests, retention, and reporting
+  icon: fa-folder-open
+
+- key: check-in
+  name: Another Check-In App
+  tagline: Make attendance, location context, and operational review easier to see.
+  description: Support staff check-in and check-out, managed locations, punctuality reporting, itineraries, leave, and mobile workflows.
+  url: /products/another-check-in-app/
+  cta: Explore Another Check-In App
+  image: /img/products/check-in/check-in-home.png
+  image_alt: Another Check-In App staff check-in screen
+  icon: fa-map-marker-alt

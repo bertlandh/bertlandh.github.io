@@ -1,30 +1,20 @@
 <footer class="site-footer">
-    <div class="site-container">
-        <div class="site-footer__grid">
-            <div>
-                <h2 class="site-footer__brand">{{ site.title }}</h2>
-                <p>Practical computer support, technology guidance, and learning resources from Kingston, Jamaica.</p>
-                <div class="site-footer__social" aria-label="Social media links">
-                    <a href="https://www.linkedin.com/in/bertlandhope/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/bertland_hope/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UC0QAJaQqVmWxEopGIqGSTkQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                    <a href="https://github.com/bertlandh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-                </div>
-            </div>
-            <div>
-                <h3>Explore</h3>
-                <ul class="site-footer__links">
-                    {% for item in site.data[site.footer_menu] %}<li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>{% endfor %}
-                </ul>
-            </div>
-            <div>
-                <h3>Start a conversation</h3>
-                <p>Need practical help with technology, training, or an IT project?</p>
-                <a href="{{ '/connect/' | relative_url }}" class="site-button site-button--primary">Contact Bertland</a>
-            </div>
+  <div class="site-container">
+    <div class="site-footer__grid">
+      <div>
+        <h2 class="site-footer__brand">{{ site.title }}</h2>
+        <p>Practical software, technology services, and learning resources from Kingston, Jamaica.</p>
+        <div class="site-footer__social" aria-label="Social media links">
+          <a href="https://www.linkedin.com/in/bertlandhope/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/bertland_hope/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UC0QAJaQqVmWxEopGIqGSTkQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://github.com/bertlandh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
         </div>
-        <div class="site-footer__bottom">
-            <p>&copy; 2014<script>if(new Date().getFullYear()>2014){document.write("–"+new Date().getFullYear());}</script> Bertland Hope. Built with Jekyll and hosted on GitHub Pages.</p>
-        </div>
+      </div>
+      <div><h3>Products</h3><ul class="site-footer__links">{% for product in site.data.products %}<li><a href="{{ product.url | relative_url }}">{{ product.name }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Explore</h3><ul class="site-footer__links">{% for item in site.data[site.footer_menu] %}<li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Start a conversation</h3><p>Have a software or technology problem worth solving?</p><a href="{{ '/connect/' | relative_url }}" class="site-button site-button--primary">Contact LearnTech</a></div>
     </div>
+    <div class="site-footer__bottom"><p>&copy; 2014<script>if(new Date().getFullYear()>2014){document.write("–"+new Date().getFullYear());}</script> LearnTech Foundation. Built with Jekyll and hosted on GitHub Pages.</p></div>
+  </div>
 </footer>

@@ -1,20 +1,20 @@
-- title: Website HealthCheck
-  description: A focused review to identify technical, usability, and performance issues that may be holding a website back.
+- title: Website and Digital Systems Review
+  description: A focused review of usability, performance, reliability, and practical opportunities across a website or digital system.
   url: /services/HealthCheck/
   icon: fa-stethoscope
-- title: Internet Security Training
-  description: Interactive learning designed to make safer online practices understandable and useful in everyday work.
+- title: Cybersecurity and Digital Skills Training
+  description: Interactive learning that makes safer practices and useful digital skills understandable in everyday work.
   url: /services/Training/
   icon: fa-graduation-cap
-- title: I.T. Support Consultancy
-  description: Independent judgment and practical direction for technology choices, service improvement, and support strategy.
+- title: Technology and Software Consultancy
+  description: Independent judgment and practical direction for software, technology choices, service improvement, and implementation.
   url: /services/Consultancy/
   icon: fa-lightbulb
-- title: Meeting Facilitation
-  description: Structured technology-focused sessions that help teams reach decisions and translate them into action.
+- title: Technology Discovery and Implementation Workshops
+  description: Structured sessions that help teams understand needs, reach decisions, and translate technology plans into action.
   url: /services/Facilitation/
   icon: fa-users
-- title: Interim Support Management
-  description: Short-term leadership for support and operations teams that need stability, maturity, or a clear transition.
+- title: Interim Technology and Operations Leadership
+  description: Short-term leadership for technology and operations teams that need stability, clearer processes, or a transition path.
   url: /services/InterimManagement/
   icon: fa-compass

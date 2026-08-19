@@ -10,13 +10,16 @@
       {% elsif page.layout == 'post' %}
         <a href="{{ '/news/' | relative_url }}">News</a>
         <span aria-hidden="true">/</span>
+      {% elsif page.layout == 'software-product' %}
+        <a href="{{ '/products/' | relative_url }}">Products</a>
+        <span aria-hidden="true">/</span>
       {% endif %}
       <span aria-current="page">{{ page.title }}</span>
     </nav>
     <div class="interior-hero__grid">
       <div class="interior-hero__content">
         <p class="section-heading__eyebrow">
-          {% if page.layout == 'service' %}Professional service{% elsif page.layout == 'post' %}Insight{% else %}{{ page.eyebrow | default: page.title }}{% endif %}
+          {% if page.layout == 'service' %}Supporting service{% elsif page.layout == 'post' %}Insight{% elsif page.layout == 'software-product' %}LearnTech software{% else %}{{ page.eyebrow | default: page.title }}{% endif %}
         </p>
         <h1>{{ page.title }}</h1>
         {% if page.layout == 'post' %}

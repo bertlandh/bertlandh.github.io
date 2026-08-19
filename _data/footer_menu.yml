@@ -1,10 +1,12 @@
-- name: Home
-  link: /
-- name: About
-  link: /about/
+- name: Products
+  link: /products/
 - name: Services
   link: /services/
 - name: News
   link: /news/
+- name: Resources
+  link: /resources/
+- name: About
+  link: /about/
 - name: Contact
   link: /connect/

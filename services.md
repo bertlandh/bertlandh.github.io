@@ -1,7 +1,7 @@
 ---
 title: Services
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: Practical technology support, training, and leadership for organisations in Jamaica and online.
+description: Supporting technology services from LearnTech Foundation, including reviews, training, consultancy, workshops, and interim leadership.
+subtitle: Focused expertise to help organisations understand needs, make technology decisions, implement change, and strengthen operations.
 layout: page
 redesign_page: true
 eyebrow: Services
@@ -13,9 +13,9 @@ image: /img/favicon.png
 <section class="site-section">
   <div class="site-container">
     <div class="section-heading">
-      <p class="section-heading__eyebrow">Ways to work together</p>
-      <h2>Support shaped around the problem in front of you</h2>
-      <p>Bertland Hope’s professional services bring systems experience, clear communication, and practical execution to five areas of IT support.</p>
+      <p class="section-heading__eyebrow">Supporting capabilities</p>
+      <h2>Expertise shaped around the problem in front of you</h2>
+      <p>LearnTech’s services bring software, systems, teaching, and operational experience to the work around technology implementation.</p>
     </div>
     <div class="site-grid site-grid--3">
       {% for service in site.data.services %}

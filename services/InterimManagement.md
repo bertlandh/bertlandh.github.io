@@ -1,8 +1,8 @@
 ---
-title: Bertland Hope as Interim Support Manager
+title: Interim Technology and Operations Leadership
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: By Bertland Hope
+description: Interim technology and operations leadership from LearnTech Foundation.
+subtitle: Experienced short-term leadership for technology teams, service operations, transitions, and improvement programmes.
 product_code: MBHISM
 layout: service
 image: https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80
@@ -17,7 +17,7 @@ features:
       icon: fa-spinner
 rating: 5
 seo:
-  name: Bertland Hope as Interim Support Manager
+  name: Interim Technology and Operations Leadership
   type: interim support manager
   author: Bertland Hope
 ---
@@ -28,5 +28,5 @@ Challenges have included creating a process-oriented department; restoring servi
 
 Expertise like this can make a big difference quickly because the focus is on the immediate problem, not on the distractions commonly face by employees, such as building a career. 
 
-[Contact Bertland to discuss your needs.](/connect/)
+[Contact LearnTech to discuss your needs.](/connect/)
 
