@@ -41,7 +41,7 @@ hero_alt: Technology workspace
     <p class="section-heading__eyebrow">Professional contributions</p>
     <h2>Technology in service of organisations and communities</h2>
     <p>My experience includes work with <a href="https://www.agroinvest.gov.jm/">Agro-Investment Corporation</a>, the Ministry of Agriculture and Fisheries, and the Government of Jamaica.</p>
-    <p>I am also Co-Director at the <a href="http://www.dancehallarchive.org/">Dancehall Archive and Research Initiative</a>. Working with the DHA team, I have been responsible for the design and implementation of the initiative’s website and associated networks in support of preserving and sharing knowledge about dancehall culture.</p>
+    <p>I am also Co-Director at the <a href="https://www.dancehallarchive.org/">Dancehall Archive and Research Initiative</a>. Working with the DHA team, I have been responsible for the design and implementation of the initiative’s website and associated networks in support of preserving and sharing knowledge about dancehall culture.</p>
     <p>I contribute to the YouTube community through <a href="https://www.youtube.com/channel/UCaHRQTSDaH5Wf93u6EWpeew">MrCsecIT</a> and participate on <a href="https://www.reddit.com/user/bertlandh">Reddit</a>.</p>
   </div>
 </section>
