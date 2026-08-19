@@ -532,6 +532,7 @@ a:focus-visible {
 .product-card__media img { aspect-ratio: 16 / 9; display: block; object-fit: cover; object-position: top; transition: transform 220ms ease; width: 100%; }
 .product-card:hover .product-card__media img { transform: scale(1.015); }
 .product-card__content { display: flex; flex: 1; flex-direction: column; padding: var(--space-xl); }
+.product-card__content .product-mark { margin-bottom: var(--space-lg); }
 .product-card h3 { font-size: clamp(1.45rem, 3vw, 2rem); margin-bottom: var(--space-sm); }
 .product-card h3 a { color: var(--text-color); }
 .product-card__tagline { color: var(--text-color) !important; font-weight: 700; }
@@ -555,6 +556,79 @@ a:focus-visible {
 .product-showcase figure { margin: 0; }
 .product-showcase img { border: 1px solid var(--border-color); border-radius: var(--card-radius); display: block; width: 100%; }
 .product-showcase figcaption { color: var(--text-muted); font-size: .82rem; margin-top: var(--space-sm); }
+
+.product-mark {
+  --product-accent: var(--brand-primary);
+  --product-accent-soft: rgba(152, 20, 48, 0.1);
+  align-items: center;
+  color: var(--text-color);
+  display: inline-flex;
+  gap: var(--space-sm);
+}
+
+.product-mark--teal {
+  --product-accent: #167b80;
+  --product-accent-soft: rgba(22, 123, 128, 0.12);
+}
+
+.product-mark--gold {
+  --product-accent: #a86118;
+  --product-accent-soft: rgba(168, 97, 24, 0.12);
+}
+
+.product-mark__glyph {
+  align-items: center;
+  background: var(--product-accent);
+  border-radius: 0.7rem;
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-family: var(--heading-family);
+  font-size: 1rem;
+  font-weight: 800;
+  height: 2.75rem;
+  justify-content: center;
+  letter-spacing: -0.03em;
+  width: 2.75rem;
+}
+
+.product-mark__label {
+  color: var(--product-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.product-mark--hero {
+  align-items: center;
+  aspect-ratio: 4 / 3;
+  background:
+    radial-gradient(circle at 78% 22%, var(--product-accent-soft) 0 12%, transparent 12.5%),
+    linear-gradient(145deg, #fff 0 58%, var(--product-accent-soft) 58% 100%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.product-mark--hero .product-mark__glyph {
+  border-radius: 1.4rem;
+  box-shadow: 0 1rem 2.5rem var(--product-accent-soft);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  height: clamp(6rem, 13vw, 9rem);
+  width: clamp(6rem, 13vw, 9rem);
+}
+
+.product-mark--hero .product-mark__label {
+  font-size: clamp(0.72rem, 1.5vw, 0.9rem);
+  margin-top: var(--space-md);
+  text-align: center;
+}
 
 .related-product { align-items: center; background: var(--surface-accent); border-radius: var(--card-radius); display: flex; gap: var(--space-lg); margin-block: var(--space-xl); padding: var(--space-xl); }
 .related-product .site-card__icon { flex: 0 0 3rem; margin: 0; }

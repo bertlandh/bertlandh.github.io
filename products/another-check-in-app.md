@@ -3,9 +3,8 @@ title: Another Check-In App
 description: Attendance and punctuality software with check-in, managed locations, reporting, itineraries, leave, and mobile workflows.
 subtitle: Bring staff attendance, punctuality, location context, itineraries, leave, and reporting into a clearer operational view.
 layout: software-product
-hero_image: /img/products/check-in/check-in-home.png
-hero_alt: Another Check-In App staff check-in screen
-image: /img/products/check-in/check-in-home.png
+product_key: check-in
+image: /img/products/check-in/check-in-overview.png
 ---
 
 <section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The attendance challenge</p><h2>A check-in is more useful when its context can be reviewed</h2><p>Attendance administration involves more than recording a time. Teams may need to understand punctuality, managed locations, supporting location evidence, approved itineraries, leave, exceptions, and monthly reporting.</p><p>Another Check-In App connects these workflows so staff can record activity and authorised reviewers can understand what happened.</p></div><aside class="product-value"><strong>Operational visibility</strong><span>Connect check-in activity with time, place, device, itinerary, leave, and reporting context.</span></aside></div></section>

@@ -5,8 +5,6 @@ subtitle: Software designed around operational problems that organisations need 
 layout: page
 redesign_page: true
 eyebrow: LearnTech products
-hero_image: /img/products/custodia/dashboard.png
-hero_alt: Custodia Registry software dashboard
 ---
 
 <section class="site-section">

@@ -1,5 +1,9 @@
 {% assign hero_image = page.hero_image | default: page.image %}
-<section class="interior-hero{% unless hero_image %} interior-hero--text-only{% endunless %}">
+{% assign hero_product = nil %}
+{% if page.product_key %}
+  {% assign hero_product = site.data.products | where: "key", page.product_key | first %}
+{% endif %}
+<section class="interior-hero{% unless hero_image or hero_product %} interior-hero--text-only{% endunless %}">
   <div class="site-container">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="{{ '/' | relative_url }}">Home</a>
@@ -31,7 +35,11 @@
           <p class="interior-hero__lead">{{ page.subtitle }}</p>
         {% endif %}
       </div>
-      {% if hero_image %}
+      {% if hero_product %}
+        <div class="interior-hero__media interior-hero__media--product-mark">
+          {% include product-mark.html product=hero_product modifier="hero" %}
+        </div>
+      {% elsif hero_image %}
         <div class="interior-hero__media">
           <img src="{{ hero_image | relative_url | escape }}" alt="{{ page.hero_alt | default: page.title | escape }}">
         </div>
