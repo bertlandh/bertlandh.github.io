@@ -14,10 +14,10 @@ Uses [WizTree](https://wiztreefree.com) to retrieve a list of the largest files 
 
 Please consider purchasing an [Enterprise License](https://wiztreefree.com/donate#enterprise) for WizTree.
 
-# Requirements
+## Requirements
 WizTree must be installed on the target.
 
-# Parameters
+## Parameters
 ## Entries
 The number of entries you would like the list to contain.
 

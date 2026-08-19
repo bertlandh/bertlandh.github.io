@@ -696,6 +696,18 @@ a:focus-visible {
   padding-block: var(--space-2xl);
 }
 
+.standard-page-content .column.is-12 > .content {
+  font-size: 1.06rem;
+  margin-inline: auto;
+  max-width: 58rem;
+  overflow-wrap: anywhere;
+}
+
+.standard-page-content .column.is-12 > .content img {
+  height: auto;
+  max-width: 100%;
+}
+
 .breadcrumbs {
   align-items: center;
   display: flex;

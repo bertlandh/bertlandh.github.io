@@ -4,3 +4,9 @@
 /.sass-cache/
 /vendor/
 *.gem
+/audit-output/
+/playwright-report/
+/screenshots/
+/test-results/
+/test-screenshots/
+/*.log

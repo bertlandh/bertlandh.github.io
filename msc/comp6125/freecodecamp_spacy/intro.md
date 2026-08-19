@@ -1,4 +1,12 @@
-# <p align="center">INTRODUCTION TO SPACY 3</p>
+---
+title: Introduction to spaCy 3 course
+description: Course introduction, attribution, and supporting organisations for the retained spaCy 3 learning material.
+subtitle: Course introduction and attribution.
+layout: page
+show_sidebar: false
+---
+
+## <span class="has-text-centered is-block">Introduction to spaCy 3</span>
 ## <p align="center">A Free Course for Beginners</p>
 <p align="center">by</p>
 

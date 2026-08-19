@@ -6,7 +6,7 @@ layout: default
 
     <div class="column is-6">
         <figure class="image is-4by3">
-            <img src="{{ page.image }}" />
+            <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" />
         </figure>
     </div>
 

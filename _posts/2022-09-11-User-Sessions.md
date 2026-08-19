@@ -11,14 +11,14 @@ hero_darken: true
 
 Calculates how long users were logged in based on audit events.
 
-# Requirements
+## Requirements
 
 * Enable "Audit logon events" in Group Policy.
   * Windows Settings\Security Settings\Local Policies\Audit Policy
 * Configure your retention policy to keep the amount of history you want.
   * Administrative Templates\Windows Components\Event Log Service\Security
 
-# Parameters
+## Parameters
 
 ## Lowercase
 

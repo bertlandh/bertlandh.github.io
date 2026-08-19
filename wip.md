@@ -10,7 +10,7 @@ toc_title: Projects
 <img src="/img/ac_bird.jpg" alt="Audubon Core parrot" width="400"><br/>
 <small>Image by <a href="https://unsplash.com/photos/gGC63oug3iY">Mikhail Vasilyev</a></small>
 
-# System and Network Administration
+## System and Network Administration
 
 LearnTech Foundation builds on technology work undertaken since 2009, including tools and educational resources that help people use automated deployments and remote installations more effectively.
 
@@ -28,7 +28,7 @@ A ticket system may improve our ability to track WIP based on the following; Req
 
 ### Sample Emergency Definitions
 
-Here are some definitions of “emergency” [Computer Life Support](https://bertlandh.github.io/) uses:
+Here are some definitions of “emergency” LearnTech Foundation uses:
 
 • A server or service being down
 
@@ -38,7 +38,7 @@ Here are some definitions of “emergency” [Computer Life Support](https://ber
 
 • Customer proprietary data actively being leaked
 
-• (At [Computer Life Support](https://bertlandh.github.io/)) anything that will directly prevent the Data from being accessed and edited by LTF Staff between 8:30 AM - 5:00PM
+• At LearnTech Foundation, anything that will directly prevent data from being accessed and edited by staff between 8:30 AM and 5:00 PM
 
 
 ## In your organization, how do you ensure that SAs follow through on requests?
@@ -52,4 +52,4 @@ Here are some definitions of “emergency” [Computer Life Support](https://ber
 
 ## In your organization, if a piece of WIP has been ignored or progress has stalled, will this be noticed? If not, how could you fix this?
 
-Yes, get supervisor to purchase [Computer Life Support](https://bertlandh.github.io/).
+Yes, escalate the stalled request to the responsible supervisor and agree on the next accountable action.
