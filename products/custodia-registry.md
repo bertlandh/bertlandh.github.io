@@ -3,9 +3,8 @@ title: Custodia Registry
 description: Records management software connecting physical custody, digital files, structured locations, and accountable workflows.
 subtitle: Keep physical and digital records visible, organised, and accountable—from registration and request through return, reshelving, and review.
 layout: software-product
-hero_image: /img/products/custodia/dashboard.png
-hero_alt: Custodia Registry dashboard showing records, loans, requests, retention, and reporting
-image: /img/products/custodia/dashboard.png
+product_key: custodia
+image: /img/products/custodia/dashboard-overview.png
 ---
 
 <section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The records challenge</p><h2>When records move, teams need to know where they are</h2><p>Physical files can pass between shelves, offices, and authorised holders while digitised versions introduce their own access and version questions. Without a connected view, finding a record and reconstructing its history becomes harder than it should be.</p><p>Custodia Registry brings registration, location, physical custody, digitised files, access, and review into one operational workspace.</p></div><aside class="product-value"><strong>One connected record history</strong><span>See structured record details, location, holder, movement, files, requests, and activity in context.</span></aside></div></section>
@@ -21,6 +20,6 @@ image: /img/products/custodia/dashboard.png
 
 <section class="site-section"><div class="site-container"><div class="section-heading section-heading--center"><p class="section-heading__eyebrow">A connected workflow</p><h2>From arrival to accountable history</h2></div><ol class="workflow"><li>Register</li><li>Organise</li><li>Request or access</li><li>Track custody</li><li>Return and reshelve</li><li>Audit and report</li></ol></div></section>
 
-<section class="site-section site-section--accent"><div class="site-container product-showcase"><div><p class="section-heading__eyebrow">A working overview</p><h2>See the state of the registry at a glance</h2><p>The dashboard brings record volumes, physical-loan activity, requests, retention attention, location information, and reporting entry points together.</p></div><figure><img src="{{ '/img/products/custodia/dashboard.png' | relative_url }}" alt="Custodia Registry dashboard overview" loading="lazy"><figcaption>Representative Custodia Registry dashboard using presentation data.</figcaption></figure></div></section>
+<section class="site-section site-section--accent"><div class="site-container product-showcase"><div><p class="section-heading__eyebrow">A working overview</p><h2>See the state of the registry at a glance</h2><p>The dashboard brings record volumes, physical-loan activity, requests, retention attention, location information, and reporting entry points together.</p></div><figure><img src="{{ '/img/products/custodia/dashboard-overview.png' | relative_url }}" alt="Custodia Registry dashboard overview" loading="lazy"><figcaption>Representative Custodia Registry dashboard using privacy-reviewed presentation data.</figcaption></figure></div></section>
 
 <section class="site-section"><div class="site-container"><div class="section-heading"><p class="section-heading__eyebrow">Who it can help</p><h2>For organisations responsible for substantial physical and digitised records</h2><p>Custodia is designed for records and registry teams that need clearer visibility over storage, movement, custody, digitisation, access, retention, and operational accountability.</p></div></div></section>

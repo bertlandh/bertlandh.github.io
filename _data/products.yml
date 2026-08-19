@@ -4,8 +4,10 @@
   description: Register, locate, request, track, return, and review records through one connected records-management workspace.
   url: /products/custodia-registry/
   cta: Explore Custodia Registry
-  image: /img/products/custodia/dashboard.png
+  image: /img/products/custodia/dashboard-overview.png
   image_alt: Custodia Registry dashboard showing records, loans, requests, retention, and reporting
+  short_name: CR
+  accent_class: teal
   icon: fa-folder-open
 
 - key: check-in
@@ -14,6 +16,8 @@
   description: Support staff check-in and check-out, managed locations, punctuality reporting, itineraries, leave, and mobile workflows.
   url: /products/another-check-in-app/
   cta: Explore Another Check-In App
-  image: /img/products/check-in/check-in-home.png
+  image: /img/products/check-in/check-in-overview.png
   image_alt: Another Check-In App staff check-in screen
+  short_name: CI
+  accent_class: gold
   icon: fa-map-marker-alt

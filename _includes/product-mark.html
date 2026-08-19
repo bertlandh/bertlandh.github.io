@@ -1,0 +1,4 @@
+<span class="product-mark product-mark--{{ include.product.accent_class | default: 'primary' }}{% if include.modifier %} product-mark--{{ include.modifier }}{% endif %}" aria-hidden="true">
+  <span class="product-mark__glyph">{{ include.product.short_name | default: include.product.name | truncate: 2, '' }}</span>
+  <span class="product-mark__label">{{ include.product.name }}</span>
+</span>
