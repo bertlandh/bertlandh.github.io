@@ -17,11 +17,17 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    {% unless page.hide_hero %}
-        {% include hero.html %}
-    {% endunless %}
+    {% assign redesign_interior = false %}
+    {% if page.redesign_page or page.layout == 'service' or page.layout == 'blog' or page.layout == 'post' %}
+      {% assign redesign_interior = true %}
+    {% endif %}
+    {% if redesign_interior %}
+      {% include interior-hero.html %}
+    {% elsif page.hide_hero != true %}
+      {% include hero.html %}
+    {% endif %}
     {% include callouts.html %}
-    {% if page.homepage %}
+    {% if page.homepage or redesign_interior %}
     <main id="main-content">
         {{ content }}
     </main>

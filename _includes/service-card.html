@@ -1,0 +1,6 @@
+<article class="site-card service-card">
+  <span class="site-card__icon" aria-hidden="true"><i class="fas {{ service.icon }}"></i></span>
+  <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
+  <p>{{ service.description }}</p>
+  <a class="site-card__link" href="{{ service.url | relative_url }}">Explore this service <span aria-hidden="true">→</span></a>
+</article>

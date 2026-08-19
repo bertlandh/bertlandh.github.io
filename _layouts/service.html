@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="site-section">
+  <div class="site-container service-detail">
+    <aside class="service-facts" aria-label="Service details">
+      {% if page.price %}
+        <div class="service-fact"><span>Starting from</span><strong>{{ page.price | remove: 'From ' }}</strong></div>
+      {% endif %}
+      {% for feature in page.features %}
+        <div class="service-fact">
+          <i class="fas {{ feature.icon }}" aria-hidden="true"></i>
+          <span>{{ feature.label }}</span>
+        </div>
+      {% endfor %}
+      <a class="site-button site-button--primary" href="{{ '/connect/' | relative_url }}">Discuss this service</a>
+    </aside>
+    <article class="content-prose service-content">
+      {{ content }}
+    </article>
+  </div>
+</section>
+
+{% include cta-band.html title="Let’s find the right next step for your organisation." label="Contact Bertland" %}

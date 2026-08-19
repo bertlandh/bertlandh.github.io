@@ -2,28 +2,27 @@
 layout: default
 ---
 
-{% include carbon.html %}
-
-<div class="content">
-
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
+<section class="site-section">
+  <div class="site-container article-shell">
+    <article class="content content-prose article-body">
     {% if page.series %}
         {% include series.html %}
     {% endif %}
-    
-    {{ content }}
-</div>
+    {% assign article_content = content | replace_first: '<h1', '<h2' | replace_first: '</h1>', '</h2>' %}
+    {{ article_content }}
+    </article>
 
-<div class="tags">
-    {% for tag in page.tags %}
-    <span class="tag is-primary">{{ tag }}</span>
-    {% endfor %}
-</div>
+    {% if page.tags %}
+      <ul class="article-tags article-tags--post" aria-label="Article topics">
+        {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+    {% endif %}
 
-{% include share-buttons.html %}
+    {% include share-buttons.html %}
+    <a class="article-back" href="{{ '/news/' | relative_url }}"><span aria-hidden="true">←</span> Back to news</a>
 
 {% if site.disqus.shortname %}
   {% include disqus.html %}
 {% endif %}
-                            
+  </div>
+</section>

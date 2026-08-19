@@ -1,26 +1,28 @@
 ---
 title: Services
-menubar_toc: false
 description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: Computer Support And Services in Kingston. Calls in JM office hours only please.
+subtitle: Practical technology support, training, and leadership for organisations in Jamaica and online.
 layout: page
-show_sidebar: true
-toc_title: Contents
+redesign_page: true
+eyebrow: Services
 hero_image: /img/445-1200x800.jpg
+hero_alt: Technology professional working with digital systems
 image: /img/favicon.png
-hero_darken: true
 ---
 
-# Services
+<section class="site-section">
+  <div class="site-container">
+    <div class="section-heading">
+      <p class="section-heading__eyebrow">Ways to work together</p>
+      <h2>Support shaped around the problem in front of you</h2>
+      <p>Bertland Hope’s professional services bring systems experience, clear communication, and practical execution to five areas of IT support.</p>
+    </div>
+    <div class="site-grid site-grid--3">
+      {% for service in site.data.services %}
+        {% include service-card.html service=service %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-Bertland Hope's professional services to IT systems support take five forms;
-
-click the links below for details.
-	
-1. <a href="/services/HealthCheck" target="_blank">Website HealthCheck</a>
-2. <a href="/services/Training" target="_blank">Training</a>
-3. <a href="/services/Consultancy" target="_blank">Consultancy</a>
-4. <a href="/services/Facilitation" target="_blank">Facilitation</a>
-5. <a href="/services/InterimManagement" target="_blank">Interim Management</a>
-
-
+{% include cta-band.html title="Not sure which service fits?" text="Describe the situation and start with a direct conversation." %}

@@ -1,0 +1,10 @@
+<section class="site-section site-section--dark">
+  <div class="site-container cta-band">
+    <div>
+      <p class="section-heading__eyebrow">{{ include.eyebrow | default: "Start a conversation" }}</p>
+      <h2>{{ include.title | default: "Need practical support for your next technology challenge?" }}</h2>
+      {% if include.text %}<p>{{ include.text }}</p>{% endif %}
+    </div>
+    <a class="site-button site-button--primary" href="{{ include.url | default: '/connect/' | relative_url }}">{{ include.label | default: "Connect with Bertland" }}</a>
+  </div>
+</section>
