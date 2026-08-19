@@ -1,16 +1,14 @@
 ---
-title: Website HealthCheck
+title: Website and Digital Systems Review
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: By Bertland Hope
+description: A practical review of website and digital-system usability, reliability, performance, and technical priorities.
+subtitle: Identify usability, reliability, performance, and technical issues—then turn the findings into practical priorities.
 product_code: HC
-layout: product
+layout: service
 image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
-show_sidebar: false
 toc_title: Contents
 hero_image: /img/970-1200x800.jpg
-hero_height: is-medium
-hero_darken: true
+hero_alt: Website analytics and code on a screen
 price: 
 features:
     - label: Released 7th September 2016 
@@ -24,18 +22,11 @@ seo:
   author: Bertland Hope
 ---
 
-# Website HealthCheck
+LearnTech reviews websites and digital systems to identify issues that affect usability, reliability, performance, maintainability, and the experience of the people who depend on them.
 
-Tapping into more than fifteen years of experience to deliver clients websites that are effective! Profit from the cheapest rates ever to get a successful website that will help your company rise.
+The result is a clearer view of what is working, what needs attention, and which improvements deserve priority. A review can support an existing site, an internal digital service, or planning for a wider redesign or replacement.
 
-Jamaican companies of all sizes have wisely decided to invest in professionally built websites. It is no longer debatable whether a website is necessary for your Jamaican business. Selecting the ideal web development partner is your top priority if you want to increase your online sales and visibility.
-
-Reliable web development services are offered to businesses all over the world by Bertland Hope. Profit from our lowest web design pricing ever to provide your company a competitive edge and a 100-fold increase in market share.
-
-<div class="buttons is-centered">
-Make sure your Website is firing on all cylinders. 
-<a href="/connect/" class="button is-info" target="_blank">Have an expert examine it.</a>
-</div>
+Start with the current system and the outcomes you need. [Discuss a review with LearnTech.](/connect/)
 
 > **Did You Know?**
 > 
@@ -45,7 +36,7 @@ Make sure your Website is firing on all cylinders.
 > In other words, your clients could be a quarter as profitable as the next business webiste – or four times as much, and probably closing more sales, because success motivates. Where does your website stand?
 
 
-## About Bertland Hope
+## Experience behind the review
 
 * Manager Information Systems, Systems Administrator, ICT Instructor
 

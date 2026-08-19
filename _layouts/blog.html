@@ -2,21 +2,22 @@
 layout: default
 ---
 
-{{ content }}
-
-<div class="columns is-multiline">
-    <div class="column is-12">
-        {% include pagination.html %}
+<section class="site-section">
+  <div class="site-container">
+    <div class="section-heading">
+      <p class="section-heading__eyebrow">Practical notes</p>
+      <h2>Technology insights and field notes</h2>
+      <p>Articles on systems administration, digital tools, security, and the ideas shaping everyday technology work.</p>
     </div>
+    {{ content }}
+    {% include pagination.html %}
+    <div class="article-grid">
     {% for post in paginator.posts %}
-    <div class="column is-12">
-        {% include post-card.html %}
-    </div>
+      {% include post-card.html %}
     {% endfor %}
-    <div class="column is-12">
-        {% include pagination.html %}
     </div>
-    <div class="column is-12">
-        {% include subscribe.html %}
-    </div>
-</div>
+    {% include pagination.html %}
+  </div>
+</section>
+
+{% include cta-band.html title="Have a technology question worth exploring?" text="Connect directly—there is no automated form or third-party handoff." %}

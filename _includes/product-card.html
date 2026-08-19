@@ -1,0 +1,10 @@
+<article class="product-card">
+  {% if product.image %}<a class="product-card__media" href="{{ product.url | relative_url }}"><img src="{{ product.image | relative_url }}" alt="{{ product.image_alt | escape }}" loading="lazy"></a>{% endif %}
+  <div class="product-card__content">
+    <span class="site-card__icon" aria-hidden="true"><i class="fas {{ product.icon }}"></i></span>
+    <h3><a href="{{ product.url | relative_url }}">{{ product.name }}</a></h3>
+    <p class="product-card__tagline">{{ product.tagline }}</p>
+    <p>{{ product.description }}</p>
+    <a class="site-card__link" href="{{ product.url | relative_url }}">{{ product.cta }} <span aria-hidden="true">→</span></a>
+  </div>
+</article>

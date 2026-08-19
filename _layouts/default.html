@@ -17,10 +17,22 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    {% unless page.hide_hero %}
-        {% include hero.html %}
-    {% endunless %}
+    {% assign redesign_interior = false %}
+    {% if page.redesign_page or page.layout == 'service' or page.layout == 'blog' or page.layout == 'post' or page.layout == 'software-product' %}
+      {% assign redesign_interior = true %}
+    {% endif %}
+    {% if redesign_interior %}
+      {% include interior-hero.html %}
+    {% elsif page.hide_hero != true %}
+      {% include hero.html %}
+    {% endif %}
     {% include callouts.html %}
+    {% if page.homepage or redesign_interior %}
+    <main id="main-content">
+        {{ content }}
+    </main>
+    {% else %}
+    <main id="main-content" class="standard-page-content">
     <section class="section">
         <div class="container">
             <div class="columns is-multiline">
@@ -49,14 +61,11 @@
             </div>
         </div>
     </section>
+    </main>
+    {% endif %}
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}
-    
-    <div class="column is-4-desktop is-4-tablet">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=m&d=iPa5h3hJXuIy6xr5wGUzGPGqiif4AJ73_0NtcB5m2-c&co=fafafa&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
-    </div>
-
     {%- include footer-scripts.html -%}
   </body>
 </html>

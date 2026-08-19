@@ -1,19 +1,10 @@
-<p><strong>Share</strong></p>
-<div class="buttons {% if include.centered %} is-centered {% endif %}">
-    <a class="button is-medium is-facebook"
-       onclick="window.open('https://www.facebook.com/share.php?u={{ site.url }}{{ page.url | prepend: site.baseurl }}');">
-        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
-    </a>
-    <a class="button is-medium is-twitter"
-       onclick="window.open('https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | prepend: site.baseurl }}');">
-        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
-    </a>
-    <a class="button is-medium is-linkedin"
-       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&title={{ page.title | url_encode }}&summary=&source=');">
-        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
-    </a>
-    <a class="button is-medium is-reddit"
-       onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url | prepend: site.baseurl }}');">
-        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
-    </a>
+{% capture share_url %}{{ site.url }}{{ page.url | relative_url }}{% endcapture %}
+<div class="article-share" aria-labelledby="share-title">
+  <p id="share-title"><strong>Share this article</strong></p>
+  <div class="article-share__links">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?url={{ share_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Share on X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+    <a href="https://reddit.com/submit?url={{ share_url | url_encode }}&amp;title={{ page.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Share on Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i></a>
+  </div>
 </div>

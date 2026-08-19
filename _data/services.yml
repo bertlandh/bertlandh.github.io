@@ -1,0 +1,20 @@
+- title: Website and Digital Systems Review
+  description: A focused review of usability, performance, reliability, and practical opportunities across a website or digital system.
+  url: /services/HealthCheck/
+  icon: fa-stethoscope
+- title: Cybersecurity and Digital Skills Training
+  description: Interactive learning that makes safer practices and useful digital skills understandable in everyday work.
+  url: /services/Training/
+  icon: fa-graduation-cap
+- title: Technology and Software Consultancy
+  description: Independent judgment and practical direction for software, technology choices, service improvement, and implementation.
+  url: /services/Consultancy/
+  icon: fa-lightbulb
+- title: Technology Discovery and Implementation Workshops
+  description: Structured sessions that help teams understand needs, reach decisions, and translate technology plans into action.
+  url: /services/Facilitation/
+  icon: fa-users
+- title: Interim Technology and Operations Leadership
+  description: Short-term leadership for technology and operations teams that need stability, clearer processes, or a transition path.
+  url: /services/InterimManagement/
+  icon: fa-compass

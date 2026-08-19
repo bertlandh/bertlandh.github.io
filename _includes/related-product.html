@@ -1,0 +1,12 @@
+{% assign related_product = site.data.products | where: "key", page.related_product | first %}
+{% if related_product %}
+<aside class="related-product" aria-labelledby="related-product-title">
+  <span class="site-card__icon" aria-hidden="true"><i class="fas {{ related_product.icon }}"></i></span>
+  <div>
+    <p class="section-heading__eyebrow">Related LearnTech product</p>
+    <h2 id="related-product-title">{{ related_product.name }}</h2>
+    <p>{{ related_product.tagline }}</p>
+    <a class="site-card__link" href="{{ related_product.url | relative_url }}">{{ related_product.cta }} <span aria-hidden="true">→</span></a>
+  </div>
+</aside>
+{% endif %}

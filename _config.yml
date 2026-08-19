@@ -1,13 +1,13 @@
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 lang: en
-title: Bertland Hope
-tagline: Computer Life Support
+title: LearnTech Foundation
+tagline: Practical software. Useful technology.
 email: bertlandhope@gmail.com
 description: >
-  Computer Support And Services in Kingston. Calls in JM office hours only please.
-baseurl: "/"
-url: "https://bertlandh.github.io"
+  LearnTech Foundation builds practical software and provides technology services from Kingston, Jamaica.
+baseurl: ""
+url: "https://learntechfoundation.org"
 permalink: pretty
 favicon: /favicon.png
 #gh_sponsor: chrisrhymes

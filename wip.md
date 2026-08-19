@@ -12,7 +12,7 @@ toc_title: Projects
 
 # System and Network Administration
 
-I've been helping companies with [Computer Life Support](https://bertlandh.github.io/) since 2009 by developing tools and educational resources to help others use automated deployments and remote installations more effectively.
+LearnTech Foundation builds on technology work undertaken since 2009, including tools and educational resources that help people use automated deployments and remote installations more effectively.
 
 -----
 

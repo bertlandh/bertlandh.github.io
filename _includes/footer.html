@@ -1,90 +1,20 @@
-<section class="hero is-light">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-6">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="columns">
-                                <div class="column is-6">
-                                    <figure class="image is-4by3">
-                                        <img src="/img/cbg.png" alt="Chicken Back Gravy and Such Delights: Life Lessons From My Journey" />
-                                    </figure>
-                                </div>
-                                <div class="column is-6">
-                                    <p class="title is-4">Chicken Back Gravy and Such Delights: Life Lessons From My Journey</p>
-                                    <p class="subtitle">By Donna P. Hope</p>
-                                    <p class="subtitle">From $6.74</p>
-                                    <div class="has-text-centered">
-                                        <a href="{{ site.baseurl }}/services/cbg" class="button is-primary">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-6">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="columns">
-                                <div class="column is-6">
-                                    <figure class="image is-4by3">
-                                        <img src="/img/innadidancehall.png" alt="Inna Di Dancehall: Popular Culture And the Politics of Identity in Jamaica" />
-                                    </figure>
-                                </div>
-                                <div class="column is-6">
-                                    <p class="title is-4">Inna Di Dancehall: Popular Culture And the Politics of Identity in Jamaica</p>
-                                    <p class="subtitle">Donna P. Hope</p>
-                                    <p class="subtitle">From $22.96</p>
-                                    <div class="has-text-centered">
-                                        <a href="{{ site.baseurl }}/services/innadidancehall" class="button is-primary">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<footer class="site-footer">
+  <div class="site-container">
+    <div class="site-footer__grid">
+      <div>
+        <h2 class="site-footer__brand">{{ site.title }}</h2>
+        <p>Practical software, technology services, and learning resources from Kingston, Jamaica.</p>
+        <div class="site-footer__social" aria-label="Social media links">
+          <a href="https://www.linkedin.com/in/bertlandhope/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/bertland_hope/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UC0QAJaQqVmWxEopGIqGSTkQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://github.com/bertlandh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
         </div>
+      </div>
+      <div><h3>Products</h3><ul class="site-footer__links">{% for product in site.data.products %}<li><a href="{{ product.url | relative_url }}">{{ product.name }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Explore</h3><ul class="site-footer__links">{% for item in site.data[site.footer_menu] %}<li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>{% endfor %}</ul></div>
+      <div><h3>Start a conversation</h3><p>Have a software or technology problem worth solving?</p><a href="{{ '/connect/' | relative_url }}" class="site-button site-button--primary">Contact LearnTech</a></div>
     </div>
-    
-</section>
-
-<footer class="footer">
-    <div class="container">
-
-        {% if site.footer_menu %}
-        <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
-                <div>
-                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        <div class="columns is-multiline is-centered">
-            <div class="column is-12">
-                <div class="has-text-centered">
-                    <p><strong>Follow</strong></p>
-                    <div class="buttons is-centered">
-                       <a href="https://www.linkedin.com/in/bertlandhope/" class="button is-light" target=_blank>
-                            <i class="fab fa-linkedin fa-lg has-text-link"></i>
-                        </a>
-                        <a href="https://www.instagram.com/bertland_hope/" class="button is-light" target=_blank>
-                            <i class="fab fa-instagram fa-lg has-text-link"></i>
-                        </a>
-                        <a href="https://www.youtube.com/channel/UC0QAJaQqVmWxEopGIqGSTkQ" class="button is-light" target="_blank">
-                            <i class="fab fa-youtube fa-lg has-text-danger"></i>
-                        </a>
-                    </div>
-
-                    <p>Site built by <a href="/connect/">Bertland Hope</a>  with 💕</p>
-                    <p>&copy; 2014<script>new Date().getFullYear()>2014&&document.write("-"+new Date().getFullYear());</script> Bertland Hope</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="site-footer__bottom"><p>&copy; 2014<script>if(new Date().getFullYear()>2014){document.write("–"+new Date().getFullYear());}</script> LearnTech Foundation. Built with Jekyll and hosted on GitHub Pages.</p></div>
+  </div>
 </footer>

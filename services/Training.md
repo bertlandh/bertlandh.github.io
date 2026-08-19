@@ -1,16 +1,14 @@
 ---
-title: Training for Internet Security
+title: Cybersecurity and Digital Skills Training
 menubar_toc: false
-description: Computer Support And Services in Kingston. Calls in JM office hours only please.
-subtitle: By Bertland Hope
+description: Cybersecurity and digital-skills training from LearnTech Foundation.
+subtitle: Make safer technology practices and useful digital skills understandable, relevant, and easier to apply.
 product_code: TISE
-layout: product
+layout: service
 image: /img/TISE/Slide1.PNG
-show_sidebar: false
 toc_title: Contents
 hero_image: /img/903-1200x800.jpg
-hero_height: is-medium
-hero_darken: true
+hero_alt: Internet security training presentation
 price: From $200 USD per day
 features:
     - label: Released 7th September 2021 
@@ -24,9 +22,7 @@ seo:
   author: Bertland Hope
 ---
 
-# Training for Internet Security
-
-At Computer Life Support, we consider it a privilege to secure our digital lives, and as such, we aim to educate the public on all areas of cybersecurity.
+LearnTech Foundation treats technology education as a practical part of stronger digital operations. Training is designed to demystify cybersecurity and help participants build safer, more confident habits.
 
 That’s why we’ve created the I.S.E. (Internet Safety Education) Program. Our goal is to demystify cybersecurity through interactive learning and equip you with resources to have safer online experiences, become good digital citizens, and maybe even pursue careers in cybersecurity.
 
@@ -35,7 +31,5 @@ Each day of the course training is continuous and lasts from 09:30 to 16:30, wit
 
 Each course can accommodate up to 16 attendees. Pricing depends on numbers of attendees and location.
 
-<div class="buttons is-centered">
-<a href="/connect/" class="button is-info" target="_blank">Contact for details.</a>
-</div>
+[Contact LearnTech for training details.](/connect/)
 

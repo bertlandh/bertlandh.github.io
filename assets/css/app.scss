@@ -1,14 +1,16 @@
 ---
 ---
-$primary: #333333;
-$info: #981430;
+@import "tokens";
+
+$primary: $brand-primary;
+$info: $brand-primary;
 $pagination-current-background-color: $info;
 $pagination-current-border-color: $info;
 
 // Import Main CSS file from theme
 @import "main";
 
-.hero {
+.hero:not(.hero-redesign) {
     .title,
     .subtitle {
         text-shadow: 1px 1px rgba($primary, 0.5);
