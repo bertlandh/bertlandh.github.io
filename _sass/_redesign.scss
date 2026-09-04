@@ -1272,3 +1272,205 @@ a:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Digital contact card — inspired by the reference card's interaction model. */
+.digital-card-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 10%, rgba($brand-accent, 0.2), transparent 24rem),
+    radial-gradient(circle at 88% 90%, rgba($brand-primary, 0.18), transparent 28rem),
+    $surface-warm;
+  color: $text-color;
+}
+
+.digital-card-page .skip-link {
+  position: fixed;
+  z-index: 20;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  transform: translateY(-160%);
+  border-radius: $button-radius;
+  background: $surface-white;
+  color: $brand-primary;
+  font-weight: 700;
+}
+
+.digital-card-page .skip-link:focus { transform: translateY(0); }
+
+.digital-card-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: clamp(2rem, 6vw, 5rem) 1.25rem;
+}
+
+.digital-card-wrap {
+  width: min(100%, 31rem);
+  text-align: center;
+}
+
+.digital-card-brand {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+  color: $text-color;
+  text-align: left;
+
+  span {
+    font-family: $heading-family;
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  small {
+    margin-top: 0.25rem;
+    color: $brand-primary;
+    font-size: 0.61rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    line-height: 1.15;
+    text-transform: uppercase;
+  }
+
+  &:hover { color: $brand-primary; }
+}
+
+.digital-card {
+  position: relative;
+  padding: 5.1rem clamp(1.25rem, 5vw, 2.25rem) 2.25rem;
+  overflow: visible;
+  border: 1px solid rgba($brand-primary, 0.14);
+  border-radius: 9rem 9rem $card-radius $card-radius;
+  background: $surface-dark;
+  box-shadow: 0 1.5rem 4rem rgba($surface-dark, 0.2);
+  color: $surface-white;
+}
+
+.digital-card__portrait-wrap {
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  width: 7.25rem;
+  height: 7.25rem;
+  transform: translateX(-50%);
+  padding: 0.38rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg, $brand-primary, $brand-accent);
+  box-shadow: 0 0 0 0.45rem $surface-warm;
+}
+
+.digital-card__portrait {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border: 0.22rem solid $surface-white;
+  border-radius: 50%;
+}
+
+.digital-card__intro h1 {
+  margin: 0.2rem 0 0.25rem;
+  color: $surface-white;
+  font-family: $heading-family;
+  font-size: clamp(1.9rem, 8vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.digital-card__eyebrow {
+  margin: 0;
+  color: lighten($brand-accent, 8%);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.digital-card__role,
+.digital-card__organisation { margin: 0; }
+.digital-card__role { margin-top: 0.75rem; font-weight: 700; }
+.digital-card__organisation { color: lighten($brand-accent, 10%); font-weight: 600; }
+.digital-card__summary { margin: 1rem auto 0; color: rgba($surface-white, 0.76); font-size: 0.94rem; line-height: 1.6; }
+
+.digital-card__social {
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 1.5rem -0.5rem;
+  padding: 1.25rem 0;
+  border-block: 1px solid rgba($surface-white, 0.12);
+
+  a {
+    width: 2.75rem;
+    height: 2.75rem;
+    display: grid;
+    place-items: center;
+    border: 2px solid $brand-primary;
+    border-radius: 50%;
+    color: $surface-white;
+    transition: transform 160ms ease, background-color 160ms ease;
+  }
+
+  a:hover,
+  a:focus-visible { background: $brand-primary; color: $surface-white; transform: translateY(-2px); }
+}
+
+.digital-card__actions { display: grid; gap: 0.75rem; }
+
+.digital-card-button {
+  min-height: 3.25rem;
+  display: grid;
+  grid-template-columns: 1.4rem 1fr 1.4rem;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba($surface-white, 0.13);
+  border-radius: $button-radius;
+  background: rgba($surface-white, 0.09);
+  color: $surface-white;
+  font-weight: 700;
+  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+
+  i { justify-self: center; color: lighten($brand-accent, 8%); }
+  span { grid-column: 2; }
+
+  &:hover,
+  &:focus-visible { border-color: rgba($surface-white, 0.35); background: rgba($surface-white, 0.15); color: $surface-white; transform: translateY(-1px); }
+}
+
+.digital-card-button--primary { background: $brand-primary; border-color: $brand-primary; }
+.digital-card-button--primary:hover,
+.digital-card-button--primary:focus-visible { background: lighten($brand-primary, 5%); border-color: lighten($brand-primary, 5%); }
+.digital-card-button--save { margin-top: 0.45rem; background: $surface-white; color: $surface-dark; }
+.digital-card-button--save i { color: $brand-primary; }
+.digital-card-button--save:hover,
+.digital-card-button--save:focus-visible { background: $surface-accent; color: $surface-dark; }
+
+.digital-card-note { margin-top: 1.25rem; color: $text-muted; font-size: 0.78rem; }
+.digital-card-note a { color: $brand-primary; font-weight: 700; }
+
+.contact-card-invite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: var(--space-xl);
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  border: 1px solid $border-color;
+  border-radius: $card-radius;
+  background: $surface-warm;
+
+  h3 { margin: 0.15rem 0 0.5rem; }
+  p:last-child { max-width: 44rem; margin: 0; color: $text-muted; }
+  .site-button { flex: 0 0 auto; }
+}
+
+@media (max-width: 640px) {
+  .digital-card-shell { padding-top: 4rem; }
+  .digital-card { border-radius: 6.5rem 6.5rem $card-radius $card-radius; }
+  .contact-card-invite { align-items: stretch; flex-direction: column; }
+  .contact-card-invite .site-button { width: 100%; }
+}

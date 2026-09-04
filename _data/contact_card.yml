@@ -1,0 +1,30 @@
+name: Bertland Hope
+role: Software developer and technology practitioner
+organisation: LearnTech Foundation
+summary: I build practical software and provide technology expertise that helps organisations make important work clearer, more visible, and easier to manage.
+email: bertlandhope@gmail.com
+phone_display: +1 876 560-0735
+phone_uri: "+18765600735"
+whatsapp_uri: "18765600735"
+website: https://learntechfoundation.org
+portrait: /img/favicon.png
+vcard: /assets/contact/bertland-hope.vcf
+
+# After creating a Google Calendar appointment schedule, paste its public
+# booking-page URL here. Until then, the card offers an email-based request.
+booking_url: ""
+
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/bertlandhope/
+    icon: fab fa-linkedin-in
+  - name: GitHub
+    url: https://github.com/bertlandh/
+    icon: fab fa-github
+  - name: YouTube
+    url: https://www.youtube.com/channel/UCaHRQTSDaH5Wf93u6EWpeew/videos
+    icon: fab fa-youtube
+  - name: Instagram
+    url: https://www.instagram.com/bertland_hope/
+    icon: fab fa-instagram
+

@@ -18,6 +18,14 @@ image: /img/favicon.png
       <a class="contact-panel" href="mailto:bhope@agroinvest.gov.jm"><span class="contact-panel__icon"><i class="fas fa-briefcase" aria-hidden="true"></i></span><span><strong>Work email</strong><small>bhope@agroinvest.gov.jm</small></span></a>
       <a class="contact-panel" href="tel:+18765600735"><span class="contact-panel__icon"><i class="fas fa-phone" aria-hidden="true"></i></span><span><strong>VOIP</strong><small>+1 876 560-0735 · Jamaica office hours</small></span></a>
     </div>
+    <div class="contact-card-invite">
+      <div>
+        <p class="section-heading__eyebrow">Take my details with you</p>
+        <h3>Open Bertland’s digital contact card</h3>
+        <p>Save my contact, message me on WhatsApp, explore LearnTech’s work, or request a time to chat from one mobile-friendly page.</p>
+      </div>
+      <a class="site-button site-button--primary" href="{{ '/bertland/' | relative_url }}">Open contact card</a>
+    </div>
   </div>
 </section>
 

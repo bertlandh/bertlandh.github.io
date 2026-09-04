@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body class="digital-card-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <main id="main-content" class="digital-card-shell">
+      {{ content }}
+    </main>
+    {%- include footer-scripts.html -%}
+  </body>
+</html>
+
