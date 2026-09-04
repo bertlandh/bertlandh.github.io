@@ -12,7 +12,7 @@ vcard: /assets/contact/bertland-hope.vcf
 
 # After creating a Google Calendar appointment schedule, paste its public
 # booking-page URL here. Until then, the card offers an email-based request.
-booking_url: ""
+booking_url: "https://calendar.app.google/28RcK1ugkk2RDUxSA"
 
 social:
   - name: LinkedIn
@@ -27,4 +27,3 @@ social:
   - name: Instagram
     url: https://www.instagram.com/bertland_hope/
     icon: fab fa-instagram
-
