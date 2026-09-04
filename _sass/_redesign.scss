@@ -1275,7 +1275,9 @@ a:focus-visible {
 
 /* Digital contact card — inspired by the reference card's interaction model. */
 .digital-card-page {
+  width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at 12% 10%, rgba($brand-accent, 0.2), transparent 24rem),
     radial-gradient(circle at 88% 90%, rgba($brand-primary, 0.18), transparent 28rem),
@@ -1299,14 +1301,18 @@ a:focus-visible {
 .digital-card-page .skip-link:focus { transform: translateY(0); }
 
 .digital-card-shell {
+  width: 100%;
   min-height: 100vh;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   place-items: center;
   padding: clamp(2rem, 6vw, 5rem) 1.25rem;
 }
 
 .digital-card-wrap {
-  width: min(100%, 31rem);
+  width: 100%;
+  min-width: 0;
+  max-width: 31rem;
   text-align: center;
 }
 
@@ -1340,6 +1346,9 @@ a:focus-visible {
 
 .digital-card {
   position: relative;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   padding: 5.1rem clamp(1.25rem, 5vw, 2.25rem) 2.25rem;
   overflow: visible;
   border: 1px solid rgba($brand-primary, 0.14);
@@ -1421,6 +1430,7 @@ a:focus-visible {
 .digital-card__actions { display: grid; gap: 0.75rem; }
 
 .digital-card-button {
+  min-width: 0;
   min-height: 3.25rem;
   display: grid;
   grid-template-columns: 1.4rem 1fr 1.4rem;
@@ -1435,7 +1445,11 @@ a:focus-visible {
   transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
 
   i { justify-self: center; color: lighten($brand-accent, 8%); }
-  span { grid-column: 2; }
+  span {
+    min-width: 0;
+    grid-column: 2;
+    overflow-wrap: anywhere;
+  }
 
   &:hover,
   &:focus-visible { border-color: rgba($surface-white, 0.35); background: rgba($surface-white, 0.15); color: $surface-white; transform: translateY(-1px); }
@@ -1449,7 +1463,7 @@ a:focus-visible {
 .digital-card-button--save:hover,
 .digital-card-button--save:focus-visible { background: $surface-accent; color: $surface-dark; }
 
-.digital-card-note { margin-top: 1.25rem; color: $text-muted; font-size: 0.78rem; }
+.digital-card-note { margin-top: 1.25rem; color: $text-muted; font-size: 0.78rem; overflow-wrap: anywhere; }
 .digital-card-note a { color: $brand-primary; font-weight: 700; }
 
 .contact-card-invite {
@@ -1469,8 +1483,9 @@ a:focus-visible {
 }
 
 @media (max-width: 640px) {
-  .digital-card-shell { padding-top: 4rem; }
+  .digital-card-shell { padding: 4rem 0.85rem 2rem; }
   .digital-card { border-radius: 6.5rem 6.5rem $card-radius $card-radius; }
+  .digital-card-brand small { max-width: 16rem; }
   .contact-card-invite { align-items: stretch; flex-direction: column; }
   .contact-card-invite .site-button { width: 100%; }
 }
