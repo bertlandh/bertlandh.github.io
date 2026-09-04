@@ -1278,6 +1278,8 @@ a:focus-visible {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   background:
     radial-gradient(circle at 12% 10%, rgba($brand-accent, 0.2), transparent 24rem),
     radial-gradient(circle at 88% 90%, rgba($brand-primary, 0.18), transparent 28rem),
@@ -1318,11 +1320,12 @@ a:focus-visible {
 
 .digital-card-brand {
   display: inline-flex;
+  width: 100%;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 4rem;
   color: $text-color;
-  text-align: left;
+  text-align: center;
 
   span {
     font-family: $heading-family;
@@ -1485,7 +1488,8 @@ a:focus-visible {
 @media (max-width: 640px) {
   .digital-card-shell { padding: 4rem 0.85rem 2rem; }
   .digital-card { border-radius: 6.5rem 6.5rem $card-radius $card-radius; }
-  .digital-card-brand small { max-width: 16rem; }
+  .digital-card-brand span { font-size: 1rem; }
+  .digital-card-brand small { max-width: 17rem; font-size: 0.58rem; }
   .contact-card-invite { align-items: stretch; flex-direction: column; }
   .contact-card-invite .site-button { width: 100%; }
 }

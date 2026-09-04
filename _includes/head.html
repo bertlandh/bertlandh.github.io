@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content={{ site.theme_color | default: '#ffffff' }}>
 	<meta name="google-site-verification" content="TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI" />
-    <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}?v={{ site.asset_version | default: '1' }}">
     <link rel="shortcut icon" type="image/png"
           {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ '/favicon.png' | relative_url }}" {% endif %}
     />
