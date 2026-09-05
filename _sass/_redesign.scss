@@ -1,5 +1,10 @@
 html {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -7,6 +12,10 @@ body {
   font-family: var(--body-family);
   font-size: 1rem;
   line-height: 1.65;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
+  width: 100%;
 }
 
 h1,
@@ -324,6 +333,8 @@ a:focus-visible {
 .section-heading h2 {
   font-size: clamp(2rem, 4vw, 2.75rem);
   margin-bottom: var(--space-md);
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .section-heading p {
@@ -1339,7 +1350,13 @@ a:focus-visible {
   }
 
   .hero-redesign__title {
-    font-size: clamp(2.35rem, 12vw, 3.25rem);
+    font-size: clamp(2.15rem, 10.5vw, 3rem);
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.75rem, 8.5vw, 2.35rem);
   }
 
   .hero-redesign__actions,
