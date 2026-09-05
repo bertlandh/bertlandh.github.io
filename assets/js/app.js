@@ -3,7 +3,7 @@
 
   var toggle = document.querySelector("[data-nav-toggle]");
   var navigation = document.querySelector("[data-site-nav]");
-  var header = document.querySelector("[data-site-header]");
+  var toggleLabel = toggle ? toggle.querySelector("[data-nav-toggle-label]") : null;
   var submenuToggles = navigation ? navigation.querySelectorAll("[data-submenu-toggle]") : [];
 
   if (!toggle || !navigation) return;
@@ -12,10 +12,7 @@
     toggle.setAttribute("aria-expanded", String(open));
     toggle.classList.toggle("is-active", open);
     navigation.classList.toggle("is-open", open);
-    if (open && header) {
-      navigation.style.setProperty("--mobile-header-height", header.offsetHeight + "px");
-    }
-
+    if (toggleLabel) toggleLabel.textContent = open ? "Close" : "Menu";
     if (!open) {
       submenuToggles.forEach(function (submenuToggle) {
         submenuToggle.setAttribute("aria-expanded", "false");
