@@ -3,6 +3,7 @@
 
   var toggle = document.querySelector("[data-nav-toggle]");
   var navigation = document.querySelector("[data-site-nav]");
+  var header = document.querySelector("[data-site-header]");
   var toggleLabel = toggle ? toggle.querySelector("[data-nav-toggle-label]") : null;
   var submenuToggles = navigation ? navigation.querySelectorAll("[data-submenu-toggle]") : [];
   var scrollOrigin = window.scrollY;
@@ -13,7 +14,9 @@
   function setToolbarHidden(hidden) {
     var mobile = window.matchMedia("(max-width: 900px)").matches;
     var menuOpen = navigation.classList.contains("is-open");
-    toggle.classList.toggle("is-hidden-by-scroll", mobile && hidden && !menuOpen);
+    var shouldHide = mobile && hidden && !menuOpen;
+    toggle.classList.toggle("is-hidden-by-scroll", shouldHide);
+    if (header) header.classList.toggle("is-hidden-by-scroll", shouldHide);
   }
 
   function setNavigation(open) {

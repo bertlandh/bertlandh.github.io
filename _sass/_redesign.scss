@@ -1166,6 +1166,17 @@ a:focus-visible {
     padding-bottom: 4.5rem;
   }
 
+  .site-header {
+    transform: translateY(0);
+    transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform;
+  }
+
+  .site-header.is-hidden-by-scroll {
+    transform: translateY(-100%);
+    transition-timing-function: ease-out;
+  }
+
   .site-nav__toggle {
     bottom: 0;
     display: flex;
