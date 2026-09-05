@@ -13,9 +13,17 @@
                 <li><a href="{{ '/' | relative_url }}" class="site-nav__link {% if page.url == '/' %}is-active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
                 {% for item in site.data.navigation %}
                     <li class="site-nav__item {% if item.dropdown %}site-nav__item--dropdown{% endif %}">
-                        <a href="{{ item.link | relative_url }}" class="site-nav__link {% if item.link == page.url %}is-active{% endif %}" {% if item.link == page.url %}aria-current="page"{% endif %}>{{ item.name }}{% if item.dropdown %} <span aria-hidden="true">⌄</span>{% endif %}</a>
+                        {% if item.dropdown %}<div class="site-nav__parent-row">{% endif %}
+                        <a href="{{ item.link | relative_url }}" class="site-nav__link {% if item.link == page.url %}is-active{% endif %}" {% if item.link == page.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
                         {% if item.dropdown %}
-                            <div class="site-nav__dropdown">
+                            <button class="site-nav__submenu-toggle" type="button" aria-expanded="false" aria-controls="site-submenu-{{ forloop.index }}" data-submenu-toggle>
+                                <span class="is-sr-only">Toggle {{ item.name }} submenu</span>
+                                <span class="site-nav__caret" aria-hidden="true">⌄</span>
+                            </button>
+                        </div>
+                        {% endif %}
+                        {% if item.dropdown %}
+                            <div class="site-nav__dropdown" id="site-submenu-{{ forloop.index }}">
                                 {% for subitem in item.dropdown %}<a href="{{ subitem.link | relative_url }}" class="site-nav__dropdown-link {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>{% endfor %}
                             </div>
                         {% endif %}
