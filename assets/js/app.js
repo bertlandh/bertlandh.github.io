@@ -12,8 +12,6 @@
     toggle.setAttribute("aria-expanded", String(open));
     toggle.classList.toggle("is-active", open);
     navigation.classList.toggle("is-open", open);
-    document.body.classList.toggle("site-nav-open", open && window.matchMedia("(max-width: 900px)").matches);
-
     if (open && header) {
       navigation.style.setProperty("--mobile-header-height", header.offsetHeight + "px");
     }

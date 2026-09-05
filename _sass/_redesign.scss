@@ -1153,11 +1153,6 @@ a:focus-visible {
 }
 
 @media (max-width: 900px) {
-  body.site-nav-open {
-    overflow: hidden;
-    touch-action: none;
-  }
-
   .site-nav__toggle {
     display: flex;
   }
@@ -1167,13 +1162,15 @@ a:focus-visible {
     border-top: 1px solid var(--border-color);
     display: none;
     left: 0;
-    max-height: calc(100dvh - var(--mobile-header-height, 4.5rem));
+    bottom: 0;
+    max-height: none;
     overscroll-behavior: contain;
     overflow-y: auto;
     padding: var(--space-md) var(--space-lg) var(--space-lg);
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 100%;
+    top: var(--mobile-header-height, 4.5rem);
+    touch-action: pan-y;
     -webkit-overflow-scrolling: touch;
   }
 
