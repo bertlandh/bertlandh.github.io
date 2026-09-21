@@ -1,5 +1,6 @@
 <head>
     <meta charset="utf-8">
+    {% if page.layout == 'academy' %}<link rel="stylesheet" href="{{ '/assets/css/academy.css' | relative_url }}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content={{ site.theme_color | default: '#ffffff' }}>
 	<meta name="google-site-verification" content="TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI" />

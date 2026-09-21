@@ -1,0 +1,4 @@
+<article class="academy-card" data-lesson-card data-search="{{ include.lesson.module | append: ' ' | append: include.lesson.title | downcase | escape }}">
+  <img src="{{ include.lesson.image | relative_url }}" alt="" loading="lazy" width="640" height="360">
+  <div class="academy-card-body"><p class="academy-eyebrow">{{ include.lesson.module }} · {{ include.lesson.slide_count }} SLIDES</p><h3><a href="{{ include.lesson.url | relative_url }}">{{ include.lesson.title }}</a></h3><p>{{ include.lesson.duration }}</p><a class="academy-link" href="{{ include.lesson.url | relative_url }}">Open lesson →</a></div>
+</article>

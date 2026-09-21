@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% assign course = site.data.academy.courses | where: 'slug', page.course | first %}
+{% assign lesson = course.lessons | where: 'module', page.module | first %}
+{% assign role = course.roles | where: 'slug', page.role | first %}
+<div class="academy">
+  <nav class="academy-crumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a><span>/</span>
+    {% if page.academy_kind == 'home' %}<span aria-current="page">Academy</span>{% else %}
+    <a href="{{ '/academy/' | relative_url }}">Academy</a><span>/</span>
+    {% if page.academy_kind == 'course' %}<span aria-current="page">{{ course.title }}</span>{% else %}
+    <a href="{{ '/academy/' | append: course.slug | append: '/' | relative_url }}">{{ course.title }}</a><span>/</span><span aria-current="page">{{ page.title }}</span>{% endif %}{% endif %}
+  </nav>
+  {% if page.academy_kind == 'home' %}
+  <header class="academy-hero">
+    <div><p class="academy-eyebrow">LEARNTECH ACADEMY · FREE TRAINING</p><h1>Learn the tools.<br>Build your confidence.</h1><p>Practical lessons for the work you do. Choose your application, follow a learning path, and keep the slide guides close at hand.</p><a class="academy-button" href="#courses">Explore the courses <span aria-hidden="true">↓</span></a></div>
+    <div class="academy-hero-art" aria-hidden="true"><img src="{{ '/assets/academy/covers/custodia/C01.png' | relative_url }}" alt=""><span>2 courses<br><strong>50 lessons</strong><br>Learn at your own pace</span></div>
+  </header>
+  <section id="courses" class="academy-section"><p class="academy-eyebrow">CHOOSE YOUR APPLICATION</p><h2>Your next lesson starts here</h2><div class="academy-grid academy-grid--two">
+  {% for item in site.data.academy.courses %}<article class="academy-card"><img src="{{ item.lessons.first.image | relative_url }}" alt="" loading="lazy" width="640" height="360"><div class="academy-card-body"><p class="academy-eyebrow">{{ item.lessons.size }} LESSONS · SLIDE GUIDES INCLUDED</p><h3><a href="{{ '/academy/' | append: item.slug | append: '/' | relative_url }}">{{ item.title }}</a></h3><p>{% if item.slug == 'custodia' %}Find records, manage custody, and understand the responsibilities behind each action.{% else %}Build confidence with attendance, field work, team reviews, and administration.{% endif %}</p><a class="academy-link" href="{{ '/academy/' | append: item.slug | append: '/' | relative_url }}">Explore course →</a></div></article>{% endfor %}
+  </div></section>
+  <section class="academy-callout"><h2>A learning path for your role</h2><p>Start with common skills, then focus on the tasks you perform. Every course includes role paths, practice activities, and downloadable slide guides. No account is needed to use the Academy.</p></section>
+  {% elsif page.academy_kind == 'course' %}
+  <header class="academy-course-hero"><p class="academy-eyebrow">{{ course.lessons.size }} LESSONS · FREE COURSE</p><h1>{{ course.title }}</h1><p>Start with a role path or browse the complete course. Read the lesson, use the slide guide, and practise in your approved training environment.</p><a class="academy-button" href="{{ course.lessons.first.url | relative_url }}">Start the first lesson →</a></header>
+  <section class="academy-section"><h2>Find your learning path</h2><div class="academy-role-grid">{% for item in course.roles %}<a class="academy-role" href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong><span>{{ item.core.size }} core lessons →</span></a>{% endfor %}</div></section>
+  <section class="academy-section"><div class="academy-section-heading"><h2>All lessons</h2><label>Find a lesson<input type="search" data-lesson-search placeholder="Search titles or module codes"></label></div><p data-search-empty hidden>No lessons match. Try a different title or module code.</p><div class="academy-grid">{% for item in course.lessons %}{% include academy-card.html lesson=item %}{% endfor %}</div></section>
+  {% elsif page.academy_kind == 'role' %}
+  <header class="academy-course-hero"><p class="academy-eyebrow">{{ course.title }} · LEARNING PATH</p><h1>{{ role.title }}</h1><p>Follow the core sequence, then add the specialist lessons relevant to your assigned duties.</p></header>
+  <div class="academy-callout"><h2>Your path and its limits</h2><p><strong>Core guidance:</strong> {{ role.guidance | escape }}</p><p><strong>Optional guidance:</strong> {{ role.optional_guidance | escape }}</p>{% if role.administrative %}<p><strong>Administrative track:</strong> {{ role.administrative | escape }}</p><p><strong>Reporting track:</strong> {{ role.reporting | escape }}</p>{% endif %}<p><strong>Role boundaries:</strong> {{ role.boundaries | escape }}</p><p>Learning a task does not grant application access. Follow your actual permissions and assigned responsibilities; some lessons include actions reserved for other roles.</p></div>
+  <section class="academy-section"><h2>Core learning sequence</h2><ol class="academy-sequence">{% for code in role.core %}{% assign item = course.lessons | where: 'module', code | first %}<li><a href="{{ item.url | relative_url }}"><span>{{ code }}</span><strong>{{ item.title }}</strong><span>Open lesson →</span></a></li>{% endfor %}</ol></section>
+  {% if role.optional.size > 0 %}<section class="academy-section"><h2>Optional and specialist lessons</h2><div class="academy-grid">{% for code in role.optional %}{% assign item = course.lessons | where: 'module', code | first %}{% include academy-card.html lesson=item %}{% endfor %}</div></section>{% endif %}
+  {% elsif page.academy_kind == 'lesson' %}
+  <header class="academy-course-hero"><p class="academy-eyebrow">{{ course.title }} · {{ lesson.module }}</p><h1>{{ lesson.title }}</h1><p>{{ lesson.duration }} · {{ lesson.slide_count }} slides</p></header>
+  <div class="academy-lesson-grid"><article>
+    {% assign video_id = site.data.academy_videos.lessons[lesson.key] %}
+    {% if video_id == nil or video_id == empty %}{% assign video_id = site.data.academy_videos.placeholder_id %}<p class="academy-video-notice"><strong>Lesson video coming soon.</strong> The player below contains a sample video, not this lesson. You can use the written lesson and slide guide now.</p>{% endif %}
+    <div class="academy-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ video_id | escape }}" title="{{ lesson.title | escape }} video player" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    <p><a href="https://www.youtube.com/watch?v={{ video_id | escape }}" target="_blank" rel="noopener">Open video on YouTube ↗</a></p>
+    <div class="academy-download"><a class="academy-button" href="{{ lesson.pdf | relative_url }}" download>Download slide guide (PDF)</a><span>{{ lesson.slide_count }} pages · {{ lesson.pdf_bytes | divided_by: 1048576.0 | round: 1 }} MB</span></div>
+    <section class="academy-reading"><h2>Work through the lesson</h2><p>Use these explanations alongside the slide guide. Expand any section to read its full explanation.</p>
+    {% for part in lesson.sections %}<section id="step-{{ forloop.index }}" class="academy-step"><h3>{{ part.title | escape }}</h3>{% if part.bullets.size > 0 %}<ul>{% for bullet in part.bullets %}<li>{{ bullet | escape }}</li>{% endfor %}</ul>{% endif %}{% if part.rightText != empty %}<p class="academy-explanation"><strong>{{ part.rightTitle | escape }}</strong><br>{{ part.rightText | escape | newline_to_br }}</p>{% endif %}<details><summary>Read the full explanation</summary><p>{{ part.narration | escape | newline_to_br }}</p></details></section>{% endfor %}
+    </section>
+    <nav class="academy-pager" aria-label="Lesson navigation">{% for item in course.lessons %}{% if item.module == lesson.module %}{% unless forloop.first %}{% assign prev_index = forloop.index0 | minus: 1 %}{% assign prev = course.lessons[prev_index] %}<a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>{% endunless %}{% unless forloop.last %}{% assign next_index = forloop.index0 | plus: 1 %}{% assign next = course.lessons[next_index] %}<a href="{{ next.url | relative_url }}">{{ next.title }} →</a>{% endunless %}{% endif %}{% endfor %}</nav>
+  </article><aside class="academy-sidebar"><h2>Before you begin</h2><p><strong>Who this is for</strong><br>{{ lesson.audience | escape }}</p><p><strong>What you need</strong><br>{{ lesson.prerequisites | escape }}</p>{% if lesson.access %}<p><strong>Access conditions</strong><br>{{ lesson.access | escape }}</p>{% endif %}<p class="academy-review">Review edition. Screen details may vary by deployment. Confirm your assigned permissions and use demo data for practice.</p><h2>In this lesson</h2><ol>{% for part in lesson.sections %}<li><a href="#step-{{ forloop.index }}">{{ part.title | escape }}</a></li>{% endfor %}</ol><a href="{{ '/academy/' | append: course.slug | append: '/' | relative_url }}">View all course lessons →</a></aside></div>
+  {% endif %}
+</div>
+<script src="{{ '/assets/js/academy.js' | relative_url }}" defer></script>
