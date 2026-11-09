@@ -9,13 +9,13 @@
   link: /services/
 - name: Work
   link: /portfolio/
-- name: Academy
-  link: /academy/
-- name: News
-  link: /news/
 - name: Resources
   link: /resources/
   dropdown:
+    - name: Academy
+      link: /academy/
+    - name: News
+      link: /news/
     - name: Books
       link: /resources/#books
     - name: Technical Guides
@@ -24,5 +24,3 @@
       link: /resources/#learning-material
 - name: About
   link: /about/
-- name: Contact
-  link: /connect/

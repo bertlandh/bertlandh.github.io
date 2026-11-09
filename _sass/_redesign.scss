@@ -1681,3 +1681,6 @@ a:focus-visible {
 @media (max-width: 640px) { .enquiry-fields, .case-feature-grid, .case-study-screens { grid-template-columns: 1fr; } .website-enquiry { padding: 1.1rem; } .website-enquiry button { width: 100%; white-space: normal; } .website-contact-person { flex-direction: column; } }
 
 #new-website, #improve-website, #enquiry { scroll-margin-top: 6.5rem; }
+
+.website-actions--center { justify-content: center; }
+.site-footer__contact-links { margin-top: 1rem; }

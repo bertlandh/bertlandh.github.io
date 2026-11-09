@@ -13,10 +13,9 @@
       </div>
       <div><h3>Products</h3><ul class="site-footer__links">{% for product in site.data.products %}<li><a href="{{ product.url | relative_url }}">{{ product.name }}</a></li>{% endfor %}</ul></div>
       <div><h3>Explore</h3><ul class="site-footer__links">{% for item in site.data[site.footer_menu] %}<li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>{% endfor %}</ul></div>
-      <div><h3>Start a conversation</h3><p>Have a software or technology problem worth solving?</p><a href="{{ '/connect/' | relative_url }}" class="site-button site-button--primary">Contact LearnTech</a></div>
+      <div><h3>Start a conversation</h3><p>Have a software or technology problem worth solving?</p><a href="{{ '/connect/' | relative_url }}" class="site-button site-button--primary">Discuss a project</a><ul class="site-footer__links site-footer__contact-links"><li><a href="{{ '/privacy/' | relative_url }}">Enquiries and privacy</a></li></ul></div>
     </div>
     <section class="analytics-choice" data-lt-consent-panel hidden aria-label="Optional analytics"><p>May we use optional analytics to understand page visits and enquiry actions? Your form message and contact details are not included.</p><button class="site-button site-button--primary" type="button" data-lt-consent="granted">Allow analytics</button><button class="site-button site-button--outline" type="button" data-lt-consent="denied">Keep analytics off</button><a href="{{ '/privacy/' | relative_url }}">Privacy information</a></section>
-    <p><a href="{{ '/privacy/' | relative_url }}">Enquiries and privacy</a></p>
     <div class="site-footer__bottom"><p>&copy; 2014<script>if(new Date().getFullYear()>2014){document.write("–"+new Date().getFullYear());}</script> LearnTech Foundation. Built with Jekyll and hosted on GitHub Pages.</p></div>
   </div>
 </footer>
