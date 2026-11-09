@@ -28,13 +28,20 @@ The result is a clearer view of what is working, what needs attention, and which
 
 Start with the current system and the outcomes you need. [Discuss a review with LearnTech.](/connect/)
 
-> **Did You Know?**
-> 
-> The performance difference between mediocre and successful Website is not just a little – it can be as much as a factor of four.
-> 
-> 
-> In other words, your clients could be a quarter as profitable as the next business webiste – or four times as much, and probably closing more sales, because success motivates. Where does your website stand?
+## From review to improvement
 
+Keep what works. Agree priorities for content, navigation, mobile layout,
+performance, updates and the customer enquiry journey before deciding whether
+you need a small repair or a wider rebuild.
+
+[Explore business websites and request a quotation](/services/business-websites/).
+Website projects start at J$200,000 including hosting; review work and specific
+improvements are quoted to scope. The quotation states hosting duration,
+responsibilities and renewal charges.
+
+For PHP-based systems, a maintenance review can include provider-confirmed patch
+records and a tested update plan. [Read our PHP maintenance note](/resources/php-maintenance/).
+We do not infer a vulnerability or an expected sales increase from appearance alone.
 
 ## Experience behind the review
 

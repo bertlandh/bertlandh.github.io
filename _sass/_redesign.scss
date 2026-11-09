@@ -1172,7 +1172,7 @@ a:focus-visible {
   margin-bottom: var(--space-xl);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
   body:not(.digital-card-page) {
     padding-bottom: 4.5rem;
   }
@@ -1636,3 +1636,15 @@ a:focus-visible {
   .contact-card-invite { align-items: stretch; flex-direction: column; }
   .contact-card-invite .site-button { width: 100%; }
 }
+
+
+// Website and portfolio content use the same responsive site components.
+.site-nav__link { padding-inline: 0.55rem; }
+.portfolio-grid .site-card,
+.website-service-grid .site-card { min-width: 0; overflow-wrap: anywhere; }
+.portfolio-card__image { display: block; width: 100%; max-width: 100%; height: auto; margin-bottom: 1rem; }
+.portfolio-note { margin-top: 1.5rem; }
+.website-offer__price { margin-top: 2rem; }
+.website-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; }
+.website-actions .site-button { min-width: 0; max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
+@media (max-width: 640px) { .website-actions .site-button { width: 100%; } }

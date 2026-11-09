@@ -1,0 +1,54 @@
+[
+  {
+    "name": "LearnTech Foundation website",
+    "status": "Published website",
+    "capability": "Business websites and content",
+    "description": "A responsive public website bringing services, product information, articles and direct enquiry channels together.",
+    "url": "/",
+    "label": "Explore this website"
+  },
+  {
+    "name": "Digital contact card",
+    "status": "Published website feature",
+    "capability": "Mobile contact journeys",
+    "description": "A compact page for saving contact details, finding professional channels and starting a conversation. Part of the LearnTech website.",
+    "url": "/bertland/",
+    "label": "Open the contact card"
+  },
+  {
+    "name": "Custodia Registry",
+    "status": "Product example; deployment scoped separately",
+    "capability": "Records and workflow applications",
+    "description": "Records registration, physical custody, permissions, requests and audit-history workflows. Shows application development capability.",
+    "image": "/img/products/custodia/dashboard-overview.png",
+    "url": "/products/custodia-registry/",
+    "label": "View product example"
+  },
+  {
+    "name": "Another Check-In App",
+    "status": "Pre-release application",
+    "capability": "Staff and operational workflows",
+    "description": "Attendance, location context and reporting. Release reconciliation and deployment checks remain; this is a development example.",
+    "image": "/img/products/check-in/check-in-overview.png",
+    "url": "/products/another-check-in-app/",
+    "label": "View development example"
+  },
+  {
+    "name": "COMPASS",
+    "status": "In development",
+    "capability": "Planning and performance workflows",
+    "description": "Work connecting organisational plans, workplans and performance evidence. Scope and release work remain."
+  },
+  {
+    "name": "Ordanza",
+    "status": "In development",
+    "capability": "Event-management workflows",
+    "description": "An event lifecycle application. Release and environment review remain before production delivery."
+  },
+  {
+    "name": "LearnTech Sales Coach",
+    "status": "Internal tool",
+    "capability": "Prospects, calls and follow-ups",
+    "description": "A local tool for preparing calls, tracking opportunities and organising follow-ups. An example of software built around a working process."
+  }
+]

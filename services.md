@@ -1,7 +1,7 @@
 ---
 title: Services
-description: Supporting technology services from LearnTech Foundation, including reviews, training, consultancy, workshops, and interim leadership.
-subtitle: Focused expertise to help organisations understand needs, make technology decisions, implement change, and strengthen operations.
+description: Supporting technology services from LearnTech Foundation, including business websites, reviews, training, consultancy, workshops, and interim leadership.
+subtitle: Focused expertise to help organisations understand needs, build a useful website, make technology decisions, implement change, and strengthen operations.
 layout: page
 redesign_page: true
 eyebrow: Services

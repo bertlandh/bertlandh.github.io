@@ -12,7 +12,7 @@
   if (!toggle || !navigation) return;
 
   function setToolbarHidden(hidden) {
-    var mobile = window.matchMedia("(max-width: 900px)").matches;
+    var mobile = window.matchMedia("(max-width: 1180px)").matches;
     var menuOpen = navigation.classList.contains("is-open");
     var shouldHide = mobile && hidden && !menuOpen;
     toggle.classList.toggle("is-hidden-by-scroll", shouldHide);
@@ -47,7 +47,7 @@
   });
 
   navigation.addEventListener("click", function (event) {
-    if (event.target.closest("a") && window.matchMedia("(max-width: 900px)").matches) setNavigation(false);
+    if (event.target.closest("a") && window.matchMedia("(max-width: 1180px)").matches) setNavigation(false);
   });
 
   document.addEventListener("keydown", function (event) {
@@ -58,7 +58,7 @@
   });
 
   window.addEventListener("resize", function () {
-    if (!window.matchMedia("(max-width: 900px)").matches) setNavigation(false);
+    if (!window.matchMedia("(max-width: 1180px)").matches) setNavigation(false);
     setToolbarHidden(false);
     scrollOrigin = window.scrollY;
   });
