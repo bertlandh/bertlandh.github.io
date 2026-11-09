@@ -2,7 +2,7 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 lang: en
 title: LearnTech Foundation
-asset_version: "20261109-website-1"
+asset_version: "20261109-conversion-1"
 tagline: Practical software. Useful technology.
 email: bertlandhope@gmail.com
 description: >
@@ -55,7 +55,10 @@ sass:
   style: compressed
   source_dir: _sass
 
-google_analytics: TX3BcBQVQZ5oP4d_ZCkte_D9QY4pxJ3weFCQhOUekuI
+google_analytics: ""
+analytics:
+  enabled: false
+  measurement_id: ""
 
 defaults:
   -

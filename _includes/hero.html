@@ -6,8 +6,8 @@
             <h1 class="hero-redesign__title" id="page-title">{{ page.hero_title | default: page.title }}</h1>
             {% if page.subtitle %}<p class="hero-redesign__subtitle">{{ page.subtitle }}</p>{% endif %}
             <div class="hero-redesign__actions">
-                {% if page.hero_link %}<a href="{{ page.hero_link | relative_url }}" class="site-button site-button--primary">{{ page.hero_link_text }}</a>{% endif %}
-                {% if page.hero_secondary_link %}<a href="{{ page.hero_secondary_link | relative_url }}" class="site-button site-button--dark">{{ page.hero_secondary_text }}</a>{% endif %}
+                {% if page.hero_link %}<a href="{{ page.hero_link | relative_url }}" class="site-button site-button--primary" data-lt-event="quote_click" data-lt-placement="hero_primary">{{ page.hero_link_text }}</a>{% endif %}
+                {% if page.hero_secondary_link %}<a href="{{ page.hero_secondary_link | relative_url }}" class="site-button site-button--dark" data-lt-event="quote_click" data-lt-placement="hero_secondary">{{ page.hero_secondary_text }}</a>{% endif %}
             </div>
             {% if page.hero_note %}<p class="hero-redesign__note">{{ page.hero_note }}</p>{% endif %}
         </div>

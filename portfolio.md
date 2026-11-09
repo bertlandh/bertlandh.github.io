@@ -8,7 +8,7 @@ show_sidebar: false
 eyebrow: Our work
 ---
 <section class="site-section"><div class="site-container">
-<div class="section-heading"><h2>Practical websites and applications</h2><p>Explore our public website, mobile contact journey and application development. Each example shows its capabilities and current status.</p></div>
+<div class="section-heading"><h2>Practical websites and applications</h2><p>Explore real website work, a mobile contact journey and application development. Read the Dancehall Archive and LearnTech case studies for the purpose, contribution and delivered features. Each example shows its current status.</p></div>
 <div class="site-grid site-grid--3 portfolio-grid">{% for project in site.data.portfolio %}
 <article class="site-card">{% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.name | escape }} interface example" loading="lazy" class="portfolio-card__image">{% endif %}
 <p class="section-heading__eyebrow">{{ project.status | escape }}</p><h3>{{ project.name | escape }}</h3><p><strong>{{ project.capability | escape }}</strong></p><p>{{ project.description | escape }}</p>

@@ -1,11 +1,21 @@
 [
   {
+    "name": "Dancehall Archive & Research Initiative",
+    "status": "Published collaborative website",
+    "capability": "Research, publications and cultural content",
+    "description": "Website design and implementation contribution with the DHA team, helping people explore research, publications, events and initiative information.",
+    "image": "/img/work/dancehall-desktop.jpg",
+    "url": "/work/dancehall-archive/",
+    "label": "Read the case study"
+  },
+  {
     "name": "LearnTech Foundation website",
     "status": "Published website",
     "capability": "Business websites and content",
     "description": "A responsive public website bringing services, product information, articles and direct enquiry channels together.",
-    "url": "/",
-    "label": "Explore this website"
+    "url": "/work/learntech-website/",
+    "label": "Read the website case study",
+    "image": "/img/work/learntech-desktop.jpg"
   },
   {
     "name": "Digital contact card",

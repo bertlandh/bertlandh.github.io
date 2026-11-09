@@ -1,9 +1,2 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RCYQHYXZC2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RCYQHYXZC2');
-</script>
+{% comment %}Analytics loads only after an explicit choice and a confirmed enabled property.{% endcomment %}
+<script defer src="{{ '/assets/js/enquiries.js' | relative_url }}?v={{ site.asset_version }}" data-lt-analytics-enabled="{{ site.analytics.enabled | default: false }}" data-lt-ga-id="{{ site.analytics.measurement_id | escape }}"></script>
