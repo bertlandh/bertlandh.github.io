@@ -11,7 +11,6 @@
         </button>
         <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-site-nav>
             <ul class="site-nav__list">
-                <li><a href="{{ '/' | relative_url }}" class="site-nav__link {% if page.url == '/' %}is-active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
                 {% for item in site.data.navigation %}
                     <li class="site-nav__item {% if item.dropdown %}site-nav__item--dropdown{% endif %}">
                         {% if item.dropdown %}<div class="site-nav__parent-row">{% endif %}
