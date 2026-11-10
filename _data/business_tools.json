@@ -113,7 +113,7 @@
       },
       {
         "q": "Can this convert an image to SVG?",
-        "a": "Not currently. SVG stores vector shapes; turning a photo into editable paths needs a tracing process. Putting a JPEG or PNG inside an SVG wrapper does not make it a true vector image. This tool currently accepts and exports JPEG, PNG and WebP only."
+        "a": "For logos and icons, use the separate SVG converter linked below. It traces raster shapes into vector paths. This image resizer still accepts and exports JPEG, PNG and WebP only; putting a bitmap inside an SVG wrapper would not make it a true vector image."
       },
       {
         "q": "Will compression always make my file smaller?",
@@ -121,9 +121,9 @@
       }
     ],
     "related": [
-      "brandsnap",
-      "website",
-      "seo"
+      "svg_converter",
+      "favicon",
+      "brandsnap"
     ],
     "url": "/tools/image-resizer/"
   },
@@ -154,10 +154,86 @@
       }
     ],
     "related": [
-      "image",
-      "invoice",
-      "website"
+      "svg_converter",
+      "favicon",
+      "image"
     ],
     "url": "/tools/brandsnap/"
+  },
+  "svg_converter": {
+    "file": "svg-converter",
+    "name": "Free Image to SVG Converter for Logos & Icons",
+    "description": "Trace PNG, JPEG and WebP logos into real SVG vector paths in your browser. Choose colours and detail, preview and download with LearnTech credit.",
+    "subtitle": "Turn a simple logo or icon into scalable vector paths. Preview the trace before downloading.",
+    "intro": "Your image stays on this device. This is vector tracing, not a bitmap placed inside an SVG wrapper. It works best for simple shapes and flat colours; photographs and small lettering may lose detail.",
+    "heading": "Trace a simple logo",
+    "settings": "<label for=\"asset-colors\">Trace colours</label><select id=\"asset-colors\" name=\"colors\"><option value=\"2\">2 colours</option><option value=\"4\">4 colours</option><option value=\"8\" selected>8 colours</option><option value=\"16\">16 colours</option></select><label for=\"asset-detail\">Maximum tracing resolution</label><select id=\"asset-detail\" name=\"detail\"><option value=\"256\">256 px — simpler and faster</option><option value=\"512\" selected>512 px — standard</option><option value=\"768\">768 px — more detail</option></select><p class=\"tool-note\">The longest side is reduced to this limit; small images are not enlarged for tracing. Noise is simplified. More detail can mean larger, more complex SVG files. The preview uses the actual download.</p>",
+    "button": "Trace SVG preview",
+    "download": "Download SVG",
+    "aside": "The download contains vector paths and a visible LearnTech credit footer below the artwork, plus credit in the SVG description. This changes the full canvas proportions. Review edges, lettering, colours and transparency before using it.",
+    "steps": [
+      "Choose a clear JPEG, PNG or WebP logo or icon. Transparent PNG is useful for isolated artwork.",
+      "Choose the number of colours and maximum trace resolution, then create a preview.",
+      "Compare the trace with your source, adjust settings if needed, and download the SVG with its LearnTech credit footer."
+    ],
+    "faq": [
+      {
+        "q": "Is the download a real vector image?",
+        "a": "Yes. The artwork is rebuilt as SVG paths rather than embedded as a PNG or JPEG. Tracing approximates the original; it does not recover original design files or editable fonts."
+      },
+      {
+        "q": "Will it work well on photos or tiny text?",
+        "a": "It is intended for logos and icons with simple shapes. Photos, gradients and very small text can produce poor results or many shapes. Use fewer colours, a clearer source or an original vector design when available. Semi-transparent pixels are simplified to transparent or solid, so soft shadows are not preserved."
+      },
+      {
+        "q": "Can I stop a long trace?",
+        "a": "Yes. Use Cancel generation. The worker is terminated; your source stays ready for another attempt. A trace also stops after 45 seconds. Reset removes the image and output."
+      }
+    ],
+    "related": [
+      "favicon",
+      "image",
+      "brandsnap"
+    ],
+    "url": "/tools/svg-converter/",
+    "category": "MultimediaApplication"
+  },
+  "favicon": {
+    "file": "favicon-generator",
+    "name": "Free Favicon Generator — PNG & ICO ZIP Download",
+    "description": "Turn a logo or photo into PNG favicons, Apple-touch and app icons, plus a multi-size ICO. Download a ZIP with installation markup and LearnTech guidance.",
+    "subtitle": "Create a favicon package from your logo, ready to hand to your website developer.",
+    "intro": "Generate browser and app-icon images locally, without an upload or account. Download a ZIP containing six PNG sizes, a multi-size ICO, a manifest icon template, HTML markup and a LearnTech README.",
+    "heading": "Prepare your favicon package",
+    "settings": "<label for=\"asset-padding\">Space around the logo</label><select id=\"asset-padding\" name=\"padding\"><option value=\"0\">No extra padding</option><option value=\"8\">8%</option><option value=\"12\" selected>12%</option><option value=\"20\">20%</option></select><label for=\"asset-background\">Background colour</label><input id=\"asset-background\" name=\"background\" type=\"color\" value=\"#ffffff\"><label class=\"tool-check\"><input name=\"transparent\" type=\"checkbox\" checked><span>Transparent browser and app-icon padding. Apple-touch always uses the chosen solid background.</span></label><p class=\"tool-note\">PNG sizes: 16, 32, 48, 180, 192 and 512 px. ICO includes 16, 32 and 48 px. Your image fits without stretching. A simple square logo is easier to recognise at small sizes; enlarging a small image cannot add detail.</p>",
+    "button": "Create favicon package",
+    "download": "Download favicon ZIP",
+    "aside": "File names include your chosen brand and learntech. The ZIP includes the exact credit, contact links and installation instructions in its README, plus credit in PNG metadata and the manifest description. Tiny icon artwork stays readable without a text strip. The manifest is an icon template, not a complete installable PWA.",
+    "steps": [
+      "Choose a clear logo or image, and enter a short brand name for the package.",
+      "Choose padding and a background. Preview every icon, especially the 16 px version.",
+      "Download the ZIP. Upload files to your site and follow the included README and HTML snippet, or pass them to your developer."
+    ],
+    "faq": [
+      {
+        "q": "What is in the favicon ZIP?",
+        "a": "Six PNGs at 16, 32, 48, 180, 192 and 512 pixels; one ICO containing 16, 32 and 48 pixel images; a webmanifest icon template; an HTML head snippet; and a LearnTech README with installation steps and contact details."
+      },
+      {
+        "q": "Will the icons have my logo or a LearnTech watermark?",
+        "a": "The icon artwork uses your image. LearnTech credit is retained in branded file names, PNG metadata, the manifest description and the included README, so the tiny 16 px icon remains useful."
+      },
+      {
+        "q": "Does this make my site a complete installable app?",
+        "a": "No. It provides icon assets and a manifest template. Your site may need additional configuration and functionality. Merge the template icons into any existing manifest and avoid duplicate manifest links."
+      }
+    ],
+    "related": [
+      "svg_converter",
+      "image",
+      "website"
+    ],
+    "url": "/tools/favicon-generator/",
+    "category": "MultimediaApplication"
   }
 }

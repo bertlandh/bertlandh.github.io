@@ -2,6 +2,8 @@
   'use strict';
   var creditLine = 'Made with love by your friends at LearnTech Foundation.';
   var credits = {
+    svg_converter: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
+    favicon: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
     brandsnap: {label:'Contact us for custom software design', path:'/services/software-development/?interest=software#enquiry'},
     image_tools: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
     invoice_quotation: {label:'Contact us for custom software design', path:'/services/software-development/?interest=software#enquiry'},
