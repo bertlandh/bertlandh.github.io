@@ -1,12 +1,16 @@
 ---
-title: Free Invoice & Quotation Generator
-description: Create JMD invoices and quotations with line items, discounts and optional tax. Save locally, print to PDF or request an email copy from LearnTech.
+title: "Free Invoice & Quotation Generator for Jamaica"
+description: "Create invoices and quotations in JMD or other currencies. Add line items, discounts and optional tax, then print or save as PDF. Free, no account needed."
 subtitle: From a clear quotation to the next invoice. Prepare it here, keep a copy, and get back to work.
 permalink: /tools/invoice-quotation/
 layout: page
 redesign_page: true
 show_sidebar: false
 eyebrow: Free business tools
+tool_id: invoice
+breadcrumb_parent: Free business tools
+breadcrumb_url: /tools/
+last_modified_at: 2026-11-10
 ---
 <link rel="stylesheet" href="{{ '/assets/css/tools.css' | relative_url }}?v={{ site.asset_version }}">
 <section class="site-section lt-tool" data-invoice-tool><div class="site-container"><div class="tool-intro tool-no-print"><a href="{{ '/tools/' | relative_url }}">← All free tools</a><p>No account needed. Your details stay in this browser unless you choose to send an email report. Print or save as PDF at any time.</p></div><noscript><p class="tool-notice">This tool needs JavaScript to calculate and prepare documents. Please enable it, or <a href="{{ '/connect/' | relative_url }}">contact LearnTech for help</a>.</p></noscript>
@@ -23,3 +27,5 @@ eyebrow: Free business tools
 </form><div><section class="tool-panel tool-preview" id="invoice-preview" tabindex="-1" aria-label="Document preview"></section><div class="tool-actions tool-no-print"><button type="button" class="site-button site-button--primary" id="print-document">Print / save PDF</button><button type="button" class="site-button site-button--outline" id="download-document">Download text copy</button><button type="button" class="site-button site-button--outline" id="convert-document" hidden>Convert to invoice</button></div><p class="tool-note tool-no-print">PDF uses your browser’s print dialog. Review all details before sending a document to a customer.</p>{% include tool-report.html %}</div></div>
 <div class="tool-notice tool-no-print"><h2>Need this to work with your business?</h2><p>Customer records, approval workflows or recurring billing may need a dedicated application. LearnTech builds practical software around the way your team works.</p><a href="{{ '/services/software-development/' | relative_url }}">Explore custom software →</a></div></div></section>
 <script src="{{ '/assets/js/tool-common.js' | relative_url }}?v={{ site.asset_version }}" defer></script><script src="{{ '/assets/js/invoice-tool.js' | relative_url }}?v={{ site.asset_version }}" defer></script>
+
+{% include tool-guide.html %}

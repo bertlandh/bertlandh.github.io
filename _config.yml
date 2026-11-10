@@ -69,6 +69,7 @@ defaults:
   - scope:
       path: "tools"
     values:
+      social_image_only: true
       image:
         path: /assets/images/social/free-business-tools-share-v1.jpg
         width: 1200

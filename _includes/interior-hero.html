@@ -1,4 +1,5 @@
-{% assign hero_image = page.hero_image | default: page.image %}
+{% assign hero_image = page.hero_image %}
+{% unless hero_image or page.social_image_only %}{% assign hero_image = page.image.path | default: page.image %}{% endunless %}
 {% assign hero_product = nil %}
 {% if page.product_key %}
   {% assign hero_product = site.data.products | where: "key", page.product_key | first %}

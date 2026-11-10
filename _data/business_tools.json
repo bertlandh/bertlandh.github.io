@@ -1,0 +1,163 @@
+{
+  "invoice": {
+    "file": "invoice-quotation",
+    "name": "Free Invoice & Quotation Generator for Jamaica",
+    "description": "Create invoices and quotations in JMD or other currencies. Add line items, discounts and optional tax, then print or save as PDF. Free, no account needed.",
+    "category": "BusinessApplication",
+    "heading": "Create a Jamaican dollar invoice or quotation online",
+    "intro": "Prepare a quotation for a customer, then create an invoice when the work is agreed. This free invoice maker supports JMD, USD, CAD, GBP and EUR for sole traders and small businesses in Jamaica and beyond.",
+    "steps": [
+      "Choose Invoice or Quotation, currency, reference and date.",
+      "Add your business, customer and line items; review any discount, tax and payment instructions.",
+      "Check the preview, then print or save as PDF. Save locally or download a JSON backup if you want to reuse the document."
+    ],
+    "faq": [
+      {
+        "q": "Can I create an invoice in JMD and save it as PDF?",
+        "a": "Yes. Choose JMD, complete your document and use Print / Save PDF. Your browser provides the PDF destination. The finished document includes the LearnTech credit."
+      },
+      {
+        "q": "Does it calculate my tax obligations?",
+        "a": "No. You choose any applicable tax rate and must check that the document meets your business and customer requirements. The tool calculates the entries you provide; it is not an accounting or tax-advice service."
+      },
+      {
+        "q": "Do I need to email my customer details?",
+        "a": "No. Creating, printing and downloading work without email. Local saves stay in this browser profile, so keep a JSON backup and avoid saving sensitive documents on a shared device."
+      }
+    ],
+    "related": [
+      "brandsnap",
+      "image",
+      "website"
+    ],
+    "url": "/tools/invoice-quotation/"
+  },
+  "website": {
+    "file": "website-health",
+    "name": "Free Website Health Checker Online",
+    "description": "Check a public page for HTTPS, mobile setup, search information and image markup. Get practical website health observations and download a free report.",
+    "category": "DeveloperApplication",
+    "heading": "Check website basics before planning your next update",
+    "intro": "Use this free website checker to get a first look at one public page. It helps Jamaican business owners and website managers ask clearer questions about their site, without needing an account.",
+    "steps": [
+      "Enter the public page address without a login, query string or private information.",
+      "Review the observations and suggested next steps for search information, mobile setup, image markup and selected headers.",
+      "Download the report and discuss the findings with your developer. Use the linked PageSpeed Insights service for a separate performance assessment."
+    ],
+    "faq": [
+      {
+        "q": "Is this a complete security or speed audit?",
+        "a": "No. It checks one public HTML page and selected response headers. It does not test for exploitable vulnerabilities, measure all visitor experiences or crawl the whole website."
+      },
+      {
+        "q": "Can it verify my PHP version or website backups?",
+        "a": "A PHP version is visible only when the server exposes a relevant header, which may be absent or misleading. Website backups cannot be verified publicly; ask your developer for a recent backup and evidence of a successful restore test."
+      },
+      {
+        "q": "How is it different from the SEO checker?",
+        "a": "The website health report covers broader public-page observations. The SEO checker focuses on page titles, descriptions, headings, canonical addresses, indexing directives and image alternative attributes."
+      }
+    ],
+    "related": [
+      "seo",
+      "image",
+      "brandsnap"
+    ],
+    "url": "/tools/website-health/"
+  },
+  "seo": {
+    "file": "seo-health",
+    "name": "Free SEO Checker — Page Titles, Meta Tags & More",
+    "description": "Check on-page SEO basics: titles, meta descriptions, headings, canonical URLs, indexing directives and image alt attributes. Get a free page-level report.",
+    "category": "DeveloperApplication",
+    "heading": "Check on-page SEO essentials in one public page",
+    "intro": "This free SEO checker helps you spot missing page information before asking for a website update. It is useful for business websites in Jamaica and elsewhere, whether you manage the site yourself or work with a developer.",
+    "steps": [
+      "Enter the public page you want to review, such as a service or product page.",
+      "Read each observation about titles, meta descriptions, headings, canonical URLs, indexing directives and image alt attributes.",
+      "Download the report, make relevant improvements and check the page again. Use Google Search Console or Bing Webmaster Tools to inspect actual indexing."
+    ],
+    "faq": [
+      {
+        "q": "Will a good report guarantee Google rankings?",
+        "a": "No. These are presence checks, not a ranking score. They do not measure keyword demand, backlinks, competition, writing quality or actual indexing. A present title or alt attribute can still need improvement."
+      },
+      {
+        "q": "Does this check every page on my website?",
+        "a": "No. Submit each important public page separately. Different service and product pages should describe their own content accurately rather than repeat the same title and description."
+      }
+    ],
+    "related": [
+      "website",
+      "image",
+      "brandsnap"
+    ],
+    "url": "/tools/seo-health/"
+  },
+  "image": {
+    "file": "image-resizer",
+    "name": "Free Image Compressor, Resizer & Converter Online",
+    "description": "Compress, resize and convert JPEG, PNG and WebP images in your browser. Choose dimensions, crop or fit, preview and download. No upload or account needed.",
+    "category": "MultimediaApplication",
+    "heading": "Resize, compress and convert images for websites and social posts",
+    "intro": "Prepare a product photo, website banner or social post without uploading it. The free image converter accepts still JPEG, PNG and WebP files and exports those same formats, with a visible LearnTech credit strip.",
+    "steps": [
+      "Choose a still JPEG, PNG or WebP image up to 20 MB and 24 megapixels.",
+      "Select a preset or custom dimensions, choose fit or centre crop, and set JPEG or WebP quality if needed.",
+      "Create a preview, compare the file size and check the crop before downloading the finished image."
+    ],
+    "faq": [
+      {
+        "q": "Can I convert PNG to JPEG or JPEG to WebP?",
+        "a": "Yes. Select your source image and choose the download format. JPEG uses a white background. PNG and WebP can keep transparency when you select that option."
+      },
+      {
+        "q": "Can this convert an image to SVG?",
+        "a": "Not currently. SVG stores vector shapes; turning a photo into editable paths needs a tracing process. Putting a JPEG or PNG inside an SVG wrapper does not make it a true vector image. This tool currently accepts and exports JPEG, PNG and WebP only."
+      },
+      {
+        "q": "Will compression always make my file smaller?",
+        "a": "No. Format changes, output dimensions and the LearnTech credit can increase file size. Review the size shown in the preview. Enlarging a small image does not create extra detail."
+      }
+    ],
+    "related": [
+      "brandsnap",
+      "website",
+      "seo"
+    ],
+    "url": "/tools/image-resizer/"
+  },
+  "brandsnap": {
+    "file": "brandsnap",
+    "name": "Add Logo & Text to Photos Online — Free BrandSnap",
+    "description": "Add your logo and text to photos with free BrandSnap. Choose logo placement, text banners and social-post sizes. Download JPEG, PNG or WebP. No upload.",
+    "category": "MultimediaApplication",
+    "heading": "Add a logo and text to product photos and social posts",
+    "intro": "BrandSnap is a free photo branding tool from LearnTech Foundation in Jamaica. Add your business logo, event name or promotional message to an image, then choose a square, portrait, story or custom canvas.",
+    "steps": [
+      "Choose a photo and an optional logo. Transparent PNG logos work well.",
+      "Add your headline and message, choose banner colours and position your logo.",
+      "Choose dimensions and format, create a preview, then download. Check text contrast, crop and spelling before sharing."
+    ],
+    "faq": [
+      {
+        "q": "Can I add a logo without stretching it?",
+        "a": "Yes. BrandSnap preserves the logo proportions. You can choose its size, position and opacity, or add a white backing to help it stand out."
+      },
+      {
+        "q": "Are my photos uploaded or saved online?",
+        "a": "No. Your selected photo, logo and text are processed in this browser. Reset clears the current session; downloaded files stay on your device. Optional camera access starts only when you press Start camera."
+      },
+      {
+        "q": "Can I create Instagram or Facebook images?",
+        "a": "Yes. Use a square, portrait, story or custom canvas, then upload the downloaded image to your chosen platform. BrandSnap does not post to social accounts. Every download includes the LearnTech credit."
+      }
+    ],
+    "related": [
+      "image",
+      "invoice",
+      "website"
+    ],
+    "url": "/tools/brandsnap/"
+  }
+}

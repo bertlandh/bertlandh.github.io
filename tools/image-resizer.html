@@ -1,12 +1,16 @@
 ---
-title: Free Image Compressor & Resizer
-description: Resize and compress JPEG, PNG and WebP images for your website or social posts. Process images privately in your browser with LearnTech’s free tool.
+title: "Free Image Compressor, Resizer & Converter Online"
+description: "Compress, resize and convert JPEG, PNG and WebP images in your browser. Choose dimensions, crop or fit, preview and download. No upload or account needed."
 subtitle: Prepare product photos, website images and social posts. Resize, preview and download, without uploading your image.
 permalink: /tools/image-resizer/
 layout: page
 redesign_page: true
 show_sidebar: false
 eyebrow: Free business tools
+tool_id: image
+breadcrumb_parent: Free business tools
+breadcrumb_url: /tools/
+last_modified_at: 2026-11-10
 ---
 <link rel="stylesheet" href="{{ '/assets/css/tools.css' | relative_url }}?v={{ site.asset_version }}">
 <section class="site-section lt-tool" data-image-tool><div class="site-container"><div class="tool-intro"><a href="{{ '/tools/' | relative_url }}">← All free tools</a><p>Your image is processed on this device. No account, upload or email address needed. Every download includes a small LearnTech credit strip.</p></div>
@@ -20,3 +24,5 @@ eyebrow: Free business tools
 <div class="tool-actions"><button class="site-button site-button--primary" id="image-generate" type="submit" disabled>Create image preview</button><button class="site-button site-button--outline" id="image-clear" type="button">Remove image</button></div><p class="tool-status" id="image-status" role="status" aria-live="polite">Choose an image to begin.</p></form>
 <div><section class="tool-panel" id="image-result" hidden><h2 id="image-result-title" tabindex="-1">Your finished image</h2><p class="tool-note" id="image-output-info"></p><div class="image-tool-canvas"><img id="image-preview" alt="Resized image including the LearnTech credit strip"></div><div class="tool-actions"><button class="site-button site-button--primary" id="image-download" type="button" disabled>Download image</button></div><p class="tool-note">Preview the crop, quality and credit before downloading. Change any setting to prepare a new version. No image history is saved by this tool.</p></section><aside class="tool-panel image-tool-help"><h2>Useful images. Clearer websites.</h2><p>Try JPEG or WebP for photographs. Use PNG or WebP when you need transparency. Compare the finished file size and appearance before replacing an image on your website.</p><p>The credit is drawn into a strip below the picture, within the final canvas. It does not cover your photo. Images cannot contain clickable links, so the credit includes learntechfoundation.org.</p><div id="image-tool-credit"></div></aside></div></div></div></section>
 <script src="{{ '/assets/js/tool-common.js' | relative_url }}?v={{ site.asset_version }}" defer></script><script src="{{ '/assets/js/image-tool-core.js' | relative_url }}?v={{ site.asset_version }}" defer></script><script src="{{ '/assets/js/image-tool.js' | relative_url }}?v={{ site.asset_version }}" defer></script>
+
+{% include tool-guide.html %}
