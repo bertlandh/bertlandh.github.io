@@ -1,5 +1,5 @@
 <article class="product-card">
-  {% if product.image %}<a class="product-card__media product-card__media--device" aria-label="View {{ product.name | escape }} product" href="{{ product.url | relative_url }}">{% include device-showcase.html desktop=product.image desktop_alt=product.image_alt mobile=product.mobile_image mobile_alt=product.mobile_alt %}</a>{% endif %}
+  {% if product.image %}<a class="product-card__media product-card__media--device" aria-label="View {{ product.name | escape }} product" href="{{ product.url | relative_url }}">{% include device-showcase.html desktop=product.image desktop_alt=product.image_alt mobile=product.mobile_image mobile_alt=product.mobile_alt mobile_width=product.mobile_width mobile_height=product.mobile_height %}</a>{% endif %}
   <div class="product-card__content">
     {% include product-mark.html product=product modifier="compact" %}
     <h3><a href="{{ product.url | relative_url }}">{{ product.name }}</a></h3>

@@ -6,6 +6,10 @@
   cta: Explore Custodia Registry
   image: /img/products/custodia/dashboard-overview.png
   image_alt: Custodia Registry dashboard showing records, loans, requests, retention, and reporting
+  mobile_image: /img/products/custodia/mobile-entry.webp
+  mobile_alt: Custodia Registry public home on a mobile screen
+  mobile_width: 375
+  mobile_height: 812
   short_name: CR
   accent_class: teal
   icon: fa-folder-open
@@ -18,6 +22,10 @@
   cta: Explore Another Check-In App
   image: /img/products/check-in/check-in-overview.png
   image_alt: Another Check-In App staff check-in screen
+  mobile_image: /img/products/check-in/mobile-entry.webp
+  mobile_alt: Another Check-In App mobile check-in entry screen
+  mobile_width: 375
+  mobile_height: 812
   short_name: CI
   accent_class: gold
   icon: fa-map-marker-alt
