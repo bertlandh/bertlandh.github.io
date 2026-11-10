@@ -56,3 +56,11 @@ In Search Console and Bing Webmaster Tools Search Performance, filter the tools 
 On 10 November 2026, the existing GA4 property 331500281 was checked and the event-scoped custom dimension Tool was created for parameter `tool`. The saved definition was verified in the UI. This does not create a custom dashboard or backfill historical event parameters. Allow the documented processing interval before using it in explorations.
 
 Analytics loading is restricted to the production LearnTech/GitHub hostnames. Local preview/test visits do not send GA events even if a saved consent choice exists.
+
+## Image compressor and resizer
+
+`/tools/image-resizer/` processes still JPEG/PNG/WebP locally with browser canvas. No backend, API key, image upload, persistent history or email integration. Source magic bytes and dimensions are checked before decoding (20 MB / 24 MP limits); output is limited to 4096 per side and 12 MP. Proportional and fixed social/website presets, contain/centre crop, no-enlarge default, JPEG/WebP quality and optional PNG/WebP transparency are supported. The final dimensions include a white credit strip rendered into the exported pixels below the photo. It contains the shared LearnTech tagline and website address. No download can omit this strip. Preview and final export use the same blob; settings changes invalidate stale downloads. File size may increase and is reported honestly.
+
+Browser-supported JPEG EXIF orientation is honoured during decoding. Re-encoding makes a new file; original files are not modified. Animated formats and SVG/HEIC are rejected. Some browsers cannot encode WebP; format fallback is detected and reported rather than mislabelling a PNG as WebP. Local preview traffic remains excluded from Analytics. Production events use fixed identifier `image_tools` without file information.
+
+Run `node scripts/test-image-tool.cjs` plus the existing report and consent suites.

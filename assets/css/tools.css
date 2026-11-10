@@ -64,3 +64,9 @@
 .tool-credit p {margin:.25rem 0;white-space:normal;}
 .tool-credit a {color:#981430;text-decoration:underline;}
 @media print {.tool-credit{display:block!important;font-size:9pt;color:#333;}.tool-credit a{color:#333;}}
+
+.image-tool-original {display:block;max-width:100%;max-height:180px;width:auto;height:auto;margin:.75rem auto;}
+.image-tool-canvas {background:repeating-conic-gradient(#f2eeee 0 25%,#fff 0 50%) 0/20px 20px;border:1px solid #eadcda;border-radius:6px;padding:.5rem;}
+.image-tool-canvas img {display:block;width:auto;max-width:100%;height:auto;max-height:650px;object-fit:contain;margin:auto;}
+.image-tool-help {margin-top:1rem;}
+.lt-tool input[type=range] {padding:.5rem 0;border:0;min-height:44px;}
