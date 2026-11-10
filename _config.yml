@@ -2,7 +2,7 @@ lang: en-GB
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
-asset_version: "20261110-vector-tools-1"
+asset_version: "20261110-tools-cta-1"
 tagline: Practical software. Useful technology.
 social:
   name: LearnTech Foundation
