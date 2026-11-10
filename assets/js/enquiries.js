@@ -6,16 +6,20 @@
   enabled = enabled && /^G-[A-Z0-9]+$/.test(measurementId);
   var consent = "denied";
   var loaded = false;
+  var formViewed = false;
+  var formStarted = false;
+  var formObserver = null;
   var panel = document.querySelector("[data-lt-consent-panel]");
   var key = "learntech_optional_analytics";
   function readChoice() { try { return localStorage.getItem(key); } catch (_) { return null; } }
   function track(name, parameters) {
     if (!enabled || consent !== "granted" || !loaded) return;
-    if (["quote_click", "contact_click", "enquiry_submit_attempt", "enquiry_confirmation_view"].indexOf(name) === -1) return;
+    if (["quote_click", "contact_click", "enquiry_form_view", "enquiry_form_start", "enquiry_submit_attempt", "enquiry_confirmation_view"].indexOf(name) === -1) return;
     var safe = {};
     ["placement", "channel", "enquiry_type"].forEach(function (field) {
       if (parameters && /^[a-z_]{1,40}$/.test(parameters[field] || "")) safe[field] = parameters[field];
     });
+    safe.transport_type = "beacon";
     window.gtag("event", name, safe);
   }
   function loadAnalytics() {
@@ -30,6 +34,19 @@
     tag.async = true;
     tag.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(measurementId);
     document.head.appendChild(tag);
+    var form = document.querySelector("[data-lt-enquiry]");
+    if (form && window.IntersectionObserver && !formObserver) {
+      formObserver = new window.IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && consent === "granted" && !formViewed) {
+            formViewed = true;
+            track("enquiry_form_view");
+            formObserver.disconnect();
+          }
+        });
+      }, {threshold: 0.1});
+      formObserver.observe(form);
+    }
     if (location.pathname === "/enquiry/thanks/") track("enquiry_confirmation_view");
   }
   if (enabled) {
@@ -53,6 +70,18 @@
     if (event.target.closest("[data-lt-manage-analytics]") && enabled && panel) { panel.hidden = false; panel.scrollIntoView({block: "center"}); return; }
     var link = event.target.closest("[data-lt-event]");
     if (link) track(link.dataset.ltEvent, {placement: link.dataset.ltPlacement, channel: link.dataset.ltChannel});
+    else {
+      var contact = event.target.closest("a[href]");
+      var href = contact ? contact.getAttribute("href") || "" : "";
+      var channel = /^mailto:/i.test(href) ? "email" : /^tel:/i.test(href) ? "phone" : /^https:\/\/(wa\.me|api\.whatsapp\.com)(\/|$)/i.test(href) ? "whatsapp" : "";
+      if (channel) track("contact_click", {channel: channel});
+    }
+  });
+  document.addEventListener("focusin", function (event) {
+    if (enabled && loaded && consent === "granted" && !formStarted && event.target.closest("[data-lt-enquiry]")) {
+      formStarted = true;
+      track("enquiry_form_start");
+    }
   });
   document.addEventListener("submit", function (event) {
     if (event.target.matches("[data-lt-enquiry]")) track("enquiry_submit_attempt", {enquiry_type: event.target.elements.enquiry_type.value});
