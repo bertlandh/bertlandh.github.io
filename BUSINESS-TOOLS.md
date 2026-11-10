@@ -38,3 +38,19 @@ The local test harness is not part of source, and disappears on a clean Jekyll r
 ## Report compatibility investigation — 10 November 2026
 
 The owner reported no report delivery. The form now sends the full report in the conventional `message` field, with a fixed short autoresponse (the provider documents that its autoresponse includes the submission). Subject lines distinguish website reports from document copies. Native POST, reCAPTCHA and the honeypot are preserved. This is a compatibility hardening change, not a confirmed diagnosis of provider mail delivery. Gmail access was declined; no mailbox settings or messages were accessed. Run `node scripts/test-tool-report.cjs` and the consent tests. A recipient must confirm receipt before marking delivery fixed.
+
+## Shared credits and focused SEO view
+
+All invoice/quotation previews (including print/PDF), text downloads and email-report payloads end with the shared LearnTech credit and a relevant service enquiry link. JSON backups carry `createdWith` metadata; saved records remain version 1 and compatible with existing backups. The credit is part of the document flow, not a fixed-position print overlay. It appears at the end rather than covering totals or repeating on every page.
+
+`/tools/seo-health/` is a focused view of nine existing public-page checks, using the same public API. It does not launch a second crawl or claim to measure rankings, keyword demand or backlinks. Its identifier is `seo_health`. LearnTech credit links on tool pages emit `tool_credit_click` after analytics consent, with the fixed tool ID and output_footer placement only. Offline PDF/email clicks are not measured by that browser event.
+
+The output helper applies credits idempotently so repeated updates do not duplicate the footer. Future free tools should use `LearnTechTools.brandedReport`, `creditHTML` and `report`. Keep local draft storage separate from export metadata.
+
+### Weekly tools review
+
+In GA4 Pages and screens / Landing pages, filter page paths beginning `/tools/`. Review visitors, returning users, engagement and service enquiries by tool. Inspect `tool_start`, `tool_complete`, `tool_save`, `tool_download`, `tool_print`, `tool_report_request`, `tool_error` and `tool_credit_click`. Report requests remain requests, not delivered emails. The event parameter `tool` is already emitted; registering an event-scoped custom dimension called Tool for parameter `tool` enables dashboard breakdowns after processing. Account configuration must be checked separately; source changes do not create dashboard reports automatically.
+
+In Search Console and Bing Webmaster Tools Search Performance, filter the tools URLs and review impressions, clicks and queries. These are search-discovery metrics; Bing does not receive the GA4 tool-use events. The sitemap includes the SEO page automatically, but crawling/indexing/rankings are not guaranteed.
+
+On 10 November 2026, the existing GA4 property 331500281 was checked and the event-scoped custom dimension Tool was created for parameter `tool`. The saved definition was verified in the UI. This does not create a custom dashboard or backfill historical event parameters. Allow the documented processing interval before using it in explorations.
