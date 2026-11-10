@@ -1,3 +1,11 @@
+---
+layout: "page"
+title: "Maintaining LearnTech Academy"
+description: "Maintainer instructions for updating LearnTech Academy recordings, lesson content and course assets."
+hide_hero: true
+sitemap: false
+robots: "noindex, follow"
+---
 # Maintaining LearnTech Academy
 
 The public Academy starts at `/academy/`. It includes Another Check-In (24 lessons), Custodia Registry (26 lessons), and 22 role learning paths. No learner account is required. Training content remains authoritative in the separate `teaching-dem` repository.

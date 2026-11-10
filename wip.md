@@ -5,6 +5,7 @@ layout: page
 show_sidebar: false
 toc: true
 toc_title: Projects
+description: "Explore LearnTech notes on tracking work in progress, customer requests, tickets and priorities in systems and network administration."
 ---
 
 <img src="/img/ac_bird.jpg" alt="Audubon Core parrot" width="400"><br/>

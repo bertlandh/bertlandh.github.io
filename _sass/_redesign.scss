@@ -1818,3 +1818,13 @@ a:focus-visible {
 .portfolio-device .device-showcase--desktop .device-showcase__stage { padding-right: 0; }
 .portfolio-device .device-phone { border-radius: 20px; padding: 4px; }
 .portfolio-device .device-phone__screen { border-radius: 14px; }
+
+/* Optional analytics remains off until a visitor chooses Allow. */
+.site-footer .analytics-choice:not([hidden]) { position: fixed; z-index: 1200; left: 1rem; right: 1rem; bottom: 1rem; width: auto; max-width: 48rem; max-height: 60vh; overflow-y: auto; margin: 0 auto; padding: 1.25rem; color: var(--text-color); background: var(--surface-warm); border: 1px solid var(--border-color); border-radius: 10px; box-shadow: 0 8px 40px rgba(30,15,20,.22); }
+.analytics-choice p { margin: 0 0 .85rem; line-height: 1.6; }
+.analytics-choice .site-button { margin: .2rem .4rem .2rem 0; white-space: normal; }
+.site-footer .analytics-choice > a { color: var(--brand-primary); display: inline-block; padding: .5rem; }
+.footer-analytics-manage { font: inherit; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: 4px; padding: .35rem .65rem; cursor: pointer; text-align: left; }
+.footer-analytics-manage:focus-visible { outline: 3px solid #f0c4ad; outline-offset: 3px; }
+@media (max-width: 1023px) { .site-footer .analytics-choice:not([hidden]) { bottom: 5rem; } }
+@media (max-width: 400px) { .analytics-choice .site-button { display: block; width: 100%; margin: .5rem 0; } }

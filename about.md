@@ -7,6 +7,7 @@ redesign_page: true
 eyebrow: About LearnTech
 hero_image: https://images.unsplash.com/photo-1484662020986-75935d2ebc66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 hero_alt: Technology workspace
+description: "Meet Bertland Hope and LearnTech Foundation: practical software development, business websites, technology consultancy and learning resources from Jamaica."
 ---
 
 <section class="site-section">

@@ -3,6 +3,7 @@ title: Unattended Deployment
 subtitle: Install Operating Systems
 layout: page
 show_sidebar: false
+description: "LearnTech notes on automated operating-system deployment, consistent workstation setup and practical tools for installing and managing Windows environments."
 ---
 
 LearnTech Foundation builds on technology work undertaken since 2009, including tools and educational resources that help people use automated deployments and remote installations more effectively.

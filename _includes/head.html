@@ -13,7 +13,15 @@
     {% unless site.hide_share_buttons %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}
-    {% seo %}
+    {% capture seo_markup %}{% seo %}{% endcapture %}
+    {% if paginator.page > 1 %}
+      {% assign original_description = page.description | escape %}
+      {% capture archive_description %}Technology articles and practical software notes from LearnTech Foundation. Browse archive page {{ paginator.page }} of {{ paginator.total_pages }}.{% endcapture %}
+      {% assign seo_markup = seo_markup | replace: original_description, archive_description %}
+    {% endif %}
+    {{ seo_markup }}
+    <meta name="robots" content="{{ page.robots | default: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' | escape }}">
+    {% feed_meta %}
     {%- include google-analytics.html -%}
     {%- include head-scripts.html -%}
 	

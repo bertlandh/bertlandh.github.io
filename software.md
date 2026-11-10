@@ -3,6 +3,7 @@ title: Push Software
 subtitle: Install Packages Remotely
 layout: page
 show_sidebar: false
+description: "Practical LearnTech notes on remote software installation, package deployment and reducing repetitive setup work across managed computers."
 ---
 
 <img src="/img/ac_bird.jpg" alt="Audubon Core parrot" width="400"><br/>

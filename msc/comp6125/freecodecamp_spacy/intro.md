@@ -16,7 +16,7 @@ show_sidebar: false
 <p align="center">United States Holocaust Memorial Museum</p>
 
 ### <p align="center">How to Cite</p>
-Mattingly, William. <i>Introduction to spaCy 3</i>, 2021 (1st ed.). <a href="spacy.pythonhumanities.com" target="_blank">spacy.pythonhumanities.com</a>.
+Mattingly, William. <i>Introduction to spaCy 3</i>, 2021 (1st ed.). <a href="https://spacy.pythonhumanities.com/" target="_blank">spacy.pythonhumanities.com</a>.
 <p align="center">
     
 ```{image} ./images/freecodecampfull.png

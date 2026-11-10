@@ -4,6 +4,7 @@ subtitle: Bertland G. H. Hope
 layout: page
 show_sidebar: false
 hero_image: /img/2018-03-06.jpg
+description: "Explore Bertland Hope’s professional background, technical experience and qualifications in systems administration, networks, teaching and software development."
 ---
 
 Systems Administrator\
