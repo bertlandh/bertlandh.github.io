@@ -68,3 +68,9 @@ Run `node scripts/test-image-tool.cjs` plus the existing report and consent suit
 
 ## BrandSnap
 Public tool: `/tools/brandsnap/`. Adapted from the existing `starterkits/bbkfirweb/brand-snap/Brand Snap – Mobile Web Selfie.html` camera, canvas, logo and text workflow; original prototype remains unchanged. Uses LearnTech styles, local JPEG/PNG/WebP decoding and bounded canvas output, proportional logo placement, wrapped text, optional camera cleanup and visible credit pixels. No image uploads, email delivery, location request, automatic camera start, or offline/PWA claim. Optional consent-based events contain only action and fixed tool identifier. Tests: `node --test scripts/test-brandsnap.cjs` plus existing image/report/consent checks. Physical camera capture needs device testing.
+
+
+## Social sharing previews
+Tools pages inherit the versioned 1200 x 630 JPEG `/assets/images/social/free-business-tools-share-v1.jpg` through the tools path default in `_config.yml`. Jekyll SEO Tag emits Open Graph and X/Twitter large-image metadata, dimensions and alt text in static HTML. Each page retains its title, description and canonical address. A future page can override image in its front matter. Keep previous image filenames available because social platforms cache previews.
+
+Run `node scripts/check-tool-sharing.cjs` after building. It checks all six tools pages and the image encoding, unique image tags, absolute URLs, dimensions, alt text and size. The graphic is a generated promotional illustration, not an actual screenshot or customer report. If Facebook has cached an earlier preview, inspect the page in Facebook Sharing Debugger and request Scrape Again. The final preview display is platform-dependent.

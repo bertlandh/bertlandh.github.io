@@ -66,6 +66,14 @@ analytics:
   measurement_id: "G-JJ6E4L6716"
 
 defaults:
+  - scope:
+      path: "tools"
+    values:
+      image:
+        path: /assets/images/social/free-business-tools-share-v1.jpg
+        width: 1200
+        height: 630
+        alt: "LearnTech Foundation — Free tools. Less busywork. Create invoices, brand photos and check your website. Try the free tools."
   -
     scope:
       path: ""
