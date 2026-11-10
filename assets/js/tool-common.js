@@ -8,12 +8,13 @@
   function report(text, tool) {
     var section = document.querySelector('[data-tool-email]'); if (!section) return;
     section.hidden = false; section.querySelector('[data-report-preview]').textContent = text;
-    var f = section.querySelector('form'); f.elements.report.value = text; f.elements.tool.value = tool;
-    f.elements._autoresponse.value = 'Your LearnTech report\n\n' + text + '\n\nYou requested this copy. You have not been subscribed to a mailing list.\nhttps://learntechfoundation.org/tools/';
+    var f = section.querySelector('form'); f.elements.message.value = text; f.elements.tool.value = tool;
+    f.elements._subject.value = tool === 'website_health' ? 'LearnTech website health report' : 'LearnTech invoice or quotation copy';
   }
   document.addEventListener('submit', function (e) {
     if (e.target.matches('[data-tool-report-form]')) {
-      if (!e.target.elements.report.value) { e.preventDefault(); return; }
+      if (e.defaultPrevented) return;
+      if (!e.target.elements.message.value.trim()) { e.preventDefault(); return; }
       track('tool_report_request', e.target.elements.tool.value);
     }
   });

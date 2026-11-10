@@ -34,3 +34,7 @@ Existing explicit analytics consent gates all tool events. Fixed `tool` identifi
 Run `node scripts/test-tool-consent.cjs` for consent gating, withdrawal and data allowlisting. Run the existing native Windows Ruby local-build helper from the parent Website tools repository; no WSL. Browser QA used actual narrow iframe viewports at 320/375/768/1440 in the supported in-app browser after its viewport override did not apply. No horizontal overflow or unlabelled visible fields in the tools/homepage checks. This is responsive Chromium rendering, not a physical-device or Firefox certification.
 
 The local test harness is not part of source, and disappears on a clean Jekyll rebuild. `scripts`, `tests`, this document and node_modules are excluded from the public build.
+
+## Report compatibility investigation — 10 November 2026
+
+The owner reported no report delivery. The form now sends the full report in the conventional `message` field, with a fixed short autoresponse (the provider documents that its autoresponse includes the submission). Subject lines distinguish website reports from document copies. Native POST, reCAPTCHA and the honeypot are preserved. This is a compatibility hardening change, not a confirmed diagnosis of provider mail delivery. Gmail access was declined; no mailbox settings or messages were accessed. Run `node scripts/test-tool-report.cjs` and the consent tests. A recipient must confirm receipt before marking delivery fixed.
