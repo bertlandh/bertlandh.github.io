@@ -1,6 +1,6 @@
 ---
 title: Selected work
-description: Websites and application examples by Bertland Hope and LearnTech Foundation.
+description: Explore website design and web application work by LearnTech Foundation in Jamaica, with case studies of Dancehall Archive, LearnTech and Custodia Registry.
 subtitle: Selected work by Bertland Hope and LearnTech Foundation, from public websites to operational applications.
 layout: page
 redesign_page: true
@@ -8,7 +8,7 @@ show_sidebar: false
 eyebrow: Our work
 ---
 <section class="site-section"><div class="site-container">
-<div class="section-heading"><h2>Practical websites and applications</h2><p>Explore real website work, a mobile contact journey and application development. Read the Dancehall Archive and LearnTech case studies for the purpose, contribution and delivered features. Each example shows its current status.</p></div>
+<div class="section-heading"><h2>Practical websites and applications</h2><p>Explore real website work, a mobile contact journey and application development. Read the Dancehall Archive, LearnTech website and Custodia Registry case studies for the purpose, contribution and delivered features. Each example shows its current status.</p></div>
 <div class="site-grid site-grid--3 portfolio-grid">{% for project in site.data.portfolio %}
 <article class="site-card">{% if project.image %}{% capture project_desktop_alt %}{{ project.name }} desktop interface example{% endcapture %}{% capture project_mobile_alt %}{{ project.name }} phone interface example{% endcapture %}<div class="portfolio-device">{% include device-showcase.html desktop=project.image desktop_alt=project_desktop_alt mobile=project.mobile_image mobile_alt=project_mobile_alt %}</div>{% endif %}
 <p class="section-heading__eyebrow">{{ project.status | escape }}</p><h3>{{ project.name | escape }}</h3><p><strong>{{ project.capability | escape }}</strong></p><p>{{ project.description | escape }}</p>

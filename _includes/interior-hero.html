@@ -8,7 +8,10 @@
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="{{ '/' | relative_url }}">Home</a>
       <span aria-hidden="true">/</span>
-      {% if page.layout == 'service' %}
+      {% if page.breadcrumb_parent %}
+        <a href="{{ page.breadcrumb_url | relative_url }}">{{ page.breadcrumb_parent }}</a>
+        <span aria-hidden="true">/</span>
+      {% elsif page.layout == 'service' %}
         <a href="{{ '/services/' | relative_url }}">Services</a>
         <span aria-hidden="true">/</span>
       {% elsif page.layout == 'post' %}

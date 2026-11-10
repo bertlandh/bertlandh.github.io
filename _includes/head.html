@@ -23,6 +23,7 @@
     {{ seo_markup }}
     <meta name="robots" content="{{ page.robots | default: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' | escape }}">
     {% feed_meta %}
+    {% include business-schema.html %}
     {%- include google-analytics.html -%}
     {%- include head-scripts.html -%}
 	

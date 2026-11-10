@@ -16,10 +16,10 @@ description: "Meet Bertland Hope and LearnTech Foundation: practical software de
       <img src="{{ '/img/favicon.png' | relative_url }}" alt="Bertland Hope">
       <small>Photo supplied by DHA</small>
     </div>
-    <div class="content-prose">
+    <div class="content-prose" id="bertland-hope">
       <p class="section-heading__eyebrow">Foundation and experience</p>
       <h2>Software development informed by systems, networks, and technology education</h2>
-      <p>LearnTech Foundation builds practical software for operational problems and supports that work with technology review, consultancy, training, discovery, and leadership.</p>
+      <p>Based in Kingston, Jamaica, LearnTech Foundation builds business websites and practical software for operational problems, supported by technology review, consultancy, training, discovery and leadership. Online discussions and shared reviews let us work with organisations across Jamaica; any in-person work and travel are agreed in advance.</p>
       <p>My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Cisco certificate in network fundamentals, and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing an MSc in Computer Science at <a href="https://www.mona.uwi.edu/">UWI</a>.</p>
       <p>I work as a Manager Information Systems, Systems Administrator, and ICT Instructor. Over more than fifteen years, my responsibilities have included administering networks, troubleshooting systems, documenting work, and executing technology projects.</p>
     </div>

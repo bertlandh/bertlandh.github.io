@@ -33,8 +33,9 @@
     "capability": "Records and workflow applications",
     "description": "Records registration, physical custody, permissions, requests and audit-history workflows.",
     "image": "/img/products/custodia/dashboard-overview.png",
-    "url": "/products/custodia-registry/",
-    "label": "View product example"
+    "url": "/work/custodia-registry/",
+    "label": "Read the application case study",
+    "mobile_image": "/img/products/custodia/mobile-entry.webp"
   },
   {
     "name": "Another Check-In App",

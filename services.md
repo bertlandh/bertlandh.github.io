@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Website, Software & Technology Services in Jamaica
 description: Website development, custom software development and technology consultancy from LearnTech Foundation in Jamaica.
 subtitle: Start with the customer journey, business workflow or technology decision you want to improve.
 layout: page

@@ -1,6 +1,6 @@
 ---
-title: Business websites
-description: Business website development and improvements in Jamaica, with clear enquiry journeys, agreed hosting and handover.
+title: Website Design & Development in Jamaica
+description: Website design and development for Jamaican businesses. New websites from J$200,000, redesigns, clear enquiry routes and agreed hosting and handover.
 layout: service-landing
 landing_page: true
 show_sidebar: false
@@ -8,6 +8,9 @@ journey: websites
 enquiry_type: new
 image: /img/favicon.png
 ---
+
+
+<section class="site-section site-section--warm"><div class="site-container journey-split"><div class="section-heading"><p class="section-heading__eyebrow">Website development in Jamaica</p><h2>A public website built around your customers</h2><p>Your customers may arrive from Google, a referral, social media or a shared WhatsApp link. We organise your services, project examples and contact options so they can understand the business on a phone or desktop and choose the next step.</p><p>Based in Kingston and working with businesses across Jamaica, we can review a current website or agree a new build through online meetings and shared previews.</p></div><div><h3>Start with the information customers need</h3><ul class="journey-checklist"><li>What you offer and who it helps</li><li>Your service area and approved business details</li><li>Relevant work, prices or a clear quotation route</li><li>Working contact links and enquiry forms</li><li>Who owns the domain and maintains the site</li></ul><a class="journey-text-link" href="{{ '/work/learntech-website/' | relative_url }}">See how we applied this to LearnTech →</a></div></div></section>
 
 <section class="site-section site-section--warm" id="starting-scope"><div class="site-container journey-split"><div><p class="section-heading__eyebrow">An agreed starting point</p><h2>Business websites from <strong>J$200,000.</strong></h2><p class="journey-lead">Including hosting for the term stated in your quotation.</p><p>A starting website brings together Home, About, Services and Contact information in a responsive design. We confirm the final pages, features, price, content responsibilities, revisions and delivery dates in writing.</p><a href="#enquiry" class="site-button site-button--primary">Request a website quote</a></div><div class="journey-scope"><h3>Clear from the beginning</h3><ul class="journey-checklist"><li>Phone and desktop layouts</li><li>Agreed content and enquiry links</li><li>Page titles, descriptions and navigation</li><li>Hosting term, renewals and domain costs</li><li>Ownership, licences and handover</li><li>Payment milestones and review points</li></ul><p>Photography, substantial copywriting, integrations and ongoing changes are separately scoped where needed.</p></div></div></section>
 <section class="site-section"><div class="site-container"><div class="journey-paths"><article id="new-website"><h3>Starting from scratch?</h3><p>Build a useful first home for your business online.</p><a href="#enquiry" data-lt-enquiry-choice="new">Discuss a new website →</a></article><article id="improve-website"><h3>Already have a website?</h3><p>Keep what works and improve the parts that get in the way.</p><a href="#enquiry" data-lt-enquiry-choice="improve">Discuss improvements →</a></article><article><h3>Not sure what needs attention?</h3><p>Start with an agreed review of the site and its maintenance.</p><a href="#enquiry" data-lt-enquiry-choice="review">Ask about a review →</a></article></div></div></section>

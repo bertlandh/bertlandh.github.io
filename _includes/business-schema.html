@@ -1,0 +1,19 @@
+{%- assign organisation_id = '/#organization' | absolute_url -%}
+{%- assign person_id = '/about/#bertland-hope' | absolute_url -%}
+{%- if page.homepage or page.url == '/about/' -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":{{ organisation_id | jsonify }},"name":"LearnTech Foundation","url":{{ '/' | absolute_url | jsonify }},"logo":{{ '/favicon.png' | absolute_url | jsonify }},"description":{{ site.description | strip | jsonify }},"email":{{ site.email | jsonify }},"location":{"@type":"Place","name":"Kingston, Jamaica"},"areaServed":{"@type":"Country","name":"Jamaica"},"member":{"@id":{{ person_id | jsonify }}}},{"@type":"Person","@id":{{ person_id | jsonify }},"name":"Bertland Hope","url":{{ '/about/' | absolute_url | jsonify }}}]}
+</script>
+{%- endif -%}
+{%- if page.landing_page -%}
+{%- assign service = site.data.service_journeys[page.journey] -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Service","@id":{{ page.url | absolute_url | append: '#service' | jsonify }},"name":{{ service.service_name | jsonify }},"serviceType":{{ service.service_type | jsonify }},"description":{{ page.description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"provider":{"@type":"Organization","@id":{{ organisation_id | jsonify }},"name":"LearnTech Foundation","url":{{ '/' | absolute_url | jsonify }}},"areaServed":{"@type":"Country","name":"Jamaica"}}
+</script>
+{%- endif -%}
+{%- if page.landing_page or page.breadcrumb_parent -%}
+{%- if page.landing_page -%}{%- assign parent_name = 'Services' -%}{%- assign parent_url = '/services/' -%}{%- assign crumb_name = service.label -%}{%- else -%}{%- assign parent_name = page.breadcrumb_parent -%}{%- assign parent_url = page.breadcrumb_url -%}{%- assign crumb_name = page.title -%}{%- endif -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ parent_name | jsonify }},"item":{{ parent_url | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":{{ crumb_name | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}
+</script>
+{%- endif -%}

@@ -1,8 +1,8 @@
 {
   "websites": {
     "label": "Website development",
-    "headline": "A website that makes your business <strong>clearer to customers.</strong>",
-    "lead": "Show people what you do, give them confidence in your business and make the next step easy. Start fresh or improve the website you already have.",
+    "headline": "Website design and development <strong>for Jamaican businesses.</strong>",
+    "lead": "Give customers a clear view of what you offer and an easy way to enquire. From Kingston, Jamaica, we build responsive business websites and improve existing sites, with scope, hosting and handover agreed before work begins.",
     "cta": "Request a website quote",
     "image": "/img/work/dancehall-desktop.jpg",
     "image_alt": "Dancehall Archive website design example",
@@ -54,6 +54,10 @@
     ],
     "faqs": [
       [
+        "Do you build websites for businesses outside Kingston?",
+        "Yes. We work with businesses across Jamaica through online discussions and shared reviews. Any site visits, travel and in-person meetings are agreed separately."
+      ],
+      [
         "Can you improve my existing website?",
         "Yes. We can agree a review of its content, platform, backups and maintenance arrangements before recommending repairs or a redesign. A replacement may not be needed."
       ],
@@ -76,12 +80,14 @@
     ],
     "mobile_image": "/img/work/dancehall-mobile.jpg",
     "mobile_alt": "Dancehall Archive website on a phone",
-    "image_height": 810
+    "image_height": 810,
+    "service_name": "Website design and development",
+    "service_type": "Business website design, development and redesign"
   },
   "software": {
-    "label": "Custom software development",
-    "headline": "Make the work around your business <strong>easier to manage.</strong>",
-    "lead": "When spreadsheets, repeated data entry and disconnected tools no longer fit, we help turn the workflow into practical software that people can understand and use.",
+    "label": "Software and web app development",
+    "headline": "Custom software and web app development <strong>in Jamaica.</strong>",
+    "lead": "Turn repeated data entry, scattered records and difficult reporting into a practical business application. Based in Kingston, we work with Jamaican organisations to agree the workflow, build the useful features and plan testing and handover.",
     "cta": "Discuss your software project",
     "image": "/img/products/custodia/dashboard-overview.png",
     "image_alt": "Custodia Registry dashboard with records and operational information",
@@ -101,8 +107,8 @@
     ],
     "proof_title": "Practical applications, built around real tasks.",
     "proof": "Custodia Registry connects record information, custody, access and review. Another Check-In App explores attendance and operational reporting. These examples show the kinds of workflows we can discuss for your organisation; product availability and deployment fit are confirmed separately.",
-    "proof_link": "/products/",
-    "proof_label": "Explore the software examples",
+    "proof_link": "/work/custodia-registry/",
+    "proof_label": "Read the Custodia application case study",
     "deliverables": [
       [
         "Discovery and a workable scope",
@@ -133,6 +139,10 @@
     ],
     "faqs": [
       [
+        "Is a web app the same as an Android or iPhone app?",
+        "A web application runs in a browser; a progressive web app can add supported install and offline features. Our examples include browser-based business software and a mobile-oriented PWA in development. Native Android or iPhone apps, app-store publishing and device integrations need a separate feasibility and scope discussion."
+      ],
+      [
         "Do we need custom software?",
         "Not always. An existing product, a better process or an integration may be a more practical choice. Discovery should establish that before a build is proposed."
       ],
@@ -151,13 +161,19 @@
       [
         "What happens after delivery?",
         "Ownership and licences, hosting, access, training and ongoing support are set out in the agreement. Future changes are prioritised and scoped separately."
+      ],
+      [
+        "Can we work together remotely in Jamaica?",
+        "Yes. Discovery, demonstrations and review meetings can take place online. We agree access, data handling, supported devices and any in-person work before development begins."
       ]
-    ]
+    ],
+    "service_name": "Custom software and web app development",
+    "service_type": "Business web application and workflow software development"
   },
   "consultancy": {
     "label": "Technology consultancy",
-    "headline": "A clearer next step for your <strong>technology decisions.</strong>",
-    "lead": "Get practical help understanding your options before you commit to a system, supplier or major change. We bring software, systems and operational experience to the decision.",
+    "headline": "Technology and software consultancy <strong>in Jamaica.</strong>",
+    "lead": "Get practical help choosing a system, reviewing a workflow or planning a technology change. From Kingston, LearnTech Foundation helps Jamaican organisations compare realistic options and agree a useful next step before committing to implementation.",
     "cta": "Discuss your technology needs",
     "image": null,
     "caption": "Illustrative structure for a scoped decision brief.",
@@ -227,6 +243,8 @@
         "Is support available online?",
         "Online engagements are available. Any in-person work in Jamaica, travel, access arrangements and scheduling are agreed in advance."
       ]
-    ]
+    ],
+    "service_name": "Technology and software consultancy",
+    "service_type": "Technology assessment, software planning and implementation guidance"
   }
 }

@@ -2,8 +2,10 @@ lang: en-GB
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
-asset_version: "20261110-seo-consent-1"
+asset_version: "20261110-jamaica-services-1"
 tagline: Practical software. Useful technology.
+social:
+  name: LearnTech Foundation
 email: bertlandhope@gmail.com
 description: >
   LearnTech Foundation builds practical software and provides technology services from Kingston, Jamaica.
