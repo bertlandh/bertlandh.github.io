@@ -6,7 +6,8 @@
     "description": "Website design and implementation contribution with the DHA team, helping people explore research, publications, events and initiative information.",
     "image": "/img/work/dancehall-desktop.jpg",
     "url": "/work/dancehall-archive/",
-    "label": "Read the case study"
+    "label": "Read the case study",
+    "mobile_image": "/img/work/dancehall-mobile.jpg"
   },
   {
     "name": "LearnTech Foundation website",
@@ -15,7 +16,8 @@
     "description": "A responsive public website bringing services, product information, articles and direct enquiry channels together.",
     "url": "/work/learntech-website/",
     "label": "Read the website case study",
-    "image": "/img/work/learntech-desktop.jpg"
+    "image": "/img/work/learntech-desktop.jpg",
+    "mobile_image": "/img/work/learntech-mobile.jpg"
   },
   {
     "name": "Digital contact card",

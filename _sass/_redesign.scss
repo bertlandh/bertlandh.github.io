@@ -588,8 +588,8 @@ a:focus-visible {
 }
 
 .product-card__media { background: var(--surface-accent); overflow: hidden; }
-.product-card__media img { aspect-ratio: 16 / 9; display: block; object-fit: cover; object-position: top; transition: transform 220ms ease; width: 100%; }
-.product-card:hover .product-card__media img { transform: scale(1.015); }
+.product-card__media > img { aspect-ratio: 16 / 9; display: block; object-fit: cover; object-position: top; transition: transform 220ms ease; width: 100%; }
+.product-card:hover .product-card__media > img { transform: scale(1.015); }
 .product-card__content { display: flex; flex: 1; flex-direction: column; padding: var(--space-xl); }
 .product-card__content .product-mark { margin-bottom: var(--space-lg); }
 .product-card h3 { font-size: clamp(1.45rem, 3vw, 2rem); margin-bottom: var(--space-sm); }
@@ -1804,3 +1804,17 @@ a:focus-visible {
   .device-monitor__chin { height: 1.15rem; }
   .device-monitor__stand { height: 2.5rem; }
 }
+
+/* Shared device treatment on portfolio and product pages. */
+.portfolio-device { width: 100%; margin-bottom: 1.2rem; }
+.product-card__media--device { display: block; padding: clamp(1rem,3vw,2rem); }
+.product-card__media--device .device-showcase { max-width: 34rem; }
+.product-card__media--device:focus-visible { outline: 3px solid var(--brand-primary); outline-offset: -4px; }
+.product-showcase .device-monitor__screen img { border: 0; border-radius: 0; height: 100%; }
+.product-showcase .device-phone__screen img { border: 0; border-radius: 0; height: 100%; }
+.device-showcase__full-view { display: inline-block; padding: .35rem 0; color: var(--brand-primary); font-weight: 700; }
+.case-study-devices { max-width: 60rem; margin: 2.5rem auto; }
+.portfolio-device .device-showcase__stage { padding-right: 1.2rem; }
+.portfolio-device .device-showcase--desktop .device-showcase__stage { padding-right: 0; }
+.portfolio-device .device-phone { border-radius: 20px; padding: 4px; }
+.portfolio-device .device-phone__screen { border-radius: 14px; }

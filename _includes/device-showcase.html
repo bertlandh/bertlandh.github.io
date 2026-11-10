@@ -7,5 +7,5 @@
     </div>
     {% if include.mobile %}<div class="device-phone"><div class="device-phone__screen"><img src="{{ include.mobile | relative_url }}" alt="{{ include.mobile_alt | escape }}" width="360" height="864" {% if include.priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %}></div><span class="device-phone__speaker" aria-hidden="true"></span></div>{% endif %}
   </div>
-  <figcaption>{{ include.caption }}</figcaption>
+  {% if include.caption or include.full_view %}<figcaption>{% if include.caption %}{{ include.caption }}{% endif %}{% if include.full_view %} <a class="device-showcase__full-view" href="{{ include.desktop | relative_url }}">View full screenshot</a>{% endif %}</figcaption>{% endif %}
 </figure>

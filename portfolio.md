@@ -10,7 +10,7 @@ eyebrow: Our work
 <section class="site-section"><div class="site-container">
 <div class="section-heading"><h2>Practical websites and applications</h2><p>Explore real website work, a mobile contact journey and application development. Read the Dancehall Archive and LearnTech case studies for the purpose, contribution and delivered features. Each example shows its current status.</p></div>
 <div class="site-grid site-grid--3 portfolio-grid">{% for project in site.data.portfolio %}
-<article class="site-card">{% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.name | escape }} interface example" loading="lazy" class="portfolio-card__image">{% endif %}
+<article class="site-card">{% if project.image %}{% capture project_desktop_alt %}{{ project.name }} desktop interface example{% endcapture %}{% capture project_mobile_alt %}{{ project.name }} phone interface example{% endcapture %}<div class="portfolio-device">{% include device-showcase.html desktop=project.image desktop_alt=project_desktop_alt mobile=project.mobile_image mobile_alt=project_mobile_alt %}</div>{% endif %}
 <p class="section-heading__eyebrow">{{ project.status | escape }}</p><h3>{{ project.name | escape }}</h3><p><strong>{{ project.capability | escape }}</strong></p><p>{{ project.description | escape }}</p>
 {% if project.url %}<a class="site-card__link" href="{{ project.url | relative_url }}">{{ project.label | escape }}</a>{% endif %}</article>{% endfor %}</div>
 <p class="portfolio-note">Selected work includes LearnTech’s own website, published features and application projects. Status labels show which examples are published, internal or in development.</p>
