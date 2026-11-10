@@ -1,0 +1,229 @@
+{
+  "websites": {
+    "label": "Website development",
+    "headline": "A website that makes your business <strong>clearer to customers.</strong>",
+    "lead": "Show people what you do, give them confidence in your business and make the next step easy. Start fresh or improve the website you already have.",
+    "cta": "Request a website quote",
+    "image": "/img/work/dancehall-desktop.jpg",
+    "image_alt": "Dancehall Archive website design example",
+    "caption": "Website contribution with the Dancehall Archive & Research Initiative team.",
+    "benefits": [
+      "Clear services and content",
+      "An easier enquiry journey",
+      "Phone and desktop layouts"
+    ],
+    "problem_title": "Your website should help the conversation, not get in the way.",
+    "problem": "Customers should not have to piece together what you offer, search for a working contact link or struggle with a page on their phone. We start with the information and actions that matter to your business.",
+    "outcomes": [
+      "Make your services easier to understand",
+      "Show relevant work and useful business information",
+      "Give customers a clear way to enquire",
+      "Keep what works when improving an existing site"
+    ],
+    "proof_title": "See the work before you decide.",
+    "proof": "The Dancehall Archive website brings research, publications, events and initiative information together. Explore the case study to see the contribution and responsive examples.",
+    "proof_link": "/work/dancehall-archive/",
+    "proof_label": "Explore the website case study",
+    "deliverables": [
+      [
+        "Content and page structure",
+        "Organise approved business information around the questions customers ask."
+      ],
+      [
+        "Design and enquiry routes",
+        "Build responsive pages with clear navigation, agreed contact options and useful search basics."
+      ],
+      [
+        "Launch and handover",
+        "Check links and forms, agree hosting and renewal responsibilities, and hand over the relevant access."
+      ]
+    ],
+    "steps": [
+      [
+        "Understand your business",
+        "Discuss your customers, current site, content and goals."
+      ],
+      [
+        "Agree, build and review",
+        "Confirm the quotation and scope, then review the pages together."
+      ],
+      [
+        "Launch with a clear handover",
+        "Check the agreed journeys and confirm who handles updates and renewals."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can you improve my existing website?",
+        "Yes. We can agree a review of its content, platform, backups and maintenance arrangements before recommending repairs or a redesign. A replacement may not be needed."
+      ],
+      [
+        "What is included in the starting price?",
+        "A responsive business website bringing together Home, About, Services and Contact information, with hosting for the term in your quotation. Final pages, features, domain costs, revisions and handover are agreed in writing."
+      ],
+      [
+        "Do you provide SEO and monthly statistics?",
+        "SEO setup, measurement, reporting and ongoing care can be scoped separately. Reports explain available evidence, actual enquiries and useful next actions; clicks are not automatically enquiries or sales."
+      ],
+      [
+        "Who supplies the content and owns the accounts?",
+        "We help organise your approved information. Content responsibilities, licences, domain ownership, access and handover are agreed before work begins."
+      ],
+      [
+        "How long does it take, and how do payments work?",
+        "Timing depends on scope, content and review turnaround. The quotation confirms delivery dates and payment milestones. We do not promise a schedule before understanding the work."
+      ]
+    ]
+  },
+  "software": {
+    "label": "Custom software development",
+    "headline": "Make the work around your business <strong>easier to manage.</strong>",
+    "lead": "When spreadsheets, repeated data entry and disconnected tools no longer fit, we help turn the workflow into practical software that people can understand and use.",
+    "cta": "Discuss your software project",
+    "image": "/img/products/custodia/dashboard-overview.png",
+    "image_alt": "Custodia Registry dashboard with records and operational information",
+    "caption": "Custodia Registry application example, using presentation data.",
+    "benefits": [
+      "Start with the real workflow",
+      "Build around the people using it",
+      "Agree scope before development"
+    ],
+    "problem_title": "A workaround can become the way everything works.",
+    "problem": "Information gets entered twice. Approvals live in messages. Reports take too long to assemble. Before adding another tool, we look at the process and decide what a useful solution should actually do.",
+    "outcomes": [
+      "Bring related information into one workflow",
+      "Reduce avoidable repeated handling",
+      "Make responsibilities and next actions visible",
+      "Give authorised users useful reporting"
+    ],
+    "proof_title": "Practical applications, built around real tasks.",
+    "proof": "Custodia Registry connects record information, custody, access and review. Another Check-In App explores attendance and operational reporting. These examples show the kinds of workflows we can discuss for your organisation; product availability and deployment fit are confirmed separately.",
+    "proof_link": "/products/",
+    "proof_label": "Explore the software examples",
+    "deliverables": [
+      [
+        "Discovery and a workable scope",
+        "Map the current process, users, information, constraints and priorities. Decide whether configuration, integration or custom development is appropriate."
+      ],
+      [
+        "A solution you can review",
+        "Develop agreed workflows and interfaces with review points. Specify permissions, validation, integrations and reporting where required."
+      ],
+      [
+        "Testing, deployment and handover",
+        "Agree acceptance checks, the deployment approach, account access and documentation. Scope support and ongoing changes separately."
+      ]
+    ],
+    "steps": [
+      [
+        "Map the problem",
+        "Walk through the current work and identify what needs to change."
+      ],
+      [
+        "Agree the first useful scope",
+        "Set priorities, responsibilities, acceptance criteria and a quotation."
+      ],
+      [
+        "Build, test and hand over",
+        "Review the solution with you, test agreed workflows and plan deployment."
+      ]
+    ],
+    "faqs": [
+      [
+        "Do we need custom software?",
+        "Not always. An existing product, a better process or an integration may be a more practical choice. Discovery should establish that before a build is proposed."
+      ],
+      [
+        "Can you work with our existing systems?",
+        "We assess available interfaces, permissions, data quality and provider restrictions before confirming integration or migration work."
+      ],
+      [
+        "Can you build web applications and internal tools?",
+        "We can discuss business web applications, workflow tools and operational reporting. Supported devices, offline behaviour and integrations are agreed for each project."
+      ],
+      [
+        "What will it cost?",
+        "Custom software is quoted against agreed scope, complexity and responsibilities. The business-website starting price does not apply to a custom application."
+      ],
+      [
+        "What happens after delivery?",
+        "Ownership and licences, hosting, access, training and ongoing support are set out in the agreement. Future changes are prioritised and scoped separately."
+      ]
+    ]
+  },
+  "consultancy": {
+    "label": "Technology consultancy",
+    "headline": "A clearer next step for your <strong>technology decisions.</strong>",
+    "lead": "Get practical help understanding your options before you commit to a system, supplier or major change. We bring software, systems and operational experience to the decision.",
+    "cta": "Discuss your technology needs",
+    "image": null,
+    "caption": "Illustrative structure for a scoped decision brief.",
+    "benefits": [
+      "Understand the situation",
+      "Compare practical options",
+      "Leave with agreed next steps"
+    ],
+    "problem_title": "You need a decision you can explain and act on.",
+    "problem": "Perhaps a system is no longer serving your team, several suppliers offer different answers, or a project needs a clearer direction. We help separate the underlying need from the proposed technology.",
+    "outcomes": [
+      "Clarify the problem and constraints",
+      "Compare options and trade-offs",
+      "Prioritise a practical course of action",
+      "Identify ownership, dependencies and next steps"
+    ],
+    "proof_title": "Technical experience with an operational perspective.",
+    "proof": "Bertland Hope brings experience across software development, systems, networks, teaching and technology operations. Explore the background and application work behind LearnTech\u2019s approach.",
+    "proof_link": "/about/",
+    "proof_label": "Meet the person behind LearnTech",
+    "deliverables": [
+      [
+        "An assessment of the situation",
+        "Review the agreed processes, systems, requirements and constraints. Identify the questions that need answering."
+      ],
+      [
+        "Options and recommendations",
+        "Compare realistic approaches and explain their trade-offs, dependencies and assumptions in an agreed format."
+      ],
+      [
+        "A plan for the next step",
+        "Depending on scope, provide a prioritised roadmap, requirements brief or implementation guidance with clear responsibilities."
+      ]
+    ],
+    "steps": [
+      [
+        "Describe the decision",
+        "Share the situation, the people involved and what is getting in the way."
+      ],
+      [
+        "Agree a focused engagement",
+        "Confirm the questions, access, deliverables, fees and review points."
+      ],
+      [
+        "Review recommendations together",
+        "Discuss the findings, decide on priorities and agree who takes the next actions."
+      ]
+    ],
+    "faqs": [
+      [
+        "What can we ask for help with?",
+        "Software and platform choices, technology planning, service improvement, requirements discovery and implementation direction are possible starting points. The engagement is scoped to the actual situation."
+      ],
+      [
+        "Will we receive a written report?",
+        "The quotation specifies the deliverables. These may include an assessment, options comparison, recommendations, requirements brief or implementation plan."
+      ],
+      [
+        "Do you also implement the recommendations?",
+        "Implementation can be discussed and quoted separately where appropriate. You can also use the agreed outputs with your own team or supplier."
+      ],
+      [
+        "What are your fees?",
+        "Fees are quoted for the agreed scope and deliverables. We establish what the engagement needs before confirming price or timing."
+      ],
+      [
+        "Is support available online?",
+        "Online engagements are available. Any in-person work in Jamaica, travel, access arrangements and scheduling are agreed in advance."
+      ]
+    ]
+  }
+}

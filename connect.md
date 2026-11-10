@@ -12,7 +12,7 @@ image: /img/favicon.png
 
 <section class="site-section">
   <div class="site-container">
-    <div class="section-heading"><p class="section-heading__eyebrow">Direct contact</p><h2>Start with a conversation</h2><p>For website work, use the enquiry form or choose WhatsApp, email or phone. Calls are welcomed during Jamaica office hours.</p></div>
+    <div class="section-heading"><p class="section-heading__eyebrow">Direct contact</p><h2>Start with a conversation</h2><p>For websites, custom software, consultancy or product information, use the enquiry form or choose WhatsApp, email or phone. Calls are welcomed during Jamaica office hours.</p></div>
     <div class="contact-primary">
       <a class="contact-panel" data-lt-event="contact_click" data-lt-channel="email" href="mailto:bertlandhope@gmail.com"><span class="contact-panel__icon"><i class="fas fa-envelope" aria-hidden="true"></i></span><span><strong>Email LearnTech</strong><small>bertlandhope@gmail.com</small></span></a>
       <a class="contact-panel" data-lt-event="contact_click" data-lt-channel="whatsapp" href="https://wa.me/{{ site.data.contact_card.whatsapp_uri }}"><span class="contact-panel__icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></span><span><strong>WhatsApp LearnTech</strong><small>Discuss your website</small></span></a>
@@ -51,4 +51,3 @@ image: /img/favicon.png
     </div>
   </div>
 </section>
-
