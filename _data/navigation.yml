@@ -12,6 +12,8 @@
 - name: Resources
   link: /resources/
   dropdown:
+    - name: Free business tools
+      link: /tools/
     - name: Academy
       link: /academy/
     - name: News

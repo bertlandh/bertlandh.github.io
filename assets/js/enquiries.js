@@ -28,9 +28,9 @@
   function readChoice() { try { return localStorage.getItem(key); } catch (_) { return null; } }
   function track(name, parameters) {
     if (!enabled || consent !== "granted" || !loaded) return;
-    if (["quote_click", "contact_click", "enquiry_form_view", "enquiry_form_start", "enquiry_submit_attempt", "enquiry_confirmation_view"].indexOf(name) === -1) return;
+    if (["quote_click", "contact_click", "enquiry_form_view", "enquiry_form_start", "enquiry_submit_attempt", "enquiry_confirmation_view", "tool_start", "tool_complete", "tool_save", "tool_download", "tool_print", "tool_report_request", "tool_error"].indexOf(name) === -1) return;
     var safe = {};
-    ["placement", "channel", "enquiry_type"].forEach(function (field) {
+    ["placement", "channel", "enquiry_type", "tool"].forEach(function (field) {
       if (parameters && /^[a-z_]{1,40}$/.test(parameters[field] || "")) safe[field] = parameters[field];
     });
     safe.transport_type = "beacon";

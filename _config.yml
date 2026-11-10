@@ -2,7 +2,7 @@ lang: en-GB
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
-asset_version: "20261110-jamaica-services-1"
+asset_version: "20261110-business-tools-1"
 tagline: Practical software. Useful technology.
 social:
   name: LearnTech Foundation
@@ -46,6 +46,9 @@ exclude:
   - clean-theme.gemspec
   - Gemfile.lock
   - node_modules
+  - scripts
+  - tests
+  - BUSINESS-TOOLS.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
