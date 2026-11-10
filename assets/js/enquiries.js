@@ -4,6 +4,7 @@
   var enabled = !!script && script.dataset.ltAnalyticsEnabled === "true";
   var measurementId = script ? script.dataset.ltGaId : "";
   enabled = enabled && /^G-[A-Z0-9]+$/.test(measurementId);
+  enabled = enabled && ["learntechfoundation.org", "www.learntechfoundation.org", "bertlandh.github.io"].indexOf(location.hostname) !== -1;
   var consent = "denied";
   var loaded = false;
   var formViewed = false;

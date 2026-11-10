@@ -54,3 +54,5 @@ In GA4 Pages and screens / Landing pages, filter page paths beginning `/tools/`.
 In Search Console and Bing Webmaster Tools Search Performance, filter the tools URLs and review impressions, clicks and queries. These are search-discovery metrics; Bing does not receive the GA4 tool-use events. The sitemap includes the SEO page automatically, but crawling/indexing/rankings are not guaranteed.
 
 On 10 November 2026, the existing GA4 property 331500281 was checked and the event-scoped custom dimension Tool was created for parameter `tool`. The saved definition was verified in the UI. This does not create a custom dashboard or backfill historical event parameters. Allow the documented processing interval before using it in explorations.
+
+Analytics loading is restricted to the production LearnTech/GitHub hostnames. Local preview/test visits do not send GA events even if a saved consent choice exists.

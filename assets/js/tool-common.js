@@ -2,9 +2,9 @@
   'use strict';
   var creditLine = 'Made with love by your friends at LearnTech Foundation.';
   var credits = {
-    invoice_quotation: {label:'Contact us for custom software design', path:'/services/software-development/#enquiry'},
-    website_health: {label:'Contact us for website design', path:'/services/business-websites/#enquiry'},
-    seo_health: {label:'Contact us for website maintenance and updates', path:'/services/business-websites/#enquiry'}
+    invoice_quotation: {label:'Contact us for custom software design', path:'/services/software-development/?interest=software#enquiry'},
+    website_health: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
+    seo_health: {label:'Contact us for website maintenance and updates', path:'/services/business-websites/?interest=review#enquiry'}
   };
   function creditInfo(tool) { return Object.prototype.hasOwnProperty.call(credits,tool) ? credits[tool] : credits.invoice_quotation; }
   function creditText(tool) { var c=creditInfo(tool); return creditLine+'\n'+c.label+': https://learntechfoundation.org'+c.path+'\nEmail: bertlandhope@gmail.com'; }
