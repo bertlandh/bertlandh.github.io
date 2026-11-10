@@ -64,3 +64,7 @@ Analytics loading is restricted to the production LearnTech/GitHub hostnames. Lo
 Browser-supported JPEG EXIF orientation is honoured during decoding. Re-encoding makes a new file; original files are not modified. Animated formats and SVG/HEIC are rejected. Some browsers cannot encode WebP; format fallback is detected and reported rather than mislabelling a PNG as WebP. Local preview traffic remains excluded from Analytics. Production events use fixed identifier `image_tools` without file information.
 
 Run `node scripts/test-image-tool.cjs` plus the existing report and consent suites.
+
+
+## BrandSnap
+Public tool: `/tools/brandsnap/`. Adapted from the existing `starterkits/bbkfirweb/brand-snap/Brand Snap – Mobile Web Selfie.html` camera, canvas, logo and text workflow; original prototype remains unchanged. Uses LearnTech styles, local JPEG/PNG/WebP decoding and bounded canvas output, proportional logo placement, wrapped text, optional camera cleanup and visible credit pixels. No image uploads, email delivery, location request, automatic camera start, or offline/PWA claim. Optional consent-based events contain only action and fixed tool identifier. Tests: `node --test scripts/test-brandsnap.cjs` plus existing image/report/consent checks. Physical camera capture needs device testing.

@@ -70,3 +70,6 @@
 .image-tool-canvas img {display:block;width:auto;max-width:100%;height:auto;max-height:650px;object-fit:contain;margin:auto;}
 .image-tool-help {margin-top:1rem;}
 .lt-tool input[type=range] {padding:.5rem 0;border:0;min-height:44px;}
+
+/* BrandSnap local photo and logo previews */
+[data-brandsnap] #bs-logo-preview{display:block;max-width:180px;max-height:100px;object-fit:contain;margin:12px 0}[data-brandsnap] img[id]:not([src]){display:none}[data-brandsnap] video{display:block;width:100%;max-height:480px;background:#171717}[data-brandsnap] details{margin:20px 0}[data-brandsnap] summary{cursor:pointer;font-weight:700}[data-brandsnap] input[type=color]{width:100%;max-width:100%;min-height:44px;padding:4px}
