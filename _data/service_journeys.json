@@ -6,7 +6,7 @@
     "cta": "Request a website quote",
     "image": "/img/work/dancehall-desktop.jpg",
     "image_alt": "Dancehall Archive website design example",
-    "caption": "Website contribution with the Dancehall Archive & Research Initiative team.",
+    "caption": "Desktop and phone views of our website contribution with the Dancehall Archive & Research Initiative team.",
     "benefits": [
       "Clear services and content",
       "An easier enquiry journey",
@@ -73,7 +73,10 @@
         "How long does it take, and how do payments work?",
         "Timing depends on scope, content and review turnaround. The quotation confirms delivery dates and payment milestones. We do not promise a schedule before understanding the work."
       ]
-    ]
+    ],
+    "mobile_image": "/img/work/dancehall-mobile.jpg",
+    "mobile_alt": "Dancehall Archive website on a phone",
+    "image_height": 810
   },
   "software": {
     "label": "Custom software development",
@@ -172,7 +175,7 @@
       "Identify ownership, dependencies and next steps"
     ],
     "proof_title": "Technical experience with an operational perspective.",
-    "proof": "Bertland Hope brings experience across software development, systems, networks, teaching and technology operations. Explore the background and application work behind LearnTech\u2019s approach.",
+    "proof": "Bertland Hope brings experience across software development, systems, networks, teaching and technology operations. Explore the background and application work behind LearnTech’s approach.",
     "proof_link": "/about/",
     "proof_label": "Meet the person behind LearnTech",
     "deliverables": [
