@@ -2,14 +2,14 @@
   "invoice": {
     "file": "invoice-quotation",
     "name": "Free Invoice & Quotation Generator for Jamaica",
-    "description": "Create invoices and quotations in JMD or other currencies. Add line items, discounts and optional tax, then print or save as PDF. Free, no account needed.",
+    "description": "Create JMD invoices and quotations from editable examples. Print PDF, save locally, or download and import JSON with optional password encryption.",
     "category": "BusinessApplication",
     "heading": "Create a Jamaican dollar invoice or quotation online",
     "intro": "Prepare a quotation for a customer, then create an invoice when the work is agreed. This free invoice maker supports JMD, USD, CAD, GBP and EUR for sole traders and small businesses in Jamaica and beyond.",
     "steps": [
-      "Choose Invoice or Quotation, currency, reference and date.",
-      "Add your business, customer and line items; review any discount, tax and payment instructions.",
-      "Check the preview, then print or save as PDF. Save locally or download a JSON backup if you want to reuse the document."
+      "Start with a fictional invoice or quotation example, or enter your own business, customer and items. Optional business profiles can reuse your contact details.",
+      "Review currency, dates, discounts, applicable tax and terms. Edit the live preview before saving.",
+      "Print or save PDF, save on this device, or download editable JSON. Enable password protection for an encrypted download; import the file later to edit again."
     ],
     "faq": [
       {
@@ -23,6 +23,10 @@
       {
         "q": "Do I need to email my customer details?",
         "a": "No. Creating, printing and downloading work without email. Local saves stay in this browser profile, so keep a JSON backup and avoid saving sensitive documents on a shared device."
+      },
+      {
+        "q": "Can I edit a downloaded invoice or protect it with a password?",
+        "a": "Yes. Download editable JSON for the current document or all saved documents. Optional password protection encrypts the JSON and detects changed encrypted contents. Import, enter the password if needed, then open a draft for editing. Keep your password separately; LearnTech cannot recover it. Browser saves and plain JSON are not encrypted."
       }
     ],
     "related": [
@@ -31,12 +35,12 @@
       "website"
     ],
     "url": "/tools/invoice-quotation/",
-    "example": "Illustrative quotation: a designer supplies three social-media banners at JMD 5,000 each. Enter quantity 3 and rate 5,000; with no discount or tax selected, the total is JMD 15,000. Replace these sample values with your own agreed prices and applicable tax settings."
+    "example": "Load the Service invoice example: one monthly maintenance item at JMD 15,000 plus two content updates at JMD 2,500 gives JMD 20,000, with no discount or tax. Replace the fictional details, download JSON and import it later to continue editing."
   },
   "website": {
     "file": "website-health",
     "name": "Free Website Health Checker Online",
-    "description": "Check a public page for HTTPS, mobile setup, search information and image markup. Get practical website health observations and download a free report.",
+    "description": "Check one public page for HTTPS, mobile setup, image markup and website basics. Download practical observations to discuss with your developer.",
     "category": "DeveloperApplication",
     "heading": "Check website basics before planning your next update",
     "intro": "Use this free website checker to get a first look at one public page. It helps Jamaican business owners and website managers ask clearer questions about their site, without needing an account.",
@@ -70,7 +74,7 @@
   "seo": {
     "file": "seo-health",
     "name": "Free SEO Checker — Page Titles, Meta Tags & More",
-    "description": "Check on-page SEO basics: titles, meta descriptions, headings, canonical URLs, indexing directives and image alt attributes. Get a free page-level report.",
+    "description": "Check a public page’s titles, descriptions, headings, canonicals, indexing directives and image alt attributes. Download an on-page SEO report.",
     "category": "DeveloperApplication",
     "heading": "Check on-page SEO essentials in one public page",
     "intro": "This free SEO checker helps you spot missing page information before asking for a website update. It is useful for business websites in Jamaica and elsewhere, whether you manage the site yourself or work with a developer.",
@@ -100,12 +104,12 @@
   "image": {
     "file": "image-resizer",
     "name": "Free Image Compressor, Resizer & Converter Online",
-    "description": "Compress, resize and convert JPEG, PNG and WebP images in your browser. Choose dimensions, crop or fit, preview and download. No upload or account needed.",
+    "description": "Resize, compress and convert JPEG, PNG and WebP images privately in your browser. Preview your selected image, compare output size and download.",
     "category": "MultimediaApplication",
     "heading": "Resize, compress and convert images for websites and social posts",
     "intro": "Prepare a product photo, website banner or social post without uploading it. The free image converter accepts still JPEG, PNG and WebP files and exports those same formats, with a visible LearnTech credit strip.",
     "steps": [
-      "Choose a still JPEG, PNG or WebP image up to 20 MB and 24 megapixels.",
+      "Choose a still JPEG, PNG or WebP up to 20 MB and 24 megapixels. Your selected source appears in the main preview; it is not yet the converted download.",
       "Select a preset or custom dimensions, choose fit or centre crop, and set JPEG or WebP quality if needed.",
       "Create a preview, compare the file size and check the crop before downloading the finished image."
     ],
@@ -134,14 +138,14 @@
   "brandsnap": {
     "file": "brandsnap",
     "name": "Add Logo & Text to Photos Online — Free BrandSnap",
-    "description": "Add your logo and text to photos with free BrandSnap. Choose logo placement, text banners and social-post sizes. Download JPEG, PNG or WebP. No upload.",
+    "description": "Add your logo and text to photos with automatic previews. Reuse business details and download branded JPEG, PNG or WebP images in your browser.",
     "category": "MultimediaApplication",
     "heading": "Add a logo and text to product photos and social posts",
     "intro": "BrandSnap is a free photo branding tool from LearnTech Foundation in Jamaica. Add your business logo, event name or promotional message to an image, then choose a square, portrait, story or custom canvas.",
     "steps": [
-      "Choose a photo and an optional logo. Transparent PNG logos work well.",
-      "Add your headline and message, choose banner colours and position your logo.",
-      "Choose dimensions and format, create a preview, then download. Check text contrast, crop and spelling before sharing."
+      "Choose a photo; it appears in the main preview immediately. Add an optional logo.",
+      "Add your business name or message, or apply reusable business details. Logo and setting changes update the composed preview automatically.",
+      "Review the completed preview, then download JPEG, PNG or WebP. Download stays disabled while settings need an updated render."
     ],
     "faq": [
       {
@@ -155,6 +159,10 @@
       {
         "q": "Can I create Instagram or Facebook images?",
         "a": "Yes. Use a square, portrait, story or custom canvas, then upload the downloaded image to your chosen platform. BrandSnap does not post to social accounts. Every download includes the LearnTech credit."
+      },
+      {
+        "q": "Can I reuse my business name and brand colour?",
+        "a": "Yes. Open Reusable business details and apply your details once, or explicitly save a profile on this device. The same profile can be loaded in the invoice and email-signature tools. Uploaded photos and logos are not saved in that profile."
       }
     ],
     "related": [
@@ -163,12 +171,12 @@
       "image"
     ],
     "url": "/tools/brandsnap/",
-    "example": "Brand a shop product photo: add your transparent PNG logo, enter a message such as New arrivals, and choose the square social-post size. Position the logo, create the preview, then download a JPEG, PNG or WebP. After editing settings, update the preview before downloading."
+    "example": "Choose a product photo, add a logo and type New arrivals. Select a square canvas and review the automatic preview. Change logo placement, colour or message; download when the updated image is ready."
   },
   "svg_converter": {
     "file": "svg-converter",
     "name": "Free Image to SVG Converter for Logos & Icons",
-    "description": "Trace PNG, JPEG and WebP logos into real SVG vector paths in your browser. Choose colours and detail, preview and download with LearnTech credit.",
+    "description": "Trace logo and icon images into SVG vector paths in your browser. Preview the source, adjust colours and detail, then download the traced SVG.",
     "subtitle": "Turn a simple logo or icon into scalable vector paths. Preview the trace before downloading.",
     "intro": "Your image stays on this device. This is vector tracing, not a bitmap placed inside an SVG wrapper. It works best for simple shapes and flat colours; photographs and small lettering may lose detail.",
     "heading": "Trace a simple logo",
@@ -177,7 +185,7 @@
     "download": "Download SVG",
     "aside": "The download contains vector paths and a visible LearnTech credit footer below the artwork, plus credit in the SVG description. This changes the full canvas proportions. Review edges, lettering, colours and transparency before using it.",
     "steps": [
-      "Choose a clear JPEG, PNG or WebP logo or icon. Transparent PNG is useful for isolated artwork.",
+      "Choose a clear JPEG, PNG or WebP logo or icon. Transparent PNG is useful for isolated artwork. The source appears in the main preview before generation.",
       "Choose the number of colours and maximum trace resolution, then create a preview.",
       "Compare the trace with your source, adjust settings if needed, and download the SVG with its LearnTech credit footer."
     ],
@@ -207,7 +215,7 @@
   "favicon": {
     "file": "favicon-generator",
     "name": "Free Favicon Generator — PNG & ICO ZIP Download",
-    "description": "Turn a logo or photo into PNG favicons, Apple-touch and app icons, plus a multi-size ICO. Download a ZIP with installation markup and LearnTech guidance.",
+    "description": "Create PNG favicons, Apple-touch and app icons plus a multi-size ICO from your logo. Download a ZIP with matching installation markup and guidance.",
     "subtitle": "Create a favicon package from your logo, ready to hand to your website developer.",
     "intro": "Generate browser and app-icon images locally, without an upload or account. Download a ZIP containing six PNG sizes, a multi-size ICO, a manifest icon template, HTML markup and a LearnTech README.",
     "heading": "Prepare your favicon package",
@@ -216,7 +224,7 @@
     "download": "Download favicon ZIP",
     "aside": "File names include your chosen brand and learntech. The ZIP includes the exact credit, contact links and installation instructions in its README, plus credit in PNG metadata and the manifest description. Tiny icon artwork stays readable without a text strip. The manifest is an icon template, not a complete installable PWA.",
     "steps": [
-      "Choose a clear logo or image, and enter a short brand name for the package.",
+      "Choose a clear logo or image, and enter a short brand name for the package. The source appears in the main preview before generation.",
       "Choose padding and a background. Preview every icon, especially the 16 px version.",
       "Download the ZIP. Upload files to your site and follow the included README and HTML snippet, or pass them to your developer."
     ],
@@ -246,7 +254,7 @@
   "password_generator": {
     "file": "password-generator",
     "name": "Free Secure Password Generator Online",
-    "description": "Generate a random password locally with cryptographic browser randomness. Choose length and characters, copy or download. No account or saved password history.",
+    "description": "Generate passwords locally with selectable length and character groups. Copy or download your result without sending it to LearnTech.",
     "category": "SecurityApplication",
     "heading": "Create a fresh random password for your next account",
     "intro": "Generate a random password for a new account or password update, with options for length and character groups. Create it locally, then use your password manager to store it.",
@@ -280,7 +288,7 @@
   "qr_generator": {
     "file": "qr-generator",
     "name": "Free QR Code Generator — PNG & SVG Downloads",
-    "description": "Create a static QR code for a website URL or plain text in your browser. Preview and download PNG or SVG with LearnTech credit. No upload or account needed.",
+    "description": "Create QR codes for links or text in your browser. Preview and download PNG or SVG, then scan-test the file before sharing or printing.",
     "category": "UtilitiesApplication",
     "heading": "Create a QR code for a business link or short message",
     "intro": "Put a website link on a flyer, product insert or business card, or encode a short text message. LearnTech’s generator makes a static black-and-white code locally, with a clear scan area and credit below it.",
@@ -318,19 +326,19 @@
   "email_signature": {
     "file": "email-signature",
     "name": "Free Email Signature Builder for Businesses",
-    "description": "Create a professional email signature with contact details, logo and social links. Copy formatted or plain text, or download HTML locally.",
+    "description": "Build an email signature with examples, photo or logo layouts, social links and reusable business details. Copy formatted text or download HTML.",
     "category": "BusinessApplication",
     "heading": "Create a professional signature for every business email",
     "intro": "Build a clear introduction for your business emails, with three layouts, your brand colour and optional links.",
     "steps": [
-      "Enter your name and optional contact information. Choose a layout and brand colour.",
+      "Load an example or enter your details. Optionally load reusable business details from this browser and apply them to the signature.",
       "Review the live preview, then copy formatted or plain text, or download HTML.",
       "Paste into your email signature settings and send yourself a test message."
     ],
     "faq": [
       {
         "q": "Are my details saved or uploaded?",
-        "a": "The builder keeps your details in page memory, without saving them in local storage or sending them to LearnTech. A logo URL loads its image from that host. Copies and downloads remain on your device."
+        "a": "Signature fields stay in page memory unless you explicitly save a reusable business profile. That profile is stored unencrypted in this browser and can be removed with Remove saved profile. Nothing in it is sent to LearnTech. Public logo/photo URLs load from their chosen host; copies and downloads remain on your device."
       },
       {
         "q": "Will it look identical in every email app?",
@@ -352,14 +360,14 @@
   "passport_photo": {
     "file": "passport-photo",
     "name": "Free Passport Photo Maker — Printable Letter & A4 Sheets",
-    "description": "Crop passport-size photos at 35 × 45 mm or a custom size. Arrange copies on Letter or A4 paper and print at actual size, without uploading your photo.",
+    "description": "Make 35 × 45 mm passport-size prints with an oval alignment guide and sample photo. Arrange copies on Letter or A4, without uploading your image.",
     "category": "MultimediaApplication",
     "heading": "Make a passport-size photo print sheet online",
     "intro": "Prepare a passport-size or ID photo, then arrange one, several or a full grid of copies on US Letter or A4 paper. The Jamaica print-size preset is 35 × 45 mm; other presets and custom dimensions are available. Processing stays in your browser.",
     "url": "/tools/passport-photo/",
     "steps": [
       "Choose a photo using the single file picker, or open the camera option and capture a photo.",
-      "For 35 × 45 mm, align the head top to the blue 3.5 mm guide, then zoom and position the chin within the green 25–35 mm face-height band. Other dimensions use a centre guide only.",
+      "Choose Show alignment example to see head-top and chin placement. Return to your photo, then use zoom and position to align your head to the oval and measurement lines. The example cannot be exported.",
       "Choose paper and copy count, create the sheet, then print or save PDF at 100% / Actual size. Measure a test print before cutting."
     ],
     "example": "For two Jamaican-size prints, select 35 × 45 mm and two copies on Letter paper. Align the head top (including hair) with the blue 3.5 mm line and place the chin between the green lines. The red line marks the poster’s 2 mm minimum headroom. Hide the guides to review the crop; downloads omit them automatically.",

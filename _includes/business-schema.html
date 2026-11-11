@@ -2,7 +2,7 @@
 {%- assign person_id = '/about/#bertland-hope' | absolute_url -%}
 {%- if page.homepage or page.url == '/about/' -%}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":{{ organisation_id | jsonify }},"name":"LearnTech Foundation","url":{{ '/' | absolute_url | jsonify }},"logo":{{ '/favicon.png' | absolute_url | jsonify }},"description":{{ site.description | strip | jsonify }},"email":{{ site.email | jsonify }},"location":{"@type":"Place","name":"Kingston, Jamaica"},"areaServed":{"@type":"Country","name":"Jamaica"},"member":{"@id":{{ person_id | jsonify }}}},{"@type":"Person","@id":{{ person_id | jsonify }},"name":"Bertland Hope","url":{{ '/about/' | absolute_url | jsonify }}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":{{ organisation_id | jsonify }},"name":"LearnTech Foundation","url":{{ '/' | absolute_url | jsonify }},"logo":{{ '/favicon.png' | absolute_url | jsonify }},"description":{{ site.description | strip | jsonify }},"email":{{ site.email | jsonify }},"telephone":"+18765600735","sameAs":["https://www.google.com/maps?cid=330141943424297952"],"location":{"@type":"Place","name":"Kingston, Jamaica"},"areaServed":{"@type":"Country","name":"Jamaica"},"member":{"@id":{{ person_id | jsonify }}}},{"@type":"Person","@id":{{ person_id | jsonify }},"name":"Bertland Hope","url":{{ '/about/' | absolute_url | jsonify }},"sameAs":["https://www.linkedin.com/in/bertlandhope/","https://github.com/bertlandh","https://www.facebook.com/BertlandH","https://www.instagram.com/bertland_hope/"]}]}
 </script>
 {%- endif -%}
 {%- if page.landing_page -%}

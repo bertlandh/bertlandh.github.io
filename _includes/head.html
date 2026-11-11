@@ -17,7 +17,7 @@
     {% unless site.hide_share_buttons %}{% unless page.homepage or page.tool_id or page.landing_page %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}{% endunless %}
-    {% capture seo_markup %}{% seo %}{% endcapture %}
+    {% if page.seo_title %}<title>{{ page.seo_title | escape }} | {{ site.title | escape }}</title>{% capture seo_markup %}{% seo title=false %}{% endcapture %}{% else %}{% capture seo_markup %}{% seo %}{% endcapture %}{% endif %}
     {% if paginator.page > 1 %}
       {% assign original_description = page.description | escape %}
       {% capture archive_description %}Technology articles and practical software notes from LearnTech Foundation. Browse archive page {{ paginator.page }} of {{ paginator.total_pages }}.{% endcapture %}
