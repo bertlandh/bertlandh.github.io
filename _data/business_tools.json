@@ -235,5 +235,75 @@
     ],
     "url": "/tools/favicon-generator/",
     "category": "MultimediaApplication"
+  },
+  "password_generator": {
+    "file": "password-generator",
+    "name": "Free Secure Password Generator Online",
+    "description": "Generate a random password locally with cryptographic browser randomness. Choose length and characters, copy or download. No account or saved password history.",
+    "category": "SecurityApplication",
+    "heading": "Create a fresh random password for your next account",
+    "intro": "Generate a random password for a new account or password update, with options for length and character groups. Create it locally, then use your password manager to store it.",
+    "steps": [
+      "Choose 8 to 128 characters and the groups your website accepts. The default is 20 characters with all groups.",
+      "Generate a password, reveal it if needed and copy it to your password manager or account form.",
+      "Clear the tool when finished. Download only if you want an unencrypted text copy on your device."
+    ],
+    "faq": [
+      {
+        "q": "Does LearnTech receive or save the password?",
+        "a": "The generator uses the browser’s cryptographic random source and keeps the result in page memory. It does not upload or save it in local storage, send it by email or include it in analytics. Reset, a new generation or leaving the page clears the displayed result. Your clipboard, downloads or password manager are separate."
+      },
+      {
+        "q": "Will every website accept the generated password?",
+        "a": "Sites have different length and character rules. Adjust the options to the target site. Every selected character group appears in the result. Excluding ambiguous characters removes I, l, 1, O, o and 0."
+      },
+      {
+        "q": "Is the text download encrypted?",
+        "a": "No. It is a plain-text file with a LearnTech credit and contact information. Store it securely or move the value into your password manager."
+      }
+    ],
+    "related": [
+      "qr_generator",
+      "website",
+      "invoice"
+    ],
+    "url": "/tools/password-generator/"
+  },
+  "qr_generator": {
+    "file": "qr-generator",
+    "name": "Free QR Code Generator — PNG & SVG Downloads",
+    "description": "Create a static QR code for a website URL or plain text in your browser. Preview and download PNG or SVG with LearnTech credit. No upload or account needed.",
+    "category": "UtilitiesApplication",
+    "heading": "Create a QR code for a business link or short message",
+    "intro": "Put a website link on a flyer, product insert or business card, or encode a short text message. LearnTech’s generator makes a static black-and-white code locally, with a clear scan area and credit below it.",
+    "steps": [
+      "Choose Website URL or Plain text, then enter the content to encode. Anyone scanning the shared code can read that content.",
+      "Choose the image-area size and error correction. Generate a preview; shorten dense content if the tool asks.",
+      "Download PNG or SVG and scan-test the actual file before publishing or printing. Keep the white border and credit outside the scan area."
+    ],
+    "faq": [
+      {
+        "q": "Does the QR code expire or use a LearnTech redirect?",
+        "a": "The code stores your URL or text directly. LearnTech does not host a redirect or impose a scan limit or expiry. A linked website can still change, become unavailable or restrict access."
+      },
+      {
+        "q": "Can I change the destination after downloading?",
+        "a": "A static QR code cannot be edited after printing. Generate a new code for new content. If you control the destination website, you can update the page it points to."
+      },
+      {
+        "q": "Why is there no logo over the QR code?",
+        "a": "The generator keeps black modules, a white background and at least four clear modules around the code. The LearnTech footer is outside that scan area. Test at the intended print size; long content makes a denser code."
+      },
+      {
+        "q": "Can I encode private information?",
+        "a": "Processing is local, but anyone with the finished code can scan its contents. Use information you intend to share. The generator does not submit your content or decoded URL to LearnTech or analytics."
+      }
+    ],
+    "related": [
+      "favicon",
+      "brandsnap",
+      "password_generator"
+    ],
+    "url": "/tools/qr-generator/"
   }
 }
