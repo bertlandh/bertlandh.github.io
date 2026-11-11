@@ -305,5 +305,38 @@
       "password_generator"
     ],
     "url": "/tools/qr-generator/"
+  },
+  "email_signature": {
+    "file": "email-signature",
+    "name": "Free Email Signature Builder for Businesses",
+    "description": "Create a professional email signature with contact details, logo and social links. Copy formatted or plain text, or download HTML locally.",
+    "category": "BusinessApplication",
+    "heading": "Create a professional signature for every business email",
+    "intro": "Build a clear introduction for your business emails, with three layouts, your brand colour and optional links.",
+    "steps": [
+      "Enter your name and optional contact information. Choose a layout and brand colour.",
+      "Review the live preview, then copy formatted or plain text, or download HTML.",
+      "Paste into your email signature settings and send yourself a test message."
+    ],
+    "faq": [
+      {
+        "q": "Are my details saved or uploaded?",
+        "a": "The builder keeps your details in page memory, without saving them in local storage or sending them to LearnTech. A logo URL loads its image from that host. Copies and downloads remain on your device."
+      },
+      {
+        "q": "Will it look identical in every email app?",
+        "a": "No. Email apps can change spacing, fonts and image display. The signature uses simple tables and inline styles; test it in your own email app. Mobile apps may accept plain text only."
+      },
+      {
+        "q": "Can I use my own logo or photo?",
+        "a": "Choose the logo or photo layout and enter a public HTTPS image address hosted on your website. Recipients may block remote images, so your contact details also appear as text."
+      }
+    ],
+    "related": [
+      "qr_generator",
+      "brandsnap",
+      "invoice"
+    ],
+    "url": "/tools/email-signature/"
   }
 }

@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'../_site');
-const pages=['','invoice-quotation','website-health','seo-health','image-resizer','brandsnap','svg-converter','favicon-generator','password-generator','qr-generator'];
+const pages=['','invoice-quotation','website-health','seo-health','image-resizer','brandsnap','svg-converter','favicon-generator','password-generator','qr-generator','email-signature'];
 const expected='https://learntechfoundation.org/assets/images/social/free-business-tools-share-v1.jpg';
 function metadata(html){const values={};for(const tag of html.match(/<meta\b[^>]*>/gi)||[]){const attrs={};for(const match of tag.matchAll(/([\w:-]+)\s*=\s*"([^"]*)"/g))attrs[match[1]]=match[2];const name=attrs.property||attrs.name;if(name)(values[name]||=[]).push(attrs.content);}return values;}
 for(const slug of pages){const file=path.join(root,'tools',slug,'index.html'),html=fs.readFileSync(file,'utf8'),m=metadata(html);assert.deepEqual(m['og:image'],[expected],slug+' has one absolute social image');assert.deepEqual(m['twitter:image'],[expected]);assert.deepEqual(m['twitter:card'],['summary_large_image']);assert.deepEqual(m['og:image:width'],['1200']);assert.deepEqual(m['og:image:height'],['630']);assert.ok(m['og:image:alt'][0].includes('LearnTech'));assert.ok(m['og:title'][0]);assert.ok(m['og:description'][0]);assert.deepEqual(m['og:url'],['https://learntechfoundation.org/tools/'+(slug?slug+'/':'')]);assert.ok(html.includes('rel="canonical"'));}

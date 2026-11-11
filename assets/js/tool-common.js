@@ -2,6 +2,7 @@
   'use strict';
   var creditLine = 'Made with love by your friends at LearnTech Foundation.';
   var credits = {
+    email_signature: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
     password_generator: {label:'Contact us for custom software design', path:'/services/software-development/?interest=software#enquiry'},
     qr_generator: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
     svg_converter: {label:'Contact us for website design', path:'/services/business-websites/?interest=new#enquiry'},
