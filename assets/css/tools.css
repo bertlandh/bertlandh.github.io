@@ -87,7 +87,9 @@
 .signature-instructions{margin-top:1.5rem}
 @media(min-width:901px){
  .signature-form-grid>.signature-panels{align-self:stretch;display:block}
- .signature-live-panel{position:sticky;top:6.5rem;max-height:calc(100vh - 7.5rem);max-height:calc(100dvh - 7.5rem);overflow-y:auto;overscroll-behavior:contain}
- .signature-live-panel #signature-preview{height:clamp(220px,36vh,420px)!important}
+ .signature-live-panel{position:sticky;top:6.5rem;max-height:none;overflow:visible;padding:1rem}
+ .signature-live-panel .tool-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;margin:.75rem 0}.signature-live-panel .site-button{min-height:44px;padding:.6rem .7rem;font-size:.875rem}.signature-live-panel .tool-status{margin:.5rem 0 0;font-size:.875rem;line-height:1.4}
 }
 @media print{.signature-live-panel{position:static;max-height:none;overflow:visible}}
+
+.signature-preview-viewport{width:100%;min-width:0;border:1px solid #eadcda;background:#fff;box-sizing:border-box}.signature-live-panel #signature-status{margin:.5rem 0 0;font-size:.875rem;line-height:1.4}.signature-live-panel h2{font-size:1.3rem;margin-bottom:.75rem}
