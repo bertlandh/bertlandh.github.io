@@ -1,0 +1,134 @@
+[
+  {
+    "page": "/about/",
+    "images": [
+      "/img/favicon.png"
+    ]
+  },
+  {
+    "page": "/",
+    "images": [
+      "/img/favicon.png",
+      "/img/products/custodia/dashboard-overview.png",
+      "/img/work/dancehall-desktop.jpg",
+      "/img/work/dancehall-mobile.jpg"
+    ]
+  },
+  {
+    "page": "/portfolio/",
+    "images": [
+      "/img/products/check-in/check-in-overview.png",
+      "/img/products/custodia/dashboard-overview.png",
+      "/img/products/custodia/mobile-entry.webp",
+      "/img/work/dancehall-desktop.jpg",
+      "/img/work/dancehall-mobile.jpg",
+      "/img/work/learntech-desktop.jpg",
+      "/img/work/learntech-mobile.jpg"
+    ]
+  },
+  {
+    "page": "/products/another-check-in-app/",
+    "images": [
+      "/img/products/check-in/mobile-entry.webp",
+      "/img/products/check-in/reports.png"
+    ]
+  },
+  {
+    "page": "/products/custodia-registry/",
+    "images": [
+      "/img/products/custodia/dashboard-overview.png",
+      "/img/products/custodia/mobile-entry.webp"
+    ]
+  },
+  {
+    "page": "/products/",
+    "images": [
+      "/img/products/check-in/check-in-overview.png",
+      "/img/products/check-in/mobile-entry.webp",
+      "/img/products/custodia/dashboard-overview.png",
+      "/img/products/custodia/mobile-entry.webp"
+    ]
+  },
+  {
+    "page": "/services/business-websites/",
+    "images": [
+      "/img/work/dancehall-desktop.jpg",
+      "/img/work/dancehall-mobile.jpg"
+    ]
+  },
+  {
+    "page": "/services/cbg/",
+    "images": [
+      "/img/cbg.png"
+    ]
+  },
+  {
+    "page": "/services/Consultancy/",
+    "images": [
+      "/img/favicon.png"
+    ]
+  },
+  {
+    "page": "/services/Facilitation/",
+    "images": [
+      "/img/136-1200x800.jpg"
+    ]
+  },
+  {
+    "page": "/services/HealthCheck/",
+    "images": [
+      "/img/970-1200x800.jpg"
+    ]
+  },
+  {
+    "page": "/services/innadidancehall/",
+    "images": [
+      "/img/innadidancehall.png"
+    ]
+  },
+  {
+    "page": "/services/InterimManagement/",
+    "images": [
+      "/img/541-1200x800.jpg"
+    ]
+  },
+  {
+    "page": "/services/software-development/",
+    "images": [
+      "/img/products/custodia/dashboard-overview.png"
+    ]
+  },
+  {
+    "page": "/services/Training/",
+    "images": [
+      "/img/903-1200x800.jpg"
+    ]
+  },
+  {
+    "page": "/tools/",
+    "images": [
+      "/assets/images/social/free-business-tools-share-v1.jpg"
+    ]
+  },
+  {
+    "page": "/work/custodia-registry/",
+    "images": [
+      "/img/products/custodia/dashboard-overview.png",
+      "/img/products/custodia/mobile-entry.webp"
+    ]
+  },
+  {
+    "page": "/work/dancehall-archive/",
+    "images": [
+      "/img/work/dancehall-desktop.jpg",
+      "/img/work/dancehall-mobile.jpg"
+    ]
+  },
+  {
+    "page": "/work/learntech-website/",
+    "images": [
+      "/img/work/learntech-desktop.jpg",
+      "/img/work/learntech-mobile.jpg"
+    ]
+  }
+]

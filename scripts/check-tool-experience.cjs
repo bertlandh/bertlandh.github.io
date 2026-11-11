@@ -9,4 +9,4 @@ for(const t of Object.values(tools)){
  assert.ok(html.includes('/assets/js/tool-experience.js'),t.file+' supports direct-entry navigation');
  const canonical=html.match(/<link rel="canonical" href="([^"]+)"/);assert.ok(canonical&&!canonical[1].includes('#'),'Canonical remains fragment-free');
 }
-console.log('All ten tool working-area targets, return links, hub entries and canonical URLs pass.');
+console.log('All '+Object.keys(tools).length+' tool working-area targets, return links, hub entries and canonical URLs pass.');

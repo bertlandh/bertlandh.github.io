@@ -97,3 +97,9 @@ The public collection now has nine tools. `/tools/password-generator/` adapts th
 
 ## Email signature builder
 Browser-local three-layout builder with escaped table-based HTML, HTTPS-only web/image links, formatted and plain-text copy, HTML/text downloads and LearnTech credit. No persistence or content analytics. Remote image hosts receive image requests. Email-client rendering needs a test message.
+
+
+## Passport photo sheets and image discovery
+The collection now has eleven tools. /tools/passport-photo/ processes JPEG, PNG, WebP and explicit camera captures locally. Crop/zoom/position/quarter-turn rotation preserve proportions. Letter/A4 layout uses physical mm with 10 mm margins, 4 mm gaps and reserved footer space. PNG exports at 300 DPI with a pHYs density chunk; downloaded HTML and browser print use fixed mm photo/page dimensions. No official acceptance, face validation or background editing claim. Credit stays outside cut-out photos. Test: node --test tests/passport-core.test.cjs. Verify downloaded files and actual print settings. Real camera hardware and a physical printer are not automated in QA.
+
+image-sitemap.xml is a focused image sitemap for content images on homepage, services, products, portfolio, academy and tools pages. After building run python scripts/build-image-sitemap.py, then rebuild the XML. The generator excludes external images, noindex pages and user-generated browser photos. Submit XML to Google/Bing; it improves discovery, not guaranteed inclusion or ranking. The global schema logo references the existing LearnTech wordmark instead of the missing avatar file.

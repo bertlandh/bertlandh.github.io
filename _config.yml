@@ -2,7 +2,7 @@ lang: en-GB
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
-asset_version: "20261110-search-evidence-1"
+asset_version: "20261111-passport-image-seo-1"
 tagline: Practical software. Useful technology.
 social:
   name: LearnTech Foundation
@@ -111,7 +111,7 @@ collections:
 # SEO
 author: 
   twitter: bertlandhope
-logo: /img/avatar.png
+logo: /img/learntech-signature-wordmark.png
 twitter:
   username: bertlandhope
   card: summary_large_image

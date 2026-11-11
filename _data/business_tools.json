@@ -348,5 +348,43 @@
     ],
     "url": "/tools/email-signature/",
     "example": "Load the personal-photo example, choose Above text and Centre, and set a suitable photo width. Replace the sample name, role and contact links with your own, then copy the formatted signature into your email settings and send yourself a test message."
+  },
+  "passport_photo": {
+    "file": "passport-photo",
+    "name": "Free Passport Photo Maker — Printable Letter & A4 Sheets",
+    "description": "Crop passport-size photos at 35 × 45 mm or a custom size. Arrange copies on Letter or A4 paper and print at actual size, without uploading your photo.",
+    "category": "MultimediaApplication",
+    "heading": "Make a passport-size photo print sheet online",
+    "intro": "Prepare a passport-size or ID photo, then arrange one, several or a full grid of copies on US Letter or A4 paper. The Jamaica print-size preset is 35 × 45 mm; other presets and custom dimensions are available. Processing stays in your browser.",
+    "url": "/tools/passport-photo/",
+    "steps": [
+      "Choose a photo, use your phone camera option, or start the webcam and capture a photo.",
+      "Choose the physical photo dimensions. Adjust zoom, position and rotation while reviewing the crop.",
+      "Choose paper and copy count, create the sheet, then print or save PDF at 100% / Actual size. Measure a test print before cutting."
+    ],
+    "example": "For two 35 × 45 mm photos on Letter paper, choose the Jamaica print-size preset and two copies. Position the head using the crop controls, create the sheet and print on matching paper at 100%. A full sheet repeats that same photo size; it does not enlarge the photo.",
+    "faq": [
+      {
+        "q": "Does this guarantee an acceptable Jamaican passport photo?",
+        "a": "No. The tool sets dimensions and layout but does not check face measurements, lighting, background, clothing, recency, print quality or official acceptance. Check PICA’s current photo requirements and use a professional photographer when appropriate."
+      },
+      {
+        "q": "How do I keep the photos the correct size when printing?",
+        "a": "Choose matching Letter or A4 paper, portrait orientation, 100% / Actual size, no margins and no browser headers or footers. Disable Fit to page. The PNG has a 300 DPI density tag, but print apps can override it. Measure a test photo with a ruler."
+      },
+      {
+        "q": "Are my photo and camera images uploaded?",
+        "a": "No. Photo files and camera captures are processed in page memory on your device. Camera access starts only when requested and stops after capture, on Stop camera, when the camera panel closes or when you leave. No photo content is sent in optional analytics."
+      },
+      {
+        "q": "Will the LearnTech credit cover my face or the cut-out photo?",
+        "a": "No. Credit and instructions appear in the sheet footer, outside the photo grid. Only the sheet is downloaded; the cut-out photo area has no watermark."
+      }
+    ],
+    "related": [
+      "image",
+      "brandsnap",
+      "email_signature"
+    ]
   }
 }
