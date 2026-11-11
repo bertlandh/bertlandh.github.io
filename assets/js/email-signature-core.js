@@ -18,7 +18,7 @@ function build(d){
  if(d.business)details+='<br>'+escape(d.business);
  if(d.tagline)details+='<br>'+escape(d.tagline);
  if(lines.length)details+='<br>'+lines.join('<br>');
- if(socialLinks.length)details+='<div style="padding-top:8px;line-height:24px">'+socialLinks.join(' ')+'</div>';
+ if(socialLinks.length){details+='<div style="padding-top:8px;line-height:24px">';for(var socialIndex=0;socialIndex<socialLinks.length;socialIndex+=3)details+='<div data-signature-social-row="true" style="line-height:24px">'+socialLinks.slice(socialIndex,socialIndex+3).join(' ')+'</div>';details+='</div>';}
  if(cta&&d.ctaLabel){details+='<div style="padding-top:8px">'+link(cta,d.ctaLabel)+'</div>';plain.push(d.ctaLabel+': '+cta);}
  var credit='Made with love by your friends at LearnTech Foundation.';
  var footer='<span style="font-size:11px;color:#666">'+credit+'<br>'+link('https://learntechfoundation.org/services/business-websites/','Need a website? Contact LearnTech')+'</span>';

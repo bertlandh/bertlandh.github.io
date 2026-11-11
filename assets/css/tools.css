@@ -82,3 +82,12 @@
 
 /* Email signature examples and separated preview/instructions cards. */
 .signature-panels{display:flex;flex-direction:column;gap:1.5rem;min-width:0}.signature-examples{margin-bottom:1.5rem}.signature-example-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.signature-example-grid .site-button{white-space:normal;text-align:center;min-height:48px}.signature-example-grid [aria-pressed="true"]{background:#981430;color:#fff}@media(max-width:600px){.signature-example-grid{grid-template-columns:1fr}}
+
+/* Keep only the live preview alongside the form; release it at the grid boundary. */
+.signature-instructions{margin-top:1.5rem}
+@media(min-width:901px){
+ .signature-form-grid>.signature-panels{align-self:stretch;display:block}
+ .signature-live-panel{position:sticky;top:6.5rem;max-height:calc(100vh - 7.5rem);max-height:calc(100dvh - 7.5rem);overflow-y:auto;overscroll-behavior:contain}
+ .signature-live-panel #signature-preview{height:clamp(220px,36vh,420px)!important}
+}
+@media print{.signature-live-panel{position:static;max-height:none;overflow:visible}}
