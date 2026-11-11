@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   var root = document.querySelector('[data-invoice-tool]'); if (!root) return;
-  var T = window.LearnTechTools, form = document.getElementById('invoice-form'), lines = document.getElementById('invoice-lines');
+  var T = window.LearnTechTools, Backup = window.LearnTechInvoiceBackup, form = document.getElementById('invoice-form'), lines = document.getElementById('invoice-lines');
   var status = document.getElementById('invoice-status'), savedSelect = document.getElementById('saved-documents');
   var STORAGE = 'learntech_documents_v1', records = [], activeId = '', lineId = 0, started = false;
   var fields = ['type','currency','number','date','deadline','sender','senderDetails','client','clientDetails','discount','taxRate','notes'];
@@ -22,11 +22,7 @@
     d.lines = Array.from(lines.children).map(function (row) { return {description:row.querySelector('[data-line="description"]').value.trim(),quantity:Number(row.querySelector('[data-line="quantity"]').value),rate:Number(row.querySelector('[data-line="rate"]').value)}; });
     d.discount = Number(d.discount); d.taxRate = Number(d.taxRate); return d;
   }
-  function valid(d) {
-    return d && ['invoice','quotation'].includes(d.type) && currencies.includes(d.currency) && fields.every(function(k){return ['discount','taxRate'].includes(k) ? Number.isFinite(d[k]) : typeof d[k] === 'string' && d[k].length <= (k === 'notes' ? 1500 : k === 'senderDetails' || k === 'clientDetails' ? 700 : 160);}) &&
-      /^\d{4}-\d{2}-\d{2}$/.test(d.date) && (!d.deadline || /^\d{4}-\d{2}-\d{2}$/.test(d.deadline)) && d.number.length > 0 && d.number.length <= 50 && d.sender.length > 0 && d.client.length > 0 && d.discount >= 0 && d.discount <= 1e12 && d.taxRate >= 0 && d.taxRate <= 100 &&
-      Array.isArray(d.lines) && d.lines.length > 0 && d.lines.length <= 40 && d.lines.every(function (l) {return typeof l.description === 'string' && l.description.length > 0 && l.description.length <= 500 && Number.isFinite(l.quantity) && l.quantity > 0 && l.quantity <= 100000 && Number.isFinite(l.rate) && l.rate >= 0 && l.rate <= 1000000;});
-  }
+  function valid(d) { return Backup.validDocument(d); }
   function totals(d) {
     var amounts = d.lines.map(function(l){return Math.round(l.quantity * Math.round(l.rate * 100));});
     var subtotal = amounts.reduce(function(a,b){return a+b;},0), discount = Math.round(d.discount * 100);
@@ -61,8 +57,32 @@
   document.getElementById('new-document').addEventListener('click',function(){if(confirm('Start a new document? Unsaved changes in this form will be cleared.'))fresh();});
   savedSelect.addEventListener('change',function(){var r=records.find(function(x){return x.id===savedSelect.value;});if(r){load(r.document,r.id);say('Saved document opened.');}});
   document.getElementById('delete-document').addEventListener('click',function(){if(savedSelect.value&&confirm('Delete this saved document from this browser?')){var id=savedSelect.value;activeId='';if(persist(records.filter(function(r){return r.id!==id;})))say('Saved copy deleted. The current preview remains available.');}});
-  document.getElementById('export-documents').addEventListener('click',function(){if(!records.length){say('There are no saved documents to back up.',true);return;}T.download(JSON.stringify({version:1,createdWith:T.creditText('invoice_quotation'),records:records},null,2),'learntech-documents-'+today()+'.json','application/json');T.track('tool_download','invoice_quotation');});
-  document.getElementById('import-documents').addEventListener('change',async function(){var file=this.files[0];if(!file)return;try{if(file.size>1000000)throw Error();var b=JSON.parse(await file.text());if(b.version!==1||!Array.isArray(b.records)||b.records.length>200||b.records.some(function(r){return !r||typeof r.id!=='string'||r.id.length>100||!valid(r.document);}))throw Error();var merged=records.slice();b.records.forEach(function(r){if(!merged.some(function(x){return x.id===r.id;}))merged.push({id:r.id,document:r.document});});if(merged.length>200)throw Error();if(persist(merged))say('Backup restored. Existing saved documents were preserved.');}catch(_){say('Could not restore this file. Use a valid LearnTech JSON backup, under 1 MB and 200 documents.',true);}this.value='';});
+  var pendingImports=[],fileBusy=false,fileStatus=document.getElementById('backup-status');
+  function fileSay(text,error){fileStatus.textContent=text;fileStatus.classList.toggle('tool-error',!!error);}
+  function fileButtons(busy){fileBusy=busy;['download-json','export-documents','read-backup'].forEach(function(id){document.getElementById(id).disabled=busy;});}
+  function clearImport(){pendingImports=[];document.getElementById('import-review').hidden=true;document.getElementById('imported-documents').replaceChildren();}
+  document.getElementById('backup-encrypt').addEventListener('change',function(){document.getElementById('backup-password-fields').hidden=!this.checked;if(!this.checked){document.getElementById('backup-password').value='';document.getElementById('backup-confirm').value='';}});
+  async function downloadJSON(all){
+    if(fileBusy)return;var list,name;
+    if(all){if(!records.length){fileSay('There are no saved documents to back up.',true);return;}list=records;name='saved-documents';}
+    else{var r=preview(true);if(!r){fileSay('Complete the document fields before downloading.',true);return;}list=[{id:activeId||crypto.randomUUID(),document:r.document}];name=r.document.type+'-'+r.document.number;}
+    var encrypted=document.getElementById('backup-encrypt').checked,password=encrypted?document.getElementById('backup-password').value:'';
+    if(encrypted&&(password.length<12||password.length>256||password!==document.getElementById('backup-confirm').value)){fileSay('Use matching passwords between 12 and 256 characters.',true);return;}
+    fileButtons(true);fileSay(encrypted?'Encrypting your JSON on this device…':'Preparing JSON…');
+    try{var text=await Backup.pack(list,password,window.crypto);T.download(text,name+(encrypted?'-encrypted':'')+'.json','application/json');fileSay(encrypted?'Encrypted JSON downloaded. Keep the password separately.':'JSON downloaded. This file is not encrypted.');document.getElementById('backup-password').value='';document.getElementById('backup-confirm').value='';T.track('tool_download','invoice_quotation');}catch(e){fileSay(e.message,true);}finally{password='';fileButtons(false);}
+  }
+  document.getElementById('download-json').addEventListener('click',function(){downloadJSON(false);});
+  document.getElementById('export-documents').addEventListener('click',function(){downloadJSON(true);});
+  document.getElementById('import-documents').addEventListener('change',function(){clearImport();document.getElementById('import-password').value='';fileSay(this.files.length?'File selected. Enter its password if encrypted, then read the file.':'Choose a JSON file to import.');});
+  document.getElementById('read-backup').addEventListener('click',async function(){
+    if(fileBusy)return;clearImport();var picker=document.getElementById('import-documents'),file=picker.files[0],password=document.getElementById('import-password').value;
+    if(!file){fileSay('Choose a JSON file first.',true);return;}if(file.size>Backup.maxBytes){fileSay('Choose a JSON file no larger than 8 MB.',true);return;}
+    fileButtons(true);picker.disabled=true;fileSay('Reading your file on this device…');
+    try{pendingImports=await Backup.unpack(await file.text(),password,window.crypto);var select=document.getElementById('imported-documents');pendingImports.forEach(function(r,i){select.add(new Option(r.document.number+' — '+r.document.client+' ('+r.document.type+')',String(i)));});document.getElementById('import-summary').textContent=pendingImports.length+' document(s) ready to review. Nothing has been saved or changed yet.';document.getElementById('import-review').hidden=false;fileSay('File validated. Choose a document to open or add the imported documents to this browser.');}catch(e){clearImport();fileSay(e.message,true);}finally{password='';document.getElementById('import-password').value='';picker.disabled=false;fileButtons(false);}
+  });
+  document.getElementById('open-imported').addEventListener('click',function(){var r=pendingImports[Number(document.getElementById('imported-documents').value)];if(!r)return;load(r.document,'');say('Imported as an editable draft. Save on this device or download JSON to keep changes.');fileSay('Document opened for editing. Existing saved documents are unchanged.');form.scrollIntoView({block:'start',behavior:'instant'});form.elements.number.focus({preventScroll:true});});
+  document.getElementById('save-imported').addEventListener('click',function(){if(!pendingImports.length)return;var merged=records.slice(),added=0;pendingImports.forEach(function(r){if(!merged.some(function(x){return x.id===r.id;})){merged.push(r);added++;}});if(merged.length>200){fileSay('This would exceed 200 saved documents. Open a document individually or remove older saves first.',true);return;}if(persist(merged))fileSay(added+' document(s) added. Existing saves were preserved; matching backup IDs were skipped.');else fileSay('This browser could not save the import. You can still open a document for editing.',true);});
+  window.addEventListener('pagehide',function(){['backup-password','backup-confirm','import-password'].forEach(function(id){document.getElementById(id).value='';});pendingImports=[];});
   document.getElementById('print-document').addEventListener('click',function(){var r=preview(true);if(r){T.track('tool_print','invoice_quotation');T.printDocument(r.document.type);}});
   document.getElementById('download-document').addEventListener('click',function(){var r=preview(true);if(r){T.download(r.report,'learntech-'+r.document.type+'.txt');T.track('tool_download','invoice_quotation');}});
   document.getElementById('convert-document').addEventListener('click',function(){var r=preview(true);if(!r)return;var d=r.document;d.type='invoice';d.number=nextNumber('invoice');d.date=today();d.deadline='';load(d,'');say('Converted to a new invoice draft. The saved quotation is unchanged.');});
