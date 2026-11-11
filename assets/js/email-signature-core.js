@@ -17,9 +17,12 @@ function build(d){
  if(lines.length)details+='<br>'+lines.join('<br>');
  if(cta&&d.ctaLabel){details+='<br><br>'+link(cta,d.ctaLabel);plain.push(d.ctaLabel+': '+cta);}
  var credit='Made with love by your friends at LearnTech Foundation.';
- details+='<br><br><span style="font-size:11px;color:#666">'+credit+'<br>'+link('https://learntechfoundation.org/services/business-websites/','Need a website? Contact LearnTech')+'</span>';
- var imageCell=layout!=='simple'&&image?'<td width="88" valign="top" style="padding:0 14px 0 0"><img src="'+escape(image)+'" width="72" alt="'+escape(layout==='photo'?d.name:d.business||'Business logo')+'" style="display:block;width:72px;max-width:72px;height:auto;'+(layout==='photo'?'border-radius:36px;':'')+'"></td>':'';
- var html='<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,sans-serif;font-size:14px;line-height:1.5;color:#333;max-width:480px;overflow-wrap:anywhere;word-break:break-word"><tr>'+imageCell+'<td valign="top">'+details+'</td></tr></table>';
+ var footer='<span style="font-size:11px;color:#666">'+credit+'<br>'+link('https://learntechfoundation.org/services/business-websites/','Need a website? Contact LearnTech')+'</span>';
+ var position=['left','right','top'].includes(d.position)?d.position:'right',hasImage=layout!=='simple'&&image,imageWidth=layout==='logo'?136:88;
+ var img='<img src="'+escape(image)+'" width="'+imageWidth+'" alt="'+escape(layout==='photo'?d.name:d.business||'Business logo')+'" style="display:block;width:'+imageWidth+'px;max-width:100%;height:auto;margin:0 auto;'+(layout==='photo'?'border-radius:50%;':'')+'">';
+ var detailsCell='<td valign="middle" style="overflow-wrap:anywhere;word-break:break-word">'+details+'</td>',row=detailsCell;
+ if(hasImage){var imageCell='<td width="'+(layout==='logo'?'32%':'24%')+'" align="center" valign="middle" style="width:'+(layout==='logo'?'32%':'24%')+';padding:'+(position==='left'?'0 16px 0 0':'0 0 0 16px')+'">'+img+'</td>';row=position==='top'?'<td><table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td align="center" style="padding:0 0 16px">'+img+'</td></tr><tr>'+detailsCell+'</tr></table></td>':position==='left'?imageCell+detailsCell:detailsCell+imageCell;}
+ var html='<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,sans-serif;font-size:14px;line-height:1.5;color:#333;max-width:480px;table-layout:fixed;overflow-wrap:anywhere;word-break:break-word"><tr>'+row+'</tr><tr><td colspan="'+(hasImage&&position!=='top'?'2':'1')+'" style="padding-top:18px">'+footer+'</td></tr></table>';
  plain.push('',credit,'Need a website? https://learntechfoundation.org/services/business-websites/');
  return {html:html,text:plain.join('\n'),document:'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Email signature</title></head><body>'+html+'</body></html>'};
 }
