@@ -30,7 +30,8 @@
       "image",
       "website"
     ],
-    "url": "/tools/invoice-quotation/"
+    "url": "/tools/invoice-quotation/",
+    "example": "Illustrative quotation: a designer supplies three social-media banners at JMD 5,000 each. Enter quantity 3 and rate 5,000; with no discount or tax selected, the total is JMD 15,000. Replace these sample values with your own agreed prices and applicable tax settings."
   },
   "website": {
     "file": "website-health",
@@ -63,7 +64,8 @@
       "image",
       "brandsnap"
     ],
-    "url": "/tools/website-health/"
+    "url": "/tools/website-health/",
+    "example": "Start with your public business homepage. Review the HTTPS, mobile setup and image-markup observations, then download the report for your developer. A public-page check cannot confirm whether backups exist or prove the installed PHP version."
   },
   "seo": {
     "file": "seo-health",
@@ -92,7 +94,8 @@
       "image",
       "brandsnap"
     ],
-    "url": "/tools/seo-health/"
+    "url": "/tools/seo-health/",
+    "example": "Check a service page rather than only your homepage. Review its title, description, headings, canonical address and image alt attributes. Repeat for other important pages; these checks identify on-page basics, not your position in Google results."
   },
   "image": {
     "file": "image-resizer",
@@ -125,7 +128,8 @@
       "favicon",
       "brandsnap"
     ],
-    "url": "/tools/image-resizer/"
+    "url": "/tools/image-resizer/",
+    "example": "Prepare a product photo for your online catalogue: choose the target width, fit the full photo or crop to the required shape, then compare JPEG and WebP output sizes. Review the preview and LearnTech credit strip before downloading."
   },
   "brandsnap": {
     "file": "brandsnap",
@@ -158,7 +162,8 @@
       "favicon",
       "image"
     ],
-    "url": "/tools/brandsnap/"
+    "url": "/tools/brandsnap/",
+    "example": "Brand a shop product photo: add your transparent PNG logo, enter a message such as New arrivals, and choose the square social-post size. Position the logo, create the preview, then download a JPEG, PNG or WebP. After editing settings, update the preview before downloading."
   },
   "svg_converter": {
     "file": "svg-converter",
@@ -196,7 +201,8 @@
       "brandsnap"
     ],
     "url": "/tools/svg-converter/",
-    "category": "MultimediaApplication"
+    "category": "MultimediaApplication",
+    "example": "Trace a simple two-colour logo from a PNG. Choose two or four trace colours, create the SVG preview and inspect the edges and lettering. Use the vector download for supported website or design workflows; detailed photographs are better kept as raster images."
   },
   "favicon": {
     "file": "favicon-generator",
@@ -234,7 +240,8 @@
       "website"
     ],
     "url": "/tools/favicon-generator/",
-    "category": "MultimediaApplication"
+    "category": "MultimediaApplication",
+    "example": "Turn your business logo into browser and app icons. Leave clear space around the artwork, generate the package and inspect the small-size previews. The ZIP includes PNG sizes, a multi-size ICO, installation markup and a LearnTech README."
   },
   "password_generator": {
     "file": "password-generator",
@@ -267,7 +274,8 @@
       "website",
       "invoice"
     ],
-    "url": "/tools/password-generator/"
+    "url": "/tools/password-generator/",
+    "example": "For a new account, start with a 20-character password and the character groups the site accepts. Generate locally and copy it into your password manager. Use a different password for each account; download only if you need an unencrypted text copy."
   },
   "qr_generator": {
     "file": "qr-generator",
@@ -304,7 +312,8 @@
       "brandsnap",
       "password_generator"
     ],
-    "url": "/tools/qr-generator/"
+    "url": "/tools/qr-generator/",
+    "example": "Create a code for your public contact or booking page. Paste its HTTPS address, preview the result and download SVG for a print layout or PNG for a digital post. Scan-test the actual file at its intended size before publishing."
   },
   "email_signature": {
     "file": "email-signature",
@@ -337,6 +346,7 @@
       "brandsnap",
       "invoice"
     ],
-    "url": "/tools/email-signature/"
+    "url": "/tools/email-signature/",
+    "example": "Load the personal-photo example, choose Above text and Centre, and set a suitable photo width. Replace the sample name, role and contact links with your own, then copy the formatted signature into your email settings and send yourself a test message."
   }
 }

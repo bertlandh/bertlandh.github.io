@@ -1828,3 +1828,6 @@ a:focus-visible {
 .footer-analytics-manage:focus-visible { outline: 3px solid #f0c4ad; outline-offset: 3px; }
 @media (max-width: 1023px) { .site-footer .analytics-choice:not([hidden]) { bottom: 5rem; } }
 @media (max-width: 400px) { .analytics-choice .site-button { display: block; width: 100%; margin: .5rem 0; } }
+
+// Inline links must be distinguishable without relying on colour alone.
+.journey-problem-list p a { text-decoration: underline; text-underline-offset: .16em; }
