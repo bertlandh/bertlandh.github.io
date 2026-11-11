@@ -14,5 +14,6 @@ function crop(sw,sh,w,h,zoom,x,y){
 }
 function crc(bytes){var c=0xffffffff;for(var i=0;i<bytes.length;i++){c^=bytes[i];for(var k=0;k<8;k++)c=(c>>>1)^((c&1)?0xedb88320:0);}return (c^0xffffffff)>>>0;}
 function png300(buffer){var a=new Uint8Array(buffer);if(a[0]!==137||a[1]!==80)throw Error('Invalid PNG export.');var chunk=new Uint8Array(21),v=new DataView(chunk.buffer);v.setUint32(0,9);chunk.set([112,72,89,115],4);v.setUint32(8,11811);v.setUint32(12,11811);chunk[16]=1;v.setUint32(17,crc(chunk.slice(4,17)));var parts=[a.slice(0,33),chunk];for(var p=33;p<a.length;){var n=new DataView(a.buffer,a.byteOffset+p,4).getUint32(0)+12;if(n>a.length-p)throw Error('Invalid PNG chunk.');if(String.fromCharCode.apply(null,a.slice(p+4,p+8))!=='pHYs')parts.push(a.slice(p,p+n));p+=n;}var out=new Uint8Array(parts.reduce(function(s,b){return s+b.length;},0)),at=0;parts.forEach(function(b){out.set(b,at);at+=b.length;});return out;}
-return {layout:layout,crop:crop,png300:png300,mmToPx:function(mm){return Math.round(mm*300/25.4);}};
+function jamaicaGuides(w,h){return w===35&&h===45?{headroomMinimum:2,headroomBand:[3,4],headTop:3.5,faceHeight:[25,35],chinBand:[28.5,38.5]}:null;}
+return {jamaicaGuides:jamaicaGuides,layout:layout,crop:crop,png300:png300,mmToPx:function(mm){return Math.round(mm*300/25.4);}};
 });

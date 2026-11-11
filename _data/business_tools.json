@@ -358,11 +358,11 @@
     "intro": "Prepare a passport-size or ID photo, then arrange one, several or a full grid of copies on US Letter or A4 paper. The Jamaica print-size preset is 35 × 45 mm; other presets and custom dimensions are available. Processing stays in your browser.",
     "url": "/tools/passport-photo/",
     "steps": [
-      "Choose a photo, use your phone camera option, or start the webcam and capture a photo.",
-      "Choose the physical photo dimensions. Adjust zoom, position and rotation while reviewing the crop.",
+      "Choose a photo using the single file picker, or open the camera option and capture a photo.",
+      "For 35 × 45 mm, align the head top to the blue 3.5 mm guide, then zoom and position the chin within the green 25–35 mm face-height band. Other dimensions use a centre guide only.",
       "Choose paper and copy count, create the sheet, then print or save PDF at 100% / Actual size. Measure a test print before cutting."
     ],
-    "example": "For two 35 × 45 mm photos on Letter paper, choose the Jamaica print-size preset and two copies. Position the head using the crop controls, create the sheet and print on matching paper at 100%. A full sheet repeats that same photo size; it does not enlarge the photo.",
+    "example": "For two Jamaican-size prints, select 35 × 45 mm and two copies on Letter paper. Align the head top (including hair) with the blue 3.5 mm line and place the chin between the green lines. The red line marks the poster’s 2 mm minimum headroom. Hide the guides to review the crop; downloads omit them automatically.",
     "faq": [
       {
         "q": "Does this guarantee an acceptable Jamaican passport photo?",

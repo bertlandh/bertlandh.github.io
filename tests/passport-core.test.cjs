@@ -6,3 +6,5 @@ test('rejects invalid dimensions, copies and crop values',()=>{for(const w of [0
 test('PNG physical density is 300 DPI and replaces old density without duplicate chunks',()=>{const b=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/l9sAAAAASUVORK5CYII=','base64'),p=C.png300(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));a.equal(new DataView(p.buffer).getUint32(41),11811);a.equal(p[49],1);a.deepEqual(C.png300(p.buffer),p);});
 
 
+
+test('Jamaica guides use physical measurements and do not apply to other presets',()=>{const g=C.jamaicaGuides(35,45);a.equal(g.headroomMinimum,2);a.deepEqual(g.headroomBand,[3,4]);a.equal(g.headTop,3.5);a.equal(g.chinBand[0]-g.headTop,25);a.equal(g.chinBand[1]-g.headTop,35);a.equal(C.jamaicaGuides(50.8,50.8),null);});
