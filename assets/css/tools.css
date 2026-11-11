@@ -79,3 +79,6 @@
 .tools-project-cta .cta-band>div{min-width:0}.tools-project-cta .site-button{flex-shrink:0;white-space:nowrap}
 
 .password-options{border:0;padding:0;min-width:0;margin:1rem 0}.password-options legend{font-weight:700}.lt-tool .password-output{font-family:ui-monospace,monospace;min-width:0;max-width:100%;width:100%}.qr-content-summary{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;padding:1rem;border:1px solid #eadcda;border-radius:6px;max-width:100%}
+
+/* Email signature examples and separated preview/instructions cards. */
+.signature-panels{display:flex;flex-direction:column;gap:1.5rem;min-width:0}.signature-examples{margin-bottom:1.5rem}.signature-example-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.signature-example-grid .site-button{white-space:normal;text-align:center;min-height:48px}.signature-example-grid [aria-pressed="true"]{background:#981430;color:#fff}@media(max-width:600px){.signature-example-grid{grid-template-columns:1fr}}
