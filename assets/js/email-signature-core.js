@@ -7,15 +7,19 @@ function build(d){
  if(d.email&&!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(d.email))throw Error('Enter a valid email address.');
  ['website','image','ctaUrl'].concat(socials).forEach(function(k){if(d[k]&&!url(d[k]))throw Error('Use a public HTTPS address for '+k+'.');});
  function link(h,t){return '<a href="'+escape(h)+'" style="color:'+color+';text-decoration:none">'+escape(t)+'</a>';}
- var lines=[],plain=[d.name,[d.role,d.business].filter(Boolean).join(' · '),d.tagline].filter(Boolean);
+ var lines=[],plain=[d.name,d.role,d.business,d.tagline].filter(Boolean);
  if(d.phone){var tel=d.phone.replace(/[^+0-9]/g,'');if(!/^\+?\d{7,15}$/.test(tel))throw Error('Enter a phone number with 7–15 digits, optionally starting with +.');lines.push(link('tel:'+tel,d.phone));plain.push(d.phone);}
  if(d.email){lines.push(link('mailto:'+d.email,d.email));plain.push(d.email);}
  if(website){lines.push(link(website,d.website));plain.push(website);}
- socials.forEach(function(k){var u=url(d[k]);if(u){lines.push(link(u,k==='whatsapp'?'WhatsApp':k.charAt(0).toUpperCase()+k.slice(1)));plain.push(k+': '+u);}});
- var details='<strong style="font-size:18px;color:'+color+'">'+escape(d.name)+'</strong><br>'+escape([d.role,d.business].filter(Boolean).join(' · '));
+ var socialLinks=[],socialLabels={linkedin:'LinkedIn',instagram:'Instagram',facebook:'Facebook',youtube:'YouTube',whatsapp:'WhatsApp'};
+ socials.forEach(function(k){var u=url(d[k]);if(u){socialLinks.push('<a href="'+escape(u)+'" style="display:inline-block;white-space:nowrap;color:'+color+';text-decoration:none;font-size:13px;line-height:24px;margin:0 10px 4px 0"><img src="https://learntechfoundation.org/img/signature-social/'+k+'.png?v=1" width="16" height="16" alt="" style="display:inline-block;width:16px;height:16px;vertical-align:middle;border:0;margin-right:4px">'+socialLabels[k]+'</a>');plain.push(socialLabels[k]+': '+u);}});
+ var details='<strong style="font-size:18px;color:'+color+'">'+escape(d.name)+'</strong>';
+ if(d.role)details+='<br>'+escape(d.role);
+ if(d.business)details+='<br>'+escape(d.business);
  if(d.tagline)details+='<br>'+escape(d.tagline);
  if(lines.length)details+='<br>'+lines.join('<br>');
- if(cta&&d.ctaLabel){details+='<br><br>'+link(cta,d.ctaLabel);plain.push(d.ctaLabel+': '+cta);}
+ if(socialLinks.length)details+='<div style="padding-top:8px;line-height:24px">'+socialLinks.join(' ')+'</div>';
+ if(cta&&d.ctaLabel){details+='<div style="padding-top:8px">'+link(cta,d.ctaLabel)+'</div>';plain.push(d.ctaLabel+': '+cta);}
  var credit='Made with love by your friends at LearnTech Foundation.';
  var footer='<span style="font-size:11px;color:#666">'+credit+'<br>'+link('https://learntechfoundation.org/services/business-websites/','Need a website? Contact LearnTech')+'</span>';
  var alignment=['left','center','right'].includes(d.alignment)?d.alignment:'left';
