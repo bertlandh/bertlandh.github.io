@@ -22,9 +22,21 @@
     return '<div class="tool-credit" role="note"><p>'+creditLine+'</p><p><a data-lt-event="tool_credit_click" data-lt-tool="'+id+'" data-lt-placement="output_footer" href="https://learntechfoundation.org'+c.path+'">'+c.label+'</a> · <a href="mailto:bertlandhope@gmail.com">bertlandhope@gmail.com</a></p></div>';
   }
   function track(name, tool) { if (window.LearnTechEvents) window.LearnTechEvents.track(name, {tool: tool}); }
+  function filename(name, date) {
+    var value=String(name || 'download'), match=value.match(/(\.[a-z0-9]+)$/i), extension=match ? match[1].toLowerCase() : '';
+    var base=(extension ? value.slice(0,-extension.length) : value).replace(/learntech(?:-foundation)?/gi,'').replace(/\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}Z/g,'').replace(/[^a-z0-9_-]+/gi,'-').replace(/[-_]{2,}/g,'-').replace(/^[-_]+|[-_]+$/g,'').slice(0,120) || 'download';
+    var stamp=(date || new Date()).toISOString().slice(0,19).replace('T','_').replace(/:/g,'-')+'Z';
+    return 'learntech-foundation-'+base+'-'+stamp+extension;
+  }
+  function printDocument(name) {
+    var original=document.title;
+    document.title=filename(name);
+    window.addEventListener('afterprint',function restore(){document.title=original;window.removeEventListener('afterprint',restore);});
+    window.print();
+  }
   function download(text, name, type) {
     var u = URL.createObjectURL(new Blob([text], {type: type || 'text/plain;charset=utf-8'}));
-    var a = document.createElement('a'); a.href = u; a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(u); }, 1000);
+    var a = document.createElement('a'); a.href = u; a.download = filename(name); document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(u); }, 1000);
   }
   function report(text, tool) {
     if (!text.trim()) return;
@@ -41,6 +53,6 @@
       track('tool_report_request', e.target.elements.tool.value);
     }
   });
-  window.LearnTechTools = {track: track, download: download, report: report, creditText: creditText, creditHTML: creditHTML, brandedReport: brandedReport,
+  window.LearnTechTools = {track: track, filename: filename, printDocument: printDocument, download: download, report: report, creditText: creditText, creditHTML: creditHTML, brandedReport: brandedReport,
     escape: function (value) { return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }};
 })();
