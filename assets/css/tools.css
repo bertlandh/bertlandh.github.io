@@ -93,3 +93,9 @@
 @media print{.signature-live-panel{position:static;max-height:none;overflow:visible}}
 
 .signature-preview-viewport{width:100%;min-width:0;border:1px solid #eadcda;background:#fff;box-sizing:border-box}.signature-live-panel #signature-status{margin:.5rem 0 0;font-size:.875rem;line-height:1.4}.signature-live-panel h2{font-size:1.3rem;margin-bottom:.75rem}
+
+/* Working-area navigation and bounded previews shared by editing tools. */
+#tool-start,#tools-list{scroll-margin-top:6.5rem}
+.tool-follow-help{margin-top:1.5rem}.tool-follow-slot{min-width:0}.tool-follow-content{display:flow-root;transform-origin:top center}.tool-follow-viewport{width:100%;min-width:0}.tool-follow-card .tool-actions{margin:.75rem 0}.tool-follow-stale{font-weight:600;color:#981430;margin:.4rem 0}
+@media(min-width:901px){.tool-follow-slot{align-self:stretch;display:block}.tool-follow-card,.tool-follow-empty{position:sticky;top:6.5rem;overflow:visible;max-height:none}.tool-follow-card{padding:1rem}.tool-follow-card .tool-actions{display:flex;flex-wrap:wrap;gap:.5rem}.tool-follow-card .site-button{font-size:.875rem;padding:.6rem .7rem;min-height:44px}}
+@media print{.tool-follow-slot,.tool-follow-card{position:static!important;display:block!important;border:0!important;padding:0!important;max-height:none!important}.tool-follow-viewport{height:auto!important}.tool-follow-content{transform:none!important}.tool-follow-empty,.tool-follow-stale,.tool-follow-refresh{display:none!important}}
