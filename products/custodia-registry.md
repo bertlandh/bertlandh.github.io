@@ -1,13 +1,15 @@
 ---
-title: Custodia Registry
-description: Records management software connecting physical custody, digital files, structured locations, and accountable workflows.
+title: "Records Management Software in Jamaica | Custodia Registry"
+description: "Explore Custodia Registry, a LearnTech records management software example for Jamaican organisations: physical file custody, digital records, requests and reporting."
 subtitle: Keep physical and digital records visible, organised, and accountable—from registration and request through return, reshelving, and review.
+hero_title: "Custodia Registry: records management software"
+last_modified_at: 2026-11-11
 layout: software-product
 product_key: custodia
 image: /img/products/custodia/dashboard-overview.png
 ---
 
-<section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The records challenge</p><h2>When records move, teams need to know where they are</h2><p>Physical files can pass between shelves, offices, and authorised holders while digitised versions introduce their own access and version questions. Without a connected view, finding a record and reconstructing its history becomes harder than it should be.</p><p>Custodia Registry brings registration, location, physical custody, digitised files, access, and review into one operational workspace.</p></div><aside class="product-value"><strong>One connected record history</strong><span>See structured record details, location, holder, movement, files, requests, and activity in context.</span></aside></div></section>
+<section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The records challenge</p><h2>Records management for Jamaican teams handling physical and digital files</h2><p>Physical files can pass between shelves, offices, and authorised holders while digitised versions introduce their own access and version questions. Without a connected view, finding a record and reconstructing its history becomes harder than it should be.</p><p>Custodia Registry brings registration, location, physical custody, digitised files, access, and review into one operational workspace.</p></div><aside class="product-value"><strong>One connected record history</strong><span>See structured record details, location, holder, movement, files, requests, and activity in context.</span></aside></div></section>
 
 <section class="site-section site-section--warm"><div class="site-container"><div class="section-heading"><p class="section-heading__eyebrow">Key capabilities</p><h2>Support the record through its working life</h2></div><div class="capability-grid">
 <article class="site-card"><h3>Register and find</h3><p>Create structured record information, search and filter the register, and import or export metadata.</p></article>

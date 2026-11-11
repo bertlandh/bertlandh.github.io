@@ -1,13 +1,15 @@
 ---
-title: Another Check-In App
-description: Attendance and punctuality software with check-in, managed locations, reporting, itineraries, leave, and mobile workflows.
+title: "Attendance Software in Jamaica | Another Check-In App"
+description: "Explore Another Check-In App, LearnTech’s attendance software in development: staff check-in, location context, punctuality and reporting for Jamaican teams."
 subtitle: Bring staff attendance, punctuality, location context, itineraries, leave, and reporting into a clearer operational view.
+hero_title: "Another Check-In App: attendance software"
+last_modified_at: 2026-11-11
 layout: software-product
 product_key: check-in
 image: /img/products/check-in/check-in-overview.png
 ---
 
-<section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The attendance challenge</p><h2>A check-in is more useful when its context can be reviewed</h2><p>Attendance administration involves more than recording a time. Teams may need to understand punctuality, managed locations, supporting location evidence, approved itineraries, leave, exceptions, and monthly reporting.</p><p>Another Check-In App connects these workflows so staff can record activity and authorised reviewers can understand what happened.</p></div><aside class="product-value"><strong>Operational visibility</strong><span>Connect check-in activity with time, place, device, itinerary, leave, and reporting context.</span></aside></div></section>
+<section class="site-section"><div class="site-container product-intro"><div class="content-prose"><p class="section-heading__eyebrow">The attendance challenge</p><h2>Staff attendance and check-in workflows for Jamaican teams</h2><p>Attendance administration involves more than recording a time. Teams may need to understand punctuality, managed locations, supporting location evidence, approved itineraries, leave, exceptions, and monthly reporting.</p><p>Another Check-In App connects these workflows so staff can record activity and authorised reviewers can understand what happened.</p><p>This is a product in development. Availability, deployment, permissions and support must be agreed before organisational use. Location context relates to check-in workflows; it is not a promise of continuous staff tracking.</p></div><aside class="product-value"><strong>Operational visibility</strong><span>Connect check-in activity with time, place, device, itinerary, leave, and reporting context.</span></aside></div></section>
 
 <section class="site-section site-section--warm"><div class="site-container"><div class="section-heading"><p class="section-heading__eyebrow">Key capabilities</p><h2>From simple check-in to informed review</h2></div><div class="capability-grid">
 <article class="site-card"><h3>Attendance and punctuality</h3><p>Record check-in and check-out, review attendance history, and evaluate arrivals and departures against applicable work times.</p></article>

@@ -3,5 +3,6 @@ layout: default
 ---
 {{ content }}
 {% capture product_enquiry_url %}/connect/?interest=product&product={{ page.product_key | url_encode }}#enquiry{% endcapture %}
-{% capture product_enquiry_label %}Ask about {{ page.title }}{% endcapture %}
+{% assign product_info = site.data.products | where: "key", page.product_key | first %}
+{% capture product_enquiry_label %}Ask about {{ product_info.name | default: page.title }}{% endcapture %}
 {% include cta-band.html eyebrow="Talk with LearnTech" title="Could this product fit your organisation?" text="Tell us about the operational problem you are trying to solve. We will discuss availability and fit." label=product_enquiry_label url=product_enquiry_url %}
