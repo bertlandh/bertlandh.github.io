@@ -67,6 +67,11 @@ analytics:
 
 defaults:
   - scope:
+      path: "demos"
+    values:
+      sitemap: false
+      layout: null
+  - scope:
       path: "tools"
     values:
       social_image_only: true
