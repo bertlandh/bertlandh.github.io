@@ -11,16 +11,22 @@ function run(query,existing={}){
  const document={querySelector:()=>form,querySelectorAll:selector=>selector==='[data-lt-channel="whatsapp"]'?links:[]};
  vm.runInNewContext(source,{document,location:{search:query},URLSearchParams,URL});return {fields,links,productField};
 }
-for(const [id,label] of Object.entries({corporate:'Modern Corporate',showcase:'Product Showcase',editorial:'Jamaican Business',undecided:'Not sure yet / discuss the options'})){
+for(const [id,label] of Object.entries({corporate:'Modern Corporate',showcase:'Product Showcase',editorial:'Jamaican Business',undecided:'Not sure yet / discuss the options',other:'Another direction / my own reference'})){
  const r=run('?interest=improve&review=oasysoft&design='+id);
  assert.equal(r.fields.enquiry_type.value,'improve');assert.equal(r.fields.business.value,'OASys');assert.equal(r.fields.website.value,'http://www.oasysoft.com/');assert.ok(r.fields.message.value.includes(label));assert.equal(r.fields._subject.value,'OASys website redesign enquiry');
  assert.ok(new URL(r.links[0].href).searchParams.get('text').includes(label));assert.equal(r.links[2].href,'https://example.com/keep');
  assert.equal(r.fields.contact_request.checked,false);assert.equal(r.fields.name.value,'');assert.equal(r.fields.email.value,'');assert.equal(r.fields.phone.value,'');
 }
+const reference='https://example.com/design?style=clean&colour=blue#work';
+const inspired=run('?review=oasysoft&design=other&reference='+encodeURIComponent(reference));
+assert.ok(inspired.fields.message.value.includes('Another direction'));assert.ok(inspired.fields.message.value.includes(reference));assert.ok(new URL(inspired.links[0].href).searchParams.get('text').includes(reference));
+const bare=run('?review=oasysoft&reference='+encodeURIComponent('example.com/work'));assert.ok(bare.fields.message.value.includes('https://example.com/work'));
+for(const bad of ['javascript:alert(1)','data:text/html,<script>','https://user:secret@example.com/','https://example.com/ with spaces','https://example.com/'+ 'a'.repeat(500)]){const rejected=run('?review=oasysoft&reference='+encodeURIComponent(bad));assert.ok(!rejected.fields.message.value.includes('Reference website I like:'));}
+const unrecognised=run('?review=other&reference='+encodeURIComponent(reference));assert.equal(unrecognised.fields.message.value,'');
 const generic=run('?interest=product&product=custodia');assert.equal(generic.fields.requested_product.value,'custodia');assert.equal(generic.productField.hidden,false);assert.equal(generic.fields.business.value,'');
 const unknown=run('?review=other&business=Injected&message=Injected');assert.equal(unknown.fields.business.value,'');assert.equal(unknown.fields.message.value,'');
 const invalid=run('?review=oasysoft&design=%3Cscript%3E&email=wrong%40example.com');assert.ok(invalid.fields.message.value.includes('Not sure yet'));assert.ok(!invalid.fields.message.value.includes('<script>'));assert.equal(invalid.fields.email.value,'');
 const edited=run('?review=oasysoft&design=corporate',{business:'My business',message:'My own words',website:'https://my.example/'});assert.equal(edited.fields.business.value,'My business');assert.equal(edited.fields.message.value,'My own words');assert.equal(edited.fields.website.value,'https://my.example/');
 const demo=path.join(root,'demos/oasysoft'),comparison=fs.readFileSync(path.join(demo,'index.html'),'utf8');assert.ok(!comparison.includes('learntechfoundation.org/contact/'));assert.ok(comparison.includes('connect/?interest=improve&amp;review=oasysoft'));assert.ok(comparison.includes('id="preferred-design"'));
 for(const theme of ['corporate','showcase','editorial'])for(const file of fs.readdirSync(path.join(demo,theme)).filter(n=>n.endsWith('.html'))){const html=fs.readFileSync(path.join(demo,theme,file),'utf8');assert.ok(html.includes('review=oasysoft&amp;design='+theme+'#enquiry'));}
-console.log('OASys enquiry checks passed: four design contexts, existing product flow, unknown-context rejection, safe fallback, preserved edits, WhatsApp context, untouched personal details/consent and all 25 demo routes.');
+console.log('OASys enquiry checks passed: five design contexts and validated reference links, existing product flow, unknown-context rejection, safe fallback, preserved edits, WhatsApp context, untouched personal details/consent and all 25 demo routes.');
