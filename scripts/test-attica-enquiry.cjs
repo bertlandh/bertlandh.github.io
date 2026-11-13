@@ -11,7 +11,7 @@ function run(query,existing={}){
  const document={querySelector:()=>form,querySelectorAll:selector=>selector==='[data-lt-channel="whatsapp"]'?links:[]};
  vm.runInNewContext(source,{document,location:{search:query},URLSearchParams,URL});return {fields,links,productField};
 }
-for(const [id,label] of Object.entries({heritage:'The Heritage',bold:'Black & Teal',community:'The Connection',other:'A different direction',undecided:'Discuss the options'})) {
+for(const [id,label] of Object.entries({heritage:'The Heritage',bold:'Black & Red',community:'The Connection',other:'A different direction',undecided:'Discuss the options'})) {
  const r=run('?review=attica&design='+id+'&reference=https%3A%2F%2Fexample.com%2F');
  assert.equal(r.fields.enquiry_type.value,'new'); assert.equal(r.fields.business.value,'Fraternity of Attica alumni'); assert.ok(r.fields.message.value.includes(label)); assert.ok(r.fields.message.value.includes('https://example.com/')); assert.equal(r.fields.website.value,'');
  assert.equal(r.fields.name.value,''); assert.equal(r.fields.email.value,''); assert.equal(r.fields.phone.value,''); assert.equal(r.fields.contact_request.checked,false);

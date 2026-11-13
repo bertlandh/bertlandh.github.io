@@ -54,7 +54,7 @@
   // Attica is a separate, bounded review context. Personal details and consent
   // remain blank, and existing user text is preserved.
   if (params.get("review") === "attica") {
-    var atticaDirections = {heritage: "The Heritage", bold: "Black & Teal", community: "The Connection", other: "A different direction", undecided: "Discuss the options"};
+    var atticaDirections = {heritage: "The Heritage", bold: "Black & Red", community: "The Connection", other: "A different direction", undecided: "Discuss the options"};
     var atticaDirection = Object.prototype.hasOwnProperty.call(atticaDirections, params.get("design")) ? atticaDirections[params.get("design")] : atticaDirections.undecided;
     var atticaMessage = "I have reviewed the Attica alumni website concepts for Block D, Taylor Hall, UWI Mona. My preferred direction is: " + atticaDirection + ". I would like to discuss the design, content and next steps.";
     var atticaReference = (params.get("reference") || "").trim();
