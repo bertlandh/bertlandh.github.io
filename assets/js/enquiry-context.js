@@ -51,6 +51,35 @@
       } catch (_) { /* Preserve an existing link if its URL is invalid. */ }
     });
   }
+  // Attica is a separate, bounded review context. Personal details and consent
+  // remain blank, and existing user text is preserved.
+  if (params.get("review") === "attica") {
+    var atticaDirections = {heritage: "The Heritage", bold: "Black & Teal", community: "The Connection", other: "A different direction", undecided: "Discuss the options"};
+    var atticaDirection = Object.prototype.hasOwnProperty.call(atticaDirections, params.get("design")) ? atticaDirections[params.get("design")] : atticaDirections.undecided;
+    var atticaMessage = "I have reviewed the Attica alumni website concepts for Block D, Taylor Hall, UWI Mona. My preferred direction is: " + atticaDirection + ". I would like to discuss the design, content and next steps.";
+    var atticaReference = (params.get("reference") || "").trim();
+    if (atticaReference && atticaReference.length <= 500 && !/\s/.test(atticaReference)) {
+      try {
+        var atticaUrl = new URL(atticaReference);
+        if (["https:", "http:"].indexOf(atticaUrl.protocol) !== -1 && atticaUrl.hostname && !atticaUrl.username && !atticaUrl.password && atticaUrl.href.length <= 500) atticaMessage += "\n\nReference website I like: " + atticaUrl.href;
+      } catch (_) { /* Invalid references stay out of the enquiry. */ }
+    }
+    interest.value = "new";
+    [ ["business", "Fraternity of Attica alumni"], ["message", atticaMessage] ].forEach(function (entry) {
+      var field = form.elements.namedItem(entry[0]);
+      if (field && !field.value.trim()) field.value = entry[1];
+    });
+    form.elements._subject.value = "Attica alumni website enquiry";
+    document.querySelectorAll('[data-lt-channel="whatsapp"]').forEach(function (link) {
+      try {
+        var atticaDestination = new URL(link.href);
+        if (atticaDestination.protocol === "https:" && atticaDestination.hostname === "wa.me") {
+          atticaDestination.searchParams.set("text", "Hello LearnTech, " + atticaMessage);
+          link.href = atticaDestination.href;
+        }
+      } catch (_) { /* Preserve invalid existing links. */ }
+    });
+  }
   updateProduct();
   interest.addEventListener("change", updateProduct);
   document.querySelectorAll("[data-lt-enquiry-choice]").forEach(function (link) {
