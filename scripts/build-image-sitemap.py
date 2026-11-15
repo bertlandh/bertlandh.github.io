@@ -23,7 +23,7 @@ for p in sorted((root/'_site').rglob('*.html')):
  parser=Images();parser.feed(p.read_text(encoding='utf-8'))
  if parser.canonical and parser.images and not parser.noindex:
   page=urlparse(parser.canonical)
-  if not (page.path=='/' or page.path.startswith(('/about/','/academy/','/products/','/portfolio/','/work/','/services/','/tools/'))):continue
+  if not (page.path=='/' or page.path.startswith(('/about/','/academy/','/products/','/portfolio/','/work/','/services/','/tools/','/books/'))):continue
   if page.netloc=='learntechfoundation.org' and not any(x['page']==page.path for x in data):data.append({'page':page.path,'images':sorted(set(parser.images))})
 (root/'_data/image_sitemap.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'Image sitemap: {len(data)} landing pages; {len({img for x in data for img in x["images"]})} unique owned content images.')

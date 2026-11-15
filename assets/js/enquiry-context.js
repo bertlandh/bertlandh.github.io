@@ -5,8 +5,10 @@
   var interest = form.elements.enquiry_type;
   var product = form.elements.requested_product;
   var productField = form.querySelector("[data-lt-product-field]");
-  var allowed = ["new", "improve", "review", "seo", "reporting", "software", "consultancy", "product", "unsure"];
+  var allowed = ["new", "improve", "review", "seo", "reporting", "software", "consultancy", "product", "books", "unsure"];
   function updateProduct() {
+    var businessField = form.elements.namedItem("business");
+    if (businessField) businessField.required = interest.value !== "books";
     var relevant = interest.value === "product";
     productField.hidden = !relevant;
     product.disabled = !relevant;
@@ -78,6 +80,20 @@
           link.href = atticaDestination.href;
         }
       } catch (_) { /* Preserve invalid existing links. */ }
+    });
+  }
+  // Only recognised book keys may set book enquiry context. Never infer a
+  // purchase, subscribe a visitor, or prefill their personal details/consent.
+  var bookNames = {cbg: "Chicken Back Gravy and Such Delights", innadidancehall: "Inna Di Dancehall", collection: "Professor Donna P. Hope’s Book Collection"};
+  if (!params.get("review") && Object.prototype.hasOwnProperty.call(bookNames, params.get("book"))) {
+    var bookName = bookNames[params.get("book")];
+    var bookMessage = "I am interested in " + bookName + ". Please confirm the available options, price and delivery arrangements.\n\nQuantity needed: \nDelivery location: \nDate needed: ";
+    interest.value = "books";
+    var bookMessageField = form.elements.namedItem("message");
+    if (bookMessageField && !bookMessageField.value.trim()) bookMessageField.value = bookMessage;
+    form.elements._subject.value = "LearnTech book enquiry: " + bookName;
+    document.querySelectorAll('[data-lt-channel="whatsapp"]').forEach(function (link) {
+      try { var bookDestination = new URL(link.href); if (bookDestination.protocol === "https:" && bookDestination.hostname === "wa.me") { bookDestination.searchParams.set("text", "Hello LearnTech, " + bookMessage); link.href = bookDestination.href; } } catch (_) { /* Preserve invalid existing links. */ }
     });
   }
   updateProduct();

@@ -16,4 +16,6 @@ eyebrow: LearnTech products
 
 <section class="site-section site-section--warm"><div class="site-container"><div class="section-heading section-heading--center"><p class="section-heading__eyebrow">Our approach</p><h2>Software grounded in real work</h2><p>We focus on visible problems, understandable workflows, useful reporting, and technology that supports the people responsible for getting work done.</p></div></div></section>
 
+<section class="site-section site-section--warm" id="books"><div class="site-container"><div class="journey-section-head"><div class="section-heading"><p class="section-heading__eyebrow">Books by Professor Donna P. Hope</p><h2>Life lessons. Jamaican stories. Books to share.</h2><p>Discover <em>Chicken Back Gravy and Such Delights</em>, explore dancehall culture, or browse the seven-book collection. Find books for your own reading, a group or a thoughtful gift.</p></div><a class="journey-text-link" href="{{ '/books/' | relative_url }}">Explore all books →</a></div>{% include book-cards.html %}</div></section>
+
 {% include cta-band.html title="Have an operational problem that deserves a practical software response?" label="Talk with LearnTech" %}

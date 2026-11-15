@@ -1,34 +1,19 @@
 ---
-title: Inna Di Dancehall Popular Culture And the Politics of Identity in Jamaica
-menubar_toc: false
-description: Inna Di Dancehall Popular Culture And the Politics of Identity in Jamaica
-subtitle: By Donna P. Hope
-product_code: IDD
-layout: product
+title: Inna Di Dancehall
+seo_title: Inna Di Dancehall by Donna P. Hope
+description: Explore Inna di Dancehall by Donna P. Hope, on popular culture, power, gender and the politics of identity in Jamaica. Find its paperback and related books.
+subtitle: Popular Culture and the Politics of Identity in Jamaica
+book_key: innadidancehall
+eyebrow: Dancehall and Jamaican culture
 image: /img/innadidancehall.png
-image_alt: Cover of Inna Di Dancehall by Donna P. Hope
+image_alt: Inna di Dancehall, Popular Culture and the Politics of Identity in Jamaica by Donna P. Hope
+book_lead: An accessible account of Jamaican dancehall and the relationships between popular culture, power, gender and identity.
+purchase_url: https://www.amazon.com/gp/product/9766401683/ref=dbs_a_def_rwt_bibl_vppi_i5
+layout: book
+redesign_page: true
+book_page: true
 show_sidebar: false
-toc_title: Contents
-hero_height: is-medium
-hero_darken: true
-price: From $22.96
-features:
-    - label: Released 30th January 2006 
-      icon: fa-book
-    - label: Paperback
-      icon: fa-book
-rating: 5
-seo:
-  name: Inna Di Dancehall Popular Culture And the Politics of Identity in Jamaica
-  type: Book
-  author: Donna P. Hope
+breadcrumb_parent: Books
+breadcrumb_url: /books/
 ---
-
-## Inna Di Dancehall: Popular Culture And the Politics of Identity in Jamaica
-
-Inna di Dancehall provides an accessible account of a poorly understood and much maligned aspect of Jamaican popular culture. Donna Hope explores the sociopolitical meanings of Jamaica's dancehall culture. In particular, she gives an account of the power relations within the dancehall and between the dancehall and the wider Jamaican society. Hope allows the reader an unmatched insider's view and explanation of power, violence and gender relations in Jamaica as seen through the prism of dancehall. 
-
-<div class="buttons is-centered">
-<a href="https://www.amazon.com/gp/product/9766401683/ref=dbs_a_def_rwt_bibl_vppi_i5" class="button is-info" target="_blank">Paperback</a>
-</div>
-
+<section class="site-section"><div class="site-container book-reading"><p class="section-heading__eyebrow">About the book</p><h2>Understanding dancehall and Jamaican society.</h2><p><em>Inna di Dancehall</em> provides an accessible account of a poorly understood and much-maligned aspect of Jamaican popular culture. Donna P. Hope explores the sociopolitical meanings of dancehall, including power relations within the culture and between dancehall and the wider society.</p><p>The book considers power, violence and gender relations through the prism of dancehall. Readers, students and researchers can explore its paperback listing and the author’s related publications.</p><a class="site-button site-button--outline" href="{{ '/books/donna-p-hope-collection/' | relative_url }}">Discover the wider collection</a></div></section>

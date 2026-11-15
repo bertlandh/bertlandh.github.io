@@ -19,6 +19,7 @@ $hero-darken: $dark !default;
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 @import "redesign";
+@import "books";
 
 .gh-sponsor {
   color: #ea4aaa;

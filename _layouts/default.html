@@ -21,7 +21,9 @@
     {% if page.landing_page or page.redesign_page or page.layout == 'service' or page.layout == 'blog' or page.layout == 'post' or page.layout == 'software-product' %}
       {% assign redesign_interior = true %}
     {% endif %}
-    {% if page.landing_page %}
+    {% if page.book_page %}
+      {% comment %}Book pages render their cover-led hero in their own layout.{% endcomment %}
+    {% elsif page.landing_page %}
       {% include journey-hero.html %}
     {% elsif redesign_interior %}
       {% include interior-hero.html %}

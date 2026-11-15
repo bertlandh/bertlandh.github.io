@@ -1,3 +1,5 @@
+- name: Books
+  link: /books/
 - name: Products
   link: /products/
 - name: Services

@@ -1,0 +1,6 @@
+{% if page.book_key == 'cbg' or page.book_key == 'innadidancehall' %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","@id":{{ page.url | absolute_url | append: '#book' | jsonify }},"name":{{ page.title | jsonify }},"author":{"@type":"Person","name":"Donna P. Hope"},"description":{{ page.description | jsonify }},"image":{{ page.image | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"sameAs":{{ page.purchase_url | jsonify }},"inLanguage":"en"}</script>
+{% endif %}
+{% if page.book_key == 'collection' %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Professor Donna P. Hope’s Book Collection","url":{{ page.url | absolute_url | jsonify }},"numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"name":"International Reggae"},{"@type":"ListItem","position":2,"name":"Inna di Dancehall"},{"@type":"ListItem","position":3,"name":"Man Vibes"},{"@type":"ListItem","position":4,"name":"Reggae Stories"},{"@type":"ListItem","position":5,"name":"Reggae from Yaad"},{"@type":"ListItem","position":6,"name":"Dancehall Queen: Erotic Subversion / Subversión Erótica"},{"@type":"ListItem","position":7,"name":"Chicken Back Gravy and Such Delights: Life Lessons from My Journey"}]}</script>
+{% endif %}

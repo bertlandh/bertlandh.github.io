@@ -1,0 +1,30 @@
+- key: cbg
+  name: Chicken Back Gravy and Such Delights
+  subtitle: Life Lessons from My Journey
+  author: Donna P. Hope
+  description: An inspirational Jamaican life story about hardship, education and perseverance, told through eight life lessons.
+  url: /services/cbg/
+  image: /img/cbg.png
+  image_alt: Chicken Back Gravy and Such Delights, Life Lessons from My Journey by Professor Donna P. Hope
+  label: Life lessons and inspiration
+  cta: Explore Chicken Back Gravy
+- key: collection
+  name: Professor Donna P. Hope’s Book Collection
+  subtitle: Seven books to explore
+  author: Donna P. Hope
+  description: Discover the seven-title collection, with books on reggae, dancehall, Jamaican culture and personal experience.
+  url: /books/donna-p-hope-collection/
+  image: /img/books/donna-hope-book-collection.webp
+  image_alt: Professor Donna P. Hope’s seven-book collection, including Chicken Back Gravy, Dancehall Queen and Inna di Dancehall
+  label: The book collection
+  cta: Explore the collection
+- key: innadidancehall
+  name: Inna Di Dancehall
+  subtitle: Popular Culture and the Politics of Identity in Jamaica
+  author: Donna P. Hope
+  description: Explore the sociopolitical meanings of dancehall and the relationships between identity, power, gender and Jamaican society.
+  url: /services/innadidancehall/
+  image: /img/innadidancehall.png
+  image_alt: Inna di Dancehall, Popular Culture and the Politics of Identity in Jamaica by Donna P. Hope
+  label: Dancehall and Jamaican culture
+  cta: Explore Inna Di Dancehall

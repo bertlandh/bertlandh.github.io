@@ -1,0 +1,3 @@
+<div class="book-grid">{% for book in site.data.books %}
+<article class="book-card"><a class="book-card__cover" href="{{ book.url | relative_url }}"><img src="{{ book.image | relative_url }}" alt="{{ book.image_alt | escape }}" loading="lazy"></a><div class="book-card__body"><p class="section-heading__eyebrow">{{ book.label }}</p><h3><a href="{{ book.url | relative_url }}">{{ book.name }}</a></h3><p class="book-card__author">By Professor Donna P. Hope</p><p>{{ book.description }}</p><a class="site-card__link" href="{{ book.url | relative_url }}">{{ book.cta }} <span aria-hidden="true">→</span></a></div></article>
+{% endfor %}</div>

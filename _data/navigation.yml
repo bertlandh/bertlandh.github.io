@@ -1,3 +1,12 @@
+- name: Books
+  link: /books/
+  dropdown:
+    - name: Chicken Back Gravy
+      link: /services/cbg/
+    - name: Professor Hope’s Collection
+      link: /books/donna-p-hope-collection/
+    - name: Inna Di Dancehall
+      link: /services/innadidancehall/
 - name: Products
   link: /products/
   dropdown:
@@ -18,8 +27,6 @@
       link: /academy/
     - name: News
       link: /news/
-    - name: Books
-      link: /resources/#books
     - name: Technical Guides
       link: /resources/#technical-guides
     - name: Learning Material

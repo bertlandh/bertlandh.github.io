@@ -1,34 +1,20 @@
 ---
-title: Chicken Back Gravy and Such Delights Life Lessons From My Journey
-menubar_toc: false
-description: Chicken Back Gravy and Such Delights, a collection of life lessons by Donna P. Hope.
-subtitle: By Donna P. Hope
-product_code: CBG
-layout: product
+title: Chicken Back Gravy and Such Delights
+seo_title: Chicken Back Gravy by Donna P. Hope
+description: Explore Donna P. Hope’s inspirational Jamaican memoir and eight life lessons on hardship, education and perseverance. Find paperback and bulk-copy options.
+subtitle: Life Lessons from My Journey
+book_key: cbg
+eyebrow: Life lessons and inspiration
 image: /img/cbg.png
-image_alt: Cover of Chicken Back Gravy and Such Delights by Donna P. Hope
+image_alt: Chicken Back Gravy and Such Delights, Life Lessons from My Journey by Donna P. Hope
+book_lead: A Jamaican woman’s journey through hardship, education and perseverance, shared in eight frank and personal life lessons.
+purchase_url: https://www.amazon.com/gp/product/9769622702/ref=dbs_a_def_rwt_bibl_vppi_i7
+layout: book
+redesign_page: true
+book_page: true
 show_sidebar: false
-toc_title: Contents
-hero_height: is-medium
-hero_darken: true
-price: From $6.74
-features:
-    - label: Released 26th June 2019 
-      icon: fa-book
-    - label: Paperback
-      icon: fa-book
-rating: 5
-seo:
-  name: Chicken Back Gravy and Such Delights Life Lessons From My Journey
-  type: Book
-  author: Donna P. Hope
+breadcrumb_parent: Books
+breadcrumb_url: /books/
 ---
-
-## Chicken Back Gravy and Such Delights
-
-Chicken Back Gravy and Such Delights is an attractive and highly inspiring, motivational book written from a Jamaican-Caribbean perspective by well-known academic and author, Professor Donna P. Hope. Speaking with the voice of a poor, black woman from Jamaica's rural working classes Chicken Back Gravy uses a series of autobiographical stories that span her multi-faceted life from early childhood to adulthood, to drive the eight (8) Life Lessons that are delivered with raw frankness, and seasoned with discussions that are at some points funny and at others full of pain. In looking back at the depths from which she has climbed, Professor Hope provides readers with hope, inspries them to be brave, and challenges them to frankly assess their individual life-situations and plot their way to success, with clarity and a keen focus. This first volume in Professor Hope's Chicken Back Gravy Series is a must-read for anyone who desires hard-hitting and easily accessible material that cuts directly to the core.
-
-<div class="buttons is-centered">
-<a href="https://www.amazon.com/gp/product/9769622702/ref=dbs_a_def_rwt_bibl_vppi_i7" class="button is-info" target="_blank">Paperback</a>
-</div>
-
+<section class="site-section"><div class="site-container book-reading"><p class="section-heading__eyebrow">About the book</p><h2>A personal story. Lessons to carry forward.</h2><p><em>Chicken Back Gravy and Such Delights</em> is an inspirational and motivational book by Jamaican academic and author Professor Donna P. Hope. Drawing on autobiographical stories from childhood through adulthood, she reflects on the circumstances she came from and the choices, education and skills that helped her move forward.</p><p>Its eight life lessons are told with frankness, humour and painful honesty. This is a book about lived experience and reflection.</p><p>For readers thinking about their own next chapter, it offers a personal account of facing hardship, recognising possibilities and persevering.</p></div></section>
+<section class="site-section site-section--warm"><div class="site-container journey-split"><div class="section-heading"><p class="section-heading__eyebrow">Readers, schools and organisations</p><h2>A meaningful book to share.</h2><p>Discuss copies for a reading group, a school or continuing-education cohort, or a staff gift. Educators can review the book for suitability, including for young women and young mothers continuing their education.</p><p>For Christmas gifts, staff recognition or a sponsored set of copies, tell us the quantity, intended readers, delivery location and date needed. We will confirm availability, pricing and delivery before you commit.</p><a class="site-button site-button--primary" href="{{ '/connect/' | relative_url }}?interest=books&amp;book=cbg#enquiry">Enquire about books for your group</a></div><div class="book-note"><h3>Choose your next step</h3><ul><li>Read the paperback description and current offer on Amazon.</li><li>Ask about local, signed or bulk copies and their availability.</li><li>Explore Professor Hope’s wider collection on reggae, dancehall and Jamaican culture.</li></ul><a class="site-card__link" href="{{ '/books/donna-p-hope-collection/' | relative_url }}">See the collection →</a></div></div></section>

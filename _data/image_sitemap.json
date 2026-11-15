@@ -6,9 +6,28 @@
     ]
   },
   {
+    "page": "/books/donna-p-hope-collection/",
+    "images": [
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
+      "/img/innadidancehall.png"
+    ]
+  },
+  {
+    "page": "/books/",
+    "images": [
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
+      "/img/innadidancehall.png"
+    ]
+  },
+  {
     "page": "/",
     "images": [
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
       "/img/favicon.png",
+      "/img/innadidancehall.png",
       "/img/products/custodia/dashboard-overview.png",
       "/img/work/dancehall-desktop.jpg",
       "/img/work/dancehall-mobile.jpg"
@@ -43,6 +62,9 @@
   {
     "page": "/products/",
     "images": [
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
+      "/img/innadidancehall.png",
       "/img/products/check-in/check-in-overview.png",
       "/img/products/check-in/mobile-entry.webp",
       "/img/products/custodia/dashboard-overview.png",
@@ -59,7 +81,9 @@
   {
     "page": "/services/cbg/",
     "images": [
-      "/img/cbg.png"
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
+      "/img/innadidancehall.png"
     ]
   },
   {
@@ -83,6 +107,8 @@
   {
     "page": "/services/innadidancehall/",
     "images": [
+      "/img/books/donna-hope-book-collection.webp",
+      "/img/cbg.png",
       "/img/innadidancehall.png"
     ]
   },
