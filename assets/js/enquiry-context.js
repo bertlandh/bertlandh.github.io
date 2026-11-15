@@ -84,7 +84,7 @@
   }
   // Only recognised book keys may set book enquiry context. Never infer a
   // purchase, subscribe a visitor, or prefill their personal details/consent.
-  var bookNames = {cbg: "Chicken Back Gravy and Such Delights", innadidancehall: "Inna Di Dancehall", collection: "Professor Donna P. Hope’s Book Collection"};
+  var bookNames = {dancehallqueen: "Dancehall Queen: Erotic Subversion / Subversión Erótica", cbg: "Chicken Back Gravy and Such Delights", innadidancehall: "Inna Di Dancehall", collection: "Professor Donna P. Hope’s Book Collection"};
   if (!params.get("review") && Object.prototype.hasOwnProperty.call(bookNames, params.get("book"))) {
     var bookName = bookNames[params.get("book")];
     var bookMessage = "I am interested in " + bookName + ". Please confirm the available options, price and delivery arrangements.\n\nQuantity needed: \nDelivery location: \nDate needed: ";

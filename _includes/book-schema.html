@@ -1,4 +1,4 @@
-{% if page.book_key == 'cbg' or page.book_key == 'innadidancehall' %}
+{% if page.book_key == 'cbg' or page.book_key == 'innadidancehall' or page.book_key == 'dancehallqueen' %}
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","@id":{{ page.url | absolute_url | append: '#book' | jsonify }},"name":{{ page.title | jsonify }},"author":{"@type":"Person","name":"Donna P. Hope"},"description":{{ page.description | jsonify }},"image":{{ page.image | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"sameAs":{{ page.purchase_url | jsonify }},"inLanguage":"en"}</script>
 {% endif %}
 {% if page.book_key == 'collection' %}

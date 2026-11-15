@@ -1,4 +1,4 @@
-.book-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.book-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
 .book-card { min-width: 0; display: flex; flex-direction: column; background: white; border: 1px solid var(--border-color); border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px #32131d08; }
 .book-card__cover { display: flex; align-items: center; justify-content: center; height: 295px; padding: 1.5rem; background: #f5efea; }
 .book-card__cover img { width: 100%; height: 100%; object-fit: contain; }

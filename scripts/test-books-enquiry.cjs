@@ -11,7 +11,7 @@ function run(query,existing={}){
  const document={querySelector:()=>form,querySelectorAll:selector=>selector==='[data-lt-channel="whatsapp"]'?links:[]};
  vm.runInNewContext(source,{document,location:{search:query},URLSearchParams,URL});return {fields,links,productField};
 }
-for (const [key, title] of Object.entries({cbg:'Chicken Back Gravy and Such Delights',innadidancehall:'Inna Di Dancehall',collection:'Professor Donna P. Hope’s Book Collection'})) {
+for (const [key, title] of Object.entries({dancehallqueen:'Dancehall Queen: Erotic Subversion / Subversión Erótica',cbg:'Chicken Back Gravy and Such Delights',innadidancehall:'Inna Di Dancehall',collection:'Professor Donna P. Hope’s Book Collection'})) {
  const r=run('?interest=books&book='+key);
  assert.equal(r.fields.enquiry_type.value,'books');
  assert.equal(r.fields.business.required,false);
