@@ -1,0 +1,8 @@
+---
+layout: pet
+title: "Contact & collection"
+sitemap: false
+section: contact
+description: ""
+---
+<section class="wrap section"><div class="contact-grid"><div><p class="eyebrow">A conversation comes first</p><h1>Let’s talk<br><em>pets.</em></h1><p class="lede">Ask about a listing, tell us about your experience or check collection details.</p>{% include pet-enquiry.html %}</div><div class="info-panel"><h2>Contact &amp; collection</h2>{% assign b = site.data.pet_business %}{% if b.location != '' %}<h3>Location / service area</h3><p>{{ b.location | escape }}</p>{% else %}<p>Our location and service area will be confirmed before opening.</p>{% endif %}{% if b.collection_details != '' %}<h3>Collection arrangements</h3><p>{{ b.collection_details | escape }}</p>{% else %}<p>Collection arrangements are being finalised. Do not travel or send a payment without confirmation.</p>{% endif %}{% if b.hours != '' %}<h3>Contact hours</h3><p>{{ b.hours | escape }}</p>{% endif %}{% if b.email != '' %}<p><a href="mailto:{{ b.email | escape }}">{{ b.email | escape }}</a></p>{% endif %}{% if b.phone_display != '' %}<p>{{ b.phone_display | escape }}</p>{% endif %}<h3>What to include in your message</h3><p>The listing name or reference, your questions, and your preferred collection area. Please don’t send bank details or identification documents.</p></div></div></section>

@@ -42,6 +42,7 @@ plugins:
   - kramdown-parser-gfm
 
 exclude: 
+  - PET-BUSINESS.md
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
@@ -107,6 +108,9 @@ highlighter: rouge
 footer_menu: footer_menu
 
 collections:
+  pet_listings:
+    output: true
+    permalink: /pets/catalogue/:name/
   products: 
     output: true
     layout: product

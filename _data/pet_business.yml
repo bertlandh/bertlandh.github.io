@@ -1,0 +1,15 @@
+name: PrettiPetz
+base_path: /pets
+# Keep false until every item in PET-BUSINESS.md is checked.
+launch_ready: false
+description: Birds, bird eggs and pet supplies in Jamaica. Explore verified listings and discuss care and collection before buying.
+whatsapp: ""
+email: ""
+phone_display: ""
+location: ""
+collection_details: ""
+hours: ""
+analytics_measurement_id: ""
+# Empty uses the hosting site's URL. Set this to the new origin on migration.
+public_origin: ""
+policies_approved: false

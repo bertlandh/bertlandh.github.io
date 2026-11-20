@@ -1,0 +1,10 @@
+---
+layout: pet
+title: "Birds, bird eggs & pet supplies"
+sitemap: false
+section: catalogue
+description: ""
+---
+
+<section class="wrap section page-intro"><p class="eyebrow">The PrettiPetz catalogue</p><h1>Find your next<br><em>little joy.</em></h1><p class="lede">Birds, bird eggs and the essentials around them. Confirm suitability and availability before buying.</p></section>
+<section class="wrap catalogue section" id="listings" data-catalogue><form class="filters" role="search"><div><label for="search">Search the catalogue</label><input id="search" name="q" type="search" placeholder="Name, species or reference" maxlength="100"></div><div><label for="category">Category</label><select id="category" name="category"><option value="all">Everything</option><option value="birds">Birds</option><option value="eggs">Bird eggs</option><option value="supplies">Supplies &amp; accessories</option></select></div><div><label for="availability">Availability</label><select id="availability" name="availability"><option value="all">Any status</option><option value="available">Available</option><option value="reserved">Reserved</option><option value="unavailable">Unavailable</option></select></div><button class="button secondary" type="reset">Clear filters</button></form><noscript><p>All published listings are shown below. Enable JavaScript to search and filter.</p></noscript><p class="results" role="status" aria-live="polite" data-count></p>{% assign listings = site.pet_listings | where: 'verified', true %}<div class="product-grid">{% for item in listings %}{% include pet-card.html item=item %}{% endfor %}</div><div class="empty" data-empty><h2>{% if listings.size == 0 %}Our catalogue is getting ready.{% else %}No listings match those filters.{% endif %}</h2><p>{% if listings.size == 0 %}There are no verified listings to browse yet. We’ll add actual stock, photos and prices before taking orders.{% else %}Try a different name, species or category.{% endif %}</p></div></section>

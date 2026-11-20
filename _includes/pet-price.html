@@ -1,0 +1,1 @@
+{% assign parts = include.value | round: 2 | split: '.' %}{% assign decimals = parts[1] | append: '00' | slice: 0, 2 %}J${{ parts[0] }}.{{ decimals }}
