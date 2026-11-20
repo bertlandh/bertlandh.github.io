@@ -245,3 +245,17 @@ https://developers.google.com/search/docs/essentials
 https://developers.google.com/search/docs/appearance/site-names
 https://support.google.com/business/answer/13763036
 https://support.google.com/business/answer/3038177
+
+## Bird favicons, card photos and scroll hiding — 19 November 2026
+The owner selected existing PrettiPetz bird photos for both partner cards, not
+personal headshots. Those images are set in pet_contacts.yml with accurate alt
+text and reused on the individual, contact and about pages. Initials remain a
+fallback when no image is configured; bird imagery is not used as a Person portrait
+in structured data.
+
+The browser favicon uses the original bird mark.svg with PNG/ICO fallbacks and
+an Apple touch icon. CSS, JS and icon URLs use pet_business.asset_version to avoid
+stale browser caches. LearnTech's root favicon and navigation are unchanged.
+The mobile toolbar now follows LearnTech's behaviour: hide after downward scroll,
+return on upward scroll/top, stay visible for an open menu or keyboard interaction.
+The existing bottom space stays reserved to avoid content jumps and obscured footers.

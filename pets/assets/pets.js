@@ -2,8 +2,16 @@
   'use strict';
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#navigation');
+  const toolbar = document.querySelector('.mobile-toolbar');
+  let scrollOrigin = window.scrollY;
+  let scrollTicking = false;
   const mobile = window.matchMedia('(max-width: 760px)');
   document.body.classList.add('mobile-nav-ready');
+  function setToolbarHidden(hidden) {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    const focused = toolbar.contains(document.activeElement) && document.activeElement.matches(':focus-visible');
+    toolbar.classList.toggle('is-hidden-by-scroll', mobile.matches && hidden && !open && !focused);
+  }
   function syncMenu() {
     const open = mobile.matches && toggle.getAttribute('aria-expanded') === 'true';
     toggle.hidden = !mobile.matches;
@@ -12,6 +20,8 @@
     document.body.style.setProperty('--mobile-toolbar-height', `${document.querySelector('.mobile-toolbar').getBoundingClientRect().height}px`);
     document.body.classList.toggle('mobile-menu-open', open);
     document.body.style.setProperty('--menu-panel-height', open ? `${nav.getBoundingClientRect().height}px` : '0px');
+    setToolbarHidden(false);
+    scrollOrigin = window.scrollY;
   }
   toggle.addEventListener('click', () => {
     toggle.setAttribute('aria-expanded', String(toggle.getAttribute('aria-expanded') !== 'true'));
@@ -34,6 +44,22 @@
   });
   window.addEventListener('resize', syncMenu);
   mobile.addEventListener('change', syncMenu); syncMenu();
+  toolbar.addEventListener('focusin', () => setToolbarHidden(false));
+  window.addEventListener('pageshow', syncMenu);
+  window.addEventListener('scroll', () => {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    window.requestAnimationFrame(() => {
+      const currentScroll = Math.max(0, window.scrollY);
+      const distance = currentScroll - scrollOrigin;
+      if (currentScroll <= 24) {
+        setToolbarHidden(false); scrollOrigin = currentScroll;
+      } else if (Math.abs(distance) >= 12) {
+        setToolbarHidden(distance > 0); scrollOrigin = currentScroll;
+      }
+      scrollTicking = false;
+    });
+  }, { passive: true });
   const catalogue = document.querySelector('[data-catalogue]');
   if (catalogue) {
     const form = catalogue.querySelector('form');

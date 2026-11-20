@@ -20,7 +20,7 @@
       "page": "pets/about/index.html",
       "title": "About Us: Bertland Hope & Krishna Baddaloo | PrettiPetz",
       "description": "Meet PrettiPetz partners Bertland Hope and Krishna Baddaloo, bringing together bird care, sourcing and digital business experience in Jamaica.",
-      "images": 1,
+      "images": 3,
       "structured_data_types": [
         "Organization",
         "WebSite",
@@ -34,7 +34,7 @@
       "page": "pets/bertland/index.html",
       "title": "Bertland Hope: Contact in Jamaica | PrettiPetz",
       "description": "Contact Bertland Hope, a PrettiPetz partner in Jamaica. Call, send a WhatsApp enquiry, save his contact details or explore the pets and cages catalogue.",
-      "images": 1,
+      "images": 2,
       "structured_data_types": [
         "Organization",
         "WebSite",
@@ -104,7 +104,7 @@
       "page": "pets/contact/index.html",
       "title": "Contact Our Partners in Jamaica | PrettiPetz",
       "description": "Call or WhatsApp PrettiPetz partners Krishna Baddaloo and Bertland Hope in Jamaica. Ask about birds, eggs, cages, current availability and collection.",
-      "images": 1,
+      "images": 3,
       "structured_data_types": [
         "Organization",
         "WebSite",
@@ -146,7 +146,7 @@
       "page": "pets/krishna/index.html",
       "title": "Krishna Baddaloo: Contact in Jamaica | PrettiPetz",
       "description": "Contact Krishna Baddaloo at PrettiPetz in Jamaica for bird, egg, cage, care and sourcing enquiries. Call, WhatsApp or save his contact details.",
-      "images": 1,
+      "images": 2,
       "structured_data_types": [
         "Organization",
         "WebSite",

@@ -59,3 +59,11 @@ launch checks. Browser checks used the connected in-app browser, not physical ph
 - Browser checks at 375px and 1440px covered all sixteen pages: 32 layout checks with no horizontal overflow or observed broken loaded images. Expanded mobile menu still clears the footer on the new eggs page.
 - Canonical query stripping and publication are locally checked; Google Rich Results/Search Console live validation and ranking measurements remain post-launch work. No external index submission, profile/settings change, commit or push performed.
 - Pickup wording reflects the owner's agreed-meeting-point model. Town/parish, hours, verified stock/photo matching and approved order policies remain pending.
+
+## Bird favicon and scroll/card refinement — 19 November 2026
+- Bird SVG retained as favicon with 32px PNG, ICO and 180px Apple touch fallbacks; asset versioning added. Fallbacks rendered directly from the existing mark, with no new production dependency.
+- Existing bird photos displayed on both individual contact cards and on contact/about partner sections, with descriptive alt text and preserved image proportions.
+- Browser mobile test at 375px: downward scroll hid the toolbar at scrollY 812; upward scroll returned it at scrollY 406; open menu stayed visible during further downward scrolling; Escape closed and restored the trigger.
+- Both cards, contact and about pages checked at 375px and 1440px: no horizontal overflow, card images loaded, desktop bottom toolbar hidden.
+- Keyboard focus reveals/pins the trigger; reduced-motion styling remains respected. Bottom spacing is preserved while the toolbar is off-screen.
+- Node syntax check passed; final native Jekyll build passed in 18.694 seconds; business and SEO audits passed with indexing disabled.
