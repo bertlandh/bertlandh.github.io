@@ -35,3 +35,27 @@ launch checks. Browser checks used the connected in-app browser, not physical ph
 - Desktop 1440px: bottom toolbar hidden, original top navigation visible, body bottom padding 0.
 - Final native Jekyll build passed (42.729 seconds). Prelaunch checks and git diff whitespace checks passed.
 - Phone safe-area handling is implemented; no physical iOS/Android device test was performed.
+
+## Partner media and contacts — 19 November 2026
+- Added eleven selected original photos, a smaller responsive hero derivative and three silent H.264 videos (10,440,058 bytes combined, versus 33,184,527 original bytes).
+- Excluded duplicate images, the third-party poster and private WhatsApp screenshots from site assets.
+- All WebP files decoded successfully and had no EXIF; all videos have fast-start moov before mdat. One video played successfully in-browser (readyState 4, currentTime advancing, no media error).
+- Added data-driven contact pages for Bertland Hope and Krishna Baddaloo. Both contact downloads completed in browser; rendered vCards have correct names, PrettiPetz organisation and phone numbers, CRLF and lines no longer than 75 bytes.
+- Git attributes preserve static vCard bytes across platforms. Re-run scripts/build-pet-contacts.rb after contact/domain edits.
+- Published three enquiry guides using the explicitly stated pair prices. No actual stock or photo matching is claimed; launch validation still reports no verified inventory.
+- Thirteen HTML pages checked at 375px and 1440px: no horizontal overflow, one H1 each and no observed broken loaded images. Four new-content pages checked at 320px with expanded mobile menu: no overflow and footer clears menu.
+- Final native Jekyll build passed (18.31 seconds). Canonicals, internal links/posters, noindex, sitemap exclusion and prelaunch guards passed.
+- Indexing and analytics remain off for PrettiPetz. Location, collection, hours, approved policies, real stock/photo mapping and ambiguous offer units remain pending.
+- No Git commit, push, public deployment or WhatsApp message sent in this update.
+
+## Page and image SEO audit — 19 November 2026
+- Sixteen pages have unique search titles/descriptions, canonical URLs, OG/Twitter metadata and valid JSON-LD. The repeatable audit is scripts/check-pet-seo.py; current output is tests/pet-seo-audit.json.
+- Structured graph separates PrettiPetz and both partners from the hosting organisation. Profiles identify the correct people; enquiry guides have no false Product/stock claims; breadcrumbs have at least two ordered items where used and correctly include catalogue parents for guides.
+- Added original birds, quail-egg enquiries and cages category pages. Footer/category links now discover these pages directly, without requiring search parameters.
+- Descriptive image alt text/captions, dimensions and responsive gallery thumbnails added. Browser verified that the mobile gallery selects thumbnail URLs. Full-size photos remain linked and described through ImageObjects.
+- Prelaunch audit passed for all sixteen pages with noindex, zero active image-sitemap entries and no pet image-sitemap directive in robots.
+- A separate isolated launch fixture passed: same sixteen pages, index/large-image-preview metadata, eleven image-sitemap entries and the correct robots sitemap directive. Production settings were never enabled by this test.
+- Final native Windows Jekyll build passed in 26.557 seconds. Scoped business checks passed, existing root sitemap preserved and no pet pages leaked into it.
+- Browser checks at 375px and 1440px covered all sixteen pages: 32 layout checks with no horizontal overflow or observed broken loaded images. Expanded mobile menu still clears the footer on the new eggs page.
+- Canonical query stripping and publication are locally checked; Google Rich Results/Search Console live validation and ranking measurements remain post-launch work. No external index submission, profile/settings change, commit or push performed.
+- Pickup wording reflects the owner's agreed-meeting-point model. Town/parish, hours, verified stock/photo matching and approved order policies remain pending.

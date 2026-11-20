@@ -7,3 +7,7 @@ Allow: /
 
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
 Sitemap: {{ "/image-sitemap.xml" | absolute_url }}
+
+{% if site.data.pet_business.launch_ready %}
+Sitemap: {{ "/pets/image-sitemap.xml" | absolute_url }}
+{% endif %}

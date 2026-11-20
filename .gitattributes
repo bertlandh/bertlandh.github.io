@@ -1,2 +1,4 @@
 # Preserve PDF bytes and cross-reference offsets across platforms.
 *.pdf binary
+# Preserve vCard CRLF line endings and folding for contact imports.
+pets/contacts/*.vcf -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

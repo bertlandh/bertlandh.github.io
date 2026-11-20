@@ -1,0 +1,230 @@
+{
+  "mode": "prelaunch",
+  "pages_checked": 16,
+  "image_sitemap_entries": 0,
+  "pages": [
+    {
+      "page": "pets/index.html",
+      "title": "Birds, Pets & Cages in Jamaica | PrettiPetz",
+      "description": "Explore PrettiPetz in Jamaica: bird pair-price guides, pet and cage photos, care information, and direct enquiries with Bertland Hope and Krishna Baddaloo.",
+      "images": 5,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage"
+      ]
+    },
+    {
+      "page": "pets/about/index.html",
+      "title": "About Us: Bertland Hope & Krishna Baddaloo | PrettiPetz",
+      "description": "Meet PrettiPetz partners Bertland Hope and Krishna Baddaloo, bringing together bird care, sourcing and digital business experience in Jamaica.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/bertland/index.html",
+      "title": "Bertland Hope: Contact in Jamaica | PrettiPetz",
+      "description": "Contact Bertland Hope, a PrettiPetz partner in Jamaica. Call, send a WhatsApp enquiry, save his contact details or explore the pets and cages catalogue.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "ProfilePage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/birds/index.html",
+      "title": "Pet Birds in Jamaica: Photos & Pair Prices | PrettiPetz",
+      "description": "Explore bird photos and pair-price guides from PrettiPetz in Jamaica. Ask about lovebirds, budgies, quail, doves and finches, care and collection.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/cages/index.html",
+      "title": "Bird Cages & Pet Housing in Jamaica | PrettiPetz",
+      "description": "View partner-supplied cage photos and ask PrettiPetz about bird housing in Jamaica. Confirm dimensions, suitability, prices and collection before buying.",
+      "images": 3,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/care/index.html",
+      "title": "Before Buying a Bird or Eggs in Jamaica | PrettiPetz",
+      "description": "Prepare for a bird or egg purchase in Jamaica with PrettiPetz: questions about care, housing, sourcing, documentation and safe collection.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/catalogue/index.html",
+      "title": "Bird Prices & Pet Enquiries in Jamaica | PrettiPetz",
+      "description": "Compare PrettiPetz pair-price guides for diamond doves, button quail and zebra finches in Jamaica. Ask about current birds, eggs, rabbits and cages.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/contact/index.html",
+      "title": "Contact Our Partners in Jamaica | PrettiPetz",
+      "description": "Call or WhatsApp PrettiPetz partners Krishna Baddaloo and Bertland Hope in Jamaica. Ask about birds, eggs, cages, current availability and collection.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/eggs/index.html",
+      "title": "Quail Egg Enquiries in Jamaica | PrettiPetz",
+      "description": "Ask PrettiPetz about fertile quail eggs in Jamaica. Confirm current availability, price, handling and incubation information before arranging collection.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/gallery/index.html",
+      "title": "Bird & Cage Photos and Videos in Jamaica | PrettiPetz",
+      "description": "See PrettiPetz partner-supplied bird, cage and aviary photos and videos. Contact Krishna Baddaloo to confirm current availability and collection in Jamaica.",
+      "images": 12,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "ImageGallery",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/krishna/index.html",
+      "title": "Krishna Baddaloo: Contact in Jamaica | PrettiPetz",
+      "description": "Contact Krishna Baddaloo at PrettiPetz in Jamaica for bird, egg, cage, care and sourcing enquiries. Call, WhatsApp or save his contact details.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "ProfilePage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/privacy/index.html",
+      "title": "Privacy Information | PrettiPetz",
+      "description": "Read how PrettiPetz handles website browsing and WhatsApp enquiries. Find contact details for privacy questions. No website analytics is currently loaded.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/terms/index.html",
+      "title": "Prices, Pickup & Buying Information | PrettiPetz",
+      "description": "Read PrettiPetz information about enquiry prices, availability, animal and egg purchases, collection and order terms being finalised before opening.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/catalogue/button-quail/index.html",
+      "title": "Button Quail Pair Price in Jamaica | PrettiPetz",
+      "description": "PrettiPetz button quail enquiry price guide: J$7,000 per pair. Confirm current stock, actual photos, care requirements and collection with Krishna Baddaloo.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/catalogue/diamond-doves/index.html",
+      "title": "Diamond Dove Pair Price in Jamaica | PrettiPetz",
+      "description": "PrettiPetz diamond dove enquiry price guide: J$12,000 per pair. Ask Krishna Baddaloo for current availability, actual photos and collection details.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "page": "pets/catalogue/zebra-finches/index.html",
+      "title": "Zebra Finch Pair Price in Jamaica | PrettiPetz",
+      "description": "PrettiPetz zebra finch enquiry price guide: J$6,000 per pair. Ask about current availability, actual photos, suitable housing and collection in Jamaica.",
+      "images": 1,
+      "structured_data_types": [
+        "Organization",
+        "WebSite",
+        "Person",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}

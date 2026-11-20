@@ -1,0 +1,9 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% if site.data.pet_business.launch_ready %}{% assign b = site.data.pet_business %}{% assign o = b.public_origin | default: site.url %}<url><loc>{{ o }}{{ b.base_path | append: '/gallery/' | relative_url }}</loc>{% for photo in site.data.pet_media.photos %}<image:image><image:loc>{{ o }}{{ photo.src | relative_url }}</image:loc></image:image>{% endfor %}</url>
+{% for listing in site.pet_listings %}{% if listing.verified and listing.sitemap != false and listing.photos.size > 0 %}<url><loc>{{ o }}{{ listing.url | relative_url }}</loc>{% for photo in listing.photos %}<image:image><image:loc>{{ o }}{{ photo.src | relative_url }}</image:loc></image:image>{% endfor %}</url>{% endif %}{% endfor %}{% endif %}
+</urlset>

@@ -1,0 +1,153 @@
+{
+  "photos": [
+    {
+      "original": "IMG-20261119-WA0019.jpg",
+      "output": "birds-at-the-perch.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 111086,
+      "caption": "Birds together at a perch",
+      "src": "/pets/assets/gallery/birds-at-the-perch.webp",
+      "alt": "Yellow and green birds perched together inside a white wire cage",
+      "thumb": "/pets/assets/gallery/birds-at-the-perch-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0024.jpg",
+      "output": "blue-wire-cage-front.webp",
+      "width": 1050,
+      "height": 1400,
+      "bytes": 177624,
+      "caption": "Wire cage, front view",
+      "src": "/pets/assets/gallery/blue-wire-cage-front.webp",
+      "alt": "Blue wire cage on a tiled floor, viewed from the front",
+      "thumb": "/pets/assets/gallery/blue-wire-cage-front-thumb.webp",
+      "thumb_width": 525
+    },
+    {
+      "original": "IMG-20261119-WA0025.jpg",
+      "output": "blue-wire-cage-side.webp",
+      "width": 1050,
+      "height": 1400,
+      "bytes": 210848,
+      "caption": "Wire cage, side view",
+      "src": "/pets/assets/gallery/blue-wire-cage-side.webp",
+      "alt": "Blue wire cage showing its roof and side panels",
+      "thumb": "/pets/assets/gallery/blue-wire-cage-side-thumb.webp",
+      "thumb_width": 525
+    },
+    {
+      "original": "IMG-20261119-WA0027.jpg",
+      "output": "birds-in-the-aviary.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 82374,
+      "caption": "Birds around the aviary",
+      "src": "/pets/assets/gallery/birds-in-the-aviary.webp",
+      "alt": "Small birds on branches inside a wire aviary",
+      "thumb": "/pets/assets/gallery/birds-in-the-aviary-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0028.jpg",
+      "output": "aviary-perches.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 81200,
+      "caption": "Perches in the aviary",
+      "src": "/pets/assets/gallery/aviary-perches.webp",
+      "alt": "Wooden perches and birds inside a wire enclosure",
+      "thumb": "/pets/assets/gallery/aviary-perches-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0030.jpg",
+      "output": "aviary-birds.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 219690,
+      "caption": "Birds on branches inside the aviary",
+      "src": "/pets/assets/gallery/aviary-birds.webp",
+      "alt": "Several colourful birds perched on branches inside an aviary",
+      "thumb": "/pets/assets/gallery/aviary-birds-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0031.jpg",
+      "output": "birds-in-a-hanging-cage.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 185914,
+      "caption": "Birds in a hanging cage",
+      "src": "/pets/assets/gallery/birds-in-a-hanging-cage.webp",
+      "alt": "Light-coloured birds on wooden perches in a hanging cage",
+      "thumb": "/pets/assets/gallery/birds-in-a-hanging-cage-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0034.jpg",
+      "output": "colourful-bird-at-perch.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 231346,
+      "caption": "A bird at its perch",
+      "src": "/pets/assets/gallery/colourful-bird-at-perch.webp",
+      "alt": "A colourful bird at its perch inside a wire enclosure",
+      "thumb": "/pets/assets/gallery/colourful-bird-at-perch-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0036.jpg",
+      "output": "aviary-interior.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 240066,
+      "caption": "A view inside the aviary",
+      "src": "/pets/assets/gallery/aviary-interior.webp",
+      "alt": "Wooden perches and wire partitions inside an aviary",
+      "thumb": "/pets/assets/gallery/aviary-interior-thumb.webp",
+      "thumb_width": 600
+    },
+    {
+      "original": "IMG-20261119-WA0037.jpg",
+      "output": "green-bird-at-perch.webp",
+      "width": 1050,
+      "height": 1400,
+      "bytes": 265464,
+      "caption": "A green bird at a perch",
+      "src": "/pets/assets/gallery/green-bird-at-perch.webp",
+      "alt": "A green bird resting on a wooden perch next to wire mesh",
+      "thumb": "/pets/assets/gallery/green-bird-at-perch-thumb.webp",
+      "thumb_width": 525
+    },
+    {
+      "original": "IMG-20261119-WA0038.jpg",
+      "output": "birds-on-branches.webp",
+      "width": 1050,
+      "height": 1400,
+      "bytes": 272700,
+      "caption": "Birds resting on branches",
+      "src": "/pets/assets/gallery/birds-on-branches.webp",
+      "alt": "Birds perched on branches beside the aviary mesh",
+      "thumb": "/pets/assets/gallery/birds-on-branches-thumb.webp",
+      "thumb_width": 525
+    }
+  ],
+  "videos": [
+    {
+      "src": "/pets/assets/gallery/aviary-0020.mp4",
+      "poster": "/pets/assets/gallery/poster-0020.webp",
+      "title": "A walk through the aviary"
+    },
+    {
+      "src": "/pets/assets/gallery/aviary-0021.mp4",
+      "poster": "/pets/assets/gallery/poster-0021.webp",
+      "title": "A closer look around the enclosures"
+    },
+    {
+      "src": "/pets/assets/gallery/aviary-0022.mp4",
+      "poster": "/pets/assets/gallery/poster-0022.webp",
+      "title": "Birds inside the aviary"
+    }
+  ]
+}

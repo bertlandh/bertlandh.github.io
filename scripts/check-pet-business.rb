@@ -22,23 +22,32 @@ end
 blockers << 'Opening flag is not enabled' unless data['launch_ready'] == true
 blockers << 'Payment, collection, after-sales and privacy policies need owner approval' unless data['policies_approved'] == true
 references = []
+inventory_count = 0
+guide_count = 0
 published = []
 Dir.glob(File.join(root, '_pet_listings', '*.md')).each do |file|
   text = File.read(file)
   front = YAML.safe_load(text.split(/^---\s*$\n?/, 3)[1] || '')
   next if front['published'] == false
   published << file
+  guide = front['listing_type'] == 'price_guide'
+  if guide
+    guide_count += 1
+    check(front['availability'] == 'enquire', "Price guides must require stock confirmation: #{file}", errors)
+  else
+    inventory_count += 1
+  end
   check(front['verified'] == true, "Unverified published listing: #{file}", errors)
   %w[title category species reference summary price_unit care sourcing permit_information collection_information].each do |key|
     check(!front[key].to_s.strip.empty?, "Missing #{key}: #{file}", errors)
   end
   check(%w[birds eggs supplies].include?(front['category']), "Invalid category: #{file}", errors)
-  check(%w[available reserved unavailable].include?(front['availability']), "Invalid availability: #{file}", errors)
+  check((guide ? %w[enquire] : %w[available reserved unavailable]).include?(front['availability']), "Invalid availability: #{file}", errors)
   check(front['price_jmd'].is_a?(Numeric) && front['price_jmd'] > 0, "Missing/invalid JMD price: #{file}", errors)
   check(!references.include?(front['reference']), "Duplicate product reference: #{file}", errors)
   references << front['reference']
   photos = front['photos']
-  check(photos.is_a?(Array) && !photos.empty?, "Missing actual listing photos: #{file}", errors)
+  check(photos.is_a?(Array) && (guide || !photos.empty?), "Missing actual listing photos: #{file}", errors)
   Array(photos).each do |photo|
     src = photo['src'].to_s
     check(src.start_with?(data['base_path'].to_s + '/assets/inventory/'), "Photo must use local inventory assets: #{file}", errors)
@@ -49,7 +58,12 @@ Dir.glob(File.join(root, '_pet_listings', '*.md')).each do |file|
     check(!front['egg_information'].to_s.strip.empty?, "Missing egg information: #{file}", errors)
   end
 end
-blockers << 'No verified published inventory' if published.empty?
+blockers << 'No verified published inventory' if inventory_count.zero?
+contacts = YAML.safe_load(File.read(File.join(root, '_data/pet_contacts.yml')))
+contacts.each do |person|
+  card = File.binread(File.join(root, 'pets', 'contacts', person['slug'] + '.vcf'))
+  check(card.start_with?("BEGIN:VCARD\r\n") && card.include?("TEL;TYPE=CELL,VOICE:+#{person['phone']}\r\n"), 'Contact vCard needs regeneration: ' + person['slug'], errors)
+end
 built = File.join(root, '_site')
 pages = Dir.glob(File.join(built, 'pets', '**', '*.html'))
 check(pages.length >= 7, 'Build the site first: expected at least seven pet pages', errors)
@@ -59,7 +73,7 @@ pages.each do |file|
   check(!html.match?(/\{%|\{\{/), "Unrendered Liquid: #{file}", errors)
   check(html.include?('rel="canonical"'), "Missing canonical: #{file}", errors)
   check(html.include?('content="noindex, nofollow"'), "Missing prelaunch noindex: #{file}", errors) unless data['launch_ready']
-  html.scan(/(?:href|src)="([^"]+)"/).flatten.each do |raw|
+  html.scan(/(?:href|src|poster)="([^"]+)"/).flatten.each do |raw|
     url = CGI.unescapeHTML(raw)
     next unless url.start_with?('/')
     path = URI::DEFAULT_PARSER.unescape(url.split(/[?#]/).first)
@@ -72,7 +86,7 @@ check(!File.exist?(File.join(built, 'PET-BUSINESS.md')), 'Operations documentati
 check(!Dir.glob(File.join(built, 'pets', '**', '*listing-template*')).any?, 'Unpublished template exposed', errors)
 sitemap = File.read(File.join(built, 'sitemap.xml'))
 check(!sitemap.include?('/pets/'), 'Prelaunch pet pages leaked into sitemap', errors) unless data['launch_ready']
-puts "Checked #{pages.length} built pages and #{published.length} published listings."
+puts "Checked #{pages.length} built pages and #{published.length} published listings (#{guide_count} price guides; #{inventory_count} actual inventory)."
 puts "Launch blockers:\n- #{blockers.join("\n- ")}"
 errors.concat(blockers) if ARGV.include?('--launch')
 abort(errors.join("\n")) unless errors.empty?

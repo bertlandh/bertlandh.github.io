@@ -2,14 +2,15 @@ name: PrettiPetz
 base_path: /pets
 # Keep false until every item in PET-BUSINESS.md is checked.
 launch_ready: false
-description: Birds, bird eggs and pet supplies in Jamaica. Explore verified listings and discuss care and collection before buying.
-whatsapp: ""
+description: PrettiPetz offers bird, pet and cage enquiries in Jamaica, with partner-supplied photos, pair-price guides and pickup by arrangement.
+whatsapp: "18765545406"
 email: ""
 phone_display: ""
 location: ""
-collection_details: ""
+collection_details: "Pickup is arranged directly at an agreed meeting point. Confirm the location and time with PrettiPetz before travelling."
 hours: ""
 analytics_measurement_id: ""
 # Empty uses the hosting site's URL. Set this to the new origin on migration.
 public_origin: ""
 policies_approved: false
+tagline: "Pets & Cages"

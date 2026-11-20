@@ -2,8 +2,9 @@
 
 This is a commercial website under development, not a portfolio proposal.
 Business name confirmed by owner: PrettiPetz, 19 November 2026.
-No verified inventory, customer number, town, collection arrangements or prices
-have yet been supplied. Do not represent the site as ready for orders.
+Both partner contacts and three pair-price guides are now supplied. Verified
+physical stock, matched product photos, town, collection arrangements and order
+policies remain incomplete. Do not represent the site as ready for orders.
 
 ## Repository inspection and architecture
 Production source is the independent bertlandh.github.io Git repository, not its
@@ -122,3 +123,125 @@ The check reports outstanding launch blockers without treating the prelaunch
 state as an error. After completing launch setup, add --launch to require them
 all to be resolved. The bundle and Ruby paths must be configured as in the
 existing native Windows build guide.
+
+
+## Partner-supplied content update — 19 November 2026
+Tagline: Pets & Cages. Public contacts: Bertland Hope (+1 876 560 0735,
+existing public contact) and Krishna Baddaloo (+1 876 554 5406, owner supplied).
+Krishna is the primary WhatsApp recipient for stock and care enquiries.
+Contact pages: /pets/bertland/ and /pets/krishna/. Downloadable vCards are
+generated from _data/pet_contacts.yml by bundle exec ruby scripts/build-pet-contacts.rb.
+Run that command after contact edits or domain migration, before building; static
+vCards preserve required CRLF line endings and folded lines. No portrait for Krishna was supplied;
+initials are used rather than extracting a private WhatsApp avatar.
+
+Gallery: eleven selected original photos plus three silent videos from the
+owner-supplied petz folder. Originals stay in their original folder. Two
+identical image duplicates and the third-party Exotic Birds poster are excluded.
+WebP conversion strips image metadata. Videos are H.264 MP4, silent, metadata
+removed, fast-start and user-play only (preload none). Their combined size is
+about 10.4 MB versus 33.2 MB for the originals; no autoplay or third-party embed.
+Photo filenames and source mapping are in _data/pet_media.yml.
+The gallery demonstrates the supplied birds/enclosures; it does not establish
+current stock, a species identification, legal sourcing or a package inclusion.
+
+Confirmed enquiry guides, based on explicit pair units in the supplied chat:
+Diamond doves J$12,000 per pair; button quail J$7,000 per pair; zebra finches
+J$6,000 per pair. They use listing_type:price_guide, availability:enquire,
+verified:true and photos:[] intentionally. Here verified means the guide text
+and quoted pair price came from supplied material, NOT physical-stock approval.
+The cards and detail pages visibly request current photos and availability.
+Actual-inventory records still require their own matched photographs and the
+normal verification. The launch validator does not count guides as inventory.
+
+The one-word response to the bundled pricing question did not identify the
+J$30,000 cage-combo species or resolve single/pair units unambiguously. Do not
+publish that combo, the J$14,000 lovebird offer or the J$70,000 conure offer until
+those specifics are confirmed. No rabbit/egg/budgie price has been invented.
+Customers can ask about these animals; no fertility/hatch outcome is guaranteed.
+The screenshots and messages themselves remain outside this repository.
+
+Status: contact details for both partners are now present. Location, collection
+arrangements, hours, approved policies and actual inventory/photo matching remain
+launch blockers. Indexing and tracking stay off. The site is not open for checkout.
+
+## PrettiPetz SEO — 19 November 2026
+On-page preparation covers sixteen HTML pages: the original thirteen plus birds,
+quail-egg enquiries and cages. These are substantive category pages with distinct
+copy, relevant internal links and confirmed enquiry information, not town clones.
+
+Metadata source: _data/pet_seo.yml. Output: _includes/pet-seo.html in the isolated
+pet layout. Each page has a unique title/description, canonical URL, OG/Twitter
+sharing metadata and language information. Future listings can supply seo_title
+and seo_description in front matter; otherwise listing title/summary are used.
+The repeatable audit fails duplicate titles/descriptions, malformed JSON-LD,
+missing image descriptions/dimensions and incorrect indexing gates.
+
+Target intent:
+- Homepage: birds, pets and cages in Jamaica / PrettiPetz.
+- Birds: pet birds in Jamaica; lovebird and budgie enquiries; related pair guides.
+- Eggs: quail egg enquiries in Jamaica; handling and collection questions.
+- Cages: bird cages / pet housing in Jamaica; actual supplied cage photos.
+- Pair guides: diamond dove, button quail and zebra finch pair prices in Jamaica.
+- About and contact cards: PrettiPetz, Bertland Hope and Krishna Baddaloo.
+No meta-keyword stuffing, hidden keyword text or invented place names is used.
+
+Structured data links Organization, WebSite, Person, ProfilePage, WebPage,
+CollectionPage/ImageGallery and appropriate breadcrumbs. Gallery ImageObjects
+use the actual image URLs and dimensions. Price enquiries do not pretend to be
+verified purchasable stock: no Product offers, stock schema or review ratings.
+No LocalBusiness/PetStore address, coordinates, map profile or opening hours are
+invented. Pickup is at an agreed meeting point; town and parish remain unknown.
+No VideoObject upload date is invented for footage that has not been published.
+
+Images retain descriptive filenames and now have observational alt descriptions,
+visible captions, intrinsic dimensions and lazy loading except the priority hero.
+Full-size images remain available; eleven responsive thumbnails total 669,266
+bytes and are supplied through srcset/sizes. Source metadata remains stripped.
+The image sitemap lists the full-size gallery images only after launch readiness;
+verified, index-approved future inventory photos are supported too. Responsive
+variants need not be separate entries for the same underlying photo.
+
+Before launch: launch_ready remains false; all sixteen pages emit noindex;
+/pets/image-sitemap.xml has zero image entries; the root robots.txt does not
+advertise that sitemap. Existing LearnTech sitemap/robots lines remain intact.
+Robots allows crawling so crawlers can read noindex. This is not access control;
+never place confidential information in public assets. Google indexing/rankings
+and removal of already-indexed URLs cannot be guaranteed by markup alone.
+
+After verified content and policies are ready:
+1. Confirm current stock/photos, public location/service information, contact
+   hours and collection/buying policies. No walk-in address is currently supplied.
+2. Approve sitemap:true on the pages/listings that should be indexed; then enable
+   launch_ready only as an intentional release. Rebuild and run both audits.
+3. Confirm the actual live output, sitemap and canonical URLs; submit the sitemap
+   through authorized Google Search Console and Bing Webmaster Tools access.
+4. Inspect representative URLs and image discovery, then measure impressions,
+   clicks and relevant enquiries over time. Do not claim instant broad rankings.
+5. Evaluate a separate PrettiPetz Google Business Profile only after confirming
+   the actual eligible in-person operating model and verification details. An
+   agreed pickup point is not a permanent staffed storefront address. Never
+   rename or reuse LearnTech's separate listing for this business.
+
+Google supports its search-result site-name feature at domain/subdomain level,
+not the /pets/ subdirectory. The pages may be indexed after release, but a
+separate displayed PrettiPetz site name cannot be promised on this shared domain.
+A future dedicated domain, as already planned, supports independent identity.
+On migration also update pet_seo.yml route keys, pet_media.yml asset prefixes,
+image-sitemap/robots paths and the audit's site prefix, alongside the existing
+base_path, collection routes and canonical-origin instructions.
+
+Checks (from this source checkout, after a build):
+  bundle exec ruby scripts/check-pet-business.rb
+  python scripts/check-pet-seo.py _site
+The optional --ready-fixture argument is solely for an isolated launch-readiness
+fixture. It is not permission to enable the actual site's launch flag.
+The test copy is outside this repository in ignored da-b2b/runtime/pet-business.
+
+Official references consulted:
+https://developers.google.com/search/docs/appearance/google-images
+https://developers.google.com/search/docs/appearance/structured-data/sd-policies
+https://developers.google.com/search/docs/essentials
+https://developers.google.com/search/docs/appearance/site-names
+https://support.google.com/business/answer/13763036
+https://support.google.com/business/answer/3038177

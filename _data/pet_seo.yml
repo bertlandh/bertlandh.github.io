@@ -1,0 +1,82 @@
+{
+  "/pets/": {
+    "title": "Birds, Pets & Cages in Jamaica",
+    "description": "Explore PrettiPetz in Jamaica: bird pair-price guides, pet and cage photos, care information, and direct enquiries with Bertland Hope and Krishna Baddaloo.",
+    "kind": "home"
+  },
+  "/pets/catalogue/": {
+    "title": "Bird Prices & Pet Enquiries in Jamaica",
+    "description": "Compare PrettiPetz pair-price guides for diamond doves, button quail and zebra finches in Jamaica. Ask about current birds, eggs, rabbits and cages.",
+    "kind": "catalogue"
+  },
+  "/pets/birds/": {
+    "title": "Pet Birds in Jamaica: Photos & Pair Prices",
+    "description": "Explore bird photos and pair-price guides from PrettiPetz in Jamaica. Ask about lovebirds, budgies, quail, doves and finches, care and collection.",
+    "kind": "birds"
+  },
+  "/pets/eggs/": {
+    "title": "Quail Egg Enquiries in Jamaica",
+    "description": "Ask PrettiPetz about fertile quail eggs in Jamaica. Confirm current availability, price, handling and incubation information before arranging collection.",
+    "kind": "eggs"
+  },
+  "/pets/cages/": {
+    "title": "Bird Cages & Pet Housing in Jamaica",
+    "description": "View partner-supplied cage photos and ask PrettiPetz about bird housing in Jamaica. Confirm dimensions, suitability, prices and collection before buying.",
+    "kind": "cages"
+  },
+  "/pets/gallery/": {
+    "title": "Bird & Cage Photos and Videos in Jamaica",
+    "description": "See PrettiPetz partner-supplied bird, cage and aviary photos and videos. Contact Krishna Baddaloo to confirm current availability and collection in Jamaica.",
+    "kind": "gallery"
+  },
+  "/pets/about/": {
+    "title": "About Us: Bertland Hope & Krishna Baddaloo",
+    "description": "Meet PrettiPetz partners Bertland Hope and Krishna Baddaloo, bringing together bird care, sourcing and digital business experience in Jamaica.",
+    "kind": "about"
+  },
+  "/pets/contact/": {
+    "title": "Contact Our Partners in Jamaica",
+    "description": "Call or WhatsApp PrettiPetz partners Krishna Baddaloo and Bertland Hope in Jamaica. Ask about birds, eggs, cages, current availability and collection.",
+    "kind": "contact"
+  },
+  "/pets/bertland/": {
+    "title": "Bertland Hope: Contact in Jamaica",
+    "description": "Contact Bertland Hope, a PrettiPetz partner in Jamaica. Call, send a WhatsApp enquiry, save his contact details or explore the pets and cages catalogue.",
+    "kind": "person"
+  },
+  "/pets/krishna/": {
+    "title": "Krishna Baddaloo: Contact in Jamaica",
+    "description": "Contact Krishna Baddaloo at PrettiPetz in Jamaica for bird, egg, cage, care and sourcing enquiries. Call, WhatsApp or save his contact details.",
+    "kind": "person"
+  },
+  "/pets/care/": {
+    "title": "Before Buying a Bird or Eggs in Jamaica",
+    "description": "Prepare for a bird or egg purchase in Jamaica with PrettiPetz: questions about care, housing, sourcing, documentation and safe collection.",
+    "kind": "care"
+  },
+  "/pets/privacy/": {
+    "title": "Privacy Information",
+    "description": "Read how PrettiPetz handles website browsing and WhatsApp enquiries. Find contact details for privacy questions. No website analytics is currently loaded.",
+    "kind": "privacy"
+  },
+  "/pets/terms/": {
+    "title": "Prices, Pickup & Buying Information",
+    "description": "Read PrettiPetz information about enquiry prices, availability, animal and egg purchases, collection and order terms being finalised before opening.",
+    "kind": "terms"
+  },
+  "/pets/catalogue/diamond-doves/": {
+    "title": "Diamond Dove Pair Price in Jamaica",
+    "description": "PrettiPetz diamond dove enquiry price guide: J$12,000 per pair. Ask Krishna Baddaloo for current availability, actual photos and collection details.",
+    "kind": "guide"
+  },
+  "/pets/catalogue/button-quail/": {
+    "title": "Button Quail Pair Price in Jamaica",
+    "description": "PrettiPetz button quail enquiry price guide: J$7,000 per pair. Confirm current stock, actual photos, care requirements and collection with Krishna Baddaloo.",
+    "kind": "guide"
+  },
+  "/pets/catalogue/zebra-finches/": {
+    "title": "Zebra Finch Pair Price in Jamaica",
+    "description": "PrettiPetz zebra finch enquiry price guide: J$6,000 per pair. Ask about current availability, actual photos, suitable housing and collection in Jamaica.",
+    "kind": "guide"
+  }
+}
