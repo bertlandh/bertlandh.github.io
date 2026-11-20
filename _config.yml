@@ -68,6 +68,11 @@ analytics:
 
 defaults:
   - scope:
+      path: "spaces4less"
+    values:
+      sitemap: false
+      layout: null
+  - scope:
       path: "demos"
     values:
       sitemap: false
