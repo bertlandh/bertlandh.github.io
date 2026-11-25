@@ -14,6 +14,16 @@
     product.disabled = !relevant;
     product.required = relevant;
     if (!relevant) product.value = "";
+    var discoveryRelevant = interest.value !== "books" && !relevant;
+    document.querySelectorAll("[data-lt-discovery-fields]").forEach(function (panel) {
+      panel.hidden = !discoveryRelevant;
+      panel.querySelectorAll("textarea, input, select").forEach(function (field) {
+        field.disabled = !discoveryRelevant;
+      });
+    });
+    document.querySelectorAll("[data-lt-message-label]").forEach(function (label) {
+      label.textContent = discoveryRelevant ? "What happened the last time you ran into this problem?" : "What would you like to ask?";
+    });
   }
   var params = new URLSearchParams(location.search);
   if (allowed.indexOf(params.get("interest")) !== -1) interest.value = params.get("interest");

@@ -2,7 +2,7 @@ lang: en-GB
 # Site Settings
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
-asset_version: "20261115-books-2"
+asset_version: "20261125-discovery-1"
 tagline: Understand. Agree. Deliver.
 social:
   name: LearnTech Foundation
