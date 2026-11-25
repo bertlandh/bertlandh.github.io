@@ -1,6 +1,6 @@
 ---
 title: About LearnTech Foundation
-subtitle: A software-development and technology organisation grounded in practical systems work, teaching, and more than fifteen years of experience.
+subtitle: Business technology consultancy and practical delivery, with clear scope, responsibilities, payment milestones and approved changes.
 layout: page
 image: /img/favicon.png
 redesign_page: true
@@ -18,8 +18,8 @@ description: "Meet Bertland Hope and LearnTech Foundation: practical software de
     </div>
     <div class="content-prose" id="bertland-hope">
       <p class="section-heading__eyebrow">Foundation and experience</p>
-      <h2>Software development informed by systems, networks, and technology education</h2>
-      <p>Based in Kingston, Jamaica, LearnTech Foundation builds business websites and practical software for operational problems, supported by technology review, consultancy, training, discovery and leadership. Online discussions and shared reviews let us work with organisations across Jamaica; any in-person work and travel are agreed in advance.</p>
+      <h2>Understand the business need, then choose the right technical response</h2>
+      <p>Based in Kingston, Jamaica, LearnTech Foundation starts with the business problem: what is happening, how it is handled today and what needs to improve. We clarify the decision process, budget and timing, scope any substantial assessment, and agree the work and payment milestones before delivery. Websites, software, systems support and consultancy are capabilities we can draw on where they fit the need. Online discussions and shared reviews let us work with organisations across Jamaica; any in-person work and travel are agreed in advance.</p>
       <p>My qualifications include a degree in Computer Science from the University of the West Indies, Mona, a Cisco certificate in network fundamentals, and a Diploma in Website Development and Software Programming from CIT at EXED in Kingston. I am currently pursuing an MSc in Computer Science at <a href="https://www.mona.uwi.edu/">UWI</a>.</p>
       <p>I work as a Manager Information Systems, Systems Administrator, and ICT Instructor. Over more than fifteen years, my responsibilities have included administering networks, troubleshooting systems, documenting work, and executing technology projects.</p>
     </div>

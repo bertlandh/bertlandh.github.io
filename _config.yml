@@ -3,12 +3,12 @@ lang: en-GB
 remote_theme: chrisrhymes/bulma-clean-theme
 title: LearnTech Foundation
 asset_version: "20261115-books-2"
-tagline: Practical software. Useful technology.
+tagline: Understand. Agree. Deliver.
 social:
   name: LearnTech Foundation
 email: bertlandhope@gmail.com
 description: >
-  LearnTech Foundation builds practical software and provides technology services from Kingston, Jamaica.
+  LearnTech Foundation helps businesses understand technology challenges, agree clear scope and fees, and deliver practical improvements from Kingston, Jamaica.
 baseurl: ""
 url: "https://learntechfoundation.org"
 permalink: pretty
