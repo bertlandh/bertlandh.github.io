@@ -22,7 +22,7 @@
       });
     });
     document.querySelectorAll("[data-lt-message-label]").forEach(function (label) {
-      label.textContent = discoveryRelevant ? "What happened the last time you ran into this problem?" : "What would you like to ask?";
+      label.textContent = discoveryRelevant ? "What prompted you to get in touch?" : "What would you like to ask?";
     });
   }
   var params = new URLSearchParams(location.search);

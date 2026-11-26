@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: Discuss a business technology challenge with LearnTech in Jamaica. Start with your current process and agree a useful next step before any paid work.
-subtitle: Tell us what is getting in the way. The first conversation is to understand your situation and agree a useful next step.
+subtitle: Tell us what you are focused on and what prompted you to get in touch. The first conversation is to understand your situation and agree a useful next step.
 layout: page
 redesign_page: true
 eyebrow: Connect
@@ -12,7 +12,7 @@ image: /img/favicon.png
 
 <section class="site-section">
   <div class="site-container">
-    <div class="section-heading"><p class="section-heading__eyebrow">Direct contact</p><h2>Start with a conversation</h2><p>For a service enquiry, tell us about a recent problem and how you handle it now. We will discuss the need, who approves the work, budget and timing before preparing a detailed proposal. You can also contact us about products, books or collaboration. Calls are welcomed during Jamaica office hours.</p></div>
+    <div class="section-heading"><p class="section-heading__eyebrow">Direct contact</p><h2>Start with a conversation</h2><p>For a service enquiry, tell us about your priorities, what you have done so far and what is working well. If something needs attention, a recent example helps us understand it. We will discuss the need, who approves the work, budget and timing before preparing a detailed proposal. You can also contact us about products, books or collaboration. Calls are welcomed during Jamaica office hours.</p></div>
     <div class="contact-primary">
       <a class="contact-panel" data-lt-event="contact_click" data-lt-channel="email" href="mailto:bertlandhope@gmail.com"><span class="contact-panel__icon"><i class="fas fa-envelope" aria-hidden="true"></i></span><span><strong>Email LearnTech</strong><small>bertlandhope@gmail.com</small></span></a>
       <a class="contact-panel" data-lt-event="contact_click" data-lt-channel="whatsapp" href="https://wa.me/{{ site.data.contact_card.whatsapp_uri }}"><span class="contact-panel__icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></span><span><strong>WhatsApp LearnTech</strong><small>Discuss your business challenge</small></span></a>
